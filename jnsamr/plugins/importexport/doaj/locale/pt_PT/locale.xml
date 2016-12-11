@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/doaj/locale/pt_PT/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the pt_PT (Português (Portugal)) locale.
+  *
+  -->
+
+<locale name="pt_PT" full_name="Português (Portugal)">
+	<message key="plugins.importexport.doaj.displayName">Plugin de Exportação DOAJ</message>
+	<message key="plugins.importexport.doaj.description">Exportar revista para DOAJ e notificar via e-mail dados da revista ao representante do DOAJ</message>
+	<message key="plugins.importexport.doaj.export.contact">Contactar DOAJ para inclusão</message>
+</locale>
