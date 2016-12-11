@@ -1,0 +1,111 @@
+/*
+Icon boxes
+*/
+
+.blue-boxe{
+    padding: 20px 15px;
+    background-color: $skincolor;
+    @include transition(all 0.3s);
+    @include border-radius(3px);
+    @include box-shadow(0 3px 5px rgba(0,0,0,.2));
+    &:hover{
+        @include box-shadow(0 15px 30px rgba(0,0,0,.1));
+    }
+    i{
+        font-size: 60px;
+        margin-bottom: 15px;
+        color:#fff;
+    }
+    h3{
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    p{
+        color:#fff;
+    }
+    a{
+        color:#fff;
+        font-size:13px;      
+        i{        
+              font-size:13px;
+              margin: 0;
+                 margin-left: 3px;
+        }
+        &:hover{
+            color:#fff;
+            text-decoration: underline;
+        }
+    }
+}
+
+.course-box{
+    border: 1px solid #ddd;
+    .thumb{
+        overflow: hidden;
+        position: relative;
+        display:block;
+        .price-tag{
+            position: absolute;
+            left: 0;
+            top: 10px;
+            display: inline-block;
+            padding: 6px 10px;
+            font-size: 16px;
+            &.skin{
+                color:#fff;
+                background-color: $skincolor;
+            }
+        }
+    }
+    .course-desc{
+        padding: 15px;
+        padding-bottom:0;
+        h4{
+            margin-bottom: 5px;
+        }
+        span{
+            display: block;
+        }
+        .desc-footer{
+            padding: 10px;
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+    }
+}
+
+/**event box**/
+.event-box{
+    li{
+        padding: 20px 15px;
+        background-color: rgba(0,0,0,0.4);
+        margin-bottom: 15px;
+        .date{
+            float: left;
+            width: auto;
+            line-height: 35px;
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px 15px;
+            color:#fff;
+            text-align: center;
+            margin-right: 20px;
+            background-color: $skincolor;
+            font-weight: 700;
+        }
+        .event-content{
+            overflow: hidden;
+            h4{
+                margin-bottom: 5px;
+                color:#fff;
+            }
+            p{
+                margin: 0;
+                 color:#fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+/* 
+    Basics
+*/
+
+body{
+    font-family:$base-font;
+    font-size:1.3rem;
+    line-height:2.3rem;
+    margin:0;
+    background-color:#fff;
+    color:#777;
+    -webkit-font-smoothing:antialiased!important
+}
+a{
+    @include transition(all 0.3s);
+    color:$skincolor;
+    &:hover{
+        color:#aeaeae;
+    }
+}
+button{
+  @include transition(all 0.3s);
+  &:focus{
+      outline: 0 !important;
+  }
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    outline: 0 !important;  
+}
+button:focus{
+    outline: 0 !important;
+}
+.color_text{
+    color:$skincolor;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0px;
+    font-family: $title-font;
+    color:#333;
+}
+blockquote{
+    font-size: 13px;
+    h5{
+        margin-top: 10px;
+        font-weight: 600;
+        color: $skincolor;
+    }
+}
+/**spaces**/
+.space10{
+    height:10px;
+}
+.space20{
+    height:20px;
+}
+.space30{
+    height:30px;
+}
+.space40{
+    height:40px;
+}
+.space50{
+    height:50px;
+}
+.space60{
+    height:60px;
+}
+.space70{
+    height:70px;
+}
+.space80{
+    height:80px;
+}
+
+/**margins**/
+.margin-btm-10{
+    margin-bottom: 10px;
+}
+.margin-btm-20{
+    margin-bottom: 20px;
+}
+.margin-btm-30{
+    margin-bottom: 30px;
+}
+.margin-btm-40{
+    margin-bottom: 40px;
+}
+.margin-btm-50{
+    margin-bottom: 50px;
+}
+
+/**preloader**/
+.js div#preloader { 
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('../images/loading.gif') no-repeat center center;
+}
+@media(min-width:1200px){
+    body.boxed{
+        background-color: #e9e9e9;
+    }
+    .wrapper-boxed{
+        width:1170px;
+        margin: 0px auto;
+        background: #fff;
+        border-top: 3px solid $skincolor;
+    }
+}

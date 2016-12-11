@@ -1,0 +1,26 @@
+/*
+accordions
+*/
+.panel-group{
+    .panel{
+        @include border-radius(0px);
+    }
+}
+
+.panel-default>.panel-heading{
+    background: #fff;
+}
+.panel-title{
+    color:$skincolor;
+}
+.panel-group .panel .panel-heading .panel-title a:before {
+    font-family: FontAwesome;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f107";
+    margin-right: 5px;
+}
+.panel-group .panel .panel-heading .panel-title a.collapsed:before {
+    content: "\f106";
+}

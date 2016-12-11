@@ -1,0 +1,25 @@
+
+/* 
+    tabs
+*/
+
+.course-tabs{
+    padding-bottom:30px;
+    li{
+        margin-bottom:10px;
+        &.active{
+            a{
+                background-color: $skincolor;
+                color:#fff;
+            }
+        }
+        a{
+            display: block;
+            padding: 5px 15px;
+            @include border-radius(3px);
+            background-color: #f5f5f5;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+    }
+}

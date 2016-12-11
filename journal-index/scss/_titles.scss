@@ -1,0 +1,35 @@
+/*
+Titles style
+*/
+
+.center-heading{
+    text-align:center;
+    h2{
+        text-transform: uppercase; 
+        font-weight: 700;
+    }
+    .border-width{
+        height: 1px;
+        width: 90px;
+        background-color: $skincolor;
+        display: block;
+        margin: 10px auto;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.left-title{
+    position: relative;
+    font-size:18px;
+    font-weight:700;
+    &:after{
+        content: "";
+        width: 50px;
+        height: 2px;
+        background-color: $skincolor;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    }
+}

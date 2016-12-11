@@ -1,0 +1,8 @@
+/*
+form-elements style
+*/
+.form-control{
+    @include border-radius(0px);
+    min-height: 45px;
+    @include box-shadow(none);
+}
