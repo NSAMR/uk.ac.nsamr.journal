@@ -4,14 +4,13 @@ slider revolution
 
 .slider-title{
     font-family: $title-font;
-    color: $light;
+    color: $lightest;
     font-size: 60px;
     line-height: 70px;
-    text-transform: capitalize;
 }
 
 .slider-caption{
-    color: $light;
-    font-size: 19px;
-    font-weight: 700px;
+    color: $lightest;
+    font-size: 20px;
+    line-height: 26px;
 }

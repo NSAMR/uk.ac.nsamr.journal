@@ -161,7 +161,7 @@ Buttons style
   border: 0px;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 16px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -250,7 +250,6 @@ Buttons style
 }
 
 .btn-info {
-  border: 0px;
   background-color: #E27A3F;
   color: #DADEDB;
 }
@@ -266,7 +265,6 @@ Buttons style
 }
 
 .btn-action {
-  border: 0px;
   background-color: #86B923;
   color: #DADEDB;
 }
@@ -396,7 +394,6 @@ Icon boxes
 .service-box p {
   font-size: 13px;
   color: #7A7A7B;
-  font-weight: 500;
   padding: 15px;
   margin: 0px;
 }
@@ -483,7 +480,7 @@ Icon boxes
 }
 
 /*
-Call to actions
+Call to action
 */
 .cta-skin {
   background-color: #98A3AE;
@@ -493,8 +490,13 @@ Call to actions
 .cta-text {
   color: #F2F7F3;
 }
+.cta-text h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
 .cta-text p {
   font-size: 17px;
+  line-height: 26px;
 }
 
 /*
@@ -771,16 +773,15 @@ slider revolution
 */
 .slider-title {
   font-family: "Open Sans", Arial, sans-serif;
-  color: #DADEDB;
+  color: #F2F7F3;
   font-size: 60px;
   line-height: 70px;
-  text-transform: capitalize;
 }
 
 .slider-caption {
-  color: #DADEDB;
-  font-size: 19px;
-  font-weight: 700px;
+  color: #F2F7F3;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 /*
