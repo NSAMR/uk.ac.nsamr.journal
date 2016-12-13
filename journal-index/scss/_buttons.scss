@@ -8,9 +8,9 @@ Buttons style
 }
 .btn{
     border: 0px;  
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 15px;
     @include border-radius(2px);
     i{
         margin-left: 5px;
@@ -18,6 +18,7 @@ Buttons style
 }
 .btn-lg{
     padding: 12px 25px;
+    line-height: 18px;
 }
 .btn-link{
     color:$skincolor;
@@ -86,28 +87,44 @@ Buttons style
     }
 }
 
-.btn-action{
+.btn-info{
     border: 0px;
-    background-color: $contrast-2;
-    color: $lighttext;
+    background-color: $brand-info;
+    color: $light;
     &:hover{
-        background-color: $contrast-2-light;
-        color: $lighttext;
+        background-color: $brand-info-light;
+        color: $light;
         &:active{
-            color: $lightmidtext;
+            color: $midlight;
         }
     }
     &:active{
-        color: $lighttext;
+        color: $light;
+    }
+}
+
+.btn-action{
+    border: 0px;
+    background-color: $brand-action;
+    color: $light;
+    &:hover{
+        background-color: $brand-action-light;
+        color: $light;
+        &:active{
+            color: $midlight;
+        }
+    }
+    &:active{
+        color: $light;
     }
 }
 
 .tp-caption a {
-    color: $lighttext;
+    color: $light;
     &:hover{
-        color: $lighttext;
+        color: $light;
     &:active{
-        color: $lightmidtext;
+        color: $midlight;
         }
     }
 }

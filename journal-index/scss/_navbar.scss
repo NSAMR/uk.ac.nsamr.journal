@@ -2,7 +2,7 @@
     Navbar css
 */
 .navbar-inverse {
-    background: $brand-main;
+    background: $brand-primary;
     border:0px;
     margin: 0px;
     padding:0px 0;
@@ -12,23 +12,23 @@
         text-transform: uppercase;
         font-size:13px;
         letter-spacing: 1px;
-        color: $lighttext;
+        color: $light;
         &:hover{
-            color: $lighttext;
-            background-color: $tabhoverbackground;
+            color: $light;
+            background-color: $brand-primary-highlight;
             &:active{
-                color: $lightmidtext;
+                color: $midlight;
             }
         }
     }
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: $lighttext;
-    background-color: $tabhoverbackground;
+    color: $light;
+    background-color: $brand-primary-highlight;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-  color: $lighttext;
-    background-color: $tabhoverbackground;
+  color: $light;
+    background-color: $brand-primary-highlight;
 }
 @media(min-width:768px){
     .navbar-nav>li>a {
@@ -61,7 +61,7 @@
     width: 250px;
     top: 100%;
     padding: 5px;
-    background-color: $tabhoverbackground;
+    background-color: $brand-primary-highlight;
     display: none;
 }
 

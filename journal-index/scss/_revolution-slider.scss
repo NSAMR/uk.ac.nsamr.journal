@@ -4,28 +4,14 @@ slider revolution
 
 .slider-title{
     font-family: $title-font;
-    color:#fff;
+    color: $light;
     font-size: 60px;
     line-height: 70px;
     text-transform: capitalize;
 }
+
 .slider-caption{
-    color:#fff;
-    font-size: 16px;
-}
-    .rev-buttons .btn{
-        padding: 14px 30px;
-        // color:#333;
-        font-weight: 700;
-        // background-color: #F7F5E6;
-        font-family: $title-font;
-        text-transform: uppercase;
-        font-size: 13px;
-        i{
-            margin-left: 5px;
-        }
-        &:hover{
-            // background-color:#FFF;
-            // color:#777;
-        }
+    color: $light;
+    font-size: 19px;
+    font-weight: 700px;
 }

@@ -4,7 +4,7 @@ Top bar style
 
 
 .top-bar{
-    border-bottom:1px solid $lighttext;
+    border-bottom:1px solid $light;
     padding:6px 0;
     span{
         display: inline-block;
@@ -12,34 +12,31 @@ Top bar style
         padding:0px 10px;
         a{
             padding: 4px 10px;
-            background-color: $contrast-2;
+            
             font-size: 12px;
             line-height: 20px;
             font-family: $base-font;
             font-weight: 400;
             display: block;
             margin-top: 3px;
-            color: $lighttext;
+            color: $light;
             
             &:hover{
-                background-color: $contrast-2-light;
-                i{
-                    color: $lighttext;
-                }
+                
+                color: $midlight;
                 &:active{
-                    color: $lightmidtext;
+                    color: $mid;
                 }
             }
-
         }
         i{
-            color: $lighttext;
+            color: $light;
             margin-right: 5px;
         }
     }
     &.dark{
         background-color: $brand-secondary;
         border-bottom: 0px;
-        color: $lighttext;
+        color: $light;
     }
 }
