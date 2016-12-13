@@ -13,7 +13,11 @@ Forks and pull requests to any of our software are welcome. To submit to JNSAMR,
 ## Deployment and development
 The JNSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo.
 
-NB: Viewing local changes to the site requires that you install MAMP (mac) or WAMP (windows) -- this is because the pages are built using php.
+NB: To view local changes, set up a local php server: php -S localhost:9999 (mac)
+
+or
+
+Install MAMP (mac) or WAMP (windows)
 
 ## Design
 The journal frontend uses bootstrap. All images are either original to NSAMR, or are CC-BY licensed, and textures are freely available from https://www.transparenttextures.com/.
