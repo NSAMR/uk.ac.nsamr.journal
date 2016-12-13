@@ -1,5 +1,5 @@
 /*
-Icon boxes
+Boxes
 */
 
 
@@ -7,7 +7,7 @@ Icon boxes
     background-color: $lightest;
     border: 1px solid $darkest;
     text-align:center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
     @include transition(all 0.3s);
     @include border-radius(3px);
