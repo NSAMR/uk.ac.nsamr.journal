@@ -19,20 +19,14 @@
 @import "_staff.scss";
 @import "_accordions.scss";
 
-.pattern-bg{
-    background: url('../images/pattern.png') repeat;
+.pattern-bg-dark{
+    background: url('../images/patterns/brick-wall-98A3AE-1920x1080.png') repeat;
     padding:60px 0;
-    .center-heading{
-        h2,p{
-            color:#fff;
-        }
-    }
-    h3{
-        color:#fff;
-        &:after{
-            background-color: #fff;
-        }
-    }
+}
+
+.pattern-bg-light{
+    background: url('../images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat;
+    padding:60px 0;
 }
 
 .other-info{
