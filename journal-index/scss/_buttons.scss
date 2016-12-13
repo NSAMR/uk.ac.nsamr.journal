@@ -85,21 +85,29 @@ Buttons style
         background-color: #fff;
     }
 }
-.btn-contrast{
+
+.btn-action{
     border: 0px;
-    background-color: #CF6766;
-    color:#FFF;
+    background-color: $contrast-2;
+    color: $lighttext;
     &:hover{
-        color:#FFF;
-        background-color: #EF8988;
+        background-color: $contrast-2-light;
+        color: $lighttext;
+        &:active{
+            color: $lightmidtext;
+        }
+    }
+    &:active{
+        color: $lighttext;
     }
 }
 
-.btn-learnmore{
-    background-color: #E6E4D5;
-    color:#FFF;
+.tp-caption a {
+    color: $lighttext;
     &:hover{
-        color:#FFF;
-        background-color: #FFF;
+        color: $lighttext;
+    &:active{
+        color: $lightmidtext;
+        }
     }
 }

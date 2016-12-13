@@ -2,6 +2,12 @@
 /*
 Template variables
 */
+/*
+PALETTE
+*/
+/*
+TEXT
+*/
 /* 
     Basics
 */
@@ -240,23 +246,30 @@ Buttons style
   background-color: #fff;
 }
 
-.btn-contrast {
+.btn-action {
   border: 0px;
-  background-color: #CF6766;
-  color: #FFF;
+  background-color: #87C44D;
+  color: #E8EDE9;
 }
-.btn-contrast:hover {
-  color: #FFF;
-  background-color: #EF8988;
+.btn-action:hover {
+  background-color: #E89465;
+  color: #E8EDE9;
+}
+.btn-action:hover:active {
+  color: #949999;
+}
+.btn-action:active {
+  color: #E8EDE9;
 }
 
-.btn-learnmore {
-  background-color: #E6E4D5;
-  color: #FFF;
+.tp-caption a {
+  color: #E8EDE9;
 }
-.btn-learnmore:hover {
-  color: #FFF;
-  background-color: #FFF;
+.tp-caption a:hover {
+  color: #E8EDE9;
+}
+.tp-caption a:hover:active {
+  color: #949999;
 }
 
 /*
@@ -300,7 +313,7 @@ Icon boxes
 */
 .blue-boxe {
   padding: 20px 15px;
-  background-color: #30415D;
+  background-color: #6A6F71;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -420,11 +433,11 @@ Icon boxes
 Call to actions
 */
 .cta-skin {
-  background-color: #8EAEBD;
+  background-color: #73605C;
   padding: 40px 0;
 }
 .cta-skin h3, .cta-skin p {
-  color: #fff;
+  color: #E8EDE9;
 }
 .cta-skin h3 {
   font-face: bold;
@@ -434,7 +447,7 @@ Call to actions
 Top bar style
 */
 .top-bar {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #E8EDE9;
   padding: 6px 0;
 }
 .top-bar span {
@@ -444,31 +457,32 @@ Top bar style
 }
 .top-bar span a {
   padding: 4px 10px;
-  background-color: #CF6766;
+  background-color: #87C44D;
   font-size: 12px;
   line-height: 20px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   display: block;
   margin-top: 3px;
-  color: #fff;
+  color: #E8EDE9;
 }
 .top-bar span a:hover {
-  color: #fff;
-  background-color: #EF8988;
+  background-color: #E89465;
 }
 .top-bar span a:hover i {
-  color: #fff;
+  color: #E8EDE9;
+}
+.top-bar span a:hover:active {
+  color: #949999;
 }
 .top-bar span i {
-  color: #fff;
+  color: #E8EDE9;
   margin-right: 5px;
 }
 .top-bar.dark {
-  background-color: #30415D;
+  background-color: #34495E;
   border-bottom: 0px;
-  color: #fff span;
-  color-color: #fff;
+  color: #E8EDE9;
 }
 
 /* 
@@ -486,21 +500,24 @@ Top bar style
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #eee;
+  color: #E8EDE9;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #F7F5E6;
-  background-color: #475059;
+  color: #E8EDE9;
+  background-color: #5F676F;
+}
+.navbar-inverse .navbar-nav > li > a:hover:active {
+  color: #949999;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-  color: #F7F5E6;
-  background-color: #475059;
+  color: #E8EDE9;
+  background-color: #5F676F;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
-  color: #F7F5E6;
-  background-color: #475059;
+  color: #E8EDE9;
+  background-color: #5F676F;
 }
 
 @media (min-width: 768px) {
@@ -525,26 +542,6 @@ Top bar style
   margin-bottom: 20px;
 }
 
-/***light navigation**/
-.navbar-default {
-  background: #1A2530;
-  border: 0px;
-  margin: 0px;
-  padding: 0px 0;
-}
-.navbar-default .navbar-nav > li > a {
-  font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1px;
-  color: #333;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: #333;
-  background-color: #1A2530;
-}
-
 /**search form**/
 .search-toggle {
   position: relative;
@@ -556,7 +553,7 @@ Top bar style
   width: 250px;
   top: 100%;
   padding: 5px;
-  background-color: #30415D;
+  background-color: #5F676F;
   display: none;
 }
 
@@ -737,19 +734,13 @@ slider revolution
 
 .rev-buttons .btn {
   padding: 14px 30px;
-  color: #333;
   font-weight: 700;
-  background-color: #F7F5E6;
   font-family: "Open Sans", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 13px;
 }
 .rev-buttons .btn i {
   margin-left: 5px;
-}
-.rev-buttons .btn:hover {
-  background-color: #FFF;
-  color: #777;
 }
 
 /*

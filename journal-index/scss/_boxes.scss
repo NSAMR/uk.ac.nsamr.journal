@@ -4,7 +4,7 @@ Icon boxes
 
 .blue-boxe{
     padding: 20px 15px;
-    background-color: $skincolor;
+    background-color: $info;
     @include transition(all 0.3s);
     @include border-radius(3px);
     @include box-shadow(0 3px 5px rgba(0,0,0,.2));
