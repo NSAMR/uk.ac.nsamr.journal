@@ -20,6 +20,11 @@
 @import "_accordions.scss";
 
 .pattern-bg-dark{
+    background: url('../images/patterns/brick-wall-1A2530-1920x1080.png') repeat;
+    padding:60px 0;
+}
+
+.pattern-bg-mid{
     background: url('../images/patterns/brick-wall-98A3AE-1920x1080.png') repeat;
     padding:60px 0;
 }
@@ -29,13 +34,14 @@
     padding:60px 0;
 }
 
-.other-info{
-    background:url('../images/pattern-2.png') repeat left top scroll #FFF;
+.archives-info{
+    background-color: $brand-body;
     h4{
+        color: $dark;
         text-transform: uppercase;
         font-weight: 700;
         padding-left: 10px;
-        border-left: 3px solid $skincolor;
+        border-left: 3px solid $brand-secondary;
         margin-bottom: 30px;
     }
     ul{
@@ -53,6 +59,7 @@
         padding-top: 30px;
     }
 }
+
 .seminars{
     li{
         padding-bottom: 10px;
@@ -97,8 +104,12 @@
     }
 }
 .newsletter-section{
-    background:url('../images/pattern-2.png') repeat left top scroll #FFF;
-    padding: 80px 0;
+    color: $light;
+    p{
+        font-size: 17px;
+        line-height: 26px;
+    } 
+    padding: 40px 0;
     form{
         text-align: center;
     }
