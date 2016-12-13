@@ -326,13 +326,13 @@ Titles style
 }
 
 /*
-Icon boxes
+Boxes
 */
 .service-box {
   background-color: #F2F7F3;
   border: 1px solid #322F33;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -359,7 +359,7 @@ Icon boxes
   background-color: #EFC94C;
 }
 .service-box .color-3 {
-  background-color: #34495E;
+  background-color: #2C5A8F;
 }
 .service-box .color-4 {
   background-color: #DF4949;
