@@ -483,7 +483,6 @@ Icon boxes
 Call to action
 */
 .cta-skin {
-  background-color: #98A3AE;
   padding: 40px 0;
 }
 
@@ -1196,18 +1195,14 @@ accordions
   content: "\f106";
 }
 
-.pattern-bg {
-  background: url("../images/pattern.png") repeat;
+.pattern-bg-dark {
+  background: url("../images/patterns/brick-wall-98A3AE-1920x1080.png") repeat;
   padding: 60px 0;
 }
-.pattern-bg .center-heading h2, .pattern-bg .center-heading p {
-  color: #fff;
-}
-.pattern-bg h3 {
-  color: #fff;
-}
-.pattern-bg h3:after {
-  background-color: #fff;
+
+.pattern-bg-light {
+  background: url("../images/patterns/brick-wall-E8EBEE-1920x1080.png") repeat;
+  padding: 60px 0;
 }
 
 .other-info {
