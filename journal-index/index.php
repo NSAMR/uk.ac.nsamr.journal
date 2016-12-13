@@ -128,7 +128,7 @@ data-easing="Sine.easeOut">
 </div>
 <!--end call to action-->
 
-
+<!--service boxes-->
 <div class="pattern-bg-light">
     <div class="container ">
         <div class="row">
@@ -171,77 +171,17 @@ data-easing="Sine.easeOut">
         </div>
     </div>
 </div>
-
-
+<!--end service boxes-->
 
 <div class="space40"></div> 
 
-<div class="pattern-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 margin-btm-30">
-                <h3 class="text-uppercase left-title margin-btm-40">Upcoming Events</h3>
-                <ul class="list-unstyled event-box">
-                    <li class=" clearfix">
-                        <div class="date">
-                            25<br>June
-                        </div>
-                        <div class="event-content">
-                            <h4><a href="#">Startup for mobile apps</a></h4>
-                            <p><i class="fa fa-clock-o"></i> 11:00 Am - 3:00 Am</p>
-                            <p><i class="fa fa-map-marker"></i> Seminar Campus</p>
-                            <p><a href="#">View Details <i class="fa fa-caret-right"></i></a></p>
-                        </div>
-                    </li><!--li-->
-                    <li class=" clearfix">
-                        <div class="date">
-                            25<br>June
-                        </div>
-                        <div class="event-content">
-                            <h4><a href="#">Startup for mobile apps</a></h4>
-                            <p><i class="fa fa-clock-o"></i> 11:00 Am - 3:00 Am</p>
-                            <p><i class="fa fa-map-marker"></i> Seminar Campus</p>
-                            <p><a href="#">View Details <i class="fa fa-caret-right"></i></a></p>
-                        </div>
-                    </li><!--li-->
-                    <li class="text-right">
-                        <a href="#" class="btn btn-border-skin">View All Events <i class="fa fa-angle-right"></i></a>
-                    </li>
-                </ul><!--ul-->
-            </div><!--col-->
-            <div class="col-md-6 margin-btm-30">
-                <h3 class="text-uppercase  left-title margin-btm-40">Video Tour</h3>
-                <div class="owl-theme video-slider">
-                    <div class="item">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="854" height="480" src="https://www.youtube.com/embed/qhWV5i-w57M" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="854" height="480" src="https://www.youtube.com/embed/7XZXYbhLI2M" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="520" height="293" src="https://www.youtube.com/embed/cqNmVJk7Zyg" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="other-info">
+<!--archives info-->
+<div class="archives-info">
     <div class="container">
         <ul class="row list-unstyled">
-            <li class="col-md-4 shaded-bg">
+            <li class="col-md-6 shaded-bg">
                 <h4 class="main-heading">
-                    Seminars
+                    Current issue
                 </h4>
                 <ul  class="seminars list-unstyled">
                     <li>
@@ -267,9 +207,9 @@ data-easing="Sine.easeOut">
                     </li>
                 </ul>
             </li>
-            <li class="col-md-4 white-bg">
+            <li class="col-md-6 white-bg">
                 <h4 class="main-heading">
-                    Latest News                            
+                    Archives                            
                 </h4> 
                 <div class="latest-news">
                     <a href="#" class="thumb">
@@ -305,90 +245,14 @@ data-easing="Sine.easeOut">
                     </div>
                 </div>
             </li>
-            <li class="col-md-4 shaded-bg">
-                <h4 class="main-heading">
-                    Register Now                          
-                </h4> 
-                <p class="lead">
-                    It is a long established fact that a reader will be distracted by the readable content...
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Subject">
-                    </div>
-                    <div class="text-center">
-                        <input type="button" class="btn btn-skin btn-lg btn-block" value="Submit">
-                    </div>
-                </form>
-            </li>
         </ul>
     </div>
 </div>
-<div class="pattern-bg">
-    <div class="container">
-        <div class="center-heading margin-btm-50">
-            <h2>Happy Students</h2>
-            <span class="border-width"></span>
-            <p>It is a long established fact that a reader will be distracted by the readable content</p>
-        </div>
+<!--end archives info-->
 
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-                <div class="owl-theme testi-slider">
-                    <div class="item">
-                        <img src="static/images/1.jpg" alt="" class="img-circle" width="100">
-                        <p>
-                            Donec fringilla lacinia laoreet. Vestibulum ultrices blandit tempor. Aenean magna elit, varius eget quam a, posuere...
-                        </p>
-                        <h4>John Doe - <em>Web Design</em></h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-full"></i>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="static/images/2.jpg" alt="" class="img-circle" width="100">
-                        <p>
-                            Donec fringilla lacinia laoreet. Vestibulum ultrices blandit tempor. Aenean magna elit, varius eget quam a, posuere...
-                        </p>
-                        <h4>John Doe - <em>Web Design</em></h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-empty"></i>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="static/images/3.jpg" alt="" class="img-circle" width="100">
-                        <p>
-                            Donec fringilla lacinia laoreet. Vestibulum ultrices blandit tempor. Aenean magna elit, varius eget quam a, posuere...
-                        </p>
-                        <h4>John Doe - <em>Web Design</em></h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<div class="space40"></div> 
 
+<!--subscribe to journal newsletter-->
 <div class="newsletter-section">
     <div class="container">
        <div class="center-heading margin-btm-50">
@@ -402,6 +266,7 @@ data-easing="Sine.easeOut">
     </form>
 </div>
 </div>
+<!--end newsletter-->
 
 <!---PAGE FOOTER AND SCRIPTS-->
 <?php include('footer.php'); ?>

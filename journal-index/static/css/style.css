@@ -1205,26 +1205,26 @@ accordions
   padding: 60px 0;
 }
 
-.other-info {
-  background: url("../images/pattern-2.png") repeat left top scroll #FFF;
+.archives-info {
+  background-color: #E8EBEE;
 }
-.other-info h4 {
+.archives-info h4 {
   text-transform: uppercase;
   font-weight: 700;
   padding-left: 10px;
   border-left: 3px solid #30415D;
   margin-bottom: 30px;
 }
-.other-info ul {
+.archives-info ul {
   padding: 0px;
   margin-bottom: 0px;
 }
-.other-info .shaded-bg {
+.archives-info .shaded-bg {
   background-color: #f3f3f3;
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.other-info .white-bg {
+.archives-info .white-bg {
   background-color: white;
   padding-bottom: 30px;
   padding-top: 30px;
