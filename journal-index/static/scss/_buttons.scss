@@ -87,7 +87,7 @@ Buttons style
     }
 }
 
-.btn-info{
+.btn-learnmore{
     background-color: $brand-info;
     color: $light;
     &:hover{
@@ -96,9 +96,6 @@ Buttons style
         &:active{
             color: $midlight;
         }
-    }
-    &:active{
-        color: $light;
     }
 }
 
@@ -111,9 +108,6 @@ Buttons style
         &:active{
             color: $midlight;
         }
-    }
-    &:active{
-        color: $light;
     }
 }
 
