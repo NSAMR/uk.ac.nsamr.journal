@@ -34,7 +34,7 @@
         data-speed="500"
         data-start="1800"
         data-easing="Sine.easeOut">
-        <a href="#" class="btn btn-lg btn-info">Learn more <i class="fa fa-angle-right"></i></a>
+        <a href="#" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
     </div>
 </li>
 
@@ -66,7 +66,7 @@ data-y="380"
 data-speed="500"
 data-start="1800"
 data-easing="Sine.easeOut">
-<a href="#" class="btn btn-lg btn-info">Learn more <i class="fa fa-angle-right"></i></a>
+<a href="#" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
 </div>
 </li>
 
@@ -98,7 +98,7 @@ data-y="380"
 data-speed="500"
 data-start="1800"
 data-easing="Sine.easeOut">
-<a href="#" class="btn btn-lg btn-info">Learn more <i class="fa fa-angle-right"></i></a>
+<a href="#" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
 </div>
 </li>
 
