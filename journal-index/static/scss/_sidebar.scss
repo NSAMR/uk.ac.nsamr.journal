@@ -6,10 +6,15 @@
 .sidebar-widget{
     margin-bottom: 30px;
     h3{
-        text-transform: uppercase;
+        color: $dark;
         font-size: 16px;
+        text-transform: uppercase;
         font-weight: 700;
+        padding-left: 10px;
+        border-left: 3px solid $brand-secondary;
+
         margin-bottom: 20px;
+        border-left: 3px solid $brand-secondary;
     }
     .list-unstyled{
         padding:0;
@@ -35,17 +40,19 @@
         float: left;
         margin-right: 15px;
         text-align:center;
-        background-color:#eee;
+        background-color: #eee;
         padding-bottom:3px;
+
         span{
             display: block;
             padding: 3px 5px;
-            color:#fff;
-            background-color: $skincolor;
+            color: $lightest;
+            background-color: $brand-secondary;
             margin-bottom: 3px;
         }
     }
     .s-event-content{
+        
         overflow: hidden;
         h5{
             margin: 0px;
@@ -54,16 +61,17 @@
 }
 
 .tag-list{
+    margin-left: 1px;
     li{
         padding: 0px;
         a{
             display: block;
             padding: 3px 5px;
-            color:#999;
-            border: 1px solid #ddd;
+            color: $dark;
+            border: 1px solid $dark;
             margin-bottom: 3px;
             &:hover{
-                color:$skincolor;
+                color:$mid;
             }
         }
     }

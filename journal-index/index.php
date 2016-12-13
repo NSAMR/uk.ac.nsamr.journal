@@ -108,7 +108,7 @@ data-easing="Sine.easeOut">
 <!--revolution end-->
 
 <!--call to action-->
-<div class="pattern-bg-dark">
+<div class="pattern-bg-mid">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -128,8 +128,9 @@ data-easing="Sine.easeOut">
 </div>
 <!--end call to action-->
 
+<div class="space40"></div> 
+
 <!--service boxes-->
-<div class="pattern-bg-light">
     <div class="container ">
         <div class="row">
             <div class="col-sm-6 col-md-3 margin30">
@@ -170,100 +171,137 @@ data-easing="Sine.easeOut">
             </div><!--service column-->
         </div>
     </div>
-</div>
+
 <!--end service boxes-->
 
 <div class="space40"></div> 
 
-<!--archives info-->
-<div class="archives-info">
+<!--LLAMA-->
+<div class="archives-info pattern-bg-light">
     <div class="container">
-        <ul class="row list-unstyled">
-            <li class="col-md-6 shaded-bg">
-                <h4 class="main-heading">
-                    Current issue
-                </h4>
-                <ul  class="seminars list-unstyled">
-                    <li>
-                        <h5><a href="#">Annual Parents Meeting</a></h5>
-                        <p class="info"><span>March 20, 2016</span>, 11:00Am - 3:00Pm</p>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content... <a href="#">MORE</a>
-                        </p>
-                    </li>
-                    <li>
-                        <h5><a href="#">Annual Parents Meeting</a></h5>
-                        <p class="info"><span>March 20, 2016</span>, 11:00Am - 3:00Pm</p>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content... <a href="#">MORE</a>
-                        </p>
-                    </li>
-                    <li>
-                        <h5><a href="#">Annual Parents Meeting</a></h5>
-                        <p class="info"><span>March 20, 2016</span>, 11:00Am - 3:00Pm</p>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content... <a href="#">MORE</a>
-                        </p>
-                    </li>
-                </ul>
-            </li>
-            <li class="col-md-6 white-bg">
-                <h4 class="main-heading">
-                    Archives                            
-                </h4> 
-                <div class="latest-news">
-                    <a href="#" class="thumb">
-                        <img src="static/images/g1.jpg" class="img-responsive" alt="" width="100"> 
-                    </a>
-                    <div class="news-content">
-                        <h5><a href="#">Loem ipsum dolor amet</a></h5>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content... <a href="#">MORE</a>
-                        </p>
-                    </div>
+        <div class="row events-row">
+            <div class="col-md-9">
+                <div>
+                    <h4>Recent articles</h4>
                 </div>
-                <div class="latest-news">
-                    <a href="#" class="thumb">
-                        <img src="static/images/g7.jpg" class="img-responsive" alt="" width="100"> 
-                    </a>
-                    <div class="news-content">
-                        <h5><a href="#">Loem ipsum dolor amet</a></h5>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content... <a href="#">MORE</a>
-                        </p>
+                <div class="side-event clearfix">
+                    <div class="s-event-date">
+                        <span>Issue 1</span>
+                        2017
                     </div>
-                </div>
-                <div class="latest-news">
-                    <a href="#" class="thumb">
-                        <img src="static/images/g8.jpg" class="img-responsive" alt="" width="100"> 
-                    </a>
-                    <div class="news-content">
-                        <h5><a href="#">Loem ipsum dolor amet</a></h5>
+                    <div class="s-event-content">
+                        <h5> <a href="#">
+                            Physical activity and prevention of type 2 diabetes mellitus  
+                        </a></h5>
+                        <p><i class="fa fa-user"></i> <strong>A. N. Other, S-O Else, author, author, author</strong></p>
+                        <p><i class="fa fa-file-text"></i> <strong>Cardiovascular section</strong></p>
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable content... <a href="#">MORE</a>
+                            [ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
                         </p>
+                            <ul class="list-inline tag-list">
+                                <li><a href="#">meta-analysis</a></li>
+                                <li><a href="#">troponin</a></li>
+                                <li><a href="#">smooth muscle</a></li>
+                            </ul>
+                        </div>
+                </div><!--event col end-->
+                <hr>
+                <div class="side-event clearfix">
+                    <div class="s-event-date">
+                        <span>Issue 1</span>
+                        2017
                     </div>
-                </div>
-            </li>
-        </ul>
+                    <div class="s-event-content">
+                        <h5> <a href="#">
+                            Title of another paper that's a bit longer so I can test wrapping 
+                        </a></h5>
+                        <p><i class="fa fa-user"></i> <strong>A. N. Other, S-O Else, author, author, author</strong></p>
+                        <p><i class="fa fa-file-text"></i> <strong>Neurology section</strong></p>
+                        <p>
+                            [ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
+                        </p>
+                            <ul class="list-inline tag-list">
+                                <li><a href="#">NMDA</a></li>
+                                <li><a href="#">excitotoxicity</a></li>
+                                <li><a href="#">animal model</a></li>
+                            </ul>
+                        </div>
+                </div><!--event col end-->
+                <hr>
+                <div class="side-event clearfix">
+                    <div class="s-event-date">
+                        <span>Issue 1</span>
+                        2017
+                    </div>
+                    <div class="s-event-content">
+                        <h5> <a href="#">
+                            Title of a third paper 
+                        </a></h5>
+                        <p><i class="fa fa-user"></i> <strong>A. N. Other, S-O Else, author, author, author</strong></p>
+                        <p><i class="fa fa-file-text"></i> <strong>General surgery section</strong></p>
+                        <p class="abstract">
+                            [ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
+                        </p>
+                            <ul class="list-inline tag-list">
+                                <li><a href="#">audit</a></li>
+                                <li><a href="#">antibiotics</a></li>
+                                <li><a href="#">UTI</a></li>
+                            </ul>
+                        </div>
+                </div><!--event col end-->
+                
+            </div>
+            <div class="col-md-3 margin-btm-40">
+                <div class="sidebar-widget">
+                    <h3>Archives</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">2017 Issue 3</a></li>
+                        <li><a href="#">2017 Issue 2</a></li>
+                        <li><a href="#">2017 Issue 1</a></li>
+                    </ul>
+                </div><!--sidebar widget end-->
+
+                <div class="sidebar-widget">
+                    <h3>Tag Cloud</h3>
+                    <ul class="list-inline tag-list">
+                        <li><a href="#">meta-analysis</a></li>
+                        <li><a href="#">troponin</a></li>
+                        <li><a href="#">smooth muscle</a></li>
+                        <li><a href="#">NMDA</a></li>
+                        <li><a href="#">excitotoxicity</a></li>
+                        <li><a href="#">animal model</a></li>
+                        <li><a href="#">audit</a></li>
+                        <li><a href="#">UTI</a></li>
+                        <li><a href="#">antibiotics</a></li>
+                        <li><a href="#">audit</a></li>
+                        <li><a href="#">osteoclast</a></li>
+                        <li><a href="#">molecular biology</a></li>
+                        <li><a href="#">letter</a></li>
+                        <li><a href="#">DNA</a></li>
+                    </ul>
+                </div><!--sidebar widget end-->
+            </div>
+        </div>
     </div>
 </div>
-<!--end archives info-->
+<!--end LLAMA-->
 
-<div class="space40"></div> 
+
 
 <!--subscribe to journal newsletter-->
+<div class="pattern-bg-dark">
 <div class="newsletter-section">
     <div class="container">
        <div class="center-heading margin-btm-50">
         <h2>Subscribe to our newsletter</h2>
         <span class="border-width"></span>
-        <p>It is a long established fact that a reader will be distracted by the readable content</p>
+        <p>Just announcements about new issues. No spam, ever, promise.</p>
     </div>
     <form>
-        <input type="email" class="form-control" placeholder="Eamil Id">
-        <button type="button" class="btn btn-skin btn-lg">Subscribe</button>
+        <input type="email" class="form-control" placeholder="Email address...">
+        <button type="button" class="btn btn-lg btn-action">Subscribe</button>
     </form>
+</div>
 </div>
 </div>
 <!--end newsletter-->
