@@ -1,5 +1,7 @@
 # journal.nsamr.ac.uk
-This is the git repo for the new Journal of the National Student Association of Medical Research: http://www.nsamr.ac.uk/journal/journal-index/index.html . The (deprecated) journal machinery is here: http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr .
+This is the git repo for the new Journal of the National Student Association of Medical Research: http://www.nsamr.ac.uk/journal/journal-index/index.php .
+
+The (deprecated) journal machinery is here: http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr .
 
 JNSAMR is built using Open Journal Systems 3 (OJS3): https://github.com/pkp/ojs
 
