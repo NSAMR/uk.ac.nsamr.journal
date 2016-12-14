@@ -2,12 +2,14 @@
 Footer styles
 */
 .footer{
-    background-color: #222;
+    background-color: $brand-primary;
     padding: 40px 0;
     padding-bottom:0px;
     h3{
-        color:#fff;
+        color: $light;
         text-transform: uppercase;
+        padding-left: 10px;
+        border-left: 3px solid $dark;
         margin-bottom: 20px;
         font-size: 16px;
         font-weight: 700;
@@ -19,7 +21,7 @@ Footer styles
         @include box-shadow(none);
     }
     p{
-        color:#eee;       
+        color: $lightest;       
     }
     ul.f-list {
         margin: 0;
@@ -29,8 +31,8 @@ Footer styles
                 border-bottom: 0px;
             }
             a{
-                padding: 7px 0;
-                color:#eee;
+                padding: 10px 0;
+                color: $lightest;
                 text-transform: capitalize;
                 border-bottom:1px dashed rgba(255,255,255,0.2);
                 display:block;
@@ -42,45 +44,62 @@ Footer styles
                         position: absolute;
                         left: 0;
                         top: 8px;
+                        color: $dark;
                 }
                 &:hover{
-                   color:$skincolor; 
+                   color: $midlight;
+                    &:active{
+                        color: $mid;
+                    } 
                 }
             }
         }
     }
     .footer-social{
-        li{
-            padding: 0px;
+        li{        
+            padding: 10px 0px 10px;
             a{
                 font-size: 30px;
-                color:rgba(255,255,255,0.5);
+                color: $lightest;
                 display:block;
                 margin:3px 5px;
-                &:hover{
-                    color: #fff;
+                    &:hover{
+                        color: $midlight;
+                        &:active{
+                        color: $mid;
+                    } 
                 }
             }
         }
     }
     .phone{
-        font-size: 20px;
-        color:#fff;
+        font-size: 18px;
+        color: $lightest;
+        i{
+            margin-right: 5px;
+        }
+    }
+    .phone{
+        font-size: 18px;
+        color: $lightest;
         i{
             margin-right: 5px;
         }
     }
     p{
         a{
-         color:#fff;
-         &:hover{
-                color:$skincolor;
+         color: $lightest;
+            &:hover{
+               color: $midlight;
+                &:active{
+                    color: $mid;
+                } 
             }
       }
     }
     .f-post{
         li{
-            padding-bottom: 5px;
+            padding: 10px 0px 10px;
             margin-bottom: 8px;
             border-bottom: 1px dashed rgba(255,255,255,0.2);
             &:last-child{
@@ -97,62 +116,18 @@ Footer styles
              a{
             color:#fff;
             display: inline-block;
-            &:hover{
-                color:$skincolor;
-            }
+                &:hover{
+                   color: $midlight;
+                    &:active{
+                        color: $mid;
+                    } 
+                }
         }
         em{
             display: block;
             color:#eee;
         }
         }
-       
-    }
-    &.light{
-        background: #fff;
-        h3{
-            color:#333;
-        }
-        .f-post{
-            li{
-                border-bottom: 1px dashed rgba(0,0,0,0.1);
-                .f-post-content{
-                        a{
-                            color: #000;
-                            &:hover{
-                               color: $skincolor; 
-                            }
-                        }
-                        em{
-                            color:#888;
-                        }
-                }
-            }
-        }
-        p{
-            color: #888;
-        }
-        a{
-            color:#000;
-        }
-        .footer-social{
-            li{
-                a{
-                    color: #777;
-                    &:hover{
-                        color: $skincolor;
-                    }
-                }
-            }
-        }
-        ul.f-list li a{
-            color:#888;
-            border-bottom:1px dashed rgba(0,0,0,0.1);
-             &:hover{
-                        color: $skincolor;
-                    }
-        }
-       
     }
 }
 .footer-bottom{
