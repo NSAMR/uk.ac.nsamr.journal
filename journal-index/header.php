@@ -47,45 +47,45 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="static/images/nsamr-logos/logo-navbar-brand.png" alt="NSAMR logo"></a>
+                        <a class="navbar-brand img-responsive" href="index.php"><img src="static/images/nsamr-logos/logo-long-3x.png" alt="NSAMR logo"></a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">About JNSAMR</a></li>
-                                <li><a href="#">FAQ</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Current Issue</a></li>
-                        <li class="dropdown">
-                            <a href="courses.html" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                <li><a href="#">2017 Issue 3</a></li>
-                                <li><a href="#">2017 Issue 2</a></li>
-                                <li><a href="#">2017 Issue 1</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Submit your work</a></li>
-                                <li><a href="#">Author guidelines</a></li>
-                                <li><a href="#">Reviewer guidelines</a></li>
-                                <li><a href="#">Become a peer-reviewer</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
-                            <form class="search-form">
-                                <input type="text" class="form-control" placeholder="Search JNSAMR...">
-                            </form>
-                        </li>
+                                    <li><a href="#">About JNSAMR</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Current Issue</a></li>
+                            <li class="dropdown">
+                                <a href="courses.html" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="#">2017 Issue 3</a></li>
+                                    <li><a href="#">2017 Issue 2</a></li>
+                                    <li><a href="#">2017 Issue 1</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Submit your work</a></li>
+                                    <li><a href="#">Author guidelines</a></li>
+                                    <li><a href="#">Reviewer guidelines</a></li>
+                                    <li><a href="#">Become a peer-reviewer</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+                                <form class="search-form">
+                                    <input type="text" class="form-control" placeholder="Search JNSAMR...">
+                                </form>
+                            </li>
 
-                    </ul>
+                        </ul>
 
-                </div><!--/.nav-collapse -->
+                    </div><!--/.nav-collapse -->
             </div><!--/.container -->
         </nav><!--/nav end -->
         <!--rev slider start-->
