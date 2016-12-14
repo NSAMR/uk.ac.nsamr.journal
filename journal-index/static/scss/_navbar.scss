@@ -30,24 +30,24 @@
   color: $light;
     background-color: $brand-primary-highlight;
 }
+
 @media(min-width:768px){
     .navbar-nav>li>a {
-    padding-top: 20px;
-    padding-bottom: 20px;   
+        padding-top: 20px;
+    }
+    .navbar-right .dropdown-menu {
+        right: auto;
+        left: auto;
+    }
+    .navbar-brand{
+        height:60px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
 }
-.navbar-right .dropdown-menu {
-    right: auto;
-    left: auto;
-}
-.navbar-brand{
-    height:60px;
-    line-height: 30px;
-}
-}
+
 .navbar-brand>img {
-    display: inline-block;
-    margin-top: 4px;
-    margin-bottom: 20px;
+    display: block;
 }
 
 

@@ -568,7 +568,6 @@ Top bar style
 @media (min-width: 768px) {
   .navbar-nav > li > a {
     padding-top: 20px;
-    padding-bottom: 20px;
   }
 
   .navbar-right .dropdown-menu {
@@ -579,12 +578,11 @@ Top bar style
   .navbar-brand {
     height: 60px;
     line-height: 30px;
+    margin-bottom: 0px;
   }
 }
 .navbar-brand > img {
-  display: inline-block;
-  margin-top: 4px;
-  margin-bottom: 20px;
+  display: block;
 }
 
 /**search form**/
