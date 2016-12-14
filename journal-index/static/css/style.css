@@ -1001,13 +1001,15 @@ Blog style
 Footer styles
 */
 .footer {
-  background-color: #222;
+  background-color: #1A2530;
   padding: 40px 0;
   padding-bottom: 0px;
 }
 .footer h3 {
-  color: #fff;
+  color: #DADEDB;
   text-transform: uppercase;
+  padding-left: 10px;
+  border-left: 3px solid #7A7A7B;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 700;
@@ -1022,7 +1024,7 @@ Footer styles
   box-shadow: none;
 }
 .footer p {
-  color: #eee;
+  color: #F2F7F3;
 }
 .footer ul.f-list {
   margin: 0;
@@ -1032,8 +1034,8 @@ Footer styles
   border-bottom: 0px;
 }
 .footer ul.f-list li a {
-  padding: 7px 0;
-  color: #eee;
+  padding: 10px 0;
+  color: #F2F7F3;
   text-transform: capitalize;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
   display: block;
@@ -1046,37 +1048,54 @@ Footer styles
   position: absolute;
   left: 0;
   top: 8px;
+  color: #7A7A7B;
 }
 .footer ul.f-list li a:hover {
-  color: #30415D;
+  color: #C2C5C3;
+}
+.footer ul.f-list li a:hover:active {
+  color: #AAACAB;
 }
 .footer .footer-social li {
-  padding: 0px;
+  padding: 10px 0px 10px;
 }
 .footer .footer-social li a {
   font-size: 30px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #F2F7F3;
   display: block;
   margin: 3px 5px;
 }
 .footer .footer-social li a:hover {
-  color: #fff;
+  color: #C2C5C3;
+}
+.footer .footer-social li a:hover:active {
+  color: #AAACAB;
 }
 .footer .phone {
-  font-size: 20px;
-  color: #fff;
+  font-size: 18px;
+  color: #F2F7F3;
+}
+.footer .phone i {
+  margin-right: 5px;
+}
+.footer .phone {
+  font-size: 18px;
+  color: #F2F7F3;
 }
 .footer .phone i {
   margin-right: 5px;
 }
 .footer p a {
-  color: #fff;
+  color: #F2F7F3;
 }
 .footer p a:hover {
-  color: #30415D;
+  color: #C2C5C3;
+}
+.footer p a:hover:active {
+  color: #AAACAB;
 }
 .footer .f-post li {
-  padding-bottom: 5px;
+  padding: 10px 0px 10px;
   margin-bottom: 8px;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
@@ -1096,48 +1115,14 @@ Footer styles
   display: inline-block;
 }
 .footer .f-post .f-post-content a:hover {
-  color: #30415D;
+  color: #C2C5C3;
+}
+.footer .f-post .f-post-content a:hover:active {
+  color: #AAACAB;
 }
 .footer .f-post .f-post-content em {
   display: block;
   color: #eee;
-}
-.footer.light {
-  background: #fff;
-}
-.footer.light h3 {
-  color: #333;
-}
-.footer.light .f-post li {
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
-}
-.footer.light .f-post li .f-post-content a {
-  color: #000;
-}
-.footer.light .f-post li .f-post-content a:hover {
-  color: #30415D;
-}
-.footer.light .f-post li .f-post-content em {
-  color: #888;
-}
-.footer.light p {
-  color: #888;
-}
-.footer.light a {
-  color: #000;
-}
-.footer.light .footer-social li a {
-  color: #777;
-}
-.footer.light .footer-social li a:hover {
-  color: #30415D;
-}
-.footer.light ul.f-list li a {
-  color: #888;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
-}
-.footer.light ul.f-list li a:hover {
-  color: #30415D;
 }
 
 .footer-bottom {
