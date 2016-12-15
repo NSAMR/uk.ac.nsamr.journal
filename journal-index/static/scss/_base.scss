@@ -13,9 +13,13 @@ body{
 }
 a{
     @include transition(all 0.3s);
-    color:$skincolor;
+    font-weight: 700;
+    color: $brand-selection-3;
     &:hover{
-        color:#aeaeae;
+        color: $mid;
+        &:active{
+            color: $midlight;
+        }
     }
 }
 button{

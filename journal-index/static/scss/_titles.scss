@@ -19,10 +19,23 @@ Titles style
         font-size: 16px;
     }
 }
+.left-title-bar{
+    h2{
+        color: $darkest;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-left: 10px;
+        border-left: 3px solid $brand-secondary;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
 .left-title{
     position: relative;
     font-size:18px;
     font-weight:700;
+    margin-top: 10px;
+    margin-bottom: 20px;
     &:after{
         content: "";
         width: 50px;

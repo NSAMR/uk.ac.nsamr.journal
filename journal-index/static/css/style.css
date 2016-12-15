@@ -6,10 +6,10 @@ Template variables
 PALETTE
 */
 /*
-BUTTONS
+BUTTON COLORS
 */
 /*
-ICONS
+ICON COLORS
 */
 /* 
     Basics
@@ -20,7 +20,7 @@ body {
   line-height: 2.3rem;
   margin: 0;
   background-color: #E8EBEE;
-  color: #777;
+  color: #322F33;
   -webkit-font-smoothing: antialiased !important;
 }
 
@@ -29,10 +29,14 @@ a {
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #30415D;
+  font-weight: 700;
+  color: #2C5A8F;
 }
 a:hover {
-  color: #aeaeae;
+  color: #AAACAB;
+}
+a:hover:active {
+  color: #C2C5C3;
 }
 
 button {
@@ -304,10 +308,22 @@ Titles style
   font-size: 16px;
 }
 
+.left-title-bar h2 {
+  color: #322F33;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 10px;
+  border-left: 3px solid #34495E;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .left-title {
   position: relative;
   font-size: 18px;
   font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .left-title:after {
   content: "";
@@ -1193,6 +1209,15 @@ accordions
 .pattern-bg-mid {
   background: url("../images/patterns/brick-wall-98A3AE-1920x1080.png") repeat;
   padding: 60px 0;
+}
+
+.pattern-bg-mid-shorter {
+  background: url("../images/patterns/brick-wall-98A3AE-1920x1080.png") repeat;
+  padding: 30px 0;
+}
+
+.pattern-bg-mid-shorter {
+  padding: 20px 0;
 }
 
 .pattern-bg-light {
