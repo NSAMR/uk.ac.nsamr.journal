@@ -51,7 +51,7 @@
                 </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">About JNSAMR</a></li>
@@ -60,17 +60,17 @@
                             </li>
                             <li><a href="">Current Issue</a></li>
                             <li class="dropdown">
-                                <a href="courses.html" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                     <li><a href="#">2017 Issue 3</a></li>
                                     <li><a href="#">2017 Issue 2</a></li>
                                     <li><a href="#">2017 Issue 1</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Submit your work</a></li>
+                                    <li><a href="submissions.php">Submissions portal</a></li>
                                     <li><a href="#">Author guidelines</a></li>
                                     <li><a href="#">Reviewer guidelines</a></li>
                                     <li><a href="#">Become a peer-reviewer</a></li>
