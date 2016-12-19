@@ -19,6 +19,7 @@
 @import "_staff.scss";
 @import "_accordions.scss";
 
+
 .pattern-bg-dark{
     background: url('../images/patterns/brick-wall-1A2530-1920x1080.png') repeat;
     padding:60px 0;
@@ -339,4 +340,9 @@
 }
 .login_social a{
     margin-bottom: 5px;
+}
+
+.policies hr{
+  border-top: 1px dotted $mid;
+  width:90%;
 }

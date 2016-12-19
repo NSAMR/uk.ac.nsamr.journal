@@ -120,3 +120,73 @@ blockquote{
         border-top: 3px solid $skincolor;
     }
 }
+
+.indent{
+    p,ul{
+        margin-left: 20px;
+    }
+}
+
+.policies {
+    
+    .sidebar{
+        ul {
+            list-style-type: none;
+
+            li:before {
+                font-family: 'Font Awesome';
+                content: "\f000";
+                margin: 0 10px 0 -15px;
+            }
+        }
+    }
+
+    .checklist {
+        ul {
+            list-style-type: none;
+
+            li:before{
+            font-family: 'Font Awesome';
+            content: "\f0d7";
+            margin: 0 10px 0 -15px;
+        }
+    }
+}
+
+
+.link-list {
+    margin: 0;
+    padding: 0;
+    li{
+        &:last-child a{
+            border-bottom: 0px;
+        }
+        a{
+            padding: 8px 0;
+            text-transform: uppercase;
+            border-bottom:1px dashed $mid;
+            display:block;
+            position:relative;
+            padding-left:15px;
+            &:after{
+                    content: "\f0da";
+                    font-family: "FontAwesome";
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                    color: $dark;
+            }
+            &:hover{
+               color: $midlight;
+                &:active{
+                    color: $mid;
+                } 
+            }
+        }
+    }
+}
+
+
+
+
+}

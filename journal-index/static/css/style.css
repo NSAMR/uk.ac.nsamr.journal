@@ -154,6 +154,56 @@ blockquote h5 {
     border-top: 3px solid #30415D;
   }
 }
+.indent p, .indent ul {
+  margin-left: 20px;
+}
+
+.policies .sidebar ul {
+  list-style-type: none;
+}
+.policies .sidebar ul li:before {
+  font-family: 'Font Awesome';
+  content: "\f000";
+  margin: 0 10px 0 -15px;
+}
+.policies .checklist ul {
+  list-style-type: none;
+}
+.policies .checklist ul li:before {
+  font-family: 'Font Awesome';
+  content: "\f0d7";
+  margin: 0 10px 0 -15px;
+}
+.policies .link-list {
+  margin: 0;
+  padding: 0;
+}
+.policies .link-list li:last-child a {
+  border-bottom: 0px;
+}
+.policies .link-list li a {
+  padding: 8px 0;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #AAACAB;
+  display: block;
+  position: relative;
+  padding-left: 15px;
+}
+.policies .link-list li a:after {
+  content: "\f0da";
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  color: #7A7A7B;
+}
+.policies .link-list li a:hover {
+  color: #C2C5C3;
+}
+.policies .link-list li a:hover:active {
+  color: #AAACAB;
+}
+
 /*
 Buttons style
 */
@@ -318,14 +368,32 @@ Titles style
   margin-bottom: 15px;
 }
 
-.left-title {
+.left-heading {
   position: relative;
   font-size: 18px;
   font-weight: 700;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.left-title:after {
+.left-heading:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #30415D;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.left-subheading {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.left-subheading:after {
   content: "";
   width: 50px;
   height: 2px;
@@ -1054,7 +1122,7 @@ Footer styles
   border-bottom: 0px;
 }
 .footer ul.f-list li a {
-  padding: 10px 0;
+  padding: 8px 0;
   color: #F2F7F3;
   text-transform: capitalize;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
@@ -1529,4 +1597,9 @@ accordions
 
 .login_social a {
   margin-bottom: 5px;
+}
+
+.policies hr {
+  border-top: 1px dotted #AAACAB;
+  width: 90%;
 }
