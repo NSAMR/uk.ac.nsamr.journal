@@ -186,6 +186,34 @@ blockquote{
     }
 }
 
+.tabs{
+    .nav-tabs.nav-justified > .active > a,
+    .nav-tabs.nav-justified > .active > a:hover,
+    .nav-tabs.nav-justified > .active > a:focus {
+      border: 1px solid $dark;
+    }
+    @media (min-width: 768px) {
+      .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid $dark;
+      }
+      .nav-tabs.nav-justified > .active > a,
+      .nav-tabs.nav-justified > .active > a:hover,
+      .nav-tabs.nav-justified > .active > a:focus {
+        border-bottom-color: $brand-body;
+        background-color: $brand-body;
+      }
+    }
+
+
+}
+
+.tab-pane{
+    width:100%;
+    background-color: $brand-body;
+}
+
+
+
 
 
 
