@@ -23,6 +23,7 @@
     </head>
 
     <body>
+        <!--TOP BAR-->
         <div class="top-bar dark">
             <div class="container">
                 <div class="row">
@@ -31,13 +32,18 @@
                         <span><i class="fa fa-envelope"></i> journal@nsamr.ac.uk</span>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <span><a href="#"><i class="fa fa-user"></i> Log in</a></span>
-                        <span><a href="#"><i class="fa fa-pencil"></i> Sign up</a></span>
+                        <span><a href="login.php" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
+                        <span><a href="register.php" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
+                        <!--
+                            <span><a href="http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
+                            <span><a href="http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
+                        -->
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Static navbar -->
+        </div><!--END TOP BAR-->
+
+        <!--START STATIC NAVBAR-->
         <nav class="navbar navbar-inverse navbar-static-top yamm">
             <div class="container">
                 <div class="navbar-header">
@@ -87,5 +93,5 @@
 
                     </div><!--/.nav-collapse -->
             </div><!--/.container -->
-        </nav><!--/nav end -->
-        <!--rev slider start-->
+        </nav><!--END STATIC NAVBAR-->
+        
