@@ -32,7 +32,7 @@
 
             <div class="tab-content">
                 <div class="space40"></div> 
-                <div class="tab-pane" id="authorpolicies">
+                <div class="tab-pane active" id="authorpolicies">
                     <?php include('authorpolicies.php'); ?>
                 </div>
                 <div class="tab-pane" id="styleguidelines">
