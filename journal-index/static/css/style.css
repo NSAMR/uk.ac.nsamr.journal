@@ -203,6 +203,26 @@ blockquote h5 {
 .policies .link-list li a:hover:active {
   color: #AAACAB;
 }
+.policies .tabs .nav-tabs.nav-justified > .active > a,
+.policies .tabs .nav-tabs.nav-justified > .active > a:hover,
+.policies .tabs .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #7A7A7B;
+}
+@media (min-width: 768px) {
+  .policies .tabs .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #7A7A7B;
+  }
+  .policies .tabs .nav-tabs.nav-justified > .active > a,
+  .policies .tabs .nav-tabs.nav-justified > .active > a:hover,
+  .policies .tabs .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #E8EBEE;
+    background-color: #E8EBEE;
+  }
+}
+.policies .tab-pane {
+  width: 100%;
+  background-color: #E8EBEE;
+}
 
 /*
 Buttons style
