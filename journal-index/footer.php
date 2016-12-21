@@ -15,6 +15,7 @@
                     <div class="col-md-3 margin-btm-30">
                         <h3>Policies</h3>
                         <ul class="list-unstyled f-list">
+                            <li><a href="#">Author policies and guidelines</a></li>
                             <li><a href="#">Terms and Conditions</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>

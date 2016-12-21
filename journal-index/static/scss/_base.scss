@@ -8,14 +8,18 @@ body{
     line-height:2.3rem;
     margin:0;
     background-color: $brand-body;
-    color:#777;
+    color: $darkest;
     -webkit-font-smoothing:antialiased!important
 }
 a{
     @include transition(all 0.3s);
-    color:$skincolor;
+    font-weight: 700;
+    color: $brand-selection-3;
     &:hover{
-        color:#aeaeae;
+        color: $mid;
+        &:active{
+            color: $midlight;
+        }
     }
 }
 button{
@@ -115,4 +119,102 @@ blockquote{
         background: #fff;
         border-top: 3px solid $skincolor;
     }
+}
+
+.indent{
+    p,ul{
+        margin-left: 20px;
+    }
+}
+
+.policies {
+    
+    .sidebar{
+        ul {
+            list-style-type: none;
+
+            li:before {
+                font-family: 'Font Awesome';
+                content: "\f000";
+                margin: 0 10px 0 -15px;
+            }
+        }
+    }
+
+    .checklist {
+        ul {
+            list-style-type: none;
+
+            li:before{
+            font-family: 'Font Awesome';
+            content: "\f0d7";
+            margin: 0 10px 0 -15px;
+        }
+    }
+}
+
+
+.link-list {
+    margin: 0;
+    padding: 0;
+    li{
+        &:last-child a{
+            border-bottom: 0px;
+        }
+        a{
+            padding: 8px 0;
+            text-transform: uppercase;
+            border-bottom:1px dashed $mid;
+            display:block;
+            position:relative;
+            padding-left:15px;
+            &:after{
+                    content: "\f0da";
+                    font-family: "FontAwesome";
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                    color: $dark;
+            }
+            &:hover{
+               color: $midlight;
+                &:active{
+                    color: $mid;
+                } 
+            }
+        }
+    }
+}
+
+.tabs{
+    .nav-tabs.nav-justified > .active > a,
+    .nav-tabs.nav-justified > .active > a:hover,
+    .nav-tabs.nav-justified > .active > a:focus {
+      border: 1px solid $dark;
+    }
+    @media (min-width: 768px) {
+      .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid $dark;
+      }
+      .nav-tabs.nav-justified > .active > a,
+      .nav-tabs.nav-justified > .active > a:hover,
+      .nav-tabs.nav-justified > .active > a:focus {
+        border-bottom-color: $brand-body;
+        background-color: $brand-body;
+      }
+    }
+
+
+}
+
+.tab-pane{
+    width:100%;
+    background-color: $brand-body;
+}
+
+
+
+
+
+
 }
