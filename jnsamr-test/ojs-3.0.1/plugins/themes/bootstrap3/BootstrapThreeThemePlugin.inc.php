@@ -27,25 +27,7 @@ class BootstrapThreeThemePlugin extends ThemePlugin {
 			'label' => 'plugins.themes.bootstrap3.options.bootstrapTheme.label',
 			'description' => 'plugins.themes.bootstrap3.options.bootstrapTheme.description',
 			'options' => array(
-				'bootstrap3' => 'plugins.themes.bootstrap3.options.bootstrapTheme.bootstrap3',
-				'cerulean'   => 'plugins.themes.bootstrap3.options.bootstrapTheme.cerulean',
-				'cleanblog'  => 'plugins.themes.bootstrap3.options.bootstrapTheme.cleanblog',
-				'cosmo'      => 'plugins.themes.bootstrap3.options.bootstrapTheme.cosmo',
-				'cyborg'     => 'plugins.themes.bootstrap3.options.bootstrapTheme.cyborg',
-				'darkly'     => 'plugins.themes.bootstrap3.options.bootstrapTheme.darkly',
-				'flatly'     => 'plugins.themes.bootstrap3.options.bootstrapTheme.flatly',
-				'journal'    => 'plugins.themes.bootstrap3.options.bootstrapTheme.journal',
-				'lumen'      => 'plugins.themes.bootstrap3.options.bootstrapTheme.lumen',
 				'nsamr'      => 'plugins.themes.bootstrap3.options.bootstrapTheme.nsamr',
-				'paper'      => 'plugins.themes.bootstrap3.options.bootstrapTheme.paper',
-				'readable'   => 'plugins.themes.bootstrap3.options.bootstrapTheme.readable',
-				'sandstone'  => 'plugins.themes.bootstrap3.options.bootstrapTheme.sandstone',
-				'simplex'    => 'plugins.themes.bootstrap3.options.bootstrapTheme.simplex',
-				'slate'      => 'plugins.themes.bootstrap3.options.bootstrapTheme.slate',
-				'spacelab'   => 'plugins.themes.bootstrap3.options.bootstrapTheme.spacelab',
-				'superhero'  => 'plugins.themes.bootstrap3.options.bootstrapTheme.superhero',
-				'united'     => 'plugins.themes.bootstrap3.options.bootstrapTheme.united',
-				'yeti'       => 'plugins.themes.bootstrap3.options.bootstrapTheme.yeti',
 			)
 		));
 
