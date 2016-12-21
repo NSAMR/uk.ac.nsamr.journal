@@ -24,7 +24,12 @@ Install MAMP (mac) or WAMP (windows)
 ## Design
 The journal frontend uses bootstrap. All images are either original to NSAMR, or are CC-BY licensed, and textures are freely available from https://www.transparenttextures.com/.
 
-The "NSAMR" theme for OJS3 is an extra option built on to the bootstrap3 extension of OJS3 (https://github.com/NateWr/bootstrap3)
+The "NSAMR" theme for OJS3 is an extra option built on to the bootstrap3 extension of OJS3 (https://github.com/NateWr/bootstrap3), based on the included "Flatly" theme.
+
+Hints:
+* When playing with the design of the OJS3 frontend
+ - CSS: rm -r *.php *.css HTML t_compile/*.php
+ - Template files: Administration > Clear Template Cache
 
 ## Access
 NSAMR's server has public key access to this repo. If you want to add one from another machine, ask https://github.com/DeckOfPandass. You *must* use a password if you're adding your own key.
