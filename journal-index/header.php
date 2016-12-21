@@ -77,7 +77,7 @@
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="submissions.php">Submissions portal</a></li>
-                                    <li><a href="#">Author guidelines</a></li>
+                                    <li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
                                     <li><a href="#">Reviewer guidelines</a></li>
                                     <li><a href="#">Become a peer-reviewer</a></li>
                                 </ul>
