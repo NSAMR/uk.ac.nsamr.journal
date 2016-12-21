@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/crossref/locale/tr_TR/locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the tr_TR (Türkçe) locale.
+  *
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<message key="plugins.importexport.crossref.displayName">Çapraz Referans XML İhraç Eklentisi</message>
+	<message key="plugins.importexport.crossref.description">Makale üst verilerini çapraz referans XML formatında ihraç et.</message>
+
+	<message key="plugins.importexport.crossref.cliUsage"><![CDATA[Kullanım:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+]]></message>
+	<message key="plugins.importexport.crossref.requirements">Gereksinimler</message>
+	<message key="plugins.importexport.crossref.requirements.satisfied">Tüm eklenti gereksinimleri tatmin edici.</message>
+	<message key="plugins.importexport.crossref.settings.depositorIntro">Aşağıdaki öğeler başarılı bir CrossRef arşivleme için gereklidir.</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorName">Arşivleyenin adı</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorEmail">Arşivleyenin e-postası</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorNameRequired">Lütfen arşivleyenin adını griniz.</message>
+	<message key="plugins.importexport.crossref.settings.form.depositorEmailRequired">Lütfen arşivleyenin e-posta adresini giriniz.</message>
+	<message key="plugins.importexport.crossref.settings.form.username">Kullanıcı adı</message>
+	<message key="plugins.importexport.crossref.settings.form.usernameRequired">CrossRef'ten almış olduğunuz kullanıcı adını giriniz.</message>
+	<message key="plugins.importexport.crossref.senderTask.name">CrossRef bilgi göndericisi</message>
+</locale>
