@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file classes/payment/QueuedPayment.inc.php
+ *
+ * Copyright (c) 2014-2016 Simon Fraser University Library
+ * Copyright (c) 2000-2016 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @class QueuedPayment
+ * @ingroup payment
+ * @see QueuedPaymentDAO
+ *
+ * @brief Queued (unfulfilled) payment data structure
+ *
+ */
+
+import('lib.pkp.classes.payment.Payment');
+
+class QueuedPayment extends Payment {
+	/**
+	 * @copydoc Payment::Payment
+	 */
+	function __construct($amount, $currencyCode, $userId = null, $assocId = null) {
+		parent::__construct($amount, $currencyCode, $userId, $assocId);
+	}
+}
+
+?>
