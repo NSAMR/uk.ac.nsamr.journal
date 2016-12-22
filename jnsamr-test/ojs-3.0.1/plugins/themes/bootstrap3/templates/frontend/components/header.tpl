@@ -40,10 +40,8 @@
 		<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
 
 
-			<div class="container-fluid" style="background-color:#b4bcc2">  
-
-	
-
+			<!--TOP BAR-->
+			<div class="container-fluid top-bar">  
 				<div class="row">
 					<ul id="navigationUser" class="nav nav-pills tab-list pull-right" role="navigation" aria-label="{translate|escape key="common.navigation.user"}">
 						{if $isUserLoggedIn}
@@ -99,13 +97,12 @@
 						{/if}
 					</ul>
 				</div>
-			</div>
+			</div><!--END TOP BAR-->
 
 
-
-			{* User profile, login, etc, navigation menu*}
-			<div class="container-fluid">
-				<div class="row" style="background-color:#2C3E50">
+			<!--NAV BRAND AND LINKS-->
+			<div class="container-fluid nav-main">
+				<div class="row">
 
 					{* Logo or site title. Only use <h1> heading on the homepage.
 					   Otherwise that should go to the page title. *}
@@ -141,7 +138,8 @@
 					{/if}
 
 				</div><!-- .row -->
-			</div><!-- .container-fluid -->
+			</div><!--END NAV BRAND AND LINKS-->
+
 
 			<div class="container-fluid">
 
