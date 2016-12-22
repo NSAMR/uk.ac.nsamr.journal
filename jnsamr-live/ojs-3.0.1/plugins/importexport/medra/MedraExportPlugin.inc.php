@@ -25,8 +25,8 @@ class MedraExportPlugin extends DOIPubIdExportPlugin {
 	/**
 	 * Constructor
 	 */
-	function MedraExportPlugin() {
-		parent::DOIPubIdExportPlugin();
+	function __construct() {
+		parent::__construct();
 	}
 
 	/**
@@ -72,7 +72,7 @@ class MedraExportPlugin extends DOIPubIdExportPlugin {
 	}
 
 	/**
-	 * @copydoc PubObjectsExportPlugin::getPluginSettingsPrefix()
+	 * @copydoc ImportExportPlugin::getPluginSettingsPrefix()
 	 */
 	function getPluginSettingsPrefix() {
 		return 'medra';

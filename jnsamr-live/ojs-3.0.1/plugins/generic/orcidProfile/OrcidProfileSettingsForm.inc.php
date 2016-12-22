@@ -30,11 +30,11 @@ class OrcidProfileSettingsForm extends Form {
 	 * @param $plugin object
 	 * @param $contextId int
 	 */
-	function OrcidProfileSettingsForm(&$plugin, $contextId) {
+	function __construct(&$plugin, $contextId) {
 		$this->contextId = $contextId;
 		$this->plugin =& $plugin;
 
-		parent::Form($plugin->getTemplatePath() . 'settingsForm.tpl');
+		parent::__construct($plugin->getTemplatePath() . 'settingsForm.tpl');
 
 		$this->addCheck(new FormValidator($this, 'orcidProfileAPIPath', 'required', 'plugins.generic.orcidProfile.manager.settings.orcidAPIPathRequired'));
 

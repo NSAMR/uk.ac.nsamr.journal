@@ -28,11 +28,11 @@ class GoogleAnalyticsSettingsForm extends Form {
 	 * @param $plugin GoogleAnalyticsPlugin
 	 * @param $journalId int
 	 */
-	function GoogleAnalyticsSettingsForm($plugin, $journalId) {
+	function __construct($plugin, $journalId) {
 		$this->_journalId = $journalId;
 		$this->_plugin = $plugin;
 
-		parent::Form($plugin->getTemplatePath() . 'settingsForm.tpl');
+		parent::__construct($plugin->getTemplatePath() . 'settingsForm.tpl');
 
 		$this->addCheck(new FormValidator($this, 'googleAnalyticsSiteId', 'required', 'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired'));
 

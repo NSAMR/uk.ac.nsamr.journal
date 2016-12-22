@@ -28,10 +28,10 @@ class CustomBlockPlugin extends BlockPlugin {
 	 * @param $blockName string Name of this block plugin.
 	 * @param $parentPluginName string Name of block plugin management plugin.
 	 */
-	function CustomBlockPlugin($blockName, $parentPluginName) {
+	function __construct($blockName, $parentPluginName) {
 		$this->blockName = $blockName;
 		$this->parentPluginName = $parentPluginName;
-		parent::BlockPlugin();
+		parent::__construct();
 	}
 
 	/**
@@ -116,7 +116,7 @@ class CustomBlockPlugin extends BlockPlugin {
 	 * @copydoc BlockPlugin::getBlockContext()
 	 */
 	function getBlockContext() {
-		if (!Config::getVar('general', 'installed')) return BLOCK_CONTEXT_LEFT_SIDEBAR;
+		if (!Config::getVar('general', 'installed')) return BLOCK_CONTEXT_SIDEBAR;
 		return parent::getBlockContext();
 	}
 

@@ -25,8 +25,8 @@ class StaticPagesHandler extends Handler {
 	/**
 	 * Constructor
 	 */
-	function StaticPagesHandler() {
-		parent::Handler();
+	function __construct() {
+		parent::__construct();
 	}
 
 	/**
@@ -74,6 +74,7 @@ class StaticPagesHandler extends Handler {
 
 		// Assign the template vars needed and display
 		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
 		$templateMgr->assign('title', self::$staticPage->getLocalizedTitle());
 
 		$vars = array();
