@@ -90,7 +90,7 @@ class CustomBlockManagerPlugin extends GenericPlugin {
 					}
 					// Default the block to the left sidebar (for newly created blocks)
 					if (!is_numeric($blockPlugin->getBlockContext())) {
-						$blockPlugin->setBlockContext(BLOCK_CONTEXT_LEFT_SIDEBAR);
+						$blockPlugin->setBlockContext(BLOCK_CONTEXT_SIDEBAR);
 					}
 
 					// Add the plugin to the list of registered plugins

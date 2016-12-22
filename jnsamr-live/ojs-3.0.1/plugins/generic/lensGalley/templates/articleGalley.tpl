@@ -7,7 +7,7 @@
  *
  * Embedded viewing of a PDF galley.
  *}
-{include file="frontend/components/header.tpl" pageTitleTranslated=$issue->getIssueSeries()|escape}
+{include file="frontend/components/header.tpl" pageTitleTranslated=$article->getLocalizedTitle()|escape}
 
 <div class="page">
 	{url|assign:"xmlUrl" op="download" path=$article->getBestArticleId($currentJournal)|to_array:$galley->getBestGalleyId($currentJournal) escape=false}

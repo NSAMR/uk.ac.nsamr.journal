@@ -69,7 +69,7 @@ class LensGalleyPlugin extends GenericPlugin {
 		$article =& $args[3];
 
 		$templateMgr = TemplateManager::getManager($request);
-		if ($galley && $galley->getFileType() == 'application/xml') {
+		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml'))) {
 			$templateMgr->assign(array(
 				'pluginLensPath' => $this->getLensPath($request),
 				'pluginTemplatePath' => $this->getTemplatePath(),

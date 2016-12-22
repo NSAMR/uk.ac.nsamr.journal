@@ -29,8 +29,8 @@ class CustomBlockForm extends Form {
 	 * @param $contextId int
 	 * @param $plugin CustomBlockPlugin
 	 */
-	function CustomBlockForm($template, $contextId, $plugin = null) {
-		parent::Form($template);
+	function __construct($template, $contextId, $plugin = null) {
+		parent::__construct($template);
 
 		$this->contextId = $contextId;
 		$this->plugin = $plugin;
@@ -82,7 +82,7 @@ class CustomBlockForm extends Form {
 			$plugin->setEnabled(true);
 
 			// Default the block to the left sidebar
-			$plugin->setBlockContext(BLOCK_CONTEXT_LEFT_SIDEBAR);
+			$plugin->setBlockContext(BLOCK_CONTEXT_SIDEBAR);
 
 			// Add the custom block to the list of the custom block plugins in the
 			// custom block manager plugin

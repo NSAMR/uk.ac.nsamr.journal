@@ -23,8 +23,8 @@ class CustomBlockGridHandler extends GridHandler {
 	/**
 	 * Constructor
 	 */
-	function CustomBlockGridHandler() {
-		parent::GridHandler();
+	function __construct() {
+		parent::__construct();
 		$this->addRoleAssignment(
 			array(ROLE_ID_MANAGER),
 			array('fetchGrid', 'fetchRow', 'addCustomBlock', 'editCustomBlock', 'updateCustomBlock', 'deleteCustomBlock')

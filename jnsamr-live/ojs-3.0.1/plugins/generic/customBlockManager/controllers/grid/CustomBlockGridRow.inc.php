@@ -19,8 +19,8 @@ class CustomBlockGridRow extends GridRow {
 	/**
 	 * Constructor
 	 */
-	function CustomBlockGridRow() {
-		parent::GridRow();
+	function __construct() {
+		parent::__construct();
 	}
 
 	//
