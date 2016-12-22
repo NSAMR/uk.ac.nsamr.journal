@@ -8,10 +8,10 @@ accordions
 }
 
 .panel-default>.panel-heading{
-    background: #fff;
+    background: $midlight;
 }
 .panel-title{
-    color:$skincolor;
+    color:$brand-primary;
 }
 .panel-group .panel .panel-heading .panel-title a:before {
     font-family: FontAwesome;
