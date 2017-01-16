@@ -1,1 +1,5 @@
-cache/*
+cache/*.php
+cache/*.css
+cache/HTML/
+cache/t_compile/*.php
+
