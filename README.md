@@ -1,7 +1,7 @@
 # journal.nsamr.ac.uk
 This is the git repo for the new Journal of the National Student Association of Medical Research
-* JNSAMR index site: http://www.nsamr.ac.uk/journal/journal-index/index.php
-* JNSAMR machinery site: http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr
+* JNSAMR index site: http://www.nsamr.ac.uk/journal/journal-index
+* JNSAMR machinery site: http://www.nsamr.ac.uk/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr
 
 These sites are separate because [@DeckOfPandas](https://github.com/DeckOfPandas) couldn't get the OJS frontend to look super nice (hints welcome please).
 
