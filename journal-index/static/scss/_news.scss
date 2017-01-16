@@ -1,0 +1,39 @@
+/*
+Blog style
+*/
+
+.post{
+    margin-bottom: 30px;
+    padding:15px;
+    border:1px solid #ddd;
+    h3{
+        margin-top: 15px;
+    }
+    h3 a{
+        color:#000;
+        &:hover{
+            color: $skincolor;
+        }
+    }
+}
+.comments{
+    li:nth-child(even){
+        padding:15px;
+        background-color:#f5f5f5;
+        margin:20px 0;
+    }
+    .thumb{
+        float: left;
+        margin-right: 20px;
+    }
+    .content{
+        overflow: hidden;
+    }
+    h5{
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    p{
+        margin-bottom: 0px;
+    }
+}

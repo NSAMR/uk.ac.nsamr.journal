@@ -1,0 +1,122 @@
+/*
+Buttons style
+*/
+.buttons{
+    a{
+        margin: 5px;
+    }
+}
+.btn{
+    border: 0px;  
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 16px;
+    @include border-radius(2px);
+    i{
+        margin-left: 5px;
+    }
+}
+.btn-lg{
+    padding: 12px 25px;
+    line-height: 18px;
+}
+.btn-link{
+    color:$skincolor;
+    &:hover{
+        color:#999;
+    }
+}
+.btn-default{
+    background-color: #F7F5E6;
+    color:#333;
+    &:hover{
+        background-color: $skincolor;
+        color:#fff;
+    }
+}
+.btn-skin{
+    background-color:$skincolor;
+    color:#fff;
+    &:hover{
+        background-color: #333;
+        color:#fff;
+    }
+}
+.btn-dark{
+    background-color:#333;
+    color:#fff;
+    &:hover{
+        background-color: $skincolor;
+        color:#fff;
+    }
+}
+.btn-white{
+    background-color:#fff;
+    color:#333;
+    &:hover{
+        background-color: #f3f3f3;
+        color:#333;
+    }
+}
+.btn-border-dark{
+    border: 2px solid #333;
+    background-color: transparent;
+    color:#333;
+    &:hover{
+        color:#fff;
+        background-color: #333;
+    }
+}
+
+.btn-border-skin{
+    border: 2px solid $skincolor;
+    background-color: transparent;
+    color:$skincolor;
+    &:hover{
+        color:#fff;
+        background-color: $skincolor;
+    }
+}
+.btn-border-white{
+    border: 0px;
+    background-color: transparent;
+    color:#fff;
+    &:hover{
+        color:#333;
+        background-color: #fff;
+    }
+}
+
+.btn-learnmore{
+    background-color: $brand-info;
+    color: $light;
+    &:hover{
+        background-color: $brand-info-light;
+        color: $light;
+        &:active{
+            color: $midlight;
+        }
+    }
+}
+
+.btn-action{
+    background-color: $brand-action;
+    color: $light;
+    &:hover{
+        background-color: $brand-action-light;
+        color: $light;
+        &:active{
+            color: $midlight;
+        }
+    }
+}
+
+.tp-caption a {
+    color: $light;
+    &:hover{
+        color: $light;
+    &:active{
+        color: $midlight;
+        }
+    }
+}

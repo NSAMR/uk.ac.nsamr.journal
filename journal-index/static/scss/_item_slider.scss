@@ -1,0 +1,61 @@
+/*
+Carousel slider
+*/
+
+.carouse_row{
+    margin-left: -15px;
+    margin-right: -15px;
+    position:relative;
+    .item{
+        padding: 0px 15px;
+    }
+}
+#item-slider.owl-theme{
+    .owl-controls{
+       position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    margin-top: -41px;
+    right: 10px;
+    text-align: right;
+    .owl-buttons div{
+        @include border-radius(2px);
+        background-color: $skincolor;
+    }
+}
+ 
+}
+
+.testi-slider.owl-theme{
+    img{
+        margin-bottom: 15px;
+    }
+    p{
+        color:#fff;
+      font-size: 16px;
+      font-weight: 300;
+      font-style: italic;
+    }
+    h4{
+        color:#fff;
+        em{
+            color: $skincolor;
+            font-family: $base-font;
+            font-size: 14px;
+        }
+    }
+    .owl-controls{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        margin-top: -20px;
+    }
+    .owl-controls .owl-buttons div{
+        @include border-radius(0px);
+        background-color: $skincolor;
+    }
+}
+.rating{
+    color:#d3b663;
+}

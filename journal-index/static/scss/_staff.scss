@@ -1,0 +1,15 @@
+/*
+Staff
+*/
+
+.staff{
+    h4{
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+    span{
+        color: $skincolor;
+        display: block;
+        font-style: italic;
+    }
+}
