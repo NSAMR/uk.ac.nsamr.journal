@@ -31,7 +31,7 @@ Building the journal machinery site locally:
 
 Hints:
 * When playing with the design of the OJS3 frontend on the machinery site, you need to delete the caches a lot because, well, Sass, I think.
- - CSS: rm -r *.php *.css HTML t_compile/*.php
+ - CSS: "rm -r \*.php \*.css HTML t_compile/\*.php"
  - Template files: Administration > Clear Template Cache
  
 ## Live deployment
