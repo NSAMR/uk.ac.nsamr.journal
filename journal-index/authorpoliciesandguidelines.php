@@ -26,7 +26,7 @@
         <div class="tabs col-sm-9">
             <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li class="active"><a href="#authorpolicies" role="tab" data-toggle="tab">Author policies</a></li>
-                <li><a href="#styleguidelines" role="tab" data-toggle="tab">Style guidelines</a></li>
+                <li><a href="#manuscriptpreparation" role="tab" data-toggle="tab">Manuscript preparation</a></li>
                 <li><a href="#checklist" role="tab" data-toggle="tab">Submission checklist</a></li>
             </ul>
 
@@ -35,8 +35,8 @@
                 <div class="tab-pane active" id="authorpolicies">
                     <?php include('authorpolicies.php'); ?>
                 </div>
-                <div class="tab-pane" id="styleguidelines">
-                    <?php include('styleguidelines.php'); ?>
+                <div class="tab-pane" id="manuscriptpreparation">
+                    <?php include('manuscriptpreparation.php'); ?>
                 </div><div class="tab-pane" id="checklist">
                     <?php include('checklist.php'); ?>
                 </div>
@@ -56,8 +56,6 @@
                 <li><a href="#">Confidentiality</a></li>
                 <li><a href="#">Copyright</a></li>
                 <li><a href="#">Privacy statement</a></li>
-                <li><a href="#">Manuscript preparation</a></li>
-                <li><a href="#">Checklist</a></li>
             </ul>
         </div>
     </div><!--END SIDEBAR-->

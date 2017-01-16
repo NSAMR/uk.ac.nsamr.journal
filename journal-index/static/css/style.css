@@ -409,7 +409,7 @@ Titles style
   position: relative;
   font-size: 14px;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
@@ -1269,11 +1269,11 @@ accordions
 }
 
 .panel-default > .panel-heading {
-  background: #fff;
+  background: #C2C5C3;
 }
 
 .panel-title {
-  color: #30415D;
+  color: #1A2530;
 }
 
 .panel-group .panel .panel-heading .panel-title a:before {
