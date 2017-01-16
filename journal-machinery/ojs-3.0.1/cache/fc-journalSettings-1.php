@@ -3,7 +3,7 @@
   'agenciesEnabledWorkflow' => false,
   'agenciesRequired' => false,
   'contactEmail' => 'journal@nsamr.ac.uk',
-  'contactName' => 'Matthew Byrne',
+  'contactName' => 'JNSAMR Administration',
   'contactPhone' => '',
   'copySubmissionAckAddress' => 'it@nsamr.ac.uk',
   'copySubmissionAckPrimaryContact' => true,
@@ -25,7 +25,7 @@ ________________________________________________________________________<br/>
   'languagesEnabledSubmission' => false,
   'languagesEnabledWorkflow' => false,
   'languagesRequired' => false,
-  'mailingAddress' => NULL,
+  'mailingAddress' => 'NSAMR',
   'membershipFee' => 0,
   'navItems' => NULL,
   'numPageLinks' => 10,
@@ -69,9 +69,9 @@ ________________________________________________________________________<br/>
   array (
     0 => 'en_US',
   ),
-  'supportEmail' => NULL,
-  'supportName' => NULL,
-  'supportPhone' => NULL,
+  'supportEmail' => 'it@nsamr.ac.uk',
+  'supportName' => 'NSAMR IT (Helen Jackson)',
+  'supportPhone' => '',
   'themePluginPath' => 'default',
   'typeEnabledSubmission' => false,
   'typeEnabledWorkflow' => false,
@@ -110,7 +110,7 @@ ________________________________________________________________________<br/>
   ),
   'contactTitle' => 
   array (
-    'en_US' => 'Editor-in-Chief',
+    'en_US' => 'Editorial Team',
   ),
   'copyeditInstructions' => 
   array (
