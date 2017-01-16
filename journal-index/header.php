@@ -80,7 +80,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Submissions portal</a></li>
                                     <li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
-                                    <li><a href="#">Reviewer guidelines</a></li>
+                                    <li><a href="reviewerguidelines.php">Reviewer guidelines</a></li>
                                     <li><a href="#">Become a peer-reviewer</a></li>
                                 </ul>
                             </li>
