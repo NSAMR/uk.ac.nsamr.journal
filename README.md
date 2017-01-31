@@ -1,7 +1,7 @@
 # journal.nsamr.ac.uk
 This is the git repo for the new Journal of the National Student Association of Medical Research
 * JNSAMR index site: http://www.nsamr.ac.uk/journal/journal-index/index.php
-* JNSAMR machinery site: http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr
+* JNSAMR machinery site: http://www.nsamr.ac.uk/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr
 
 These sites are separate because [@DeckOfPandas](https://github.com/DeckOfPandas) couldn't get the OJS frontend to look super nice (hints welcome please).
 
@@ -31,7 +31,8 @@ Building the journal machinery site locally:
 
 Hints:
 * When playing with the design of the OJS3 frontend on the machinery site, you need to delete the caches a lot because, well, Sass, I think.
- - CSS: rm -r *.php *.css HTML t_compile/*.php
+m -r *.php *.css HTML t_compile/*.php
+ - CSS: "rm -r \*.php \*.css HTML t_compile/\*.php"
  - Template files: Administration > Clear Template Cache
  
 ## Live deployment
