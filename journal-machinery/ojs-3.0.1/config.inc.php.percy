@@ -126,7 +126,7 @@ driver = mysql
 host = localhost
 username = root
 password = root
-name = jnsamr
+name = nsamr
 
 ; Enable persistent connections
 persistent = Off
