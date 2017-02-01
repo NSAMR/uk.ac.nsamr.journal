@@ -29,7 +29,7 @@
 installed = On
 
 ; The canonical URL to the OJS installation (excluding the trailing slash)
-base_url = "http://www.nsamr.ac.uk/journal/journal-machinery/ojs-3.0.1"
+base_url = "http://localhost:8888/ojs-3.0.1"
 
 ; Session cookie name
 session_cookie_name = OJSSID
@@ -123,9 +123,9 @@ enable_beacon = 1
 [database]
 
 driver = mysql
-host = "mysql-55.int.mythic-beasts.com"
-username = nsamr
-password = aZi5deSh
+host = localhost
+username = root
+password = root
 name = nsamr
 
 ; Enable persistent connections
@@ -206,7 +206,7 @@ charset_normalization = Off
 ; Complete path to directory to store uploaded files
 ; (This directory should not be directly web-accessible)
 ; Windows users should use forward slashes
-files_dir = /home/nsamr/www/ojs_uploads
+files_dir = /Users/helen/Files/git/nsamr/uk.ac.nsamr.journal/journal-machinery/ojs_uploads
 
 ; Path to the directory to store public uploaded files
 ; (This directory should be web-accessible and the specified path
