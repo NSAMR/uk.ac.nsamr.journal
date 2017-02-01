@@ -25,7 +25,7 @@ class NsamrThemePlugin extends ThemePlugin {
 		$this->setParent('bootstrapthreethemeplugin');
         $this->addStyle('stylesheet', 'styles/index.less');
         $this->modifyStyle('bootstrap', array('addLess' => array('styles/bootstrap.less')));
-
+        $this->modifyStyle('bootstrap', array('addLess' => array('styles/variables.less')));
 	}
 
 	/**
