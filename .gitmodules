@@ -1,0 +1,3 @@
+[submodule "journal-machinery/ojs-3.0.1/plugins/themes/plugins/themes/bootstrap3"]
+	path = journal-machinery/ojs-3.0.1/plugins/themes/bootstrap3
+	url = https://github.com/NateWr/bootstrap3.git
