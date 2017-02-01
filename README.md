@@ -5,7 +5,15 @@ This is the git repo for the new Journal of the National Student Association of 
 
 These sites are separate because [@DeckOfPandas](https://github.com/DeckOfPandas) couldn't get the OJS frontend to look super nice (hints welcome please).
 
-JNSAMR is built using Open Journal Systems 3 (OJS3): https://github.com/pkp/ojs
+## Journal software
+JNSAMR is built using Open Journal Systems 3 (OJS 3): https://pkp.sfu.ca/ojs/ (https://github.com/pkp/ojs)
+
+Documentation provided by PKP
+* User Guide: https://www.gitbook.com/book/pkp/ojs3/details
+* Technical: https://pkp.sfu.ca/wiki/index.php?title=OJS_Documentation
+*	Reference: https://pkp.sfu.ca/files/docs/quickreference/quickreference.pdf
+
+NSAMR will contribute back to the OJS project via pull requests.
 
 ## License
 JNSAMR publishes Open Access articles under the terms of the Creative Commons Attribution (CC BY) License version 4.0, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. The CC BY license can be viewed here: https://creativecommons.org/licenses/by/4.0/
