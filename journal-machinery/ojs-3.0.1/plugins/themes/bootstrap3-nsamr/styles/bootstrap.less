@@ -1,0 +1,163 @@
+/**
+ * @file plugins/themes/bootstrap3/index.less
+ *
+ * Copyright (c) 2014-2016 Simon Fraser University Library
+ * Copyright (c) 2003-2016 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief Boostrap 3 theme stylesheet. This is the base styles that must be
+ *   included for any theme.
+ *
+ */
+
+@import "../bootstrap/less/bootstrap.less";
+
+// Collapse margins on the site name in the header
+.navbar-header .site-name {
+    margin: 0;
+}
+
+// Resize the logo in the header
+.navbar-brand-logo img {
+    max-height: 100%;
+    width: auto;
+}
+
+// Set color of links in navbar
+.navbar-default .nav > li > a {
+    color: @navbar-default-link-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: @navbar-default-link-hover-color;
+        background: @navbar-default-link-hover-bg;
+    }
+
+    &:disabled {
+        color: @navbar-default-link-disabled-color;
+        background: @navbar-default-link-disabled-bg;
+    }
+}
+
+// Page header subtitles
+.page-header small {
+    display: block;
+    margin-top: 0.5em;
+}
+
+// Wrap homepage journal description and additional content in margins
+.pkp_page_index .journal-description,
+.pkp_page_index .additional_content {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.article-details {
+
+    // Add space below authors on article page
+    .authors {
+        margin-bottom: 2em;
+    }
+
+    .galley-link {
+        margin: 0.5em 0;
+        display: block;
+        &:extend(.btn-primary all);
+    }
+
+
+    // Add space between citation output and list of citation formats
+    .citation_output {
+        margin-bottom: @panel-body-padding;
+        word-wrap: break-word;
+    }
+}
+
+.article-sidebar {
+
+    // Ensure doi link doesn't extend beyond container
+    .doi {
+        word-wrap: break-word;
+    }
+}
+
+// Because we want to float the search right when the header is not collapsed
+// Why you no give us pull-md-right bootstrap?
+.pull-md-right {
+
+    @media(min-width: @screen-md) {
+        float: right;
+    }
+}
+
+// Override <h*> styles in media headings so that we can preserve accessible
+// heading structure without distorting the media style
+.media-heading h1,
+.media-heading h2,
+.media-heading h3,
+.media-heading h4,
+.media-heading h5,
+.media-heading h6,
+h1.media-heading,
+h2.media-heading,
+h3.media-heading,
+h4.media-heading,
+h5.media-heading,
+h6.media-heading {
+    font-size: @font-size-large; // Bootstrap variable
+}
+
+// Adjust lead text in media headings relative to the <h*> styles above
+.media .lead {
+    font-size: @font-size-base; // Bootstrap variable
+}
+
+// Media elements need a little bit more spacing in almost all themes
+.media {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+// Set a max size for media list thumbnails
+.media-left img {
+    max-width: 128px;
+}
+
+// Apply .panel and .list-group styling to  block output with lists
+.pkp_block {
+    &:extend(.panel);
+    &:extend(.panel-default);
+
+    .title {
+        &:extend(.panel-heading);
+        &:extend(.panel-default > .panel-heading);
+        display: block;
+    }
+
+    ul {
+        &:extend(.list-group);
+        &:extend(.panel > .list-group);
+
+        li {
+            &:extend(.list-group-item);
+            &:extend(.panel > .list-group .list-group-item);
+        }
+    }
+}
+
+// Apply .btn styles to makeSubmission block plugin
+.pkp_block.block_make_submission {
+
+    a {
+        &:extend(.btn);
+        &:extend(.btn-default);
+    }
+}
+
+// Style the footer
+footer[role="contentinfo"] {
+    background: @gray-lighter; // bootstrap variable
+    padding: 2em;
+    margin-top: 4em;
+}
