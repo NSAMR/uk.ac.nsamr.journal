@@ -1,20 +1,20 @@
 <?php
 
 /**
- * @file plugins/themes/default/DefaultChildThemePlugin.inc.php
+ * @file plugins/themes/default/NsamrThemePlugin.inc.php
  *
  * Copyright (c) 2014-2016 Simon Fraser University Library
  * Copyright (c) 2003-2016 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class DefaultChildThemePlugin
+ * @class NsamrThemePlugin
  * @ingroup plugins_themes_default
  *
  * @brief Default theme
  */
 import('lib.pkp.classes.plugins.ThemePlugin');
 
-class DefaultChildThemePlugin extends ThemePlugin {
+class NsamrThemePlugin extends ThemePlugin {
 	/**
 	 * Initialize the theme's styles, scripts and hooks. This is only run for
 	 * the currently active theme.
@@ -31,7 +31,7 @@ class DefaultChildThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return __('plugins.themes.default-child.name');
+		return __('plugins.themes.nsamr.name');
 	}
 
 	/**
@@ -39,7 +39,7 @@ class DefaultChildThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return __('plugins.themes.default-child.description');
+		return __('plugins.themes.nsamr.description');
 	}
 }
 
