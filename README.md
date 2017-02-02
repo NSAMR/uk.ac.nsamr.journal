@@ -36,27 +36,31 @@ Pull requests to any of our software are welcomed and appreciated.
 ## Developing these sites locally
 Developing locally requires you to build the sites, otherwise you'll just see raw code. You need the same frameworks that serve the live sites.
 
-Building the journal-index site locally only requires PHP:
-<pre><code>php -S localhost:9999</code></pre> (mac)
+Building the journal index site locally only requires you to serve the PHP:
+<pre><code>php -S localhost:9999</code></pre>  
 
-Building the journal machinery site locally needs a little more effort, and requires a local database:
-* Requires an AMP stack (Apache, MySQL, PHP): download MAMP (mac): https://www.mamp.info/en/ or WAMP if you have windows (ask the internet). Ubuntu can Just Do this for you.
-* Create a database (either via command line or via PhpMyAdmin, which is linked to on the start page of MAMP)
-* $ojs_install_folder/config.php needs the settings for the database underlying the current build (obviously), so you need to change these for your own machine
-* To make this easier to organise, there are two custom files included here so far: config.inc.php.onza (for NSAMR-deployed clone) and config.inc.php.percy ([@DeckOfPandas](https://github.com/DeckOfPandas) personal desktop machine). [@DeckOfPandas](https://github.com/DeckOfPandas) will delete the custom ones when more people are working on this.
-* There are certainly better ways of arranging this than the above, but [@DeckOfPandas](https://github.com/DeckOfPandas) is lazy.
 
-### Hints:
+Building the journal machinery site locally needs a little more effort, because you need to serve the PHP from top of a local database. Here are some pointers:  
+* Building requires an AMP stack (Apache, MySQL, PHP): download MAMP (mac): ([@https://www.mamp.info/en/](https://www.mamp.info/en/)) or WAMP if you have windows (ask the internet). If you're using ubuntu then...well, you don't need my hints.  
+* Make a local database (either via command line or via PhpMyAdmin, which is linked to on the start page of MAMP)  
+* $ojs_install_folder/config.php needs to contain the settings for the database underlying the current build (obviously), so you need to change these depending on which machine you're running on and what you've named the local database etc. The MAMP start page will helpfully display the settings for connecting to your database.  
+* To make this easier to organise, for now there are two custom files included here as well as the bundled config.inc.php: config.inc.php.onza (for NSAMR-deployed clone) and config.inc.php.percy ([@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). [@DeckOfPandas](https://github.com/DeckOfPandas) will delete the custom ones when more people are working on this.  
+* There are certainly better ways of arranging this than the above, but [@DeckOfPandas](https://github.com/DeckOfPandas) is lazy.  
+* Install OJS3 according to the instructions on the box  
+* Revel in own brilliance  
+
+### If stuck:
 * When playing with the design of the OJS3 frontend on the machinery site, you need to delete the caches a lot because, well, Sass, I think.
 <pre><code>rm -r \*.php \*.css HTML t_compile/\*.php</code></pre>  
-* Template files: Administration >> Clear Template Cache  
+* Sometimes you need to do this:  
+  * Template files: Administration >> Clear Template Cache  
  
 ## Live deployment
 To NSAMR committee members: The JNSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo.
 
 ## Access
 * These repositories are public  
-* NSAMR's server has public key access to this repo, which requires a password to use ([@DeckOfPandas](https://github.com/DeckOfPandas) has this fo now)  
+* NSAMR's server has public key access to this repo, which requires a password to use ([@DeckOfPandas](https://github.com/DeckOfPandas) has this for now)  
 * Helen's personal machines have public key access too  
 * If you want to add one from another machine, send [@DeckOfPandas](https://github.com/DeckOfPandas) your public key to be added. You *must* use a password if you're adding your own key.  
 
