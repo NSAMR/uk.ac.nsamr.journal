@@ -39,7 +39,6 @@ Developing locally requires you to build the sites, otherwise you'll just see ra
 Building the journal index site locally only requires you to serve the PHP:
 <pre><code>php -S localhost:9999</code></pre>  
 
-
 Building the journal machinery site locally needs a little more effort, because you need to serve the PHP from top of a local database. Here are some pointers:  
 * Building requires an AMP stack (Apache, MySQL, PHP): download MAMP (mac): ([@https://www.mamp.info/en/](https://www.mamp.info/en/)) or WAMP if you have windows (ask the internet). If you're using ubuntu then...well, you don't need my hints.  
 * Make a local database (either via command line or via PhpMyAdmin, which is linked to on the start page of MAMP)  
@@ -54,7 +53,8 @@ Building the journal machinery site locally needs a little more effort, because 
 <pre><code>rm -r \*.php \*.css HTML t_compile/\*.php</code></pre>  
 * Sometimes you need to do this:  
   * Template files: Administration >> Clear Template Cache  
- 
+* If the mysql server won't start, try these things: [http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start](http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start)  
+
 ## Live deployment
 To NSAMR committee members: The JNSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo.
 
