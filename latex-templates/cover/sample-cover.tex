@@ -1,0 +1,37 @@
+\documentclass{article}
+
+
+% PACKAGES
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{xcolor}
+
+
+% DEFINITIONS
+ \geometry{
+	 a4paper,
+	 top=20mm,
+	 right=0mm,
+	 left=0mm,
+ 	 bottom=20mm,
+ 	 }
+ \definecolor{shadecolor}{HTML}{2C5A8F}
+
+
+% MACROS
+\newcommand{\horizontalstrip}[1]{\par\noindent\colorbox{shadecolor}
+{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}}
+
+
+% DOCUMENT
+\begin{document}
+
+{\huge
+\horizontalstrip{\textsc{Journal of the National Student Association of Medical Research}}
+}
+
+
+
+
+
+\end{document}
