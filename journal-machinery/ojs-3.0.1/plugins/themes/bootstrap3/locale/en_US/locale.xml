@@ -12,8 +12,8 @@
   -->
 
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.themes.bootstrap3.name">Boostrap 3 Base Theme</message>
-	<message key="plugins.themes.bootstrap3.description">A starter Boostrap 3 theme for the reader frontend.</message>
+	<message key="plugins.themes.bootstrap3.name">Bootstrap 3 Base Theme</message>
+	<message key="plugins.themes.bootstrap3.description">A starter Bootstrap 3 theme for the reader frontend.</message>
 	<message key="plugins.themes.bootstrap3.accessible_menu.label">Quick jump to page content</message>
 	<message key="plugins.themes.bootstrap3.accessible_menu.main_navigation">Main Navigation</message>
 	<message key="plugins.themes.bootstrap3.accessible_menu.main_content">Main Content</message>
@@ -32,7 +32,6 @@
 	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.flatly">Flatly</message>
 	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.journal">Journal</message>
 	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.lumen">Lumen</message>
-	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.nsamr">NSAMR</message>
 	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.paper">Paper</message>
 	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.readable">Readable</message>
 	<message key="plugins.themes.bootstrap3.options.bootstrapTheme.sandstone">Sandstone</message>
