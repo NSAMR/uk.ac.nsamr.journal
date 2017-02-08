@@ -3,6 +3,6 @@ old/
 .git
 */.sass-cache
 */__MACOSX
-jnsamr/cache/*.css
-jnsamr/cache/t_compile/*.php
-jnsamr/cache/t_compile/*.css
+journal-machinery/ojs-3.0.1/cache/*.css
+journal-machinery/ojs-3.0.1/cache/t_compile/*.php
+journal-machinery/ojs-3.0.1/cache/t_compile/*.css
