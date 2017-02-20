@@ -144,12 +144,9 @@
 									</a>
 								</li>
 								<li class="dropdown">
-									<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{translate key="navigation.archives"} <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">2017 Issue 3</a></li>
-										<li><a href="#">2017 Issue 2</a></li>
-										<li><a href="#">2017 Issue 1</a></li>
-									</ul>
+									<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
+										{translate key="navigation.archives"}
+									</a>
 								</li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
