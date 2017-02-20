@@ -7,57 +7,41 @@
   *
   * Primary navigation menu list for OJS
   *}
-  <ul id="main-navigation" class="nav navbar-navnavbar-default navbar-collapse collapse">
-
-    {if $enableAnnouncements}
-    <li>
-      <a href="{url router=$smarty.const.ROUTE_PAGE page="announcement"}">
-        {translate key="announcement.announcements"}
-      </a>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="{$homeUrl}">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">About JNSAMR</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Hosting</a></li>
+      </ul>
     </li>
-    {/if}
 
-    {if $currentJournal}
-
-    {if $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
     <li>
       <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
         {translate key="navigation.current"}
       </a>
     </li>
-    <li>
+    <li class="dropdown">
       <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
         {translate key="navigation.archives"}
       </a>
     </li>
-    {/if}
     <li class="dropdown">
-      <a href="{url router=$smarty.const.ROUTE_PAGE page="about"}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{translate key="navigation.about"} <span class="caret"></span></a>
+      <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li>
-          <a href="{url router=$smarty.const.ROUTE_PAGE page="about"}">
-            {translate key="about.aboutContext"}
-          </a>
-        </li>
-        <li>
-          <a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="editorialTeam"}">
-            {translate key="about.editorialTeam"}
-          </a>
-        </li>
-        <li>
-          <a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="submissions"}">
-            {translate key="about.submissions"}
-          </a>
-        </li>
-        {if $currentJournal->getSetting('mailingAddress') || $currentJournal->getSetting('contactName')}
-        <li>
-         <a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="contact"}">
-          {translate key="about.contact"}
-         </a>
-        </li>
-        {/if}
+        <li><a href="#">Submissions portal</a></li>
+        <li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
+        <li><a href="#">Reviewer guidelines</a></li>
+        <li><a href="#">Become a peer-reviewer</a></li>
       </ul>
     </li>
-    
-    {/if}
+    <li><a href="#">Contact</a></li>
+    <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+      <form class="search-form">
+        <input type="text" class="form-control" placeholder="Search JNSAMR...">
+      </form>
+    </li>
+
   </ul>
