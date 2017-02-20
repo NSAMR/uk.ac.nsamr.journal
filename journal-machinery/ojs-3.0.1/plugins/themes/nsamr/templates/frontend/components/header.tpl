@@ -144,7 +144,7 @@
 									</a>
 								</li>
 								<li class="dropdown">
-									<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
+									<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
 										{translate key="navigation.archives"}
 									</a>
 								</li>
