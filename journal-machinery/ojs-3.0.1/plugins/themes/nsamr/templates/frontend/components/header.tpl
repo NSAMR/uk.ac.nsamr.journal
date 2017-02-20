@@ -39,8 +39,6 @@
 			{* Header *}
 			<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
 
-
-
 				<!--TOP BAR-->
 				<div class="top-bar dark">
 					<div class="container">
@@ -112,8 +110,6 @@
 				</div><!--END TOP BAR-->
 
 
-
-
 				<!--START STATIC NAVBAR-->
 				<nav class="navbar navbar-default navbar-static-top yamm">
 					<div class="container">
@@ -128,14 +124,20 @@
 						</div>
 						<div id="navbar" class="navbar-collapse collapse">
 							{include file="frontend/components/primaryNavMenu.tpl"}	
-
 						</div><!--/.nav-collapse -->
 					</div><!--/.container -->
 				</nav><!--END STATIC NAVBAR-->
 
+				<!--START BAR BELOW NAVBAR-->
+				<div class="pkp_structure_main" id="headerBelowNavbarContainer">
+					{include file="frontend/components/headerBelowNavbar.tpl"}	
+				</div><!--END BAR BELOW NAVBAR-->
 
 			</header><!-- .pkp_structure_head -->
+
 
 			{* Wrapper for page content and sidebars *}
 			<div class="pkp_structure_content container">
 				<main class="pkp_structure_main col-xs-12 col-sm-10 col-md-8" role="main">
+
+
