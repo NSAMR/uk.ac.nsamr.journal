@@ -128,11 +128,6 @@
 					</div><!--/.container -->
 				</nav><!--END STATIC NAVBAR-->
 
-				<!--START BAR BELOW NAVBAR-->
-				<div class="pkp_structure_main" id="headerBelowNavbarContainer">
-					{include file="frontend/components/headerBelowNavbar.tpl"}	
-				</div><!--END BAR BELOW NAVBAR-->
-
 			</header><!-- .pkp_structure_head -->
 
 
