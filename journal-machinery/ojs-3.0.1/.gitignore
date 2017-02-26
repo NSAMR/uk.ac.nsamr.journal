@@ -1,7 +1,5 @@
-cache/t_compile/placeholder
-config.inc.php
 cache/*.php
 cache/*.css
-cache/HTML/
+cache/HTML
 cache/t_compile/*.php
-
+*.ser

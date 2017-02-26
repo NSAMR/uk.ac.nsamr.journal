@@ -46,6 +46,9 @@ Building the journal machinery site locally needs a little more effort, because 
 * To make this easier to organise, for now there are two custom files included here as well as the bundled config.inc.php: config.inc.php.onza (for NSAMR-deployed clone) and config.inc.php.percy ([@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). [@DeckOfPandas](https://github.com/DeckOfPandas) will delete the custom ones when more people are working on this.  
 * There are certainly better ways of arranging this than the above, but [@DeckOfPandas](https://github.com/DeckOfPandas) is lazy.  
 * Install OJS3 according to the instructions on the box  
+* Make sure the folder "nsamr" is in plugins/themes/
+* Navigate to journal admin panel (via localhost:your-port-number) and activate the plugin "NSAMR theme" (Settings --> Website --> Plugins)
+* Set the active theme to "NSAMR" (Settings --> Website --> Appearance)
 * Revel in own brilliance  
 
 ### If stuck:
