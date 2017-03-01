@@ -9,17 +9,17 @@
         <title>Journal of the National Student Association of Medical Research</title>
 
         <!-- Bootstrap -->
-        <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="static/css/animate.css" rel="stylesheet">
-        <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="static/owl-carousel/owl.carousel.css" rel="stylesheet">
-        <link href="static/owl-carousel/owl.theme.css" rel="stylesheet">
-        <link href="static/owl-carousel/owl.transitions.css" rel="stylesheet">
-        <link href="static/flexslider/flexslider.css" rel="stylesheet">
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/css/animate.css" rel="stylesheet">
+        <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/static/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="/static/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="/static/owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="/static/flexslider/flexslider.css" rel="stylesheet">
 
         <!--Revolution slider css-->
-        <link href="static/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
-        <link href="static/css/style.css" rel="stylesheet">
+        <link href="/static/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet">
     </head>
 
     <body>
