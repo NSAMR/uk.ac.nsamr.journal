@@ -39,8 +39,6 @@
 			{* Header *}
 			<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
 
-
-
 				<!--TOP BAR-->
 				<div class="top-bar dark">
 					<div class="container">
@@ -112,8 +110,6 @@
 				</div><!--END TOP BAR-->
 
 
-
-
 				<!--START STATIC NAVBAR-->
 				<nav class="navbar navbar-default navbar-static-top yamm">
 					<div class="container">
@@ -127,55 +123,16 @@
 							<a class="navbar-brand img-responsive" href="{$homeUrl}"><img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if}></a>
 						</div>
 						<div id="navbar" class="navbar-collapse collapse">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="{$homeUrl}">Home</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">About JNSAMR</a></li>
-										<li><a href="#">FAQ</a></li>
-										<li><a href="#">Hosting</a></li>
-									</ul>
-								</li>
-
-								<li>
-									<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
-										{translate key="navigation.current"}
-									</a>
-								</li>
-								<li class="dropdown">
-									<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{translate key="navigation.archives"} <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">2017 Issue 3</a></li>
-										<li><a href="#">2017 Issue 2</a></li>
-										<li><a href="#">2017 Issue 1</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Submissions portal</a></li>
-										<li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
-										<li><a href="#">Reviewer guidelines</a></li>
-										<li><a href="#">Become a peer-reviewer</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Contact</a></li>
-								<li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
-									<form class="search-form">
-										<input type="text" class="form-control" placeholder="Search JNSAMR...">
-									</form>
-								</li>
-
-							</ul>
-
+							{include file="frontend/components/primaryNavMenu.tpl"}	
 						</div><!--/.nav-collapse -->
 					</div><!--/.container -->
 				</nav><!--END STATIC NAVBAR-->
 
-
 			</header><!-- .pkp_structure_head -->
+
 
 			{* Wrapper for page content and sidebars *}
 			<div class="pkp_structure_content container">
 				<main class="pkp_structure_main col-xs-12 col-sm-10 col-md-8" role="main">
+
+

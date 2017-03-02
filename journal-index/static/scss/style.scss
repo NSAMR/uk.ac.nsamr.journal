@@ -6,8 +6,7 @@
 @import "_titles.scss";
 @import "_boxes.scss";
 @import "_cta.scss";
-@import "_topbar.scss";
-@import "_navbar.scss"; 
+@import "_bars.scss";
 @import "_dropdown.scss";
 @import "_form-elements.scss";
 @import "_revolution-slider.scss";
@@ -18,31 +17,9 @@
 @import "_footer.scss";
 @import "_staff.scss";
 @import "_accordions.scss";
-
-
-.pattern-bg-dark{
-    background: url('../images/patterns/brick-wall-1A2530-1920x1080.png') repeat;
-    padding:60px 0;
-}
-
-.pattern-bg-mid{
-    background: url('../images/patterns/brick-wall-98A3AE-1920x1080.png') repeat;
-    padding:60px 0;
-}
-
-.pattern-bg-mid-shorter{
-    background: url('../images/patterns/brick-wall-98A3AE-1920x1080.png') repeat;
-    padding:30px 0;
-}
-
-.pattern-bg-mid-shorter{
-    padding:20px 0;
-}
-
-.pattern-bg-light{
-    background: url('../images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat;
-    padding:60px 0;
-}
+@import "_icons.scss";
+@import "_backgrounds.scss";
+@import "_process.scss";
 
 .archives-info{
     background-color: $brand-body;

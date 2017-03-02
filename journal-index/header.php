@@ -9,17 +9,17 @@
         <title>Journal of the National Student Association of Medical Research</title>
 
         <!-- Bootstrap -->
-        <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="static/css/animate.css" rel="stylesheet">
-        <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="static/owl-carousel/owl.carousel.css" rel="stylesheet">
-        <link href="static/owl-carousel/owl.theme.css" rel="stylesheet">
-        <link href="static/owl-carousel/owl.transitions.css" rel="stylesheet">
-        <link href="static/flexslider/flexslider.css" rel="stylesheet">
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/css/animate.css" rel="stylesheet">
+        <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/static/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="/static/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="/static/owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="/static/flexslider/flexslider.css" rel="stylesheet">
 
         <!--Revolution slider css-->
-        <link href="static/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
-        <link href="static/css/style.css" rel="stylesheet">
+        <link href="/static/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="/static/css/style.css" rel="stylesheet">
     </head>
 
     <body>
@@ -61,20 +61,14 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">About JNSAMR</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Hosting</a></li>
+                                    <li><a href="aboutjnsamr.php">About JNSAMR</a></li>
+                                    <li><a href="philosophy.php">Our Philosophy of Academia</a></li>
+                                    <li><a href="faq.php">FAQ</a></li>
+                                    <li><a href="hosting.php">Hosting</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Current Issue</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                    <li><a href="#">2017 Issue 3</a></li>
-                                    <li><a href="#">2017 Issue 2</a></li>
-                                    <li><a href="#">2017 Issue 1</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="#">Current Issue</a></li>
+                            <li><a href="#">Archive</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                                 <ul class="dropdown-menu">

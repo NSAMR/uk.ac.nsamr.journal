@@ -1,6 +1,7 @@
-/* 
-    Navbar css
+/*
+Bars
 */
+
 .navbar-inverse {
     background: $brand-primary;
     border:0px;
@@ -72,11 +73,54 @@
 }
 
 
-@media(max-width:767px){
+@media(max-width:767px){ //TODO
     .navbar-inverse .navbar-toggle{
         border: 0px;
     }
     .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
         background-color: transparent;
     }
+}
+
+.top-bar{
+    border-bottom:1px solid $light;
+    padding:6px 0;
+    span{
+        display: inline-block;
+        line-height:32px;
+        padding:0px 10px;
+        a{
+            padding: 4px 10px;
+            
+            font-size: 12px;
+            line-height: 20px;
+            font-family: $base-font;
+            font-weight: 400;
+            display: block;
+            margin-top: 3px;
+            color: $light;
+            
+            &:hover{
+                
+                color: $midlight;
+                &:active{
+                    color: $mid;
+                }
+            }
+        }
+        i{
+            color: $light;
+            margin-right: 5px;
+        }
+    }
+    &.dark{
+        background-color: $brand-secondary;
+        border-bottom: 0px;
+        color: $light;
+    }
+}
+
+.breadcrumb {
+  background-color: transparent; // Override
+  margin-bottom: 0px;
 }
