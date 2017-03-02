@@ -75,18 +75,18 @@
         <!--footer end-->
 
         <!-- jQuery -->
-        <script src="/static/js/jquery.min.js"></script>
-        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
-        <script src="/static/js/wow.min.js"></script>
-        <script src="/static/js/bootstrap-hover-dropdown.min.js"></script>
-        <script src="/static/js/jquery.stellar.min.js"></script>
-        <script src="/static/flexslider/jquery.flexslider-min.js"></script>
-        <script src="/static/owl-carousel/owl.carousel.min.js"></script>
-        <script src="/static/js/custom.js"></script>
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="static/js/wow.min.js"></script>
+        <script src="static/js/bootstrap-hover-dropdown.min.js"></script>
+        <script src="static/js/jquery.stellar.min.js"></script>
+        <script src="static/flexslider/jquery.flexslider-min.js"></script>
+        <script src="static/owl-carousel/owl.carousel.min.js"></script>
+        <script src="static/js/custom.js"></script>
 
         <!--revolution slider plugins-->
-        <script src="/static/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-        <script src="/static/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/static/js/revolution-custom.js"></script>
+        <script src="static/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="static/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="static/js/revolution-custom.js"></script>
     </body>
 </html>
