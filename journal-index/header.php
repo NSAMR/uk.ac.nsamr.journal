@@ -28,14 +28,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <ul class="list-inline footer-social">
-                            <li>
-                                <a href="#" class="social-icon si-dark si-gray-round si-colored-email">
-                                    <i class="fa fa-envelope"></i>
-                                    <i class="fa fa-envelope"></i>
-                                </a>
-                            </li>
-                           
+                        <ul class="list-inline">                           
                             <li>
                                 <a href="#" class="social-icon si-dark si-gray-round si-colored-facebook">
                                     <i class="fa fa-facebook"></i>
