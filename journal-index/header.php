@@ -88,7 +88,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                        <a class="navbar-brand img-responsive" href="index.php"><img src="static/images/nsamr-logos/logo-long-3x.png" alt="NSAMR logo"></a>
+                        <a class="navbar-brand img-responsive" href="index.php"><img src="static/images/nsamr-logos/jnsamr-logo-long-300dpi.png" alt="JNSAMR logo"></a>
                 </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
