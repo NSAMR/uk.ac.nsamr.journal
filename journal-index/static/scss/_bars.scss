@@ -84,20 +84,19 @@ Bars
 
 .top-bar{
     border-bottom:1px solid $light;
-    padding:6px 0;
+    padding:10px 0 10px 0;
     span{
         display: inline-block;
         line-height:32px;
         padding:0px 10px;
         a{
             padding: 4px 10px;
-            
             font-size: 12px;
             line-height: 20px;
             font-family: $base-font;
-            font-weight: 400;
+            font-weight: 900;
             display: block;
-            margin-top: 3px;
+            margin-top: 12px;
             color: $light;
             
             &:hover{
