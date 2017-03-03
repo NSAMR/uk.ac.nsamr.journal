@@ -1,6 +1,7 @@
 /*
-accordions
+Accordions
 */
+
 .panel-group{
     .panel{
         @include border-radius(0px);
@@ -9,10 +10,15 @@ accordions
 
 .panel-default>.panel-heading{
     background: $midlight;
+    color: $darkest;
 }
 
 .panel-title{
-    color:$brand-primary;
+    color: $darkest;
+}
+
+.panel-body{
+    background: $lightest;
 }
 
 .panel-group .panel .panel-heading .panel-title a:before {

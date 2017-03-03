@@ -52,6 +52,7 @@ Icons style
 
 .step:hover .icon-square i {
   background-color: #32c5d2;
+  
   color: #FFF;
 }
 
@@ -66,4 +67,8 @@ Icons style
   text-transform: uppercase;
   color: #000;
   font-size: 20px;
+}
+
+.icon-with-space{
+  margin-right: 5px;
 }
