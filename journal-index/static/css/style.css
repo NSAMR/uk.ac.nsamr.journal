@@ -1188,7 +1188,7 @@ Staff
 }
 
 /*
-accordions
+Accordions
 */
 .panel-group .panel {
   -webkit-border-radius: 0px;
@@ -1199,10 +1199,15 @@ accordions
 
 .panel-default > .panel-heading {
   background: #C2C5C3;
+  color: #322F33;
 }
 
 .panel-title {
-  color: #1A2530;
+  color: #322F33;
+}
+
+.panel-body {
+  background: #F2F7F3;
 }
 
 .panel-group .panel .panel-heading .panel-title a:before {
@@ -1285,6 +1290,10 @@ Icons style
   text-transform: uppercase;
   color: #000;
   font-size: 20px;
+}
+
+.icon-with-space {
+  margin-right: 5px;
 }
 
 /*
