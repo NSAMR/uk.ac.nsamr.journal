@@ -27,9 +27,51 @@
         <div class="top-bar dark">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 hidden-xs">
+                    <div class="col-sm-6">
+                        <ul class="list-inline footer-social">
+                            <li>
+                                <a href="#" class="social-icon si-dark si-gray-round si-colored-email">
+                                    <i class="fa fa-envelope"></i>
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a href="#" class="social-icon si-dark si-gray-round si-colored-facebook">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon si-dark si-gray-round si-colored-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon si-dark si-gray-round si-colored-google-plus">
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon si-dark si-gray-round si-colored-linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon si-dark si-gray-round si-colored-github">
+                                    <i class="fa fa-github"></i>
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li> 
+                        </ul>
+
+                        <!--
                         <span><i class="fa fa-phone"></i> +4400 0000 0000</span>
                         <span><i class="fa fa-envelope"></i> journal@nsamr.ac.uk</span>
+                    -->
                     </div>
                     <div class="col-sm-6 text-right">
                         <span><a href="login.php" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
