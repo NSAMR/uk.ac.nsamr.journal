@@ -18,11 +18,23 @@
 </div>
 <!--end call to action-->
 
-<div class="space40"></div> 
+<!-- Breadcrumbs -->
+<div class="pattern-bg-light-supershort col-sm-12 hidden-xs text-right">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>About JNSAMR</li>
+            </ol>
+        </div>
+    </div>
+</div><!-- End breadcrumbs-->
+<div class="space40"></div>
+<div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
 
+<!-- Start about section -->
 <div class="container">
-    <!-- Top paragraph -->
-    <div class="row">
+    <div class="row">    
         <div class="col-md-6 margin20">
             <h3 class="heading">A little about us</h3>
             <p>
