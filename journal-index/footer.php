@@ -1,3 +1,18 @@
+        <!-- Newsletter section -->
+            <div class="pattern-bg-dark">
+                <div class="newsletter-section">
+                    <div class="container">
+                       <div class="center-heading margin-btm-50">
+                        <label for="tlemail"><h2>Subscribe to our newsletter</h2></label>
+                        <p>Low-volume: just announcements about new issues.<br>No spam, ever, promise.</p>        
+                        <form action="https://tinyletter.com/nsamr" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nsamr', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                        <p><input type="text" name="email" id="tlemail" class="form-control" placeholder="Email address..." style="width:300px"><input type="hidden" value="1" name="embed"/><input  class="btn btn-action btn-lg" type="submit" value="Subscribe" /></p>
+                        <p style="text-align:right">powered by <a href="https://tinyletter.com" target="_blank" class="a-light">TinyLetter</a></p></form></li>
+                    </div>
+                </div><!-- End newsletter-->
+            </div>
+
+            
         <!--footer start-->
         <footer class="footer" id="footer">
             <div class="container">
@@ -53,16 +68,10 @@
                         </ul>
                     </div>
                     <div class="col-md-3 margin-btm-30">
-                        <h3>Contact us</h3>
-                        <ul class="list-inline footer-social">
-                            <li><a href="#"><i class="fa fa-home"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <h3>Keep in touch</h3>
+                        <ul class="list-unstyled f-post">
+                            <li><p class="email"><i class="icon-with-space fa fa-envelope"></i>journal@nsamr.ac.uk</p></li>
                         </ul>
-                        <p class="phone"><i class="fa fa-phone"></i> +4420 0000 0000</p>
-                        <p class="email"><i class="fa fa-envelope"></i> journal@nsamr.ac.uk</p>
                     </div>
                 </div>
             </div>
