@@ -1,8 +1,8 @@
 /*
-Staff
+Team
 */
 
-.staff{
+.team{
     h4{
         text-transform: uppercase;
         margin-bottom: 3px;
@@ -12,4 +12,37 @@ Staff
         display: block;
         font-style: italic;
     }
+}
+
+.team-wrap {
+  padding: 3px 3px 10px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+.team-wrap ul {
+  margin: 0;
+  padding: 0;
+}
+.team-wrap ul li {
+  padding: 0px;
+}
+.team-wrap ul li a {
+  margin-bottom: 0px;
+}
+
+.team-wrap h4 {
+  margin-bottom: 3px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.team-wrap span {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #777;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
