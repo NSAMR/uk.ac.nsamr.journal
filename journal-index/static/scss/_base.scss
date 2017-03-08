@@ -34,6 +34,18 @@ a,a:hover,a:focus{
     outline: 0 !important;  
 }
 
+.a-light{
+    @include transition(all 0.3s);
+    font-weight: 700;
+    color: $lightest;
+    &:hover{
+        color: $mid;
+        &:active{
+            color: $midlight;
+        }
+    }
+}
+
 button:focus{
     outline: 0 !important;
 }
