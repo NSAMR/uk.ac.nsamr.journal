@@ -21,6 +21,9 @@ a{
             color: $midlight;
         }
     }
+    &:visited{
+        color:$brand-selection-3;
+    }
 }
 button{
   @include transition(all 0.3s);
@@ -43,6 +46,9 @@ a,a:hover,a:focus{
         &:active{
             color: $midlight;
         }
+    }
+    &:visited{
+        color:$lightest;
     }
 }
 
