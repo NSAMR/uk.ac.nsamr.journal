@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:26
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-animal-rights:before { content: "\f100"; }
+.flaticon-animal-shelter:before { content: "\f101"; }
+.flaticon-apple:before { content: "\f102"; }
+.flaticon-awareness:before { content: "\f103"; }
+.flaticon-ballons:before { content: "\f104"; }
+.flaticon-blood-donation:before { content: "\f105"; }
+.flaticon-box:before { content: "\f106"; }
+.flaticon-cash-box:before { content: "\f107"; }
+.flaticon-charity-app:before { content: "\f108"; }
+.flaticon-charity-food:before { content: "\f109"; }
+.flaticon-charity-shop:before { content: "\f10a"; }
+.flaticon-clean-water:before { content: "\f10b"; }
+.flaticon-clothes-donation:before { content: "\f10c"; }
+.flaticon-cross:before { content: "\f10d"; }
+.flaticon-dog-pawprint:before { content: "\f10e"; }
+.flaticon-donation:before { content: "\f10f"; }
+.flaticon-donation-box:before { content: "\f110"; }
+.flaticon-education:before { content: "\f111"; }
+.flaticon-enviromental-protection:before { content: "\f112"; }
+.flaticon-equality:before { content: "\f113"; }
+.flaticon-first-aid-kit:before { content: "\f114"; }
+.flaticon-food:before { content: "\f115"; }
+.flaticon-freedom:before { content: "\f116"; }
+.flaticon-gift:before { content: "\f117"; }
+.flaticon-happy-kids:before { content: "\f118"; }
+.flaticon-heart:before { content: "\f119"; }
+.flaticon-heart-drop:before { content: "\f11a"; }
+.flaticon-hospital:before { content: "\f11b"; }
+.flaticon-human:before { content: "\f11c"; }
+.flaticon-hut:before { content: "\f11d"; }
+.flaticon-lifesaver:before { content: "\f11e"; }
+.flaticon-medicine:before { content: "\f11f"; }
+.flaticon-money:before { content: "\f120"; }
+.flaticon-people:before { content: "\f121"; }
+.flaticon-plant-heart:before { content: "\f122"; }
+.flaticon-reforestation:before { content: "\f123"; }
+.flaticon-research:before { content: "\f124"; }
+.flaticon-ribbon:before { content: "\f125"; }
+.flaticon-school:before { content: "\f126"; }
+.flaticon-sharing:before { content: "\f127"; }
+.flaticon-shelter:before { content: "\f128"; }
+.flaticon-shelter-1:before { content: "\f129"; }
+.flaticon-shelter-beds:before { content: "\f12a"; }
+.flaticon-smiley-face:before { content: "\f12b"; }
+.flaticon-soup:before { content: "\f12c"; }
+.flaticon-vaccine:before { content: "\f12d"; }
+.flaticon-voluntary-service:before { content: "\f12e"; }
+.flaticon-well:before { content: "\f12f"; }
+.flaticon-wheelchair:before { content: "\f130"; }
+.flaticon-world:before { content: "\f131"; }
