@@ -97,7 +97,7 @@
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="aboutjnsamr.php">About JNSAMR</a></li>
-                                    <li><a href="philosophy.php">Our Philosophy of Academia</a></li>
+                                    <li><a href="philosophy.php">Our Philosophy</a></li>
                                     <li><a href="faq.php">FAQ</a></li>
                                     <li><a href="hosting.php">Hosting</a></li>
                                 </ul>
