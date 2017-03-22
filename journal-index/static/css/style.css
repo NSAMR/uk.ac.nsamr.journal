@@ -38,6 +38,9 @@ a:hover {
 a:hover:active {
   color: #C2C5C3;
 }
+a:visited {
+  color: #2C5A8F;
+}
 
 button {
   -moz-transition: all 0.3s;
@@ -52,6 +55,24 @@ button:focus {
 a, a:hover, a:focus {
   text-decoration: none;
   outline: 0 !important;
+}
+
+.a-light {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+  color: #F2F7F3;
+}
+.a-light:hover {
+  color: #AAACAB;
+}
+.a-light:hover:active {
+  color: #C2C5C3;
+}
+.a-light:visited {
+  color: #F2F7F3;
 }
 
 button:focus {
@@ -239,6 +260,7 @@ Buttons style
   text-transform: uppercase;
   font-size: 16px;
   margin: 5px;
+  color: #DADEDB;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -261,6 +283,10 @@ Buttons style
 }
 .btn i {
   margin-left: 5px;
+}
+
+.btn-nomargin {
+  margin: 0px;
 }
 
 .btn-lg {
@@ -513,7 +539,7 @@ Call to action
   color: #F2F7F3;
 }
 .cta-text h2 {
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 .cta-text p {
@@ -1175,16 +1201,52 @@ Footer styles
 }
 
 /*
-Staff
+Team
 */
-.staff h4 {
+.team h4 {
   text-transform: uppercase;
   margin-bottom: 3px;
 }
-.staff span {
+.team span {
   color: #30415D;
   display: block;
   font-style: italic;
+}
+
+.team-wrap {
+  padding: 3px 3px 10px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.team-wrap ul {
+  margin: 0;
+  padding: 0;
+}
+
+.team-wrap ul li {
+  padding: 0px;
+}
+
+.team-wrap ul li a {
+  margin-bottom: 0px;
+}
+
+.team-wrap h4 {
+  margin-bottom: 3px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.team-wrap span {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #777;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
 /*
@@ -1293,7 +1355,7 @@ Icons style
 }
 
 .icon-with-space {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 /*
@@ -1560,6 +1622,50 @@ Default size
   margin-top: -40px;
 }
 
+/*
+Small size
+*/
+.social-icon-sm {
+  margin: 0 5px 5px 0;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px !important;
+  color: #555;
+  text-shadow: none;
+  border-radius: 3px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  text-align: center;
+  border: 1px solid #AAA;
+}
+
+.social-icon-sm:hover {
+  border-color: transparent;
+}
+
+.social-icon-sm i {
+  display: block;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 30px;
+  position: relative;
+}
+
+.social-icon-sm i:last-child {
+  color: #FFF !important;
+}
+
+.social-icon-sm:hover i:first-child {
+  margin-top: -30px;
+}
+
+/*
+General styling
+*/
 si-border {
   border: 1px solid #AAA !important;
 }
@@ -1705,6 +1811,10 @@ Coloured hover
 
 .si-wordpress:hover, .si-colored-wordpress {
   background-color: #1E8CBE !important;
+}
+
+.si-home:hover, .si-colored-home {
+  background-color: #EA4C89 !important;
 }
 
 .social-shortcodes .left-heading {
