@@ -8,18 +8,22 @@
 
         <title>Journal of the National Student Association of Medical Research</title>
 
-        <!-- Bootstrap -->
+        <!-- Bootstrap and other styling packages -->
         <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="static/css/animate.css" rel="stylesheet">
+        <link href="static/flaticons/flaticon.css" rel="stylesheet">
         <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!-- Sliders -->
+        <link href="static/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
         <link href="static/owl-carousel/owl.carousel.css" rel="stylesheet">
         <link href="static/owl-carousel/owl.theme.css" rel="stylesheet">
         <link href="static/owl-carousel/owl.transitions.css" rel="stylesheet">
         <link href="static/flexslider/flexslider.css" rel="stylesheet">
 
-        <!--Revolution slider css-->
-        <link href="static/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
+        <!-- Master CSS file -->
         <link href="static/css/style.css" rel="stylesheet">
+
     </head>
 
     <body>
