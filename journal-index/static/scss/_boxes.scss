@@ -66,7 +66,51 @@ Boxes
     }
 }
 
+.light-box{
+    background: $lightestest;
+    @include border-radius(5px);
+    padding:25px 20px;
+}
 
+.icon-box{
+    padding-bottom:20px;
+    i{
+            display: block;
+        width: 80px;
+        line-height: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 35px;
+        border-radius: 50%;
+        background-color: $skincolor;
+        color: $lightestest;
+        box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    }
+
+    .fill-color-1{
+        background-color: $brand-selection-1;
+    }
+    .fill-color-2{
+        background-color: $brand-selection-2;
+    }
+    .fill-color-3{
+        background-color: $brand-selection-3;
+    }
+    .fill-color-4{
+        background-color: $brand-selection-4;
+    }
+
+    .content{
+        overflow: hidden;
+        h4{
+            font-family: $title-font;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}
 
 .course-box{
     border: 1px solid #ddd;
