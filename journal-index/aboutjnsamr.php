@@ -34,148 +34,207 @@
 
 <!-- Start about section -->
 <div class="container">
-    <div class="row">    
-        <div class="col-md-6 margin20">
-            <h3 class="heading">A little about us</h3>
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni. Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-            </p>
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni. Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-            </p>
-        </div>
-        <div class="col-md-6">
-            <img src="static/images/assorted/manuscript-729617_1920.jpg" class="img-responsive" alt="">
-        </div>
-    </div><!-- End row-->
 
-    <div class="space40"></div> 
+        <!-- Start revolution slider -->
+        <!--rev slider start-->
 
-    <!-- Start of three columns -->
-    <div class="row">
+        <div class="tp-banner-container">
+            <div class="tp-banner-boxed">
+                <ul>
+                    <!-- SLIDE -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
+                        <!-- MAIN IMAGE -->
+                        <img src="img/bg-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <div class="caption sfb bold uppercase-title text-center"
+                             data-x="center"
+                             data-y="158" 
+                             data-speed="900"
+                             data-start="800"
+                             data-easing="Sine.easeOut">Hello! This is Assan</div>
+                        <div class="caption sfb lowercase-caption text-center" 
+                             data-x="center"
+                             data-y="218"
+                             data-speed="900"
+                             data-start="1500"
+                             data-easing="Sine.easeOut">A responsive site template with a clean and profession design 
+                            <br />that will be a great solution for your business, portfolio, Shop or any other purpose.</div>
+                        <div class="caption rev-buttons tp-resizeme sfb" 
+                             data-x="center" 
+                             data-y="313"
+                             data-speed="900"
+                             data-start="2200" 
+                             data-easing="Sine.easeOut">
+                            <a href="#" class="btn btn-theme-bg btn-lg">Purchase Now</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+                        <!-- MAIN IMAGE -->
+                        <img src="rev-images/slider-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
-        <!-- First column -->
-        <div class="col-md-4 margin20">
-            <h3 class="heading">What do we publish?</h3>
-            <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                <i class="fa fa-pencil-square-o icon-with-space"></i>    Any original academic material
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <p>Including articles, abstracts, posters, letters, and case reports, provided that they fall within our remit and that the quality is high enough.</p>
-                            <p>We fully support the publication of negative results.</p>
+                        <div class="tp-caption lft"
+                             data-x="578"
+                             data-y="120" 
+                             data-speed="900"
+                             data-start="2100"
+                             data-easing="Sine.easeOut">
+                            <img src="rev-images/mockup-all.png" alt="" />
                         </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                <i class="fa fa-file-text-o icon-with-space"></i>    Articles
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Including original experimental research, critical reviews, and lab reports. We are happy to consider publishing the results of very small studies, and even work-in-progress if we consider it to be of interest to the academic community.
+
+                        <div class="tp-caption sft modern_big_bluebg rev-title-v1"
+                             data-x="35" data-y="200"
+                             data-speed="500"
+                             data-start="800"
+                             data-easing="Sine.easeOut">
+                            Powerful Template
                         </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <i class="fa fa-file-image-o icon-with-space"></i>    Abstracts and posters
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            We offer a platform for the publication of abstracts and posters (provided they are not already published elsewhere). This is an excellent way for you to disseminate work that you might have done as part of your course. If your abstract describes a poster that you also submit to us, we will review and publish them together as a set.
+                        <div class="tp-caption sfr modern_big_bluebg rev-title-v1"
+                             data-x="35"
+                             data-y="265"
+                             data-speed="500"
+                             data-start="1300"
+                             data-easing="Sine.easeOut">
+                            Unlimited layouts
                         </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                <i class="fa fa-envelope-o icon-with-space"></i>    Letters
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseFour" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            We offer the opportunity for you to respond to work that we have previously pubilshed by writing us a letter. Furthermore, we are always interested in the views of medical students regarding current research or topical news.
+                        <div class="caption sfb rev-buttons tp-resizeme"
+                             data-x="35"
+                             data-y="330"
+                             data-speed="500"
+                             data-start="1800"
+                             data-easing="Sine.easeOut">
+                            <a href="#" class="btn btn-theme-bg btn-lg">Purchase Now</a>
                         </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                <i class="fa fa-stethoscope icon-with-space"></i>    Case reports
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseFive" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            We promote the publication of reports covering striking or perhaps unusual cases, as this provides both interest and a wider general medical education.
+                    </li>
+                    <!-- SLIDE -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 3">
+                        <!-- MAIN IMAGE -->
+                        <img src="rev-images/slider-5.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lft"
+                             data-x="35" 
+                             data-y="140"
+                             data-speed="900"
+                             data-start="800" 
+                             data-easing="Sine.easeOut">
+                            <img src="rev-images/macbook.png" alt="" />
                         </div>
-                    </div>
-                </div>
+                        <div class="tp-caption lfr"
+                             data-x="375"
+                             data-y="180"
+                             data-speed="900" 
+                             data-start="1500"
+                             data-easing="Sine.easeOut">
+                            <img src="rev-images/ipad.png" alt="" />
+                        </div>
+                        <div class="tp-caption lfl" 
+                             data-x="348"
+                             data-y="249"
+                             data-speed="900"
+                             data-start="1800"
+                             data-easing="Sine.easeOut">
+                            <img src="rev-images/iphone.png" alt="" />
+                        </div>
+                        <div class="tp-caption sfr modern_big_redbg" 
+                             data-x="750"
+                             data-y="185"
+                             data-speed="400"
+                             data-start="2500"
+                             data-easing="Sine.easeOut">
+                            100% Responsive
+                        </div>
+                        <div class="tp-caption sfr modern_big_redbg"
+                             data-x="750" 
+                             data-y="237"
+                             data-speed="400"
+                             data-start="2900"
+                             data-easing="Sine.easeOut">
+                            80+ layouts
+                        </div>
+                        <div class="tp-caption sfr modern_big_redbg"
+                             data-x="750" data-y="289"
+                             data-speed="400"
+                             data-start="3300" 
+                             data-easing="Sine.easeOut">
+                            Revolution Slider
+                        </div>
+                        <div class="caption sfr rev-buttons tp-resizeme " 
+                             data-x="750"
+                             data-y="341" 
+                             data-speed="400" 
+                             data-start="3700" 
+                             data-easing="Sine.easeOut">
+                            <a href="#" class="btn btn-lg border-white">See all features</a>
+                        </div>
+
+
+                    </li>
+                </ul>
             </div>
-        </div>
+        </div><!--full width banner-->
+        
+        <!-- Left hand section -->  
+        <div class="col-md-8 margin20">
+            <!-- Start light-box -->
+            <div class="light-box clearfix">
 
-        <!-- Second column -->
-        <div class="col-md-4 margin20">
-            <h3 class="heading">What areas do we cover?</h3>
-            <div class="space20"></div>
-            <div class="skills-wrapper wow animated bounceIn animated" data-wow-delay="0.2s">
-                <h4 class="heading-progress">Cardiology <span class="pull-right">88%</span></h3>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar">
+                <!-- Start icon-box -->
+                <div class="icon-box clearfix">
+
+                    <i class="flaticon-dog-pawprint fill-color-1"></i>
+                    <div class="content">
+                        <h4>We promote Open Research</h4>
+                        <p>
+                            Open Research doesn't just mean Open Access. We encourage publication of all data and analytical tools used in each manuscript, allowing these, as well as figures, to be cited individually in future work.
+                        </p>
                     </div>
                 </div>
-                <h4 class="heading-progress">Endocrinology <span class="pull-right">78%</span></h3>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 78%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" role="progressbar">
+
+                <!-- Start icon-box -->
+                <div class="icon-box clearfix">
+                    <i class="flaticon-dog-pawprint"></i>
+                    <div class="content">
+                        <h4>We believe in transparency</h4>
+                        <p>
+                            We will publish all conversations between authors and reviewers, alongisde all revisions of each manuscript. 
+                        </p>
+                        <p>
+                            While our review process is double-blind, we encourage reviewers to reveal their identities after publication of the manuscript. Not only can reviewers then claim credit for their work, but any potential conflicts of interest will subject to public scrutiny.
+                        </p>
                     </div>
                 </div>
-                <h4 class="heading-progress">Neurology <span class="pull-right">82%</span></h3>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 82%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="82" role="progressbar">
-                    </div>
-                </div>   
-                <h4 class="heading-progress">Psychiatry <span class="pull-right">72%</span></h3>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 72%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="72" role="progressbar">
-                    </div>
-                </div> 
-            </div>
-        </div>
 
-        <!-- Third column -->
+                <!-- Start icon-box -->
+                <div class="icon-box clearfix">
+                    <i class="flaticon-dog-pawprint"></i>
+                    <div class="content">
+                        <h4>We encourage wider access</h4>
+                        <p>
+                            It is important that the wider public have access to academic research, and also that medical students have more opportunities to participate in research during their training. Improving access will drive up standards, benefitting all.
+                        </p>
+                    </div>
+                </div>
+
+            </div><!-- End light-box -->
+        </div><!-- End left-hand section -->
+
+        <!-- Right-hand section -->
         <div class="col-md-4 margin20">
             <h3 class="heading">Reasons to publish with us</h3>
             <div class="space20"></div>
             <ul class="list-unstyled highlight-list">
-                <li><i class="fa fa-check icon-with-space"></i>The first high-quality Open Access student-led academic journal in the UK</li>
+                <li><i class="fa fa-check icon-with-space"></i>The first high-quality student-led academic journal in the UK which promotes Open Research as well as Open Access</li>
                 <li><i class="fa fa-check icon-with-space"></i>No publication fees. Ever.</li>
                 <li><i class="fa fa-check icon-with-space"></i>Submission-to-publication time of three weeks (depending on number of review rounds)</li>
                 <li><i class="fa fa-check icon-with-space"></i>Wide range of articles and areas</li>
                 <li><i class="fa fa-check icon-with-space"></i>Transparent peer-review process with publication of all correspondence and manuscript versions</li>
                 <li><i class="fa fa-check icon-with-space"></i>Robust and user-friendly submission portal</li>
                 <li><i class="fa fa-check icon-with-space"></i>Excellent Open credentials</li>
-                
             </ul>
-        </div>
-    </div><!-- End row -->
+        </div><!-- End right-hand section -->    
+
+    <div class="space40"></div> 
+
+    <img src="static/images/assorted/manuscript-729617_1920.jpg" class="img-responsive" alt="">
+    
 </div><!-- End container -->
 
 <!--Call to action -->
