@@ -33,7 +33,7 @@
             <div class="tab-content">
                 <div class="space40"></div> 
                 <div class="tab-pane active" id="authorpolicies">
-                    <?php include('authorpolicies.php'); ?>
+                    <?php include('authorpolicies2.php'); ?>
                 </div>
                 <div class="tab-pane" id="manuscriptpreparation">
                     <?php include('manuscriptpreparation.php'); ?>
@@ -42,23 +42,6 @@
                 </div>
             </div>
       </div><!--END TABS-->
-
-      <!--SIDEBAR-->
-      <div class="col-sm-3 margin40">
-        <div class="side-nav-wrapper">
-            <ul class="list-unstyled link-list">
-                <li><a href="#" class="active">Online submission</a></li>
-                <li><a href="#">Eligibility</a></li>
-                <li><a href="#">Author ethics</a></li>
-                <li><a href="#">Authorship</a></li>
-                <li><a href="#">Originality</a></li>
-                <li><a href="#">Conflict of interest</a></li>
-                <li><a href="#">Confidentiality</a></li>
-                <li><a href="#">Copyright</a></li>
-                <li><a href="#">Privacy statement</a></li>
-            </ul>
-        </div>
-    </div><!--END SIDEBAR-->
 </div><!--END ROW-->
 <div class="space40"></div> 
 </div><!--END MAIN BODY CONTAINER-->
