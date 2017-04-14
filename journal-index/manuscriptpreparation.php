@@ -29,7 +29,7 @@
                 </div>
                 <div id="collapse-sg" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="sg">
                     <div class="panel-body">
-                        <p>All manuscripts must adhere to the following style guidelines, otherwise they will be rejected outright. Please see the example submission (HYPERLINK XX) and submission template (HYPERLINK XX). Manuscript contents for each article type can be found under the relevant article in article policies.</p>
+                        <p>All manuscripts must adhere to the following style guidelines, otherwise they will be rejected outright. Please see the example submission (PDF)(HYPERLINK XX) and LaTeX submission template (HYPERLINK XX). If you are unfamilliar with LaTeX, then please submit your manuscript in PDF form, and ensure it is: 11pt font, 2.0 line spacing, with headings and subheadings clearely legible, and figures included at the end of the document in the order they appear in the document with their place clearly labelled in the text body. Manuscript contents for each article type can be found under the relevant article in article policies.</p>
                     </div>
                 </div>
 
