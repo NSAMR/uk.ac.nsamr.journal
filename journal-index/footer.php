@@ -17,7 +17,7 @@
                         <ul class="list-unstyled f-list">
                             <li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
                             <li><a href="#">Terms and Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="privacypolicy.php">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 margin-btm-30">
