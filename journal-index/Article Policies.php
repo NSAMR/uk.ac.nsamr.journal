@@ -88,6 +88,7 @@
 						<li>1500-2000 words.</li>
 						<li>To include: Title page, structured abstract, introduction, materials and methods, results, discussion, conclusions.</li>
 						<li style=color:"red";>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as an "article" during the submission process.<li>
 					</ul>
 			</div>
 		<div class="p-subheading">Reports </div>
@@ -100,6 +101,7 @@
 						<li>2000-4000 words.</li>
 						<li>Title page, structured abstract, introduction, materials and methods, results, discussion, conclusions</li>
 						<li>Layout template can be found here</li>
+						<li>This should be submitted as an "article" during the submission process.<li>
 					</ul>
 			</div>	
 		<div class="p-subheading">Report Guidelines </div>
@@ -115,16 +117,19 @@
 			<div>
 				<p>The JNSAMR Case Reports section includes articles which describe a single patient (case report), a series of related patients (case series), a single patient with questions (case quiz), a single or series of patients with a literature review (case review).</p>
 				<p>All patients included in the Case Reports Section must have a signed consent form.</p>
+				<li>This should be submitted as a "case report" during the submission process.<li>
 			</div>	
 		<div class="p-subheading">Case Description </div>
 			<div>
 				<p>Case descriptions should include presenting symptoms and signs (relevant points taken from the standard medical history: history of presenting complaint, past medical and surgical history, allergies, medications, social history, family history, systems review, examination), investigations performed and main findings (including blood results and imaging), main diagnosis, therapeutic interventions (if applicable), follow up information (if applicable).</p>
 				<p>Description of cases in a case series is more flexible, as repetition should be avoided. </p>
+				<li>This should be submitted as a "case report" during the submission process.<li>
 			</div>	
 		<div class="p-subheading">Case Discussion </div>
 			<div>
 				<p>Discussion of cases should focus on the interesting or unusual aspects of the case. Authors should also discuss strengths and limitations of the case report and its place in the relevant literature.</p>
 				<p>At the end of the discussion 2-3 learning points drawn from the case should be included.</p>
+				<li>This should be submitted as a "case report" during the submission process.<li>
 			</div>			
 		<div class="p-subheading">Case Report </div>
 			<div>
@@ -136,6 +141,7 @@
 						<li>Maximum 15 references.</li>
 						<li>To include: Title Page, Introduction, Case Description, Discussion, Learning Points, References.</li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "case report" during the submission process.<li>
 					</ul>
 			</div>	
 		<div class="p-subheading">Case Series </div>
@@ -148,6 +154,7 @@
 						<li>Maximum 20 references.</li>
 						<li>To include: Title Page, Introduction, Case Description, Discussion, Learning Points, References.</li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "case report" during the submission process.<li>
 					</ul>
 			</div>	
 		<div class="p-subheading">Case Quiz </div>
@@ -160,6 +167,7 @@
 						<li>Maximum 5 references.</li>
 						<li>To include: Title Page, Case Description, Questions, Answers and Explanations, References.</li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "case report" during the submission process.<li>
 					</ul>
 			</div>			
 		<div class="p-subheading">Case Report or series and review </div>
@@ -172,6 +180,7 @@
 						<li>Maximum 40 references.</li>
 						<li>To include:Title Page, Introduction, Case Description(s) and Literature Review, Discussion, Learning Points, Conclusions, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "case report" during the submission process.<li>
 					</ul>
 			</div>	
 		<div class="p-subheading">View points </div>
@@ -187,6 +196,7 @@
 						<li>Maximum 10 references.</li>
 						<li>To include:Title Page, Main Text, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "case report" during the submission process.<li>
 					</ul>
 			</div>		
 		<div class="p-subheading">Reflections/Personal Experience </div>
@@ -199,6 +209,7 @@
 						<li>Maximum 5 references.</li>
 						<li>To include:Title Page, Main Text, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "letter" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>		
 		<div class="p-subheading">Personal Achievement </div>
@@ -211,6 +222,7 @@
 						<li>Maximum 5 references.</li>
 						<li>To include:Title Page, Main Text, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "letter" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>	
 		<div class="p-subheading">How To Tutorials </div>
@@ -222,12 +234,13 @@
 						<li>Maximum 20 references.</li>
 						<li>To include:Title Page, Main Text, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "letter" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>	
 		<div class="p-subheading">JNSAMR Competition </div>
 			<div>
-				<p>JNSAMR runs an annual competition. The deadline for this year's competition is XX.</p>
-				<p>The title for 2017-2018 is “What impact will BREXIT have on medical research?”</p>
+				<p>JNSAMR runs an annual competition. The deadline for the 2018 competition is TBA.</p>
+				<p>The title for is TBA</p>
 				<p>Prize: £100 and your article will be published in JNSAMR.</p>
 				<p>Structure:<p/>
 					<ul>
@@ -236,6 +249,7 @@
 						<li>Maximum 20 references.</li>
 						<li>To include:Title Page, Main Text, Conclusions, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "letter" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>		
 		<div class="p-subheading">Textbook/Online Resource Reviews </div>
@@ -247,6 +261,7 @@
 						<li>Maximum 5 references.</li>
 						<li>To include:Title Page, Main Text, Conclusions, References. </li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "letter" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>		
 		<div class="p-subheading">Images in Medicine </div>
@@ -256,9 +271,9 @@
 				<p>Structure:<p/>
 					<ul>
 						<li>150 word figure legend </li>
-						<li>To include:Title Page, Embedded Image, figure Legend </li>
-						<li>Image file(s) must also be submitted as a supplementary file (300dpi resolution).</li>
-						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>To include:Title Page, Image, figure Legend </li>
+						<li>Image file(s) must  be submitted as a .eps or .png (600dpi resolution) file.</li>
+						<li>This should be submitted as "artwork" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>		
 		<div class="p-subheading">Artwork </div>
@@ -268,9 +283,9 @@
 				<p>Structure:<p/>
 					<ul>
 						<li>50 word description </li>
-						<li>To include:Title Page, Embedded Image, Image Description </li>
-						<li>Image file must also be submitted as a supplementary file  (maximum resolution 1200dpi, minimum resolution 300dpi).</li>
-						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>To include:Title Page, Image, Image Description </li>
+						<li>Image file(s) must  be submitted as a .eps or .png (1200dpi) file.</li>
+						<li>This should be submitted as "artwork" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>				
 		<div class="p-subheading">Letters to the editor </div>
@@ -284,6 +299,7 @@
 						<li>maximum 5 references</li>
 						<li>To include: Title Page, Main Text, References</li>
 						<li>Layout template can be found here (XX HYPERLINK)</li>
+						<li>This should be submitted as a "letter" during the submission process, submissions in this category will be reviewed by the Editorial Team rather than the formal peer review process.<li>
 					</ul>
 			</div>					
 	</div>                       
