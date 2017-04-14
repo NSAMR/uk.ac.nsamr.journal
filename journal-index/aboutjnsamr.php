@@ -18,11 +18,23 @@
 </div>
 <!--end call to action-->
 
-<div class="space40"></div> 
+<!-- Breadcrumbs -->
+<div class="pattern-bg-light-supershort col-sm-12 hidden-xs text-right">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>About JNSAMR</li>
+            </ol>
+        </div>
+    </div>
+</div><!-- End breadcrumbs-->
+<div class="space40"></div>
+<div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
 
+<!-- Start about section -->
 <div class="container">
-    <!-- Top paragraph -->
-    <div class="row">
+    <div class="row">    
         <div class="col-md-6 margin20">
             <h3 class="heading"><b>A little about us</b></h3>
             <p>JSAMR is the Journal of Student Association of Medical Research (SAMR). JSAMR is a <b>high quality</b>, <b>open access</b>, <b>online only</b> journal that is authored, reviewed, and edited by <b>students</b>.</p>
@@ -162,10 +174,172 @@
             </ul>
         </div>
     </div><!-- End row -->
+</div><!-- End container -->
 
-</div><!-- End container-->
+<!--Call to action -->
+<div class="space40"></div> 
+<div class="pattern-bg-mid">
+    <div class="container">
+        <div class="row text-center">
+            <div class="cta-text">
+                <h2>Ready to submit?</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="space20"></div>
+            <a href="#" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
+        </div>
+    </div>
+</div>
+<!--End call to action -->
 
-</div><!-- End main body-->
+<!-- Start of team section -->
+<div class="space40"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="left-title-bar">
+                <h2>Core team members</h2>
+                <div class="space20"></div>
+                <p class="lead">JNSAMR was founded in 2017, and the core team is supported by the wider NSAMR committee, and teams of section editors and reviewers.</p>
+            </div>
+        </div>
+    </div>
+   
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/anon.jpg" class="img-responsive" alt="">
+                <h4>Matt Byrne</h4>
+                <span>Founder and Lead</span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis
+                </p>
+                  <ul class="list-inline">
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-facebook">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-twitter">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/helen-jackson.jpg" class="img-responsive" alt="">
+                <h4>Helen Jackson</h4>
+                <span>Founder and CTO</span>
+                <p>
+                    Helen is a grad-entry medic at King's College London, and a reformed academic. She likes Open, good science and common sense. She aspires to be a professional cat herder.
+                </p>
+                    <ul class="list-inline">
+                    <li>
+                        <a href="http://www.facebook.com/helenmaryjackson" class="social-icon-sm si-border si-facebook">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/DeckOfPandas" class="social-icon-sm si-border si-twitter">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/helenmaryjackson/" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.helenjackson.co.uk/" class="social-icon-sm si-border si-home">
+                            <i class="fa fa-home"></i>
+                            <i class="fa fa-home"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DeckOfPandas" class="social-icon-sm si-border si-github">
+                            <i class="fa fa-github"></i>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>                            
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/anon.jpg" class="img-responsive" alt="">
+                <h4>Steph Rees</h4>
+                <span>Founder and Editor</span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis
+                </p>
+                   <ul class="list-inline">
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-facebook">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-twitter">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/anon.jpg" class="img-responsive" alt="">
+                <h4>Person</h4>
+                <span>Role</span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis
+                </p>
+                  <ul class="list-inline">
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-facebook">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-twitter">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->   
+</div><!-- End team container-->
 
 <div class="space40"></div> 
 <!---PAGE FOOTER AND SCRIPTS-->

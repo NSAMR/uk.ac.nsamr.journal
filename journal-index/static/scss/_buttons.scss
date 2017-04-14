@@ -12,6 +12,7 @@ Buttons style
     text-transform: uppercase;
     font-size: 16px;
     margin: 5px;
+    color: $light;
     &:hover{
         color: $light;
             &:active{
@@ -31,6 +32,9 @@ Buttons style
     i{
         margin-left: 5px;
     }
+}
+.btn-nomargin{
+    margin: 0px;
 }
 .btn-lg{
     padding: 12px 25px;

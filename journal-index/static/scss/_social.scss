@@ -45,6 +45,50 @@ Default size
   margin-top: -40px;
 }
 
+
+/*
+Small size
+*/
+
+.social-icon-sm {
+  margin: 0 5px 5px 0;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px !important;
+  color: #555;
+  text-shadow: none;
+  border-radius: 3px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  text-align: center;
+  border: 1px solid #AAA;
+}
+.social-icon-sm:hover {
+  border-color: transparent;
+}
+
+.social-icon-sm i {
+  display: block;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 30px;
+  position: relative;
+}
+.social-icon-sm i:last-child {
+  color: #FFF !important;
+}
+
+.social-icon-sm:hover i:first-child {
+  margin-top: -30px;
+}
+
+/*
+General styling
+*/
 si-border {
   border: 1px solid #AAA !important; }
 
@@ -158,6 +202,9 @@ Coloured hover
 
 .si-wordpress:hover, .si-colored-wordpress {
   background-color: #1E8CBE !important; }
+
+.si-home:hover, .si-colored-home {
+  background-color: #EA4C89 !important; }
 
 .social-shortcodes .left-heading {
   font-size: 30px;

@@ -287,24 +287,5 @@ data-easing="Sine.easeOut">
 <!--end LLAMA-->
 
 
-
-<!--subscribe to journal newsletter-->
-<div class="pattern-bg-dark">
-<div class="newsletter-section">
-    <div class="container">
-       <div class="center-heading margin-btm-50">
-        <h2>Subscribe to our newsletter</h2>
-        <span class="border-width"></span>
-        <p>Just announcements about new issues. No spam, ever, promise.</p>
-    </div>
-    <form>
-        <input type="email" class="form-control" placeholder="Email address...">
-        <button type="button" class="btn btn-lg btn-action">Subscribe</button>
-    </form>
-</div>
-</div>
-</div>
-<!--end newsletter-->
-
 <!---PAGE FOOTER AND SCRIPTS-->
 <?php include('footer.php'); ?>
