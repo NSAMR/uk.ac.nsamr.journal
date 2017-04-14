@@ -1,10 +1,12 @@
-<div class="col-md-12 margin20">
+<div class="row">
+    <div class="col-sm-12">
+
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                <i class="fa fa-pencil-square-o icon-with-space"></i>    Eligability
+                                    Eligability
                             </a>
                         </h4>
                     </div>
@@ -19,7 +21,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                <i class="fa fa-check-square-o icon-with-space"></i>    Online Submission
+                                   Online Submission
                             </a>
                         </h4>
                     </div>
@@ -34,7 +36,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <i class="fa fa-balance-scale icon-with-space"></i>  Author Probity
+                                  Author Probity
                             </a>
                         </h4>
                     </div>
@@ -51,7 +53,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                <i class="fa fa-user icon-with-space"></i>    Authorship
+                                    Authorship
                             </a>
                         </h4>
                     </div>
@@ -65,7 +67,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                <i class="fa fa-stethoscope icon-with-space"></i>    Originality
+                                    Originality
                             </a>
                         </h4>
                     </div>
@@ -81,7 +83,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                                <i class="fa fa-stethoscope icon-with-space"></i>    Conflict of Interest
+                                    Conflict of Interest
                             </a>
                         </h4>
                     </div>
@@ -96,7 +98,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-                                <i class="fa fa-stethoscope icon-with-space"></i>    Confidentiality
+                                   Confidentiality
                             </a>
                         </h4>
                     </div>
@@ -114,7 +116,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
-                                <i class="fa fa-stethoscope icon-with-space"></i>    Permissions
+                                    Permissions
                             </a>
                         </h4>
                     </div>
@@ -128,7 +130,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
-                                <i class="fa fa-stethoscope icon-with-space"></i>    Copyright
+                                   Copyright
                             </a>
                         </h4>
                     </div>
@@ -158,7 +160,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
-                                <i class="fa fa-stethoscope icon-with-space"></i>   Privacy statement
+                                  Privacy statement
                             </a>
                         </h4>
                     </div>
@@ -169,5 +171,5 @@
                     </div>
                 </div>
             </div>
-</div>        
-          
+    </div>        
+</div>
