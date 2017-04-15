@@ -23,17 +23,14 @@
 <hr>
 
 <div class=”row”>
-	<div class="col-sm-12">
 		<div class="left-heading">Why are style guidelines necessary?</div>
 		<div>
 			<p>Style guidelines ensure that all articles are presented to editors and reviewers in the same format, which ensures the peer review, editing and publication processes run smoothly.<p/>
-		</div>
-	</div>                       
+		</div>                   
 </div>
 <hr>
 
 <div class=”row”>
-	<div class="col-sm-12">
 		<div class="left-heading">Why does JNSAMR have so many style guidelines?</div>
 		<div>
 			<p>There are many parts to a manuscript. Style guidelines ensure that each article published in a journal appears in the same format. A consistent style is a key part of JNSAMR quality control.<p/>
@@ -41,22 +38,18 @@
 			<p>Adherence to style guidelines is a key part of an author’s submission process.<p/>
 			<p style="color:red;">JNSAMR makes adherence to style guidelines easier by providing submission templates, these can be found here. (Hyperlink XX)<p/>
 		</div>
-	</div>                       
 </div>
 <hr>
 
 <div class=”row”>
-	<div class="col-sm-12">
 		<div class="left-heading">How does JNSAMR make it easy to adhere to style guidelines?</div>
 		<div>
 			<p style="color:red;">JNSAMR makes adherence to style guidelines easier by providing submission templates, these can be found here. (Hyperlink XX)<p/>
 		</div>
-	</div>                       
 </div>
 <hr>
 
 <div class=”row”>
-	<div class="col-sm-12">
 		<div class="left-heading">Why will JNSAMR reject a manuscript that does not adhere to its style guidelines?</div>
 		<div>
 			<p>JNSAMR will reject any articles that do not adhere to their style guidelines.<p/>
@@ -66,13 +59,11 @@
 			<p>Thus, inline with the majority of journals, JNSAMR does not have the capacity to perform vast numbers of minor edits to amend manuscripts that do not adhere to its style guidelines.<p/>
 			<p style="color:red;">JNSAMR makes adherence to style guidelines easier by providing submission templates, these can be found here. (Hyperlink XX)<p/>
 		</div>
-	</div>                       
 </div>
 <hr>
 
 
 <div class=”row”>
-	<div class="col-sm-12">
 		<div class="left-heading">Style Guidelines</div>
 			<ul>
 				<li>Format</li>
@@ -161,16 +152,5 @@
 				<p>ORCID (http://orcid.org/) is a unique online identifier for authors. It is used to distinguish authors.<p/>
 				<p>All students named as authors must register an ORCID account and their ORCID number should be included after their name on the title page in parentheses.<p/>
 			</div>	
-	</div>                       
 </div>
 <hr>
-
-
-		
-			
-			
-			
-			
-			
-			
-			
