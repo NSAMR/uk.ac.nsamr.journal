@@ -1,4 +1,4 @@
-s
+
 <div class="row">
     <div class="col-sm-12">
         <div class="left-heading">Peer Review Process</div>

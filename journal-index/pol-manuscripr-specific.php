@@ -1,4 +1,64 @@
 
+<div class="left-heading" style="color:red;">HYPERLINKS TO EACH SUBHEADING AT START</div>
+<div class="p-subheading">What are you submitting? </div>
+<div>
+	<ul>
+		<li>Audit</li>
+		<li>Clinical research</li>
+		<li>Case report or series</li>
+		<li>Competition entry</li>
+		<li>Laboratory research</li>
+		<li>Letter to the Editor</li>
+		<li>Review</li>
+		<li>Other:</li>
+		<ul>
+			<li>Viewpoint</li>
+			<li>Reflection</li>
+			<li>Personal achievement</li>
+			<li>Artwork</li>
+			<li>How to tutorial</li>
+			<li>Textbook or resource review</li>
+		</ul>	
+	</ul>
+</div>	
+<hr>
+
+
+<div class="left-heading">Article Types</div>
+<div>
+    <ol>
+        <li>Editorials</li>
+		<li>Scientific</li>
+			<ul>
+				<li style="color:red;">Reports (XX HYPERLINK)</li>
+				<li style="color:red;">Case reports (XX HYPERLINK)</li>
+					<ul>
+						<li>Case Report</li>
+						<li>Case Series</li>
+						<li>Case Quiz</li>
+						<li>Case Review</li>
+					</ul>	
+			</ul>
+		<li>Humanities, political, social, personal experiences of medicines</li>
+			<ul>
+				<li style="color:red;">Viewpoints (XX HYPERLINK)</li>
+				<li style="color:red;">Reflections (XX HYPERLINK)</li>
+				<li style="color:red;">Personal Achievements (XX HYPERLINK)</li>
+			</ul>
+		<li>Other</li>
+			<ul>
+				<li style="color:red;">How to tutorials (XX HYPERLINK)</li>
+				<li style="color:red;"> (XX HYPERLINK)</li>
+				<li style="color:red;">JNSAMR Competition (XX HYPERLINK)</li>
+				<li style="color:red;">Textbook/ Online resource review	 (XX HYPERLINK)</li>
+				<li style="color:red;">Images in medicine (XX HYPERLINK)</li>
+				<li style="color:red;">Artwork	 (XX HYPERLINK)</li>
+				<li style="color:red;">Letters to the editor (XX HYPERLINK)</li>
+			</ul>	
+	</ol>
+</div>
+<hr>
+
 
 <div class="left-heading">Editorials</div>
 <div>
