@@ -1,0 +1,18 @@
+<?php return array (
+  'plugins.paymethod.paypal.displayName' => 'PayPal Fee Payment',
+  'plugins.paymethod.paypal.settings.paypalenable' => 'Enable PayPal',
+  'plugins.paymethod.paypal.settings.paypalurl' => 'IPN URL',
+  'plugins.paymethod.paypal.settings.paypalurl.description' => 'This is the URL to PayPal\'s Instant Payment Notification (IPN) service. For testing, use <code>https://www.sandbox.paypal.com/cgi-bin/webscr</code>; for production systems, use <code>https://www.paypal.com/cgi-bin/webscr</code>.',
+  'plugins.paymethod.paypal.settings.selleraccount' => 'Seller Account',
+  'plugins.paymethod.paypal.settings.selleraccount.description' => 'This is the PayPal account username for the sellers\' account to be used, typically an email address. Ensure that you activate Instant Payment Notification (IPN) in your seller account Profile.',
+  'plugins.paymethod.paypal.settings.curlNotInstalled' => 'Warning: CURL support for PHP is not installed. PayPal payment support requires the CURL library and will not function until it is installed.',
+  'plugins.paymethod.paypal.settings' => 'PayPal Settings',
+  'plugins.paymethod.paypal' => 'PayPal Fee Payment',
+  'plugins.paymethod.paypal.description' => 'PayPal enables users, whether or not they are PayPal members, to use all major credit cards. The Manager will need to set up a <a href="http://www.paypal.com" target="_new">PayPal Business Account</a>.',
+  'plugins.paymethod.paypal.warning' => 'Click the Continue button below to go to the PayPal site, where credit cards can be used to pay the fee (without having to join PayPal). Use the "Return to Merchant" button after making payment to return to this site.',
+  'plugins.paymethod.paypal.purchase.title' => 'Title',
+  'plugins.paymethod.paypal.purchase.fee' => 'Fee',
+  'plugins.paymethod.paypal.purchase.description' => 'Description',
+  'plugins.paymethod.paypal.purchase.cancelled' => 'Your purchase has been cancelled.',
+  'plugins.paymethod.paypal.purchase.cancelled.title' => 'Purchase Cancelled',
+); ?>
