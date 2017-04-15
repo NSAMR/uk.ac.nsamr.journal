@@ -30,9 +30,9 @@
 
         <div class="tabs col-sm-9">
             <ul class="nav nav-tabs nav-justified" role="tablist">
-                <li class="active"><a href="#pol-general" role="tab" data-toggle="tab">General Guidelines</a></li>
-                <li><a href="#pol-article" role="tab" data-toggle="tab"> Manuscript Types</a></li>
-                <li><a href="#pol-styleguidelines" role="tab" data-toggle="tab">Style Guidelines</a></li>
+                <li class="active"><a href="#pol-general" role="tab" data-toggle="tab">Author Standards</a></li>
+                <li><a href="#peer-review" role="tab" data-toggle="tab"> Reviewer Standards</a></li>
+                
             </ul>
 
 
@@ -43,14 +43,8 @@
                     <?php include 'pol-general.php';?>
 
                 </div>
-                <div class="tab-pane" id="pol-article">
-                    <?php include 'pol-article.php';?>
-
-
-                </div>
-                <div class="tab-pane" id="pol-styleguidelines">
-                    <?php include 'pol-styleguidelines.php';?>
-                </div>
+                <div class="tab-pane" id="peer-review">
+                    <?php include 'peerreviewpolicy.php';?>
 
 
             </div>
@@ -60,6 +54,7 @@
 
     <div class="space40"></div> 
 </div><!--END MAIN BODY CONTAINER-->
+</div>
 
 <div class="space40"></div> 
 <!---PAGE FOOTER AND SCRIPTS-->

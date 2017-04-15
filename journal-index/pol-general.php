@@ -64,6 +64,28 @@
 <hr>
 
 <div class="row">
+    <div class="left-heading">Copyright</div>
+    <div>
+        <p>Authors who publish with JNSAMR agree to the following:</p>
+        <ol type="1">
+            <li>We are the authors of the submitted manuscript/submission as described in the JNSAMR ethics policy.</li>
+            <li>We have not excluded any individuals who qualify as authors from our submission to JNSAMR.</li>
+            <li>We agree to the submission of this work and to its publication, upon acceptance.</li>
+            <li>We certify the originality of this work, and that it does not infringe upon any copyright.</li>
+            <li>We declare that this work has not been published or is under consideration for publication elsewhere.</li>
+            <li>We agree to not submit this article for publication elsewhere until a final decision has been received from JNSAMR. </li>
+            <li>We declare that any necessary ethical approval was obtained.</li>
+            <li>We declare that any conflicts of interest have been disclosed.</li>
+            <li>I take full responsibility for any breach of consent and/or violation of medical legal practices committed.</li>
+            <li>I assume all legal responsibility for any infraction regarding information published by JNSAMR on my behalf.</li>
+            <li>We hereby transfer, assign, or otherwise convey all copyright ownership of the manuscript/submission in its entirety, including all text, figures, tables, pictures, and supporting documents, including any rights incidental thereto, exclusively to JNSAMR, in the event that the manuscript/submission is published by JNSAMR.</li>
+            <li>We agree to immediate open access for any accepted manuscript/submission published by JNSAMR.</li>
+        </ol>
+    </div>               
+</div>
+<hr>
+
+<div class="row">
     <div class="col-sm-12">
         <div class="left-heading">Confidentiality</div>
         <div>
