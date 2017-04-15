@@ -35,6 +35,20 @@
 <!-- Start about section -->
 <div class="container">
 
+    <div class="row">    
+        <div class="col-md-6 margin20">
+            <h3 class="heading"><b>A little about us</b></h3>
+            <p>JSAMR is the Journal of Student Association of Medical Research (SAMR). JSAMR is a <b>high quality</b>, <b>open access</b>, <b>online only</b> journal that is authored, reviewed, and edited by <b>students</b>.</p>
+            <p>The aim of JNSAMR is to <b>educate</b> students about all parts of the journal publication process, and to provide a <b>free</b> platform to give students <b>experience</b> of the journal submission and peer-review process <b>without competition</b> from established researchers.</p>
+			<p>JNSAMR is proudly funded by the Wellcome Trust.</p>
+			<p>SAMR is registered with the Charity Commission with charity number 1169158.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="static/images/assorted/manuscript-729617_1920.jpg" class="img-responsive" alt="">
+        </div>
+    </div><!-- End row-->
+
+
         <!-- Start revolution slider -->
         <!--rev slider start-->
 
