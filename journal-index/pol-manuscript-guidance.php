@@ -8,7 +8,7 @@
 <div class="pattern-bg-mid-shorter">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <div class="left-title-bar">
                     <h2>Manuscript Guidance</h2>
                 </div>
@@ -39,7 +39,7 @@
         <!--TABS-->
 
 
-        <div class="tabs col-sm-9">
+        <div class="tabs col-sm-12">
             <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li class="active"><a href="#pol-general-content" role="tab" data-toggle="tab">Standard Article Structure</a></li>
                 <li><a href="#specific-content" role="tab" data-toggle="tab">Other Manuscript Types</a></li>
@@ -61,7 +61,7 @@
                     </div>
                 <div class="tab-pane" id="style-guidelines">
                     <?php include 'pol-styleguidelines.php';?>
-
+                </div>
 
             </div>
         </div><!--END TABS-->
@@ -70,6 +70,7 @@
 
     <div class="space40"></div> 
 </div><!--END MAIN BODY CONTAINER-->
+</div>
 
 <div class="space40"></div> 
 <!---PAGE FOOTER AND SCRIPTS-->
