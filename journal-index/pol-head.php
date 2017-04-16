@@ -66,5 +66,8 @@
 </div>
 
 <div class="space40"></div> 
+
 <!---PAGE FOOTER AND SCRIPTS-->
-<?php include('footer.php'); ?>
+<div class="col-sm-12">
+    <?php include('footer.php'); ?>
+</div>

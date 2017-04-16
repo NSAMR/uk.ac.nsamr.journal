@@ -66,8 +66,9 @@
                         </ul>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
                         <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Register <i class="fa fa-pencil"></i></a></span>
+                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
+                        
                     </div>
                 </div>
             </div>
@@ -89,12 +90,12 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.php">Home</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                                <a href="aboutjnsamr.php" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="aboutjnsamr.php">About JNSAMR</a></li>
-                                    <li><a href="philosophy.php">Our Philosophy</a></li>
-                                    <li><a href="faq.php">FAQ</a></li>
-                                    <li><a href="hosting.php">Hosting</a></li>
+                                    <li><a href="placeholder.php">Our Philosophy</a></li>
+                                    <li><a href="placeholder.php">FAQ</a></li>
+                                    <li><a href="placeholder.php">Hosting</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Current Issue</a></li>
@@ -109,7 +110,7 @@
                                     <li><a href="pol-head.php">Author and Reviewer policies</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                             <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
                                 <form class="search-form">
                                     <input type="text" class="form-control" placeholder="Search JNSAMR...">

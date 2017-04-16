@@ -289,7 +289,7 @@
             </div><!--team-wrap-->
         </div><!--team col-->   
 </div><!-- End team container-->
-
+</div>
 <div class="space40"></div> 
 <!---PAGE FOOTER AND SCRIPTS-->
 <?php include('footer.php'); ?>
