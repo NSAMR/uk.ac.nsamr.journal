@@ -44,8 +44,38 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 hidden-xs">
-								<span><i class="fa fa-phone"></i> +4400 0000 0000</span>
-								<span><i class="fa fa-envelope"></i> journal@nsamr.ac.uk</span>
+								<ul class="list-inline">                           
+                            <li>
+                                <a href="https://www.facebook.com/NSAMRStudent/" class="social-icon si-dark si-gray-round si-colored-facebook" style="color:#ffffff">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/nsamr?lang=en" class="social-icon si-dark si-gray-round si-colored-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC8cJMUFNymJG0QoI73V7vZA" class="social-icon si-dark si-gray-round si-colored-google-plus">
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/national-student-association-of-medical-research-nsamr-" class="social-icon si-dark si-gray-round si-colored-linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/NSAMR" class="social-icon si-dark si-gray-round si-colored-github">
+                                    <i class="fa fa-github"></i>
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li> 
+                        </ul>
 							</div>
 							<div class="col-sm-6 text-right">
 
@@ -98,9 +128,9 @@
 									</li>
 									{else}
 									{if !$hideRegisterLink}
-									<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="register"}" class="btn btn-lg btn-action">{translate key="navigation.register"} <i class="fa fa-user"></i></a></span></li>
+									<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="register"}" class="btn btn-topbar btn-lg btn-action">{translate key="navigation.register"} <i class="fa fa-user"></i></a></span></li>
 									{/if}
-									<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="login"}"  class="btn btn-lg btn-action">{translate key="navigation.login"} <i class="fa fa-user"></i></span></a></li>
+									<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="login"}"  class="btn btn-topbar btn-lg btn-action">{translate key="navigation.login"} <i class="fa fa-user"></i></span></a></li>
 									{/if}
 								</ul><!--END USER BUTTON-->
 
