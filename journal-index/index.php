@@ -186,34 +186,34 @@ data-easing="Sine.easeOut">
                 </div>
                 <div class="side-event clearfix">
                     <div class="s-event-date">
-                        <span>Issue 1</span>
+                        <span>Issue </span>
                         2017
                     </div>
                     <div class="s-event-content">
                         <h5> <a href="#">
-                            Physical activity and prevention of type 2 diabetes mellitus  
+                            Submit now to see your work here 
                         </a></h5>
                         <p><i class="fa fa-user"></i> <strong>A. N. Other, S-O Else, author, author, author</strong></p>
                         <p><i class="fa fa-file-text"></i> <strong>Cardiovascular section</strong></p>
                         <p>
                             [ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
                         </p>
-                            <ul class="list-inline tag-list">
-                                <li><a href="#">meta-analysis</a></li>
-                                <li><a href="#">troponin</a></li>
-                                <li><a href="#">smooth muscle</a></li>
+                           <ul class="list-inline tag-list">
+                               <li><a href="#">Key word</a></li>
+                                <li><a href="#">Open Acess</a></li>
+                                <li><a href="#">Publish</a></li>
                             </ul>
                         </div>
                 </div><!--event col end-->
                 <hr>
                 <div class="side-event clearfix">
                     <div class="s-event-date">
-                        <span>Issue 1</span>
+                        <span>Issue </span>
                         2017
                     </div>
                     <div class="s-event-content">
                         <h5> <a href="#">
-                            Title of another paper that's a bit longer so I can test wrapping 
+                            Submit now to see your work here 
                         </a></h5>
                         <p><i class="fa fa-user"></i> <strong>A. N. Other, S-O Else, author, author, author</strong></p>
                         <p><i class="fa fa-file-text"></i> <strong>Neurology section</strong></p>
@@ -221,63 +221,29 @@ data-easing="Sine.easeOut">
                             [ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
                         </p>
                             <ul class="list-inline tag-list">
-                                <li><a href="#">NMDA</a></li>
-                                <li><a href="#">excitotoxicity</a></li>
-                                <li><a href="#">animal model</a></li>
+                                <li><a href="#">Open Acess</a></li>
+                                <li><a href="#">Key words</a></li>
+                                <li><a href="#">Publish</a></li>
                             </ul>
                         </div>
                 </div><!--event col end-->
                 <hr>
-                <div class="side-event clearfix">
-                    <div class="s-event-date">
-                        <span>Issue 1</span>
-                        2017
-                    </div>
-                    <div class="s-event-content">
-                        <h5> <a href="#">
-                            Title of a third paper 
-                        </a></h5>
-                        <p><i class="fa fa-user"></i> <strong>A. N. Other, S-O Else, author, author, author</strong></p>
-                        <p><i class="fa fa-file-text"></i> <strong>General surgery section</strong></p>
-                        <p class="abstract">
-                            [ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
-                        </p>
-                            <ul class="list-inline tag-list">
-                                <li><a href="#">audit</a></li>
-                                <li><a href="#">antibiotics</a></li>
-                                <li><a href="#">UTI</a></li>
-                            </ul>
-                        </div>
-                </div><!--event col end-->
+                
                 
             </div>
             <div class="col-md-3 margin-btm-40">
                 <div class="sidebar-widget">
                     <h3>Archives</h3>
                     <ul class="list-unstyled">
-                        <li><a href="#">2017 Issue 3</a></li>
-                        <li><a href="#">2017 Issue 2</a></li>
-                        <li><a href="#">2017 Issue 1</a></li>
+                        <li><a href="#">Coming Soon </a></li>
                     </ul>
                 </div><!--sidebar widget end-->
 
                 <div class="sidebar-widget">
                     <h3>Tag Cloud</h3>
                     <ul class="list-inline tag-list">
-                        <li><a href="#">meta-analysis</a></li>
-                        <li><a href="#">troponin</a></li>
-                        <li><a href="#">smooth muscle</a></li>
-                        <li><a href="#">NMDA</a></li>
-                        <li><a href="#">excitotoxicity</a></li>
-                        <li><a href="#">animal model</a></li>
-                        <li><a href="#">audit</a></li>
-                        <li><a href="#">UTI</a></li>
-                        <li><a href="#">antibiotics</a></li>
-                        <li><a href="#">audit</a></li>
-                        <li><a href="#">osteoclast</a></li>
-                        <li><a href="#">molecular biology</a></li>
-                        <li><a href="#">letter</a></li>
-                        <li><a href="#">DNA</a></li>
+                        <li><a href="#">Coming Soon</a></li>
+                     
                     </ul>
                 </div><!--sidebar widget end-->
             </div>
