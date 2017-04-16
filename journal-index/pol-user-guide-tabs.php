@@ -8,7 +8,7 @@
 <div class="pattern-bg-mid-shorter">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <div class="left-title-bar">
                     <h2>User Guides</h2>
                 </div>
@@ -39,7 +39,7 @@
         <!--TABS-->
 
 
-        <div class="tabs col-sm-9">
+        <div class="tabs col-sm-12">
             <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li class="active"><a href="#author-guide" role="tab" data-toggle="tab">Author</a></li>
                 <li><a href="#reviewer-guide" role="tab" data-toggle="tab"> Reviewer</a></li>
