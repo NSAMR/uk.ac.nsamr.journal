@@ -46,7 +46,7 @@
 							<div class="col-sm-6 hidden-xs">
 								<ul class="list-inline">                           
                             <li>
-                                <a href="https://www.facebook.com/NSAMRStudent/" class="social-icon si-dark si-gray-round si-colored-facebook" style="color:#ffffff">
+                                <a href="https://www.facebook.com/NSAMRStudent/" class="social-icon si-dark si-gray-round si-colored-facebook">
                                     <i class="fa fa-facebook"></i>
                                     <i class="fa fa-facebook"></i>
                                 </a>
@@ -80,7 +80,7 @@
 							<div class="col-sm-6 text-right">
 
 								<!--USER BUTTON-->
-								<ul id="navigationUser" class="nav nav-pills tab-list pull-right" role="navigation" aria-label="{translate|escape key="common.navigation.user"}">
+								<ul id="navigationUser" class="nav nav-reginald nav-pills tab-list pull-right" role="navigation" aria-label="{translate|escape key="common.navigation.user"}">
 									{if $isUserLoggedIn}
 									<li>
 										<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
