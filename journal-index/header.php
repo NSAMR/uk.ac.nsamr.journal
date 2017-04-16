@@ -71,12 +71,8 @@
                     -->
                     </div>
                     <div class="col-sm-6 text-right">
-                        <span><a href="login.php" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
-                        <span><a href="register.php" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
-                        <!--
-                            <span><a href="http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
-                            <span><a href="http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
-                        -->
+                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
+                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
                     </div>
                 </div>
             </div>
