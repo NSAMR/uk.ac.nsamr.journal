@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-sm-8">
                 <div class="left-title-bar">
-                    <h2>About JSNAMR</h2>
+                    <h2>About JSAMR</h2>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
         <div class="row">
             <ol class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
-                <li>About JNSAMR</li>
+                <li>About JSAMR</li>
             </ol>
         </div>
     </div>
@@ -42,7 +42,7 @@
             <div class="space20"></div>
             <p>JSAMR is the Journal of Student Association of Medical Research (SAMR). JSAMR is a <b>high quality</b>, <b>open access</b>, <b>online only</b> journal that is authored, reviewed, and edited by <b>students</b>.</p>
             <p>The aim of JNSAMR is to <b>educate</b> students about all parts of the journal publication process, and to provide a <b>free</b> platform to give students <b>experience</b> of the journal submission and peer-review process <b>without competition</b> from established researchers.</p>
-			<p>JNSAMR is proudly funded by the Wellcome Trust.</p>
+			<p>JSAMR is proudly funded by the Wellcome Trust.</p>
 			<p>SAMR is registered with the Charity Commission with charity number 1169158.</p>
         </div>
         <div class="col-md-6">
@@ -143,7 +143,7 @@
 <!--End call to action -->
 
 <!-- Start of team section -->
-<div class="space40"></div>
+<div class="space80"></div>
 
 <div class="container">
     <div class="row">
@@ -151,20 +151,20 @@
             <div class="left-title-bar">
                 <h2>Core team members</h2>
                 <div class="space20"></div>
-                <p class="lead">JNSAMR was founded in 2017, and the core team is supported by the wider NSAMR committee, and teams of section editors and reviewers.</p>
+                <p class="lead">JSAMR was founded in 2017, and the core team is supported by the wider SAMR committee, and teams of section editors and reviewers.</p>
             </div>
         </div>
     </div>
    
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="static/images/team/anon.jpg" class="img-responsive" alt="">
-                <h4>Matt Byrne</h4>
-                <span>Founder and Lead</span>
+                <img src="static/images/team/matt-byrne.jpg" class="img-responsive" alt="">
+                <h4>Matthew Byrne</h4>
+                <span>JSAMR Founder<br>Co-founding Editor-in-Chief<br>Newcastle University</span>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis
+                    Matthew has an interest in transplant surgery and medical journalism. He has completed a master of research in transplantation in which he identified a pathophysiological mechanism for urinary tract infection after pancreas transplantation. Matthew aims to complete a PhD in the future and to pursue a career as a transplant surgeon.
                 </p>
-                  <ul class="list-inline">
+                  <!-- <ul class="list-inline">
                     <li>
                         <a href="#" class="social-icon-sm si-border si-facebook">
                             <i class="fa fa-facebook"></i>
@@ -182,7 +182,7 @@
                             <i class="fa fa-linkedin"></i>
                             <i class="fa fa-linkedin"></i>
                         </a>
-                    </li>
+                    </li><-->
                 </ul><!--social-->
             </div><!--team-wrap-->
         </div><!--team col-->
@@ -190,7 +190,7 @@
             <div class="team-wrap">
                 <img src="static/images/team/helen-jackson.jpg" class="img-responsive" alt="">
                 <h4>Helen Jackson</h4>
-                <span>Founder and CTO</span>
+                <span>Founder and CTO<br>King's College London</span>
                 <p>
                     Helen is a grad-entry medic at King's College London, and a reformed academic. She likes Open, good science and common sense. She aspires to be a professional cat herder.
                 </p>
@@ -224,33 +224,45 @@
                             <i class="fa fa-github"></i>
                             <i class="fa fa-github"></i>
                         </a>
-                    </li>                            
+                    </li>                         
                 </ul><!--social-->
             </div><!--team-wrap-->
         </div><!--team col-->
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="static/images/team/anon.jpg" class="img-responsive" alt="">
-                <h4>Steph Rees</h4>
-                <span>Founder and Editor</span>
+                <img src="static/images/team/steph-rees.jpg" class="img-responsive" alt="">
+                <h4>Stephanie Rees</h4>
+                <span>Co-founding Editor-in-Chief<br>University of Leicester</span>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis
+                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSC in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD in the future.
                 </p>
                    <ul class="list-inline">
                     <li>
-                        <a href="#" class="social-icon-sm si-border si-facebook">
+                        <a href="https://www.facebook.com/steph.l.rees" class="social-icon-sm si-border si-facebook">
                             <i class="fa fa-facebook"></i>
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="social-icon-sm si-border si-twitter">
-                            <i class="fa fa-twitter"></i>
-                            <i class="fa fa-twitter"></i>
+                        <a href="https://www.linkedin.com/in/stephanie-rees-308a24130/" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
                         </a>
                     </li>
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->  
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/akanksha-sinha.jpg" class="img-responsive" alt="">
+                <h4>Akanksha Sinha</h4>
+                <span>Founding Deputy Editor<br>University of Sheffield</span>
+                <p>
+                    Akanksha hopes to explore the field of internal medicine, with a special interest in clinical neurology. Aiming for a career as a clinician-scientist, she wants to continue clinical practice and sustain her academic interests while being involved in medical education. Currently, she is the student-lead and representative of academic medicine in Sheffield.
+                </p>
+                  <ul class="list-inline">
                     <li>
-                        <a href="#" class="social-icon-sm si-border si-linkedin">
+                        <a href="https://www.linkedin.com/in/akanksha-sinha-86774272/" class="social-icon-sm si-border si-linkedin">
                             <i class="fa fa-linkedin"></i>
                             <i class="fa fa-linkedin"></i>
                         </a>
@@ -258,15 +270,21 @@
                 </ul><!--social-->
             </div><!--team-wrap-->
         </div><!--team col-->
+</div><!-- End team container-->
+</div>
+
+<div class="container">
+    <div class="row">
+        
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="static/images/team/anon.jpg" class="img-responsive" alt="">
-                <h4>Person</h4>
-                <span>Role</span>
+                <img src="static/images/team/ciaran-grafton.jpg" class="img-responsive" alt="">
+                <h4>Ciaran Grafton-Clarke</h4>
+                <span>Founding Deputy Editor<br>University of Liverpool</span>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis
+                    Ciaran wishes to pursue a career in emergency medicine with a particular interest in medical education. Ciaran founded an award-winning widening participation organisation within his own university and has provided support and guidance to the developers of the BMAT. Ciaran also sits on the Institute of Medical Ethics student council with the aim of improving the provision of undergraduate curricula relating to ethics and professionalism.
                 </p>
-                  <ul class="list-inline">
+                    <!--<ul class="list-inline">
                     <li>
                         <a href="#" class="social-icon-sm si-border si-facebook">
                             <i class="fa fa-facebook"></i>
@@ -281,6 +299,72 @@
                     </li>
                     <li>
                         <a href="#" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-home">
+                            <i class="fa fa-home"></i>
+                            <i class="fa fa-home"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-github">
+                            <i class="fa fa-github"></i>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li><-->                           
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/godwin-tong.jpg" class="img-responsive" alt="">
+                <h4>Godwin Tong</h4>
+                <span>Founding Deputy Editor<br>University of Birmingham</span>
+                <p>
+                    Godwin graduated from the University of Glasgow with a BSc in Anatomy and an interest in microglia. He believes that sexual dimorphisms in the brain have an association with the predilection of males to certain neuropsychological disorders. As an aspiring clinician scientist, Godwin hopes to expedite the bench-to-bedside process in the future.
+                </p>
+                   <!--<ul class="list-inline">
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-facebook">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-twitter">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-icon-sm si-border si-linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li><-->
+                </ul><!--social-->
+            </div><!--team-wrap-->
+        </div><!--team col-->
+        <div class="col-md-3 col-xs-6 margin20">
+            <div class="team-wrap">
+                <img src="static/images/team/hamilton-morrin.jpg" class="img-responsive" alt="">
+                <h4>Hamilton Morrin</h4>
+                <span>Technology Specialist<br>King's College London</span>
+                <p>
+                    Hamilton possesses an interest in the fields of neurology, psychiatry and digital health. He has completed an intercalated BSc in Medical Genetics and is currently involved in research into the genetic architecture of Lewy body dementia, with the intention of pursuing a PhD down the line.
+                </p>
+                  <ul class="list-inline">
+                    <li>
+                        <a href="https://www.facebook.com/hamilton.morrin?ref=br_rs" class="social-icon-sm si-border si-facebook">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://uk.linkedin.com/in/hamilton-morrin-08b996125" class="social-icon-sm si-border si-linkedin">
                             <i class="fa fa-linkedin"></i>
                             <i class="fa fa-linkedin"></i>
                         </a>
@@ -290,6 +374,8 @@
         </div><!--team col-->   
 </div><!-- End team container-->
 </div>
-<div class="space40"></div> 
+
+<div class="space80"></div>
+
 <!---PAGE FOOTER AND SCRIPTS-->
 <?php include('footer.php'); ?>
