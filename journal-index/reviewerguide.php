@@ -7,7 +7,7 @@
         <div class="left-heading">1. Account Set-up</div>
         <div>
             <ol>
-                <li>When you have been selected to review your firsgt paper, the section editor willcreate you a basic account.</li>
+                <li>When you have been selected to review your first paper, the section editor willcreate you a basic account.</li>
                 <li>You will recieve an email welcoming you to JSAMR and asking you to reset your password.</li>
                 <li> From here you can set up your reviewer profile</li>
             </ol>    
@@ -27,8 +27,8 @@
                     <li>Review Schedule</li>
                     <ul>
                         <li>Editor’s Request: When the editor had sent you the review request for the respective submission</li>
-                        <li>Response Due Date: A reviewer has 48 hours from editor’s request to accept or decline the pending review.</li>
-                        <li>Review Due Date: A reviewer has 2 weeks from editor’s request to complete reviewing all the submission contents.</li>
+                        <li>Response Due Date: A reviewer has <b>48 hours</b> from editor’s request to accept or decline the pending review.</li>
+                        <li>Review Due Date: A reviewer has <b>2 weeks</b> from editor’s request to complete reviewing all the submission contents.</li>
                     </ul>    
                 </ul>
                 <li>Click ‘Accept review’ or ‘Decline review request’.</li>
@@ -46,10 +46,10 @@
                 <li>Use the box given under Review <b>(Recommended)</b> </li>
                 <li>Print the review file and manually annotate it. Scan the paper with all (legible) annotations and upload in this section.</li>
             </ol>   
-            <p><b>Note:</b> Please structure your final review as follows, i.e. in accordance to the recommended template in the ‘Peer Review and Editor Pack’ circulated earlier (link to peer review pack***?)</p>
+            <p><b>Note:</b> Please structure your final review as follows, i.e. in accordance to the recommended template in the ‘Peer Review and Editor Pack’.</p>
             <p>FOR EVERY COMMENT IN REVIEW, PLEASE REFER TO THE LINE NUMBER IN DOWNLOADED FILE.</p>
-            <p> for specifics on how to perform the review please see the welcome pack in the wellcome email</p>
-                <p> Recommendation: Select your final recommendation from the available options (below) in the drop  down menu -</p>
+            <p> For specifics on how to perform the review please see the welcome pack in the welcome email.</p>
+                <p> Recommendation: Select your final recommendation from the available options (below) in the drop down menu -</p>
                 <ul>
                     <li>Accept submission</li>
                     <li>Revisions required</li>

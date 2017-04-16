@@ -61,7 +61,7 @@
         <div class="step">
             <div class="icon-square"> <i class="fa fa-paper-plane"></i> </div>
             <h5>Complete the submission process</h5>
-            <p>Submitting to JNSAMR requires you to register for an account with us, and you will be lead through this process when you click <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">submit</a>. You will only need to register for an account once, and having this account will enable you to track the progress of your submission, as well as communicate securely with your Editor and Reviewers within our system. To preserve the double-blind review process, and academic integrity within the principles of Open, we require all communications to go through our platform, and you will not be able to contact your Editor or Reviewers outside this.</p>
+            <p>Submitting to JNSAMR requires you to register for an account with us, and you will be lead through this process when you <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">register</a>. You will only need to register for an account once, and having this account will enable you to track the progress of your submission, as well as communicate securely with your Editor and Reviewers within our system. To preserve the double-blind review process, and academic integrity within the principles of Open, we require all communications to go through our platform, and you will not be able to contact your Editor or Reviewers outside this.</p>
         </div>
     </div><!-- End steps -->
 </div>

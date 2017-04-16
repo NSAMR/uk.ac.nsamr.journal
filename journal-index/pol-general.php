@@ -5,9 +5,9 @@
         <p>All articles must have a student as first author and corresponding author. The student must be enrolled at an accredited university/medical school.</p>
         <p>The first author must submit the article using their institutional email address (e.g. @ac.uk, @.edu). The editors retain the right to contact the first author's institution to confirm their enrollment.</p>
         <p>The research must be original and must not be published or submitted for consideration elsewhere.</p>
-        <p>Authors must agree to all numbered items under the copyright subheading (HYPERLINK). This must be signed by all authors.</p>
+        <p>Authors must agree to all numbered items under the copyright subheading. This must be signed by all authors.</p>
         <p>Authors must submit a consent acknowledgement form.</p>
-        <p>Authors must submit an ICJME conflict of interest form if there are any conflicts of interest to declare. (LINK)</p>
+        <p>Authors must submit an ICJME conflict of interest form if there are any conflicts of interest to declare.</p>
         <p>Authors must adhere to the author ethics policy, style guidelines, and submission instructions.</p>
     </div>  
 </div>

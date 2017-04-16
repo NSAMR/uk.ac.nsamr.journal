@@ -7,7 +7,7 @@
     <div>
         <ol>
             <li>You should have received an email from the Journal Editors with the title “Article review request”. This means you have already been assigned as the Section Editor in charge of this manuscript.</li>
-            <li>Log into http://www.nsamr.ac.uk/journal/journal-index/index.php*** with your username and password. If you do not already have an account, click sign up.</li>
+            <li><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login">Login</a> with your username and password. If you do not have an account, <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">register</a>.</li>
             <li>Once logged in, click “Tasks” on left hand tab on screen</li>
             <li>If you have a manuscript due to be sent out to reviewers, you should have a notification on the “tasks” tab. Sometimes this does not register so regardless whether you have notifications on “tasks” or not, check your “My Assigned” tab and you should see the new manuscript submitted, with the stage as “Submission”. </li>
             <li>Click on “Submissions”</li>
