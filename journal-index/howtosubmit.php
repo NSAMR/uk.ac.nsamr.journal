@@ -78,7 +78,7 @@
         </div>
         <div class="row text-center">
             <div class="space20"></div>
-            <a href="#" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
+            <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
         </div>
     </div>
 </div>

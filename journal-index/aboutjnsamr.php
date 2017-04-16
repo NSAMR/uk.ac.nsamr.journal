@@ -56,7 +56,7 @@
     <div class="container"><!--Container with icons and reasons-->
     <div class="row">
         <div class="left-title-bar">
-            <h2>Reasons to publish with us</h2>
+            <h2>Our Philosophy</h2>
         </div>
     </div>
     <div class="space40"></div> 
@@ -110,13 +110,13 @@
         </div><!-- End left-hand section -->
 
         <!-- Right-hand section -->
-        <h4 style="font-weight:bold; text-transform:uppercase">In a nutshell</h4>
+        <h4 style="font-weight:bold; text-transform:uppercase">Reasons to publish with us</h4>
         <div class="col-md-4 margin20">
             <ul class="list-unstyled highlight-list">
-                <li><i class="fa fa-check icon-with-space"></i>The first Open Access academic journal it he UK which actively promotes research by medical students</li>
+                <li><i class="fa fa-check icon-with-space"></i>The first Open Access academic journal in the UK which actively promotes research by medical students</li>
                 <li><i class="fa fa-check icon-with-space"></i>No publication fees. Ever.</li>
                 <li><i class="fa fa-check icon-with-space"></i>Submission-to-publication time of three weeks (depending on number of review rounds)</li>
-                <li><i class="fa fa-check icon-with-space"></i>Wide range of articles and disciplines</li>
+                <li><i class="fa fa-check icon-with-space"></i>Wide range of manuscript types and disciplines</li>
                 <li><i class="fa fa-check icon-with-space"></i>Transparent peer-review process with publication of all correspondence and manuscript versions</li>
                 <li><i class="fa fa-check icon-with-space"></i>Robust and user-friendly submission portal</li>
                 <li><i class="fa fa-check icon-with-space"></i>Excellent Open credentials</li>
@@ -136,7 +136,7 @@
         </div>
         <div class="row text-center">
             <div class="space20"></div>
-            <a href="#" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
+            <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
         </div>
     </div>
 </div>
