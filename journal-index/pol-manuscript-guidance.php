@@ -17,7 +17,18 @@
     </div>
 </div>
 <!--end call to action-->
-
+<!-- Breadcrumbs -->
+<div class="pattern-bg-light-supershort col-sm-12 hidden-xs text-right">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Manuscript Guidance</li>
+            </ol>
+        </div>
+    </div>
+</div><!-- End breadcrumbs-->
+<div class="space40"></div>
 <div class="space40"></div> 
 
 <div class="container policies">
