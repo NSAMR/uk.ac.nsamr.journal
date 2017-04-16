@@ -34,31 +34,31 @@
                     <div class="col-sm-6">
                         <ul class="list-inline">                           
                             <li>
-                                <a href="#" class="social-icon si-dark si-gray-round si-colored-facebook">
+                                <a href="https://www.facebook.com/NSAMRStudent/" class="social-icon si-dark si-gray-round si-colored-facebook">
                                     <i class="fa fa-facebook"></i>
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="social-icon si-dark si-gray-round si-colored-twitter">
+                                <a href="https://twitter.com/nsamr?lang=en" class="social-icon si-dark si-gray-round si-colored-twitter">
                                     <i class="fa fa-twitter"></i>
                                     <i class="fa fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="social-icon si-dark si-gray-round si-colored-google-plus">
+                                <a href="https://www.youtube.com/channel/UC8cJMUFNymJG0QoI73V7vZA" class="social-icon si-dark si-gray-round si-colored-google-plus">
                                     <i class="fa fa-youtube"></i>
                                     <i class="fa fa-youtube"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="social-icon si-dark si-gray-round si-colored-linkedin">
+                                <a href="https://www.linkedin.com/company/national-student-association-of-medical-research-nsamr-" class="social-icon si-dark si-gray-round si-colored-linkedin">
                                     <i class="fa fa-linkedin"></i>
                                     <i class="fa fa-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="social-icon si-dark si-gray-round si-colored-github">
+                                <a href="https://github.com/NSAMR" class="social-icon si-dark si-gray-round si-colored-github">
                                     <i class="fa fa-github"></i>
                                     <i class="fa fa-github"></i>
                                 </a>
