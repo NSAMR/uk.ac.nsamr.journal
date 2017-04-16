@@ -30,8 +30,8 @@
                     <div class="col-md-3 margin-btm-30">
                         <h3>Policies</h3>
                         <ul class="list-unstyled f-list">
-                            <li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
-                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="pol-head.php">Policies and guidelines</a></li>
+                            <li><a href="termsandconditions.php">Terms and Conditions</a></li>
                             <li><a href="privacypolicy.php">Privacy Policy</a></li>
                         </ul>
                     </div>

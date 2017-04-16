@@ -64,19 +64,10 @@
                                 </a>
                             </li> 
                         </ul>
-
-                        <!--
-                        <span><i class="fa fa-phone"></i> +4400 0000 0000</span>
-                        <span><i class="fa fa-envelope"></i> journal@nsamr.ac.uk</span>
-                    -->
                     </div>
                     <div class="col-sm-6 text-right">
-                        <span><a href="login.php" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
-                        <span><a href="register.php" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
-                        <!--
-                            <span><a href="http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
-                            <span><a href="http://www.nsamr.ac.uk/journal/jnsamr/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Sign up <i class="fa fa-pencil"></i></a></span>
-                        -->
+                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
+                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Register <i class="fa fa-pencil"></i></a></span>
                     </div>
                 </div>
             </div>
@@ -111,12 +102,11 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="howtosubmit.php">How to submit your work</a></li>
-                                    <li><a href="authorpoliciesandguidelines.php">Author policies</a></li>
-                                    <li><a href="authorguide.php">Author Guide</a></li>
-                                    <li><a href="manuscriptguidance.php">Manuscript Guidance</a></li>
-                                    <li><a href="reviewerguidelines.php">Reviewer guidelines</a></li>
+                                    <li><a href="howtosubmit.php">Submit your work</a></li>
                                     <li><a href="#">Become a peer-reviewer</a></li>
+                                    <li><a href="pol-user-guide-tabs.php">User Guides</a></li>
+                                    <li><a href="pol-manuscript-guidance.php">Manuscript Guidance</a></li>
+                                    <li><a href="pol-head.php">Author and Reviewer policies</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Contact</a></li>

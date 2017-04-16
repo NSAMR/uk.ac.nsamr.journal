@@ -1,26 +1,4 @@
-<div class="row">
-    <div class="col-sm-12">
-        <div class="left-heading" style="color:red;">HYPERLINKS TO EACH SUBHEADING AT START</div>
-			<div class="p-subheading">Why are style guidelines necessary?</div>
-			<div class="p-subheading">Why does JNSAMR have so many style guidelines?</div>
-			<div class="p-subheading">How does JNSAMR make it easy to adhere to style guidelines?</div>
-			<div class="p-subheading">Why will JNSAMR reject a manuscript that does not adhere to its style guidelines?</div>
-			<div class="p-subheading">Style Guidelines:</div>
-            <ul>
-				<li>Format</li>
-				<li>Key Words</li>
-				<li>Style</li>
-				<li>Figures/Illustrations</li>
-				<li>Tables</li>
-				<li>Multimedia Files</li>
-				<li>References</li>
-			<div class="p-subheading">Digital Object Identifier</div>
-			<div class="p-subheading">ORCID</div>
-			</ul>
-		</div>	
-    </div>                       
-</div>
-<hr>
+
 
 <div class=”row”>
 		<div class="left-heading">Why are style guidelines necessary?</div>
@@ -103,9 +81,8 @@
 			</div>	
 		<div class="p-subheading">Figures/Illustrations </div>
 			<div>
-				<p>A maximum of 5 figures may be included.<p/>
 				<p>Images must be embedded in the manuscript AND uploaded as separate files under<br>“Supplementary_File_Figure[FIGURE IN TEXT CITATION NUMBER]”<p/>
-				<p>Images must in the TIFF format with a resolution of 300 dpi.<p/>
+				<p>Images must in the TIFF format with a resolution of 600 dpi.<p/>
 				<p>Images must be cited in the main text in numerical order.<p/>
 				<p>Figure legends should include a short title and must be below the figure they refer to.</p>
 				<p>Colour images are encouraged.<p/>
@@ -114,10 +91,7 @@
 			</div>		
 		<div class="p-subheading">Tables</div>
 			<div>
-				<p>A maximum of 3 tables may be included.<p/>
-				<p>Tables should be in word format embedded into the main text.<p/>
 				<p>Tables should be cited in text in numerical order.<p/>
-				<p>Embedded excel tables are not acceptable. Instead Tables in Excel should be copied and pasted into the word file.<p/>
 			</div>			
 		<div class="p-subheading">Multimedia Files</div>
 			<div>
@@ -138,9 +112,8 @@
 			</div>		
 		<div class="p-subheading">In text Citation</div>
 			<div>
-				<p>The AMA referencing style should be used for all citations.<p/>
-				<p>An explanation of the AMA style can be found here: <p/>
-				<p>https://www.lib.jmu.edu/citation/amaguide.pdf<p/>
+				<p>The APA referencing style should be used for all citations.<p/>
+				<p>An explanation of the APA style can be found here: <p/>
 				<p>Unofficial references should be avoided but, if deemed necessary by the author, they should be cited in parentheses.<p/>
 			</div>		
 		<div class="p-subheading">Digital Object Identifier (DOI)</div>

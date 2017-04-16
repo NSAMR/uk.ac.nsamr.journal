@@ -34,7 +34,7 @@
         data-speed="500"
         data-start="1800"
         data-easing="Sine.easeOut">
-        <a href="#" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
+        <a href="aboutjnsamr.php" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
     </div>
 </li>
 
@@ -66,7 +66,7 @@ data-y="380"
 data-speed="500"
 data-start="1800"
 data-easing="Sine.easeOut">
-<a href="#" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
+<a href="aboutjnsamr.php" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
 </div>
 </li>
 
@@ -98,7 +98,7 @@ data-y="380"
 data-speed="500"
 data-start="1800"
 data-easing="Sine.easeOut">
-<a href="#" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
+<a href="aboutjnsamr.php" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
 </div>
 </li>
 
@@ -121,7 +121,7 @@ data-easing="Sine.easeOut">
             </div>
             <div class="col-sm-4 text-right">
                 <div class="space20"></div>
-                <a href="#" class="btn btn-lg btn-action">Submit a paper <i class="fa fa-edit"></i></a>
+                <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Submit a paper <i class="fa fa-edit"></i></a>
             </div>
         </div>
     </div>

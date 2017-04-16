@@ -1,64 +1,4 @@
 
-<div class="left-heading" style="color:red;">HYPERLINKS TO EACH SUBHEADING AT START</div>
-<div class="p-subheading">What are you submitting? </div>
-<div>
-	<ul>
-		<li>Audit</li>
-		<li>Clinical research</li>
-		<li>Case report or series</li>
-		<li>Competition entry</li>
-		<li>Laboratory research</li>
-		<li>Letter to the Editor</li>
-		<li>Review</li>
-		<li>Other:</li>
-		<ul>
-			<li>Viewpoint</li>
-			<li>Reflection</li>
-			<li>Personal achievement</li>
-			<li>Artwork</li>
-			<li>How to tutorial</li>
-			<li>Textbook or resource review</li>
-		</ul>	
-	</ul>
-</div>	
-<hr>
-
-
-<div class="left-heading">Article Types</div>
-<div>
-    <ol>
-        <li>Editorials</li>
-		<li>Scientific</li>
-			<ul>
-				<li style="color:red;">Reports (XX HYPERLINK)</li>
-				<li style="color:red;">Case reports (XX HYPERLINK)</li>
-					<ul>
-						<li>Case Report</li>
-						<li>Case Series</li>
-						<li>Case Quiz</li>
-						<li>Case Review</li>
-					</ul>	
-			</ul>
-		<li>Humanities, political, social, personal experiences of medicines</li>
-			<ul>
-				<li style="color:red;">Viewpoints (XX HYPERLINK)</li>
-				<li style="color:red;">Reflections (XX HYPERLINK)</li>
-				<li style="color:red;">Personal Achievements (XX HYPERLINK)</li>
-			</ul>
-		<li>Other</li>
-			<ul>
-				<li style="color:red;">How to tutorials (XX HYPERLINK)</li>
-				<li style="color:red;"> (XX HYPERLINK)</li>
-				<li style="color:red;">JNSAMR Competition (XX HYPERLINK)</li>
-				<li style="color:red;">Textbook/ Online resource review	 (XX HYPERLINK)</li>
-				<li style="color:red;">Images in medicine (XX HYPERLINK)</li>
-				<li style="color:red;">Artwork	 (XX HYPERLINK)</li>
-				<li style="color:red;">Letters to the editor (XX HYPERLINK)</li>
-			</ul>	
-	</ol>
-</div>
-<hr>
-
 
 <div class="left-heading">Editorials</div>
 <div>
@@ -79,7 +19,7 @@
                     <li>1500-2000 words.</li>
                     <li>To include: Title page, structured abstract, introduction, materials and methods, results, discussion, conclusions.</li>
                     <li style=color:"red";>Layout template can be found here (XX HYPERLINK)</li>
-                    <li>This should be submitted as an "article" during the submission process.<li>
+                    <li>This should be submitted as an "article" during the submission process.</li>
                 </ul>
         </div>
 
@@ -93,7 +33,7 @@
                     <li>2000-4000 words.</li>
                     <li>Title page, structured abstract, introduction, materials and methods, results, discussion, conclusions</li>
                     <li>Layout template can be found here</li>
-                    <li>This should be submitted as an "article" during the submission process.<li>
+                    <li>This should be submitted as an "article" during the submission process.</li>
                 </ul>
         </div>  
 
@@ -111,21 +51,21 @@
         <div>
             <p>The JNSAMR Case Reports section includes articles which describe a single patient (case report), a series of related patients (case series), a single patient with questions (case quiz), a single or series of patients with a literature review (case review).</p>
             <p>All patients included in the Case Reports Section must have a signed consent form.</p>
-            <li>This should be submitted as a "case report" during the submission process.<li>
+            <p>This should be submitted as a "case report" during the submission process.</p>
         </div>  
 
     <div class="p-subheading">Case Description </div>
         <div>
             <p>Case descriptions should include presenting symptoms and signs (relevant points taken from the standard medical history: history of presenting complaint, past medical and surgical history, allergies, medications, social history, family history, systems review, examination), investigations performed and main findings (including blood results and imaging), main diagnosis, therapeutic interventions (if applicable), follow up information (if applicable).</p>
             <p>Description of cases in a case series is more flexible, as repetition should be avoided. </p>
-            <li>This should be submitted as a "case report" during the submission process.<li>
+            <p>This should be submitted as a "case report" during the submission process.</p>
         </div>  
 
     <div class="p-subheading">Case Discussion </div>
         <div>
             <p>Discussion of cases should focus on the interesting or unusual aspects of the case. Authors should also discuss strengths and limitations of the case report and its place in the relevant literature.</p>
             <p>At the end of the discussion 2-3 learning points drawn from the case should be included.</p>
-            <li>This should be submitted as a "case report" during the submission process.<li>
+            <p>This should be submitted as a "case report" during the submission process.</p>
         </div>
 
     <div class="p-subheading">Case Report </div>
@@ -138,7 +78,7 @@
                     <li>Maximum 15 references.</li>
                     <li>To include: Title Page, Introduction, Case Description, Discussion, Learning Points, References.</li>
                     <li>Layout template can be found here (XX HYPERLINK)</li>
-                    <li>This should be submitted as a "case report" during the submission process.<li>
+                    <li>This should be submitted as a "case report" during the submission process.</li>
                 </ul>
         </div>  
 
@@ -152,7 +92,7 @@
                     <li>Maximum 20 references.</li>
                     <li>To include: Title Page, Introduction, Case Description, Discussion, Learning Points, References.</li>
                     <li>Layout template can be found here (XX HYPERLINK)</li>
-                    <li>This should be submitted as a "case report" during the submission process.<li>
+                    <li>This should be submitted as a "case report" during the submission process.</li>
                 </ul>
         </div>  
 
@@ -166,7 +106,7 @@
                     <li>Maximum 5 references.</li>
                     <li>To include: Title Page, Case Description, Questions, Answers and Explanations, References.</li>
                     <li>Layout template can be found here (XX HYPERLINK)</li>
-                    <li>This should be submitted as a "case report" during the submission process.<li>
+                    <li>This should be submitted as a "case report" during the submission process.</li>
                 </ul>
         </div>  
 
@@ -180,7 +120,7 @@
                     <li>Maximum 40 references.</li>
                     <li>To include:Title Page, Introduction, Case Description(s) and Literature Review, Discussion, Learning Points, Conclusions, References. </li>
                     <li>Layout template can be found here (XX HYPERLINK)</li>
-                    <li>This should be submitted as a "case report" during the submission process.<li>
+                    <li>This should be submitted as a "case report" during the submission process.</li>
                 </ul>
         </div>  
 
