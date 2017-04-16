@@ -20,11 +20,11 @@
                     <div class="col-md-3 margin-btm-30">
                         <h3>Quick links</h3>
                         <ul class="list-unstyled f-list">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="aboutjnsamr.php">About</a></li>
                             <li><a href="#">Current issue</a></li>
                             <li><a href="#">Archive</a></li>
-                            <li><a href="#">Contribute</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 margin-btm-30">
@@ -42,29 +42,12 @@
                                 <a href="#" class="thumb"><img src="static/images/g1.jpg" alt="" width="70" class="img-responsive"></a>
                                 <div class="f-post-content">
                                     <a href="#">
-                                        Title goes here
+                                        Your work could be here
                                     </a>
-                                    <em>2 days ago</em>
+                                    <em>Submit now</em>
                                 </div>
                             </li>
-                            <li class="clearfix">
-                                <a href="#" class="thumb"><img src="static/images/g2.jpg" alt="" width="70" class="img-responsive"></a>
-                                <div class="f-post-content">
-                                    <a href="#">
-                                        Title goes here
-                                    </a>
-                                    <em>2 days ago</em>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <a href="#" class="thumb"><img src="static/images/g3.jpg" alt="" width="70" class="img-responsive"></a>
-                                <div class="f-post-content">
-                                    <a href="#">
-                                        Title goes here
-                                    </a>
-                                    <em>2 days ago</em>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
                     <div class="col-md-3 margin-btm-30">
