@@ -1,6 +1,9 @@
+@import "variables.less";
+
 /*
 Buttons style
 */
+
 .buttons a {
   margin: 5px;
 }
@@ -10,13 +13,48 @@ Buttons style
   font-weight: 900;
   text-transform: uppercase;
   font-size: 16px;
+  margin: 5px;
+  color: #DADEDB;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
+
+.btn-topbar {
+  border: 0px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 20px 5px 20px 5px;
+  color: #DADEDB;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  color: #DADEDB;
+}
+.btn:hover:active {
+  color: #C2C5C3;
+}
+.btn:hover:visited {
+  color: #DADEDB;
+}
+.btn:active {
+  color: #C2C5C3;
+}
+.btn:visited {
+  color: #DADEDB;
+}
 .btn i {
   margin-left: 5px;
+}
+
+.btn-nomargin {
+  margin: 0px;
 }
 
 .btn-lg {
@@ -24,29 +62,16 @@ Buttons style
   line-height: 18px;
 }
 
-
-.btn-default{
-  background-color: @brand-action;
-  color: @darkest;
-  &:hover {
-    background-color: @brand-action-light;
-    color: @dark;
-  }
-  &:active {
-    background-color: @brand-action-light;
-    color: @darkest;
-  }
+.btn-learnmore {
+  background-color: #E27A3F;
+}
+.btn-learnmore:hover {
+  background-color: #EBA178;
 }
 
-.btn-galley{
-  background-color: @mid;
-  color: @darkest;
-  &:hover {
-    background-color: @midlight;
-    color: @dark;
-  }
-  &:active {
-    background-color: @midlight;
-    color: @darkest;
-  }
+.btn-action {
+  background-color: #86B923;
+}
+.btn-action:hover {
+  background-color: #AACE65;
 }
