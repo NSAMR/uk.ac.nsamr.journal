@@ -2,11 +2,11 @@
 <div class="row">
     <div class="left-heading">Manuscript preparation</div>
     <div>
-        <p>Manuscripts must be submitted via the JNSAMR online submission system (HYPERLINKS XX).</p>
+        <p>Manuscripts must be submitted via the JNSAMR online submission system <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">register</a>.</p>
         <p>All manuscripts must adhere to the following style guidelines, otherwise they will be rejected outright.</p>
-        <p>Please see the example submission (HYPERLINK XX) and submission template (HYPERLINK XX)</p>
+        <p>Please see the example submission and submission template.</p>
         <p>Manuscript contents for each article type can be found under the relevant article in article policies.</p>
-        <p>Manuscripts should be saved as a .doc word document and should be saved in the form. </p>
+        <p>Manuscripts should be saved as a PDF document and should be saved in the form. </p>
         <p>YEAR_SURNAME_FIRSTNAME_MANUSCRIPTNAMENOSPACES.doc</p>
     </div>  
 </div>
@@ -15,7 +15,7 @@
 <div class="row">
     <div class="left-heading">Title Page</div>
     <div>
-        <p>Please see the submission template (HYPERLINK XX).</p>
+        <p>Please see the submission template.</p>
         <p>Every manuscript must contain a title page, which should include:</p>
         <ul>
             <li>Article Title.</li>
@@ -38,7 +38,7 @@
 <div class="row">
     <div class="left-heading">Abstract</div>
     <div>
-        <p>Please see the submission template (HYPERLINK XX).</p>
+        <p>Please see the submission template.</p>
         <p>Structured abstracts should contain the following:</p>
         <div>
             <li>Introduction</li>
@@ -100,9 +100,10 @@
 <div class="row">
     <div class="left-heading">References</div>
     <div>
-        <p>Follow style guidelines for references. (HYPERLINK XX)</p>
+        <p>Follow the <a href="pol-styleguidelines.php">style Guidelines</a> for references.</p>
     </div>               
 </div>
+<hr>
 
 <div class="row">
     <div class="left-heading">Re-sumitting Revised Manuscripts</div>

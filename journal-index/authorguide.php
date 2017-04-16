@@ -5,8 +5,8 @@
 		    <p>Thank you for considering to make a submission with JSAMR. This guide will walk you through the steps of making a submission on the website.</p>
 		    <div class="left-heading">1. Register to be an author</div>
 		    <div>
-		        <p>Register on [weblink-journal machinery***] to create an account as an author.</p>
-		        <p>SS: registration page (removed would you like to be reviewer box)?ann=affiliation = uni*** </p>
+		        <p><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">Register</a> on  to create an account as an author.</p>
+		        
 		    </div>
 		</div>
 		<hr>
@@ -15,7 +15,7 @@
 		<div class="row">
 		    <div class="left-heading">2. Prepare Submission</div>
 		    <div>
-		        <p>How to submit your work - [journal index work – timeline weblink]. </p>
+		        <p>How to <a href="howtosubmit.php">submit</a> your work.</p>
 		        <p>This page outlines how to prepare your work before a submission to improve the chance of acceptance and publish.</p> 
 		        <p>Ready to submit? Click ‘New Submission’</p>
 		    </div>
@@ -213,7 +213,6 @@
 		    <div>
 		        <ol>
 		        <li>Upload the respective file after you select the component of your work that you wish to upload</li>
-		        <p>[This will change once we decide on article components***]</p>
 		        <li>Review Details - Ensure the correct file has been uploaded for each component.</li>
 		        <li>Confirm - Click ‘Add another file’ and repeat the upload submission process until all relevant the ‘Article Components’ of your work are uploaded. Then, click ‘Complete’.</li>
 		        <li>Click ‘Save and continue’</li>
