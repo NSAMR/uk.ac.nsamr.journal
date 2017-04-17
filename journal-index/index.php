@@ -138,7 +138,7 @@ data-easing="Sine.easeOut">
                     <i class="fa fa-users color-1"></i>
                     <h4>Who are we?</h4>
                     <p>
-                        We are part of the <b>National Student Association of Medical Research</b>, a non-profit, non-governmental and non-partisan <b>student-led</b> organisation representing medical school research societies nationally. NSAMR is registered with the Charity Commission (Reg. 1169158). Our core principles include the promotion of opportunites in academia for medical students, with a focus on <b>Openness and transparency</b>.
+                        We are part of the <b>Student Association of Medical Research</b>, a non-profit, non-governmental and non-partisan <b>student-led</b> organisation representing medical school research societies nationally. NSAMR is registered with the Charity Commission (Reg. 1169158). Our core principles include the promotion of opportunites in academia for medical students, with a focus on <b>Openness and transparency</b>.
                     </p>
                 </div>
             </div><!--service column-->
