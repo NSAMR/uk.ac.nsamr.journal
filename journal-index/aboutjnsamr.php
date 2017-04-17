@@ -239,7 +239,7 @@
                 <h4>Stephanie Rees</h4>
                 <span>Co-founding Editor-in-Chief<br>University of Leicester</span>
                 <p>
-                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSc in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD in the future.
+                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSc in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD.
                 </p>
                    <ul class="list-inline">
                     <li>
