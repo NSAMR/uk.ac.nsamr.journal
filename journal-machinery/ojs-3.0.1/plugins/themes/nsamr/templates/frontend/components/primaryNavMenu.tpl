@@ -14,7 +14,7 @@
       <ul class="dropdown-menu">
         <li><a href="/journal/journal-index/aboutjnsamr.php">About JNSAMR</a></li>
         <li><a href="/journal/journal-index/placeholder.php">FAQ</a></li>
-        <li><a href="/journal/journal-index/placeholder.php">Hosting</a></li>
+        <li><a href="/journal/journal-index/hosting.php">Hosting</a></li>
       </ul>
     </li>
 
