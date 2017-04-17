@@ -99,8 +99,8 @@
                                     <li><a href="hosting.php">Hosting</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Current</a></li>
-                            <li><a href="#">Archives</a></li>
+                            <li><a href="placeholder.php">Current</a></li>
+                            <li><a href="placeholder.php">Archives</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
