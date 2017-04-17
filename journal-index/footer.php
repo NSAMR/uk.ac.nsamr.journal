@@ -22,8 +22,8 @@
                         <ul class="list-unstyled f-list">
                             <li><a href="index.php">Home</a></li>
                             <li><a href="aboutjnsamr.php">About</a></li>
-                            <li><a href="#">Current issue</a></li>
-                            <li><a href="#">Archive</a></li>
+                            <li><a href="placeholder.php">Current issue</a></li>
+                            <li><a href="placeholder.php">Archive</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>

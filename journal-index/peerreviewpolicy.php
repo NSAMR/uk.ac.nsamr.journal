@@ -37,8 +37,8 @@
 					<li>Section editor rating</li>
 					<li>Time taken to complete reviews</li>
 				</ul>
-			<p>Peer reviewers are required to have completed reviewer training and registration (HYPERLINKS XX), and must adhere to all JNSAMR policies (HYPERLINKS XX).</p>	
-			<p>Reviews must be accepted or declined within 48 hours and completed within two weeks.Peer reviewers are required to have completed reviewer training and registration (HYPERLINKS XX), and must adhere to all JNSAMR policies (HYPERLINKS XX).</p>	
+			<p>Peer reviewers are required to have completed reviewer training and registration, and must adhere to all JNSAMR policies.</p>	
+			<p>Reviews must be accepted or declined within 48 hours and completed within two weeks.Peer reviewers are required to have completed reviewer training and registration, and must adhere to all JNSAMR policies.</p>	
 			<p>Peer reviews should maintain communication with Section Editors</p>	
 			<p>Any problems must be communicated promptly with the Section Editor, or if appropriate Deputy Editors or Editor-in-Chief.</p>	
     </div>                       
@@ -65,7 +65,7 @@
 				<ol>
 					<li>Behaviour deemed non-professional by the Section Editors, Deputy Editors or Editor-in-Chief.</li>
 					<li>Complaints from Section Editors, Deputy Editors or Editor-in-Chief.</li>
-					<li>Violation of the Review Ethics Policy (HYPERLINKS XX).</li>
+					<li>Violation of the Review Ethics Policy.</li>
 				</ol>
 			<p>Reviewer dismissal will be determined by a majority vote from the Deputy Editors and Editor-in-Chief.</p>
 			<p>Dismissal will be recorded in the reviewer database and any dismissed peer reviewers will be unable to reapply to be peer-reviewers.</p>
@@ -73,6 +73,8 @@
     </div>                       
 </div>
 <hr>
+</div>
+</div></div>
 
 
 

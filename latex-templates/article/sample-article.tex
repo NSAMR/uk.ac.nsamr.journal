@@ -141,12 +141,17 @@
 
 % Article text
 \section{Introduction}
-\lipsum[1-7]
-\cite{Buss2008}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo. As explained in section \ref {methods} (this is a reference to another section).
+
+Phasellus consequat luctus lobortis. Curabitur vulputate maximus tortor, quis dapibus tellus commodo eget. Ut hendrerit at risus vel tristique. Morbi faucibus accumsan ornare. Phasellus faucibus eleifend volutpat. Nullam ut tellus nisi. Praesent dolor sapien, pellentesque vel tortor nec, mattis fermentum tortor. Praesent quis fermentum nibh. Suspendisse libero magna, sodales in erat egestas, pharetra vulputate lectus. This is a working footnote\footnote{Footnote is present!}
+
+Aliquam tincidunt, metus vel viverra hendrerit, tellus urna fringilla diam, at bibendum lacus tortor nec nulla. Donec rutrum tellus quam, vitae interdum dolor lacinia in. Sed rutrum ultrices tincidunt. Ut pretium fermentum commodo. Curabitur elit quam, auctor id finibus vel, faucibus eu ligula. Sed ut odio sit amet felis pulvinar varius. Phasellus porttitor magna dolor, et pretium erat hendrerit ut. Duis sit amet tincidunt sem, ut consequat lectus. Nam consectetur, odio et aliquet pulvinar, purus mauris molestie dui, id sodales mi nulla vitae risus. Pellentesque finibus orci ante, hendrerit auctor velit congue interdum. Donec dignissim eu sem sit amet sollicitudin. Aenean congue nunc nisi, ac aliquam lectus hendrerit quis.
+Figure  \ref{fig:one-column} shows a one-column figure (this is a reference to a figure).
+\cite{Buss2008} (this is a citation)
 
 \section{Methods}
+\label{methods}
 \subsection{This is a subheading}
-Figure fig:one-column shows a one-column figure.
 
 \begin{figure}
 \centering
@@ -154,8 +159,37 @@ Figure fig:one-column shows a one-column figure.
 \caption{Figure legend goes here if required. This is a single-column figure. All figures must be vector graphics if possible, or at least 600dpi.}
 \label{fig:one-column}
 \end{figure}
+This is an ordered list:
+\begin{enumerate}
+   \item First level item
+   \item First level item
+   \begin{enumerate}
+     \item Second level item
+     \item Second level item
+     \begin{enumerate}
+       \item Third level item
+       \item Third level item
+       \begin{enumerate}
+         \item Fourth level item
+         \item Fourth level item
+       \end{enumerate}
+     \end{enumerate}
+   \end{enumerate}
+ \end{enumerate}
 
-\lipsum[8-9]
+This is an unordered list:
+ \begin{itemize}
+   \item  First Level
+   \begin{itemize}
+     \item  Second Level
+     \begin{itemize}
+       \item  Third Level
+       \begin{itemize}
+         \item  Fourth Level
+       \end{itemize}
+     \end{itemize}
+   \end{itemize}
+ \end{itemize}
 
 \subsection{This is a subheading}
 \lipsum[10-11]

@@ -3,14 +3,13 @@
 
 <!---BODY OF THIS PAGE-->
 
-
 <!--call to action-->
 <div class="pattern-bg-mid-shorter">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
                 <div class="left-title-bar">
-                    <h2>This page is currently undergoing changes</h2>
+                    <h2>Page Under Construction</h2>
                 </div>
             </div>
         </div>
@@ -18,32 +17,33 @@
 </div>
 <!--end call to action-->
 
-<div class="space40"></div> 
+<!-- Breadcrumbs -->
+<div class="pattern-bg-light-supershort col-sm-12 hidden-xs text-right">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Under Constructuion</li>
+            </ol>
+        </div>
+    </div>
+</div><!-- End breadcrumbs-->
+<div class="space80"></div>
 
-<div class="container policies">
-    <div class="row">
 
-        <!--CONTENT-->
-       <!-- Newsletter section -->
+        <!-- Newsletter section -->
             <div class="pattern-bg-dark">
                 <div class="newsletter-section">
+                    <div class="container">
                        <div class="center-heading margin-btm-50">
-                        <label for="tlemail"><h2>Subscribe to our newsletter<br>to find out when this page goes live</h2></label>
+                        <label for="tlemail"><h2>Subscribe to our newsletter<br> to know when this page goes live </h2></label>
                         <p>Low-volume: just announcements about new issues.<br>No spam, ever, promise.</p>        
                         <form action="https://tinyletter.com/nsamr" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nsamr', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
                         <p><input type="text" name="email" id="tlemail" class="form-control" placeholder="Email address..." style="width:300px"><input type="hidden" value="1" name="embed"/><input  class="btn btn-action btn-lg" type="submit" value="Subscribe" /></p>
                         <p style="text-align:right">powered by <a href="https://tinyletter.com" target="_blank" class="a-light">TinyLetter</a></p></form></li>
+                    </div>
                 </div><!-- End newsletter-->
             </div>
-      </div><!--END CONTENT
-  -->
-
-
-</div><!--END ROW-->
-<div class="space40"></div> 
-</div><!--END MAIN BODY CONTAINER-->
-
-
 
             
         <!--footer start-->
@@ -53,11 +53,11 @@
                     <div class="col-md-3 margin-btm-30">
                         <h3>Quick links</h3>
                         <ul class="list-unstyled f-list">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Current issue</a></li>
-                            <li><a href="#">Archive</a></li>
-                            <li><a href="#">Contribute</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="aboutjnsamr.php">About</a></li>
+                            <li><a href="placeholder.php">Current issue</a></li>
+                            <li><a href="placeholder.php">Archive</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 margin-btm-30">
@@ -75,29 +75,12 @@
                                 <a href="#" class="thumb"><img src="static/images/g1.jpg" alt="" width="70" class="img-responsive"></a>
                                 <div class="f-post-content">
                                     <a href="#">
-                                        Title goes here
+                                        Your work could be here
                                     </a>
-                                    <em>2 days ago</em>
+                                    <em>Submit now</em>
                                 </div>
                             </li>
-                            <li class="clearfix">
-                                <a href="#" class="thumb"><img src="static/images/g2.jpg" alt="" width="70" class="img-responsive"></a>
-                                <div class="f-post-content">
-                                    <a href="#">
-                                        Title goes here
-                                    </a>
-                                    <em>2 days ago</em>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <a href="#" class="thumb"><img src="static/images/g3.jpg" alt="" width="70" class="img-responsive"></a>
-                                <div class="f-post-content">
-                                    <a href="#">
-                                        Title goes here
-                                    </a>
-                                    <em>2 days ago</em>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
                     <div class="col-md-3 margin-btm-30">

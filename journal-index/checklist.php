@@ -1,5 +1,39 @@
+<!---STANDARD HEAD INFO AND NAV-->
+<?php include('header.php'); ?>
 
-        <div class="left-heading"></i>Checklist</div>
+<!---BODY OF THIS PAGE-->
+
+
+<!--call to action-->
+<div class="pattern-bg-mid-shorter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="left-title-bar">
+                    <h2>SUbmission Checklist</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end call to action-->
+
+<!-- Breadcrumbs -->
+<div class="pattern-bg-light-supershort col-sm-12 hidden-xs text-right">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Checklist</li>
+            </ol>
+        </div>
+    </div>
+</div><!-- End breadcrumbs-->
+<div class="space40"></div>
+<div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
+
+<div class="container">
+    <div class="row">   
         <p>To increase the chance of your submission being accepted please check the following:</p>
 
         <div class="left-subheading">Author Information</div>
@@ -13,9 +47,9 @@
 
         <div class="left-subheading">Manuscript Length and Formatting</div>
         <ul>
-            <li>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document..</li>
+            <li>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document.</li>
             <li>The word count is below the word limit for the specific submission type.</li>
-            <li>The article adheres to JNSAMR style guidelines. (HYPERLINK XX)</li>
+            <li>The article adheres to JNSAMR <a href="pol-manuscript-guidance.php">style guidelines</a>.</li>
         </ul>
 
         <div class="left-subheading">Tables</div>
@@ -55,7 +89,7 @@
         <ul>
             <li>Have copyright permissions for any figures or tables published elsewhere been obtained?  </li>
             have read, adhere to, and agree to the JSAMR copyright policy.
-            LINK                                                                     
+            <li>helen is da bomb</li>                                                                     
         </ul>   
 
         <div class="left-subheading">Revised manuscript</div>
@@ -64,3 +98,8 @@
         </ul>                                                                                                        
     </div>
 </div>
+
+
+<div class="space40"></div> 
+<!---PAGE FOOTER AND SCRIPTS-->
+<?php include('footer.php'); ?>
