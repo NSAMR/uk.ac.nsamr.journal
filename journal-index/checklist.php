@@ -47,9 +47,9 @@
 
         <div class="left-subheading">Manuscript Length and Formatting</div>
         <ul>
-            <li>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document..</li>
+            <li>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document.</li>
             <li>The word count is below the word limit for the specific submission type.</li>
-            <li>The article adheres to JNSAMR style guidelines. (HYPERLINK XX)</li>
+            <li>The article adheres to JNSAMR <a href="pol-manuscript-guidance.php">style guidelines</a>.</li>
         </ul>
 
         <div class="left-subheading">Tables</div>
@@ -89,7 +89,7 @@
         <ul>
             <li>Have copyright permissions for any figures or tables published elsewhere been obtained?  </li>
             have read, adhere to, and agree to the JSAMR copyright policy.
-            LINK                                                                     
+            <li>helen is da bomb</li>                                                                     
         </ul>   
 
         <div class="left-subheading">Revised manuscript</div>
