@@ -49,7 +49,7 @@
 			<ul>
 				<li style="color:red;">How to tutorials (XX HYPERLINK)</li>
 				<li style="color:red;"> (XX HYPERLINK)</li>
-				<li style="color:red;">JNSAMR Competition (XX HYPERLINK)</li>
+				<li style="color:red;">JSAMR Competition (XX HYPERLINK)</li>
 				<li style="color:red;">Textbook/ Online resource review	 (XX HYPERLINK)</li>
 				<li style="color:red;">Images in medicine (XX HYPERLINK)</li>
 				<li style="color:red;">Artwork	 (XX HYPERLINK)</li>
@@ -70,8 +70,8 @@
 <div class="left-heading">Scientific Articles</div>
     <div class="p-subheading">Brief Reports</div>
         <div>
-            <p>JNSAMR brief reports are a good place to start for any authors who have not written a manuscript or published before.<p/>
-            <p>JNSAMR brief reports are short articles, which can be written about audit or small research projects. These are the types of projects that are done during undergraduate study and commonly it is not possible for students to publish this work.<p/>
+            <p>JSAMR brief reports are a good place to start for any authors who have not written a manuscript or published before.<p/>
+            <p>JSAMR brief reports are short articles, which can be written about audit or small research projects. These are the types of projects that are done during undergraduate study and commonly it is not possible for students to publish this work.<p/>
             <p>Structure:<p/>
                 <ul>
                     <li>Audit or small research projects.</li>
@@ -85,7 +85,7 @@
 
     <div class="p-subheading">Reports </div>
         <div>
-            <p>JNSAMR welcomes articles on basic science e.g. biochemistry, immunology, physiology etc. or clinical research, e.g. randomised control trial, systematic review, meta-analysis, observational studies.<p/>
+            <p>JSAMR welcomes articles on basic science e.g. biochemistry, immunology, physiology etc. or clinical research, e.g. randomised control trial, systematic review, meta-analysis, observational studies.<p/>
             <p>Structure:<p/>
                 <ul>
                     <li>Audit not accepted.</li>
@@ -109,7 +109,7 @@
 
     <div class="p-subheading">Case Reports </div>
         <div>
-            <p>The JNSAMR Case Reports section includes articles which describe a single patient (case report), a series of related patients (case series), a single patient with questions (case quiz), a single or series of patients with a literature review (case review).</p>
+            <p>The JSAMR Case Reports section includes articles which describe a single patient (case report), a series of related patients (case series), a single patient with questions (case quiz), a single or series of patients with a literature review (case review).</p>
             <p>All patients included in the Case Reports Section must have a signed consent form.</p>
             <p>This should be submitted as a "case report" during the submission process.</p>
         </div>  
@@ -186,10 +186,10 @@
 
     <div class="p-subheading">View points </div>
         <div>
-            <p>JNSAMR welcomes articles which address any topic relating to medical research, medicine, public health policy, ethics, or medical law, which the author(s) feels are worthy of discussion.</p>
+            <p>JSAMR welcomes articles which address any topic relating to medical research, medicine, public health policy, ethics, or medical law, which the author(s) feels are worthy of discussion.</p>
             <p>The author’s/author's’ position(s) should be clearly stated in the article.</p>
             <p>Discussion should be focused and written in a professional voice throughout</p>
-            <p>JNSAMR encourages constructive criticism where appropriate.</p>
+            <p>JSAMR encourages constructive criticism where appropriate.</p>
             <p>Structure:<p/>
                 <ul>
                     <li>No abstract.</li>
@@ -203,7 +203,7 @@
 
     <div class="p-subheading">Reflections/Personal Experience </div>
         <div>
-            <p>JNSAMR welcomes articles on any personal experience in medicine or relating to medicine and lessons learned.</p>
+            <p>JSAMR welcomes articles on any personal experience in medicine or relating to medicine and lessons learned.</p>
             <p>No patient identifiable information should be included.</p>
             <p>Structure:<p/>
                 <ul>
@@ -242,11 +242,11 @@
                 </ul>
         </div>  
 
-    <div class="p-subheading">JNSAMR Competition </div>
+    <div class="p-subheading">JSAMR Competition </div>
         <div>
-            <p>JNSAMR runs an annual competition. The deadline for the 2018 competition is TBA.</p>
+            <p>JSAMR runs an annual competition. The deadline for the 2018 competition is TBA.</p>
             <p>The title for is TBA</p>
-            <p>Prize: £100 and your article will be published in JNSAMR.</p>
+            <p>Prize: £100 and your article will be published in JSAMR.</p>
             <p>Structure:<p/>
                 <ul>
                     <li>100 words unstructured abstract</li>
@@ -260,7 +260,7 @@
 
     <div class="p-subheading">Textbook/Online Resource Reviews </div>
         <div>
-            <p>JNSAMR welcomes reviews of any resource relating to medical research.</p>
+            <p>JSAMR welcomes reviews of any resource relating to medical research.</p>
             <p>Structure:<p/>
                 <ul>
                     <li>500 words </li>
@@ -274,7 +274,7 @@
     <div class="p-subheading">Images in Medicine </div>
         <div>
             <p>Interesting images relating to medicine taken or obtained from a patient seen by a student.</p>
-            <p>Patient identifiable information should be anonymised. If this is not possible a signed JNSAMR consent form must be obtained from the patient.</p>
+            <p>Patient identifiable information should be anonymised. If this is not possible a signed JSAMR consent form must be obtained from the patient.</p>
             <p>Structure:<p/>
                 <ul>
                     <li>150 word figure legend </li>
@@ -299,8 +299,8 @@
 
     <div class="p-subheading">Letters to the editor </div>
         <div>
-            <p>JNSAMR welcomes dialogue relating to pertinent topics or JNSAMR articles.</p>
-            <p>If the letter relates to an JNSAMR article one of the five references should be the published article.</p>
+            <p>JSAMR welcomes dialogue relating to pertinent topics or JSAMR articles.</p>
+            <p>If the letter relates to an JSAMR article one of the five references should be the published article.</p>
             <p>Author’s/authors’ should maintain a professional voice throughout the letter.</p>
             <p>Structure:<p/>
                 <ul>

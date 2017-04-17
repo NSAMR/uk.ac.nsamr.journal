@@ -204,7 +204,7 @@
             <div class="left-title-bar">
                 <h2>Core team members</h2>
                 <div class="space20"></div>
-                <p class="lead">JNSAMR was founded in 2017, and the core team is supported by the wider NSAMR committee, and teams of section editors and reviewers.</p>
+                <p class="lead">JSAMR was founded in 2017, and the core team is supported by the wider NSAMR committee, and teams of section editors and reviewers.</p>
             </div>
         </div>
     </div>
