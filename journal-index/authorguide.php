@@ -225,7 +225,7 @@
 		            <li>Keywords*</li>
 		            </ul>  
 		        </li>
-		        <li>*Keywords- you can enter upto 5 key phrases/words for each submission, these will be used to identify your submission through the search bar and tagcloud. e.g. Tissue factor, IP3, Parkinson's Disease, Migrane, Corneal Arcus.
+		        <li>*Keywords- you can enter upto 5 key phrases/words for each submission, these will be used to identify your submission through the search bar and tagcloud. e.g. Tissue factor, IP3, Parkinson's Disease, Migraine, Corneal Arcus.
 		        <li>Tick ‘Principal contact for editorial correspondence’ for the appropriate contributor.</li>
 		        <li>‘Include this contributor in browse lists?’: JSAMR allows the website users to see all articles that are attributed to a particular author; if the author wishes to be browsed in this manner, tick this option.</li>
 		        <li>Click ‘Save and continue’</li>
