@@ -5,7 +5,7 @@
 		    <p>Thank you for considering to make a submission with JSAMR. This guide will walk you through the steps of making a submission on the website.</p>
 		    <div class="left-heading">1. Register to be an author</div>
 		    <div>
-		        <p><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">Register</a> on  to create an account as an author.</p>
+		        <p><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">Register</a> on  to create an account as an author.</p>
 		        
 		    </div>
 		</div>

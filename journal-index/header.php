@@ -67,8 +67,8 @@
                     </div>
                     <div class="col-sm-6 text-right">
                         <ul id="navigationUser" class="nav nav-reginald nav-pills tab-list pull-right" role="navigation" aria-label="User Navigation">
-                            <li><span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-topbar btn-lg btn-action">Register <i class="fa fa-user"></i></a></span></li>
-                            <li><span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-topbar btn-lg btn-action">Login <i class="fa fa-user"></i></a></span></li>
+                            <li><span><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-topbar btn-lg btn-action">Register <i class="fa fa-user"></i></a></span></li>
+                            <li><span><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-topbar btn-lg btn-action">Login <i class="fa fa-user"></i></a></span></li>
                         </ul>
                     </div>
 
