@@ -16,7 +16,7 @@
 		    <div class="left-heading">2. Prepare Submission</div>
 		    <div>
 		        <p>How to <a href="howtosubmit.php">submit</a> your work.</p>
-		        <p>This page outlines how to prepare your work before a submission to improve the chance of acceptance and publish.</p> 
+		        <p>This page outlines how to prepare your work before a submission to improve the likelihood of acceptance and publication.</p> 
 		        <p>Ready to submit? Click ‘New Submission’</p>
 		    </div>
 		</div>  
@@ -27,7 +27,7 @@
 		    <div>
 		        <ol>
 		        <li>Section: Select your article type from the drop-down menu</li>
-		        <li>Submissioon requirements: All the requirements should be ticked</li>
+		        <li>Submission requirements: All the requirements should be ticked</li>
 		        <li>Comments for the Editor: Choose the most suitable 2-3 codes for your article/letter from the following:</li> 
 		        <div class="container">            
 		          <table class="table">
@@ -52,7 +52,7 @@
 		              </tr>
 		              <tr>
 		                <td>400</td>
-		                <td>CLinical Genetics</td>
+		                <td>Clinical Genetics</td>
 		              </tr>
 		              <tr>
 		                <td>500</td>
