@@ -26,7 +26,7 @@
 		    <div class="left-heading">3. Submit Manuscript</div>
 		    <div>
 		        <ol>
-		        <li>Section: Select either ‘Article’ or ‘Letter’ from the drop-down menu</li>
+		        <li>Section: Select your article type from the drop-down menu</li>
 		        <li>Submissioon requirements: All the requirements should be ticked</li>
 		        <li>Comments for the Editor: Choose the most suitable 2-3 codes for your article/letter from the following:</li> 
 		        <div class="container">            
@@ -218,12 +218,14 @@
 		        <li>Click ‘Save and continue’</li>
 		        <li>Enter the following metadata
 		            <ul>
-		            <li>Title*</li>
-		            <li>Prefix*</li>
-		            <li>Abstract*: A good abstract is generally structured and 200-300 words.</li>
+		            <li>Title</li>
+		            <li>Prefix</li>
+		            <li>Abstract: A good abstract is generally structured and 200-300 words.</li>
 		            <li>List of contributors: Add all the contributing authors of the work being submitted.</li>  
+		            <li>Keywords*</li>
 		            </ul>  
 		        </li>
+		        <li>*Keywords- you can enter upto 5 key phrases/words for each submission, these will be used to identify your submission through the search bar and tagcloud. e.g. Tissue factor, IP3, Parkinson's Disease, Migrane, Corneal Arcus.
 		        <li>Tick ‘Principal contact for editorial correspondence’ for the appropriate contributor.</li>
 		        <li>‘Include this contributor in browse lists?’: JSAMR allows the website users to see all articles that are attributed to a particular author; if the author wishes to be browsed in this manner, tick this option.</li>
 		        <li>Click ‘Save and continue’</li>

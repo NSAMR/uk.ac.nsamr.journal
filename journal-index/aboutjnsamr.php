@@ -124,9 +124,11 @@
         </div><!-- End right-hand section -->    
     <div class="space40"></div> 
 </div><!-- End container of icons and reasons -->
+</div>
+
 
 <!--Call to action -->
-<div class="space40"></div> 
+
 <div class="pattern-bg-mid">
     <div class="container">
         <div class="row text-center">
@@ -140,6 +142,8 @@
         </div>
     </div>
 </div>
+
+
 <!--End call to action -->
 
 <!-- Start of team section -->
@@ -151,7 +155,7 @@
             <div class="left-title-bar">
                 <h2>Core team members</h2>
                 <div class="space20"></div>
-                <p class="lead">JSAMR was founded in 2017, and the core team is supported by the wider SAMR committee, and teams of section editors and reviewers.</p>
+                <p>JSAMR was founded in 2017, and the core team is supported by the wider SAMR committee, and teams of section editors and reviewers.</p>
             </div>
         </div>
     </div>
