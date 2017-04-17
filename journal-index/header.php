@@ -66,10 +66,12 @@
                         </ul>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-lg btn-action">Register <i class="fa fa-pencil"></i></a></span>
-                        <span><a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Log in <i class="fa fa-user"></i></a></span>
-                        
+                        <ul id="navigationUser" class="nav nav-reginald nav-pills tab-list pull-right" role="navigation" aria-label="User Navigation">
+                            <li><span><a href="http://localhost:9999/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-topbar btn-lg btn-action">Register <i class="fa fa-user"></i></a></span></li>
+                            <li><span><a href="http://localhost:9999/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-topbar btn-lg btn-action">Login <i class="fa fa-user"></i></a></span></li>
+                        </ul>
                     </div>
+
                 </div>
             </div>
         </div><!--END TOP BAR-->
@@ -97,8 +99,8 @@
                                     <li><a href="placeholder.php">Hosting</a></li>
                                 </ul>
                             </li>
-                            <li><a href="placeholder.php">Current Issue</a></li>
-                            <li><a href="placeholder.php">Archive</a></li>
+                            <li><a href="#">Current</a></li>
+                            <li><a href="#">Archives</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
