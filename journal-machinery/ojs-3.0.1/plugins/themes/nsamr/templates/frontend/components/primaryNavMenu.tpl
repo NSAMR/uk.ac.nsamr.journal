@@ -38,10 +38,6 @@
       </ul>
     </li>
     <li><a href="#">Contact</a></li>
-    <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
-      <form class="search-form">
-        <input type="text" class="form-control" placeholder="Search JNSAMR...">
-      </form>
-    </li>
+    
 
   </ul>
