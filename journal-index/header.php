@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        <title>Journal of the National Student Association of Medical Research</title>
+        <title>Journal of the Student Association of Medical Research</title>
 
         <!-- Bootstrap and other styling packages -->
         <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -86,7 +86,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                        <a class="navbar-brand img-responsive" href="index.php"><img src="static/images/nsamr-logos/jsamr-logo-header.png" alt="JNSAMR logo"></a>
+                        <a class="navbar-brand img-responsive" href="index.php"><img src="static/images/nsamr-logos/jsamr-logo-header.png" alt="JSAMR logo"></a>
                 </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -94,7 +94,7 @@
                             <li class="dropdown">
                                 <a href="aboutjnsamr.php" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="aboutjnsamr.php">About JNSAMR</a></li>
+                                    <li><a href="aboutjnsamr.php">About JSAMR</a></li>
                                     <li><a href="placeholder.php">FAQ</a></li>
                                     <li><a href="hosting.php">Hosting</a></li>
                                 </ul>
@@ -114,7 +114,7 @@
                             <!-- SEARCH BOX
                             <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
                                 <form class="search-form">
-                                    <input type="text" class="form-control" placeholder="Search JNSAMR...">
+                                    <input type="text" class="form-control" placeholder="Search JSAMR...">
                                 </form>
                             </li> -->
 

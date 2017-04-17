@@ -9,10 +9,10 @@
 <hr>
 
 <div class=”row”>
-		<div class="left-heading">Why does JNSAMR have so many style guidelines?</div>
+		<div class="left-heading">Why does JSAMR have so many style guidelines?</div>
 		<div>
-			<p>There are many parts to a manuscript. Style guidelines ensure that each article published in a journal appears in the same format. A consistent style is a key part of JNSAMR quality control.<p/>
-			<p>JNSAMR includes many of the style guidelines of journals such as The BMJ, The Lancet, and Nature use.<p/>
+			<p>There are many parts to a manuscript. Style guidelines ensure that each article published in a journal appears in the same format. A consistent style is a key part of JSAMR quality control.<p/>
+			<p>JSAMR includes many of the style guidelines of journals such as The BMJ, The Lancet, and Nature use.<p/>
 			<p>Adherence to style guidelines is a key part of an author’s submission process.<p/>
 			
 		</div>
@@ -20,21 +20,21 @@
 <hr>
 
 <div class=”row”>
-		<div class="left-heading">How does JNSAMR make it easy to adhere to style guidelines?</div>
+		<div class="left-heading">How does JSAMR make it easy to adhere to style guidelines?</div>
 		<div>
-			<p>JNSAMR makes adherence to style guidelines easier by providing submission templates, these can be found<a href="#">here</a>. <p/>
+			<p>JSAMR makes adherence to style guidelines easier by providing submission templates, these can be found<a href="#">here</a>. <p/>
 		</div>
 </div>
 <hr>
 
 <div class=”row”>
-		<div class="left-heading">Why will JNSAMR reject a manuscript that does not adhere to its style guidelines?</div>
+		<div class="left-heading">Why will JSAMR reject a manuscript that does not adhere to its style guidelines?</div>
 		<div>
-			<p>JNSAMR will reject any articles that do not adhere to their style guidelines.<p/>
+			<p>JSAMR will reject any articles that do not adhere to their style guidelines.<p/>
 			<p>Style guidelines ensure that the peer review, editing and publication processes run smoothly. It also ensures consistency throughout the journal.<p/>
-			<p>JNSAMR operates an open access publishing model with no submission charges for authors. <p/>
-			<p>This is rare, most journals operate either by subscription (i.e. non-open access), or by open access with author submission charges. Furthermore, JNSAMR is run by students who volunteer their time.<p/>
-			<p>Thus, inline with the majority of journals, JNSAMR does not have the capacity to perform vast numbers of minor edits to amend manuscripts that do not adhere to its style guidelines.<p/>
+			<p>JSAMR operates an open access publishing model with no submission charges for authors. <p/>
+			<p>This is rare, most journals operate either by subscription (i.e. non-open access), or by open access with author submission charges. Furthermore, JSAMR is run by students who volunteer their time.<p/>
+			<p>Thus, inline with the majority of journals, JSAMR does not have the capacity to perform vast numbers of minor edits to amend manuscripts that do not adhere to its style guidelines.<p/>
 		</div>
 </div>
 <hr>
