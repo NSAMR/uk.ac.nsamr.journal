@@ -77,7 +77,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <i class="fa fa-balance-scale icon-with-space"></i>  When you will hear from us 
+                                  When you will hear from us 
                             </a>
                         </h4>
                     </div>
