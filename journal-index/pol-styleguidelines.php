@@ -22,7 +22,7 @@
 <div class=”row”>
 		<div class="left-heading">How does JNSAMR make it easy to adhere to style guidelines?</div>
 		<div>
-			<p>JNSAMR makes adherence to style guidelines easier by providing submission templates, these can be found here. # <p/>
+			<p>JNSAMR makes adherence to style guidelines easier by providing submission templates, these can be found<a href="#">here</a>. <p/>
 		</div>
 </div>
 <hr>
@@ -106,6 +106,7 @@
 			<div>
 				<p>Authors should avoid using any materials that have been published elsewhere, e.g. figures, tables, or videos.<p/>
 				<p>If authors wish to include any material published elsewhere, permission from the copyright holder (author or publisher) must be obtained.<p/>
+				<p> you'll find me here if you're a good deputey editor</p>
 				<p>This includes any of your own previously published work, if you are not the copyright holder.<p/>
 			</div>	
 
