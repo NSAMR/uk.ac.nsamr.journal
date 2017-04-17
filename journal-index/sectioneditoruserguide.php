@@ -1,6 +1,8 @@
 
 
 <!--START Section Editor GUIDE-->
+<div class="container">
+
 <div class="row">
     <p>Congratulations on receiving the appointment as Section Editor. This guide will walk you through what you should be doing to delegate work to peer reviewers. </p>
     <div class="left-heading">1. Recieveing a manuscript</div>
@@ -67,5 +69,7 @@
     </div>
 </div>  
 <hr>
+</div>
+
 <!--END AUTHOR GUIDE-->
 

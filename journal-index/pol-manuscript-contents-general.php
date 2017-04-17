@@ -1,4 +1,4 @@
-
+<div class="container">
 <div class="row">
     <div class="left-heading">Manuscript preparation</div>
     <div>
@@ -125,3 +125,5 @@
     </div>  
 </div>                       
 <hr>
+</div>
+
