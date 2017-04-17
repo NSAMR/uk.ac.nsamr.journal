@@ -34,8 +34,8 @@
 
 <div class="container">
     <div class="row">    
-        <div class="col-md-9 margin20">
-            <h3 class="heading">Mythic Beasts</h3>
+        <div class="col-md-6 margin20">
+            <h3 class="heading">A little about us</h3>
             <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni. Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
             </p>
@@ -43,8 +43,8 @@
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni. Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
             </p>
         </div>
-        <div class="col-md-3">
-            <img src="static/images/assorted/mythicbeastslogo.png" class="img-responsive" alt="">
+        <div class="col-md-6">
+            <img src="static/images/assorted/lines_background_light_shine_85060_1920x1080.jpg" class="img-responsive" alt="">
         </div>
     </div><!-- End row-->
 

@@ -96,7 +96,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="aboutjnsamr.php">About JNSAMR</a></li>
                                     <li><a href="placeholder.php">FAQ</a></li>
-                                    <li><a href="placeholder.php">Hosting</a></li>
+                                    <li><a href="hosting.php">Hosting</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Current</a></li>
