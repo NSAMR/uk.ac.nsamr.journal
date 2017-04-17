@@ -49,7 +49,7 @@
         <ul>
             <li>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document.</li>
             <li>The word count is below the word limit for the specific submission type.</li>
-            <li>The article adheres to JNSAMR <a href="pol-manuscript-guidance.php">style guidelines</a>.</li>
+            <li>The article adheres to JSAMR <a href="pol-manuscript-guidance.php">style guidelines</a>.</li>
         </ul>
 
         <div class="left-subheading">Tables</div>
@@ -77,7 +77,7 @@
         <ul>
             <li>All patient information is anonymised </li>
             <li>the minimum volume of patient information required to achieve the intended research purpose is included</li>
-            <li>If personal medical information about an identifiable living individual is included, a JNSAMR consent form has been obtained and submitted.</li>
+            <li>If personal medical information about an identifiable living individual is included, a JSAMR consent form has been obtained and submitted.</li>
         </ul> 
 
         <div class="left-subheading">Permissions</div>

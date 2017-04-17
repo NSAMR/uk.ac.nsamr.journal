@@ -41,7 +41,7 @@
             </div>
             <div class="space20"></div>
             <p>JSAMR is the Journal of Student Association of Medical Research (SAMR). JSAMR is a <b>high quality</b>, <b>open access</b>, <b>online only</b> journal that is authored, reviewed, and edited by <b>students</b>.</p>
-            <p>The aim of JNSAMR is to <b>educate</b> students about all parts of the journal publication process, and to provide a <b>free</b> platform to give students <b>experience</b> of the journal submission and peer-review process <b>without competition</b> from established researchers.</p>
+            <p>The aim of JSAMR is to <b>educate</b> students about all parts of the journal publication process, and to provide a <b>free</b> platform to give students <b>experience</b> of the journal submission and peer-review process <b>without competition</b> from established researchers.</p>
 			<p>JSAMR is proudly funded by the Wellcome Trust.</p>
 			<p>SAMR is registered with the Charity Commission with charity number 1169158.</p>
         </div>
@@ -239,7 +239,7 @@
                 <h4>Stephanie Rees</h4>
                 <span>Co-founding Editor-in-Chief<br>University of Leicester</span>
                 <p>
-                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSc in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD in the future.
+                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSc in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD.
                 </p>
                    <ul class="list-inline">
                     <li>
