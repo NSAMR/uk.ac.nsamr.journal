@@ -37,64 +37,64 @@
         <p>To increase the chance of your submission being accepted please check the following:</p>
 
         <div class="left-subheading">Author Information</div>
-        <ul>
-            <li>The first author is/was a medical student, at a current registered medical school, at the time of submission.</li>
-            <li>The submission has not been previously published elsewhere.</li>
-            <li>The submission is not currently submitted to another journal for consideration.</li>
-            <li>All co-authors are listed with their institutions numbered as superscript.</li>
-            <li>All conflicts of interest have been declared.</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>The first author is/was a medical student, at a current registered medical school, at the time of submission.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>The submission has not been previously published elsewhere.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>The submission is not currently submitted to another journal for consideration.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>All co-authors are listed with their institutions numbered as superscript.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>All conflicts of interest have been declared.</li>
         </ul>
 
         <div class="left-subheading">Manuscript Length and Formatting</div>
-        <ul>
-            <li>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document.</li>
-            <li>The word count is below the word limit for the specific submission type.</li>
-            <li>The article adheres to JSAMR <a href="pol-manuscript-guidance.php">style guidelines</a>.</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>The file has been submitted as a PDF using out LaTeX template, or in an unstyled word document.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>The word count is below the word limit for the specific submission type.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>The article adheres to JSAMR <a href="pol-manuscript-guidance.php">style guidelines</a>.</li>
         </ul>
 
         <div class="left-subheading">Tables</div>
-        <ul>
-            <li>All tables and table legends are in numerical order and embedded in the body of the text.</li>
-            <li>All tables are cited in the text.</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>All tables and table legends are in numerical order and embedded in the body of the text.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>All tables are cited in the text.</li>
         </ul>
 
         <div class="left-subheading">Figures</div>
-        <ul>
-            <li>All figures and figure legends are in numerical order and embedded in the body of the text</li>
-            <li>All figures are cited in text</li>
-            <li>All figures have been uploaded as supplementary files</li>
-            <li>All figures are 600dpi or above</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>All figures and figure legends are in numerical order and embedded in the body of the text</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>All figures are cited in text</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>All figures have been uploaded as supplementary files</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>All figures are 600dpi or above</li>
         </ul>
 
         <div class="left-subheading">References</div>
-        <ul>
-            <li>All references are cited in the text where appropriate</li>
-            <li>APA referencing style is used throughout.</li>
-            <li>The bibliography complies with the style guidelines </li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>All references are cited in the text where appropriate</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>APA referencing style is used throughout.</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>The bibliography complies with the style guidelines </li>
         </ul>
 
         <div class="left-subheading">Confidentiality</div>
-        <ul>
-            <li>All patient information is anonymised </li>
-            <li>the minimum volume of patient information required to achieve the intended research purpose is included</li>
-            <li>If personal medical information about an identifiable living individual is included, a JSAMR consent form has been obtained and submitted.</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>All patient information is anonymised </li>
+            <li><i class="fa fa-square-o icon-with-space"></i>the minimum volume of patient information required to achieve the intended research purpose is included</li>
+            <li><i class="fa fa-square-o icon-with-space"></i>If personal medical information about an identifiable living individual is included, a JSAMR consent form has been obtained and submitted.</li>
         </ul> 
 
         <div class="left-subheading">Permissions</div>
-        <ul>
-            <li>Are all statements of consent, confidentiality, conflicts of interest and ethics included?</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>Are all statements of consent, confidentiality, conflicts of interest and ethics included?</li>
         </ul>                                                                                                
 
         <div class="left-subheading">Copyright</div>
-        <ul>
-            <li>Have copyright permissions for any figures or tables published elsewhere been obtained?  </li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>Have copyright permissions for any figures or tables published elsewhere been obtained?  </li>
             have read, adhere to, and agree to the JSAMR copyright policy.
-            <li>helen is da bomb</li>                                                                     
+            <li><i class="fa fa-square-o icon-with-space"></i>helen is da bomb</li>                                                                     
         </ul>   
 
         <div class="left-subheading">Revised manuscript</div>
-        <ul>
-            <li>If you are resubmitting a revised manuscript have you submitted a copy that highlights your changes (i.e compared document)?</li>
+        <ul class="list-unstyled highlight-list">
+            <li><i class="fa fa-square-o icon-with-space"></i>If you are resubmitting a revised manuscript have you submitted a copy that highlights your changes (i.e compared document)?</li>
         </ul>                                                                                                        
     </div>
 </div>
