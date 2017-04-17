@@ -8,40 +8,41 @@
   * Primary navigation menu list for OJS
   *}
   <ul class="nav navbar-nav navbar-right">
-    <li><a href="{$homeUrl}">Home</a></li>
+    <li><a href="/journal-index/index.php">Home</a></li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="#">About JNSAMR</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Hosting</a></li>
+        <li><a href="/journal-index/aboutjnsamr.php">About JNSAMR</a></li>
+        <li><a href="/journal-index/placeholder.php">FAQ</a></li>
+        <li><a href="/journal-index/placeholder.php">Hosting</a></li>
       </ul>
     </li>
 
     <li>
+      <!--
       <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
         {translate key="navigation.current"}
       </a>
+      -->
+      <a href="/journal-index/placeholder.php"></a>
+
     </li>
     <li class="dropdown">
-      <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
+      <!-- <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
         {translate key="navigation.archives"}
       </a>
+      -->
+      <a href="/journal-index/placeholder.php"></a>
+
     </li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="#">Submissions portal</a></li>
-        <li><a href="authorpoliciesandguidelines.php">Author policies and guidelines</a></li>
-        <li><a href="#">Reviewer guidelines</a></li>
-        <li><a href="#">Become a peer-reviewer</a></li>
+        <li><a href="/journal-index/howtosubmit.php">Submit Your Work</a></li>
+        <li><a href="/journal-index/pol-user-guide-tabs.php">User Guides</a></li>
+        <li><a href="/journal-index/pol-manuscript-guidance.php">Manuscript Guidance</a></li>
+        <li><a href="/journal-index/pol-head.php">Author and Reviewer Policies</a></li>
       </ul>
     </li>
-    <li><a href="#">Contact</a></li>
-    <li class="search-toggle"><a href="javascript:void(0)"><i class="fa fa-search"></i></a>
-      <form class="search-form">
-        <input type="text" class="form-control" placeholder="Search JNSAMR...">
-      </form>
-    </li>
-
+    <li><a href="/journal-index/contact.php">Contact</a></li>
   </ul>
