@@ -15,7 +15,7 @@ ICON COLORS
     Basics
 */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.3rem;
   line-height: 2.3rem;
   margin: 0;
@@ -692,9 +692,9 @@ Bars
 }
 .top-bar span a {
   padding: 4px 10px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 900;
   display: block;
   margin: auto 0 10px 0;
@@ -941,7 +941,7 @@ Carousel slider
 }
 .testi-slider.owl-theme h4 em {
   color: #30415D;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
 }
 .testi-slider.owl-theme .owl-controls {
