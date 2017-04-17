@@ -85,7 +85,7 @@ button:focus {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 blockquote {
@@ -489,7 +489,7 @@ Boxes
   overflow: hidden;
 }
 .icon-box .content h4 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -604,7 +604,7 @@ Bars
   padding: 0px 0;
 }
 .navbar-inverse .navbar-nav > li > a {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 13px;
@@ -754,7 +754,7 @@ Dropdown css
   font-size: 13px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .dropdown-menu > li > a:hover {
   color: #30415D;
@@ -815,7 +815,7 @@ Dropdown css
 .yamm .yamm-content h3 {
   text-transform: uppercase;
   font-size: 13px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin-bottom: 20px;
 }
 .yamm .yamm-content .mega-vertical-nav > li > a {
@@ -825,7 +825,7 @@ Dropdown css
   font-size: 13px;
   text-transform: capitalize;
   border-bottom: 1px solid #ddd;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .yamm .yamm-content .mega-vertical-nav > li > a:hover {
   color: #30415D;
@@ -886,7 +886,7 @@ form-elements style
 slider revolution
 */
 .slider-title {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: #F2F7F3;
   font-size: 60px;
   line-height: 70px;
@@ -1134,7 +1134,7 @@ Footer styles
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 700;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .footer .form-control {
   border: 0px;
