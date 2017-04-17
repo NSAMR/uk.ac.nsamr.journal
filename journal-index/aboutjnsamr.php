@@ -75,7 +75,7 @@
                             Open Research doesn't just mean Open Access. We encourage publication of all data and analytical tools used in each manuscript, allowing these, as well as figures, to be cited individually in future work.
                         </p>
                         <p>
-                            Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the saem licence.
+                            Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the same licence.
                         </p>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="content">
                         <h4>We believe in transparency</h4>
                         <p>
-                            We will publish all conversations between authors and reviewers, alongisde all revisions of each manuscript. 
+                            We will publish all conversations between authors and reviewers, alongside all revisions of each manuscript. 
                         </p>
                         <p>
                             While our review process is double-blind, we encourage reviewers to reveal their identities after publication of the manuscript. Not only can reviewers then claim credit for their work, but any potential conflicts of interest will then be subject to public scrutiny.
