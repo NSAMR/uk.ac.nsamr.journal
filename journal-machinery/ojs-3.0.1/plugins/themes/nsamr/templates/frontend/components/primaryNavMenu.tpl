@@ -24,7 +24,7 @@
         {translate key="navigation.current"}
       </a>
       -->
-      <a href="/journal-index/placeholder.php"></a>
+      <a href="/journal-index/placeholder.php">Current</a>
 
     </li>
     <li class="dropdown">
@@ -32,7 +32,7 @@
         {translate key="navigation.archives"}
       </a>
       -->
-      <a href="/journal-index/placeholder.php"></a>
+      <a href="/journal-index/placeholder.php">Archives</a>
 
     </li>
     <li class="dropdown">
