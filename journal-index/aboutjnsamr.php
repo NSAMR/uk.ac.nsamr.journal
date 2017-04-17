@@ -197,7 +197,7 @@
                 <h4>Helen Jackson</h4>
                 <span>Founder and CTO<br>King's College London</span>
                 <p>
-                    Helen is a grad-entry medic at King's College London, and a reformed academic. She likes Open, good science and common sense. She aspires to be a professional cat herder.
+                    Helen is a grad-entry medic, having finished her BA in Natural Sciences and PhD in auditory signal processing at the University of Cambridge. She holds a Pathfinder Fellowship from the RCPsych to support her research into neuropsychiatry, and also enjoys healthcare tech, being one of the organisers of <a href="http://www.nhshackday.com">NHS Hack Day</a>. She likes Open, good science and common sense. 
                 </p>
                     <ul class="list-inline">
                     <li>
