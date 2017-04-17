@@ -60,7 +60,7 @@
             </div>
             <div class="footer-bottom">
                 <div class="container">
-                    <span>&copy; Copyright 2016-2017 Student Association of Medical Research. <a href="https://creativecommons.org/licenses/by/4.0/"> Licensed under CC BY License version 4.0.</a> All Rights Reserved.</span>
+                    <span>&copy; Copyright 2016-2017 Student Association of Medical Research. <a href="https://creativecommons.org/licenses/by/4.0/"> Licensed under CC-BY License version 4.0.</a> All Rights Reserved.</span>
                 </div>
             </div>
         </footer>
