@@ -75,7 +75,7 @@
                             Open Research doesn't just mean Open Access. We encourage publication of all data and analytical tools used in each manuscript, allowing these, as well as figures, to be cited individually in future work.
                         </p>
                         <p>
-                            Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the saem licence.
+                            Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the saem licence.
                         </p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
         </div>
         <div class="row text-center">
             <div class="space20"></div>
-            <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
+            <a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action" style="text-align:center">Submit a manuscript <i class="fa fa-edit"></i></a>
         </div>
     </div>
 </div>
@@ -156,6 +156,7 @@
                 <h2>Core team members</h2>
                 <div class="space20"></div>
                 <p>JSAMR was founded in 2017, and the core team is supported by the wider SAMR committee, and teams of section editors and reviewers.</p>
+
             </div>
         </div>
     </div>
@@ -238,7 +239,7 @@
                 <h4>Stephanie Rees</h4>
                 <span>Co-founding Editor-in-Chief<br>University of Leicester</span>
                 <p>
-                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSC in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD in the future.
+                    Stephanie has a keen interest in Cardiothoracic Surgery and research, and hopes to combine the two throughout her training. She is currently undertaking an intercalated BSc in Cardiovascular research, looking into the effect of hyperglycaemia on vascular tone, and hopes to further her knowledge and skills by undertaking a PhD in the future.
                 </p>
                    <ul class="list-inline">
                     <li>
@@ -275,8 +276,8 @@
             </div><!--team-wrap-->
         </div><!--team col-->
 </div><!-- End team container-->
-</div>
 
+<div class="space40"></div>
 <div class="container">
     <div class="row">
         
@@ -378,7 +379,7 @@
         </div><!--team col-->   
 </div><!-- End team container-->
 </div>
-
+</div>
 <div class="space80"></div>
 
 <!---PAGE FOOTER AND SCRIPTS-->

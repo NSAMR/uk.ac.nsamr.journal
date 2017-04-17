@@ -2,7 +2,7 @@
 <div class="row">
     <div class="left-heading">Manuscript preparation</div>
     <div>
-        <p>Manuscripts must be submitted via the JNSAMR online submission system <a href="/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">register</a>.</p>
+        <p>Manuscripts must be submitted via the JNSAMR online submission system <a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">register</a>.</p>
         <p>All manuscripts must adhere to the following style guidelines, otherwise they will be rejected outright.</p>
         <p>Please see the example submission and submission template.</p>
         <p>Manuscript contents for each article type can be found under the relevant article in article policies.</p>
