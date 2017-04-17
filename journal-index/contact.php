@@ -33,78 +33,50 @@
 <div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
 
 <div class="space40"></div> 
-
-<div class="container policies">
-    <div class="row">
-
-        <!--CONTENT-->
-        <div class="divide80"></div>
+<div class="divide80"></div>
         <div class="container">
-            <div id="map-canvas"></div>
-        </div><!--.container-->
-        <div class="divide60"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 margin30">
-                    <p>
-                        Please feel free to contact the JSAMR Editorial Team with any queries or issues that you may have regarding article submission, article review or the site in general.
-                    </p>
-                    <div class="divide30"></div>
-                    <div class="form-contact">
-                        <div class="required">
-                            <p>( <span>*</span> fields are required )</p>
-                        </div>
+<form id="contact-form" method="post" action="contactform.php" role="form">
 
-                       <form name="sentMessage" id="contactForm" method="post" novalidate>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 controls">
-                                            <label>Name<span>*</span></label>
-                                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                            <p class="help-block"></p>
-                                        </div>
-                                    </div>
+    <div class="messages"></div>
 
-                                </div>
+    <div class="controls">
 
-                                <div class="col-md-6">
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 controls">
-                                            <label>Email Address<span>*</span></label>
-                                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                            <p class="help-block"></p>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-                            <div class="row control-group">
-                                <div class="form-group col-xs-12  controls">
-                                    <label>Twitter Handle<span>*</span></label>
-                                    <input type="tel" class="form-control" placeholder="Twitter Handle" id="twitter" required data-validation-required-message="Please enter your twitter handle.">
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <div class="row control-group">
-                                <div class="form-group col-xs-12 controls">
-                                    <label>Message<span>*</span></label>
-                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <br>
-                            <div id="success"></div>
-                            <div class="row">
-                                <div class="form-group col-xs-12">
-                                    <button type="submit" class="btn btn-theme-bg btn-lg">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-             </div>
-      </div><!--END CONTENT-->
-</div>
-</div>
-</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Name *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-lg btn-action" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+            </div>
+        </div>
+    </div>
+
+</form>
 </div>
 
 
