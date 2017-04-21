@@ -41,7 +41,7 @@
                             <li class="clearfix">
                                 <a href="#" class="thumb"><img src="static/images/g1.jpg" alt="" width="70" class="img-responsive"></a>
                                 <div class="f-post-content">
-                                    <a href="#">
+                                    <a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">
                                         Your work could be here
                                     </a>
                                     <em>Submit now</em>

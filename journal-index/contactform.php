@@ -1,8 +1,8 @@
 <?php
 
 // configure
-$from = 'Demo contact form <journal@jnsamr.ac.uk>';
-$sendTo = 'Demo contact form <journal@jnsamr.ac.uk>';
+$from = 'Demo contact form <journal@nsamr.ac.uk>';
+$sendTo = 'Demo contact form <journal@nsamr.ac.uk>';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
