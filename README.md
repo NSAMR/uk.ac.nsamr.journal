@@ -11,9 +11,7 @@ The codebase https://github.com/pkp/ojs is included as a submodule.
 The journal index site uses Bootstrap 3: http://getbootstrap.com/
 
 Documentation provided by PKP:
-* User Guide: https://www.gitbook.com/book/pkp/ojs3/details
-* Technical: https://pkp.sfu.ca/wiki/index.php?title=OJS_Documentation
-*	Reference: https://pkp.sfu.ca/files/docs/quickreference/quickreference.pdf
+* User Guides: https://pkp.gitbooks.io/ 
 
 The "NSAMR" theme for OJS3 is child theme of the bootstrap3 extension of OJS3: https://github.com/NateWr/bootstrap3
 The bootstrap3 codebase is included as a submodule.
@@ -27,45 +25,65 @@ Software written by NSAMR is released under the GNU General Public License versi
 
 All images are either original to NSAMR, or are CC-BY licensed, and textures are freely available from https://www.transparenttextures.com/.
 
+## Access
+* All NSAMR's repositories are public  
+* NSAMR's webserver has push access to this repo and to .uk.ac.nsamr, and requires a password to push and pull. ([@DeckOfPandas](https://github.com/DeckOfPandas) has this for now)  
+* Helen also has push access from two machines
+* People who can merge pull requests to this repo are Helen, Steph and Hamilton (Note: make these be links)
+* If you want to add a public key from another machine, send [@DeckOfPandas](https://github.com/DeckOfPandas) your public key to be added. (You *must* set a password for using your machine's private key if you want public key access to this repo.)  
+
+## Submitting work to JNSAMR
+JNSAMR will be launched soon. In the interim period, please email it@nsamr.ac.uk if you want to submit to JNSAMR.
+
 ## Ongoing development
 Pull requests to any of our software are welcomed and appreciated.
 
-
-# Step-by_step(ish) instructions to get going
-
-## Developing these sites locally
+# Step-by_step(ish) instructions to get going with development
 Developing locally requires you to build the sites, otherwise you'll just see raw code. You need the same frameworks that serve the live sites.
 
-Building the journal index site locally only requires you to serve the PHP:
-<pre><code>php -S localhost:9999</code></pre>  
+## Wrapper site
+Building the journal index site locally only requires you to serve the PHP.
 
-Building the journal machinery site locally needs a little more effort, because you need to serve the PHP from top of a local database. Here are some pointers:  
-* Building requires an AMP stack (Apache, MySQL, PHP): download MAMP (mac): ([@https://www.mamp.info/en/](https://www.mamp.info/en/)) or WAMP if you have windows (ask the internet). If you're using ubuntu then...well, you don't need my hints.  
-* Make a local database (either via command line or via PhpMyAdmin, which is linked to on the start page of MAMP)  
-* $ojs_install_folder/config.php needs to contain the settings for the database underlying the current build (obviously), so you need to change these depending on which machine you're running on and what you've named the local database etc. The MAMP start page will helpfully display the settings for connecting to your database.  
-* To make this easier to organise, for now there are two custom files included here as well as the bundled config.inc.php: config.inc.php.onza (for NSAMR-deployed clone) and config.inc.php.percy ([@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). [@DeckOfPandas](https://github.com/DeckOfPandas) will delete the custom ones when more people are working on this.  
+On a mac, terminal can Just Do This:
+<pre><code>php -S localhost:9999</code></pre>  
+or use MAMP if you want a full AMP stack: https://www.mamp.info/en/
+
+On Windows, use WAMP (google is your friend).
+
+If you're using ubuntu then...well, you don't need my hints. 
+
+style.css is compiled from .scss files in static/$whatever. Automagical rebuilding for this is described in the readme for the uk.ac.nsamr repo.
+
+## Machinery site
+Building the journal machinery site locally needs a little more effort, because you need to serve the PHP from top of a local database.
+
+You'll need an AMP stack (Apache, MySQL, PHP) as above.
+
+Here are some pointers:    
+* Check out this repo
+* Point your AMP setup to the journal root folder
+* Make a database on localhost (either via command line or via PhpMyAdmin, which is linked to on the start page of MAMP)  
+* $ojs_install_folder/config.php settings:
+ * This file needs to contain the settings for the database underlying the current build (obviously), so you need to change these depending on which machine you're running on and what you've named the local database etc. The MAMP start page will helpfully display the settings for connecting to your database.  
+ * You also need to set the path to the folder ojs_uploads, and ensure that the folder is writable
+ * To make setup easier to do over and over again, for now there exists config.inc.php.percy (for [@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). Feel free to add your own. NOTE: DO NOT ADD THE REMOTE SERVER'S CONFIG FILE, AS THIS WILL DISPLAY THE DB PASSWORD PUBLICLY
+ * Also in config.inc.php, change installed = Off to, well On, so you don't get harrassed by the install script
+* Navigate to the root folder in your browser
+* OJS3 also needs a few folders to exist and have the correct permissions: cache/, cache/t_cache, cache/t_compile and possibly some others, but I've forgotten. Without these being present with correct permissions, the journal index simply will not load after installation.
+* If you get a message saying something about failing to connect to the database, then your settings in config.inc.php are incorrect
 * There are certainly better ways of arranging this than the above, but [@DeckOfPandas](https://github.com/DeckOfPandas) is lazy.  
-* Install OJS3 according to the instructions on the box  
-* Make sure the folder "nsamr" is in plugins/themes/
-* Navigate to journal admin panel (via localhost:your-port-number) and activate the plugin "NSAMR theme" (Settings --> Website --> Plugins)
-* Set the active theme to "NSAMR" (Settings --> Website --> Appearance)
+* If you install OJS3 according to the instructions on the box, you don't need to do anything other than create the ojs_uploads folder with the correct permissions
+* When it's all turned on, you'll see a vanilla journal has loaded. Bonza.
+* Grab the latest copy of the webserver's database (script in another SAMR repo, and import to your local database (phpMyAdmin can do this)
+* Our journal with all settings will load on refresh
 * Revel in own brilliance  
 
-### If stuck:
-* When playing with the design of the OJS3 frontend on the machinery site, you need to delete the caches a lot because, well, Sass, I think.
-<pre><code>rm -r \*.php \*.css HTML t_compile/\*.php</code></pre>  
+## If stuck:
+* When playing with the frontend of the machinery site, you need to delete the caches a lot because, well, Sass, I think.
+<pre><code>rm -r *.php *.css HTML t_compile/*.php</code></pre>  
 * Sometimes you need to do this:  
   * Template files: Administration >> Clear Template Cache  
 * If the mysql server won't start, try these things: [http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start](http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start)  
 
-## Live deployment
-To NSAMR committee members: The JNSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo.
-
-## Access
-* These repositories are public  
-* NSAMR's server has public key access to this repo, which requires a password to use ([@DeckOfPandas](https://github.com/DeckOfPandas) has this for now)  
-* Helen's personal machines have public key access too  
-* If you want to add one from another machine, send [@DeckOfPandas](https://github.com/DeckOfPandas) your public key to be added. You *must* use a password if you're adding your own key.  
-
-## Submitting work to JNSAMR
-JNSAMR will be launched soon. In the interim period, please email it@nsamr.ac.uk if you want to submit to JNSAMR.
+# Live deployment
+To NSAMR committee members: The JNSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo. NSAMR'S IT team has the access details for this server.
