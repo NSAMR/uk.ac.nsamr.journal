@@ -29,7 +29,7 @@
 installed = On
 
 ; The canonical URL to the OJS installation (excluding the trailing slash)
-base_url = "http://localhost:8888/ojs-3.0.1"
+base_url = "http://localhost:8888/journal-machinery/ojs-3.0.1/"
 
 ; Session cookie name
 session_cookie_name = OJSSID
@@ -126,7 +126,7 @@ driver = mysql
 host = localhost
 username = root
 password = root
-name = jnsamr
+name = jsamr
 
 ; Enable persistent connections
 persistent = Off
