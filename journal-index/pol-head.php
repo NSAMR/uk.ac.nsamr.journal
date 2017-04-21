@@ -61,6 +61,7 @@
             </div><!--END TABS-->
         </div><!--END ROW-->
 
+
         <div class="space40"></div> 
     </div><!--END MAIN BODY CONTAINER-->
 </div>
@@ -68,6 +69,6 @@
 <div class="space40"></div> 
 
 <!---PAGE FOOTER AND SCRIPTS-->
-<div class="col-sm-12">
-    <?php include('footer.php'); ?>
-</div>
+<?php include('footer.php'); ?>
+
+
