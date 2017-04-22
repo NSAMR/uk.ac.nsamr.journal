@@ -233,7 +233,7 @@ class EditorAction {
 	 * @param $submission Submission
 	 * @param $reviewId int
 	 * @param $dueDate string
-	 * @param $numWeeks int
+	 * @param $numWeeks int // TODO This is now actually expressed and handled in days
 	 * @param $logEntry boolean
 	 */
 	function setDueDates($request, $submission, $reviewAssignment, $reviewDueDate = null, $responseDueDate = null, $logEntry = false) {
