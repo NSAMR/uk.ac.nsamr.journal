@@ -13,7 +13,7 @@
 	{if $isUserLoggedIn}
 	<li>
 		<a class="dropdown-toggle user-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
-			{$loggedInUsername|escape}
+			<i class="fa fa-user"></i>{$loggedInUsername|escape}
 			<span class="badge">
 				{$unreadNotificationCount}
 			</span>
