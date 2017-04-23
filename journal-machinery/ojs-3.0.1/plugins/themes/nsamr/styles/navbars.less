@@ -53,10 +53,17 @@
   width: auto;
 }
 
+.navbar-toggle {
+  margin: 20px 25px;
+}
 
 
 
 @media (min-width: 768px) {
+  .container > .navbar-header {
+    margin: 0 0 0 -15px;
+  }
+
   .navbar-nav > li > a {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -69,9 +76,9 @@
 
   .navbar-header-logo {
     line-height: 54px;
-    margin-top: 0px;
     padding: 0 0 0 0;
   }
+
   .navbar-user {
     display: block !important;
   }

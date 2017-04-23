@@ -39,27 +39,56 @@
 			{* Header *}
 			<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
 
-				<!--START STATIC NAVBAR-->
-				<nav class="navbar navbar-default navbar-light navbar-static-top yamm ">
-					<div class="container">
-						<div class="navbar-header">
-							
-							<div id="socialbar" class="navbar-collapse collapse">
-								{include file="frontend/components/socialNavMenu.tpl"}
-							</div><!--/.nav-collapse -->
-						</div><!--/.navbar-header -->
-						<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#socialbar" aria-expanded="false" aria-controls="navbar">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-							</button>
-						<div class="navbar-user pull-right">
-							{include file="frontend/components/userButton.tpl"}
-						</div>
-						
-					</div><!--/.container -->
-				</nav><!--END STATIC NAVBAR-->
+
+		        <!--TOP BAR-->
+		        <div class="top-bar dark">
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-sm-6">
+		                        <ul class="list-inline">                           
+		                            <li>
+		                                <a href="https://www.facebook.com/NSAMRStudent/" class="social-icon si-dark si-gray-round si-colored-facebook">
+		                                    <i class="fa fa-facebook"></i>
+		                                    <i class="fa fa-facebook"></i>
+		                                </a>
+		                            </li>
+		                            <li>
+		                                <a href="https://twitter.com/nsamr?lang=en" class="social-icon si-dark si-gray-round si-colored-twitter">
+		                                    <i class="fa fa-twitter"></i>
+		                                    <i class="fa fa-twitter"></i>
+		                                </a>
+		                            </li>
+		                            <li>
+		                                <a href="https://www.youtube.com/channel/UC8cJMUFNymJG0QoI73V7vZA" class="social-icon si-dark si-gray-round si-colored-google-plus">
+		                                    <i class="fa fa-youtube"></i>
+		                                    <i class="fa fa-youtube"></i>
+		                                </a>
+		                            </li>
+		                            <li>
+		                                <a href="https://www.linkedin.com/company/national-student-association-of-medical-research-nsamr-" class="social-icon si-dark si-gray-round si-colored-linkedin">
+		                                    <i class="fa fa-linkedin"></i>
+		                                    <i class="fa fa-linkedin"></i>
+		                                </a>
+		                            </li>
+		                            <li>
+		                                <a href="https://github.com/NSAMR" class="social-icon si-dark si-gray-round si-colored-github">
+		                                    <i class="fa fa-github"></i>
+		                                    <i class="fa fa-github"></i>
+		                                </a>
+		                            </li> 
+		                        </ul>
+		                    </div>
+		                    <div class="col-sm-6 text-right">
+		                        <ul id="navigationUser" class="nav nav-reginald nav-pills tab-list pull-right" role="navigation" aria-label="User Navigation">
+		                            <li><span><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-topbar btn-lg btn-action">Register <i class="fa fa-user"></i></a></span></li>
+		                            <li><span><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-topbar btn-lg btn-action">Login <i class="fa fa-user"></i></a></span></li>
+		                        </ul>
+		                    </div>
+
+		                </div>
+		            </div>
+		        </div><!--END TOP BAR-->
+
 
 
 
