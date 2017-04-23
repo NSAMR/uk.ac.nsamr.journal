@@ -18,7 +18,7 @@
 	*       homepage
 	* @uses $issue Issue Current issue
 	*}
-	{include file="frontend/components/header.tpl" pageTitleTranslated=$currentJournal->getLocalizedName()}
+	{include file="frontend/components/header-fullwidth.tpl" pageTitleTranslated=$currentJournal->getLocalizedName()}
 
 	<div class="page_index_site">
 
@@ -282,7 +282,6 @@
 
 
 </div><!-- .page -->
-
 
 
 
