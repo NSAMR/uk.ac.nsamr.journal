@@ -18,6 +18,42 @@
   border-color: @brand-primary-highlight;
 }
 
+.user-link {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: @light !important;
+  background-color: transparent;
+
+  i {
+    margin-right: 7px;
+  }
+
+  &:hover {
+    color: @middark !important;
+  }
+  &:hover:active {
+    color: @middark !important;
+  }
+  &:focus {
+    color: @light !important;
+  }
+}
+
+.nav .open > a {
+    background-color: transparent !important;
+  }
+
+.dropdown-menu-user > li > a {
+  line-height: 32px !important;
+}
+
+.top-bar .list-inline {
+  margin-bottom: 5px;
+}
+
+
 .navbar-default .navbar-nav > li > a {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 500;
@@ -82,13 +118,4 @@
   .navbar-user {
     display: block !important;
   }
-}
-
-
-
-/*
-Nav for user button
-*/
-.navbar-user {
-  display: block;
 }

@@ -12,18 +12,18 @@
 <ul id="navigationUser" class="nav nav-pills tab-list pull-right" role="navigation" aria-label="{translate|escape key="common.navigation.user"}">
 	{if $isUserLoggedIn}
 	<li>
-		<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
-			{$loggedInUsername|escape}
+		<a class="dropdown-toggle user-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
+			<i class="fa fa-user"></i>{$loggedInUsername|escape}
 			<span class="badge">
 				{$unreadNotificationCount}
 			</span>
 		</a>
-		<ul class="dropdown-menu dropdown-menu-right">
+		<ul class="dropdown-menu dropdown-menu-right dropdown-menu-user">
 			{if array_intersect(array(ROLE_ID_MANAGER, ROLE_ID_ASSISTANT, ROLE_ID_REVIEWER, ROLE_ID_AUTHOR), $userRoles)}
 			<li>
 				<a href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
 					{translate key="navigation.dashboard"}
-					<span class="badge">
+					<span class="badge pull-right">
 						{$unreadNotificationCount}
 					</span>
 				</a>

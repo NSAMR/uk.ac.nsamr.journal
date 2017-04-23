@@ -79,10 +79,7 @@
 		                        </ul>
 		                    </div>
 		                    <div class="col-sm-6 text-right">
-		                        <ul id="navigationUser" class="nav nav-reginald nav-pills tab-list pull-right" role="navigation" aria-label="User Navigation">
-		                            <li><span><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register" class="btn btn-topbar btn-lg btn-action">Register <i class="fa fa-user"></i></a></span></li>
-		                            <li><span><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-topbar btn-lg btn-action">Login <i class="fa fa-user"></i></a></span></li>
-		                        </ul>
+		                        {include file="frontend/components/userButton.tpl"}
 		                    </div>
 
 		                </div>
@@ -93,7 +90,7 @@
 
 
 				<!--START STATIC NAVBAR-->
-				<nav class="navbar navbar-default navbar-static-top yamm">
+				<nav class="navbar navbar-default yamm">
 					<div class="container">
 						<div class="navbar-header navbar-header-logo">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
