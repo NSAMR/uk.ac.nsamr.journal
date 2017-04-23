@@ -37,7 +37,7 @@
 			</nav>
 
 			{* Header *}
-			<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
+			<header class="navbar navbar-default navbar-static-top " id="headerNavigationContainer" role="banner">
 
 
 		        <!--TOP BAR-->
@@ -90,7 +90,7 @@
 
 
 				<!--START STATIC NAVBAR-->
-				<nav class="navbar navbar-default navbar-static-top yamm">
+				<nav class="navbar navbar-default yamm">
 					<div class="container">
 						<div class="navbar-header navbar-header-logo">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
