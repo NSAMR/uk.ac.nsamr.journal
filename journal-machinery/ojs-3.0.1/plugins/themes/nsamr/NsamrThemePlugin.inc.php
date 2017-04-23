@@ -39,7 +39,7 @@ class NsamrThemePlugin extends ThemePlugin {
 		$this->addStyle('rs-plugin-settings', 'nsamr/rs-plugin/css/settings.css');
 
 		// Load js plugins
-		$this->addScript('bootstrap', 'nsamr/bootstrap/js/bootstrap.min.js');
+		//$this->addScript('bootstrap', 'nsamr/bootstrap/js/bootstrap.min.js');
 		$this->addScript('flexslider', 'nsamr/flexslider/jquery.flexslider-min.js');
 		$this->addScript('bootstrap-hover-dropdown', 'nsamr/js/bootstrap-hover-dropdown.min.js');
 		//$this->addScript('jquery', 'nsamr/js/jquery.min.js');
