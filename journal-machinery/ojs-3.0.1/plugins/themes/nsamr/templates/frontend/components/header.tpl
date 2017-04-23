@@ -37,7 +37,7 @@
 			</nav>
 
 			{* Header *}
-			<header class="navbar navbar-default navbar-static-top " id="headerNavigationContainer" role="banner">
+			<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
 
 
 		        <!--TOP BAR-->
