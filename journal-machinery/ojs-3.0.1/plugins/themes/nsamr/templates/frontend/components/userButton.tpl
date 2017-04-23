@@ -12,7 +12,7 @@
 <ul id="navigationUser" class="nav nav-pills tab-list pull-right" role="navigation" aria-label="{translate|escape key="common.navigation.user"}">
 	{if $isUserLoggedIn}
 	<li>
-		<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
+		<a class="dropdown-toggle user-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
 			{$loggedInUsername|escape}
 			<span class="badge">
 				{$unreadNotificationCount}

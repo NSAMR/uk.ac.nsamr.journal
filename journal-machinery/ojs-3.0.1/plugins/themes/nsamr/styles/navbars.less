@@ -18,6 +18,24 @@
   border-color: @brand-primary-highlight;
 }
 
+.user-link {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: @light !important;
+
+  &:hover {
+    color: @middark !important;
+  }
+  &:hover:active {
+    color: @middark !important;
+  }
+  &:focus {
+    color: @light !important;
+  }
+}
+
 .navbar-default .navbar-nav > li > a {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 500;
@@ -82,13 +100,4 @@
   .navbar-user {
     display: block !important;
   }
-}
-
-
-
-/*
-Nav for user button
-*/
-.navbar-user {
-  display: block;
 }
