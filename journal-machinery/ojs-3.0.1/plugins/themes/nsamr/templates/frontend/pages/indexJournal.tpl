@@ -57,7 +57,7 @@
 					data-speed="500"
 					data-start="1800"
 					data-easing="Sine.easeOut">
-					<a href="aboutjnsamr.php" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
+					<a href="aboutjnsamr.php"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
 				</div>
 			</li>
 
@@ -89,7 +89,7 @@
 				data-speed="500"
 				data-start="1800"
 				data-easing="Sine.easeOut">
-				<a href="aboutjnsamr.php" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
+				<a href="aboutjnsamr.php"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
 				</div>
 			</li>
 
@@ -121,7 +121,7 @@
 				data-speed="500"
 				data-start="1800"
 				data-easing="Sine.easeOut">
-				<a href="aboutjnsamr.php" class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></a>
+				<a href="aboutjnsamr.php"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
 				</div>
 			</li>
 
