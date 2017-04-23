@@ -9,6 +9,7 @@ Buttons style
 }
 
 .btn {
+  color: @light;
   border: 0px;
   font-weight: 900;
   text-transform: uppercase;
@@ -19,22 +20,29 @@ Buttons style
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
+
+  &:hover {
+    color: @light;
+  }
+  &:active {
+    color: @mid;
+  }
+  &:hover:active {
+    color: @mid;
+  }
+  &:focus {
+    color: @light;  
+  }
 }
 
-.btn:hover {
-  color: #DADEDB;
-}
-.btn:hover:active {
-  color: #C2C5C3;
-}
 .btn:hover:visited {
-  color: #DADEDB;
+  color: @light;
 }
 .btn:active {
-  color: #C2C5C3;
+  color: @mid;
 }
 .btn:visited {
-  color: #DADEDB;
+  color: @light;
 }
 .btn i {
   margin-left: 5px;
@@ -50,15 +58,32 @@ Buttons style
 }
 
 .btn-learnmore {
-  background-color: #E27A3F;
-}
-.btn-learnmore:hover {
-  background-color: #EBA178;
+  color: @light;
+  background-color: @brand-info;
+
+  &:hover {
+    background-color: @brand-info-light;
+  }
+  &:active {
+    background-color: @brand-info-light;
+  }
+  &:hover:active {
+    background-color: @brand-info-light;
+  }
+  &:focus {
+    background-color: @brand-info;
+  }
 }
 
+
 .btn-action {
-  background-color: #86B923;
-}
-.btn-action:hover {
-  background-color: #AACE65;
+  color: @light;
+  background-color: @brand-action;
+
+  &:hover {
+    background-color: @brand-action-light;
+  }
+  &:hover:active {
+    background-color: @brand-action-light;
+  }
 }

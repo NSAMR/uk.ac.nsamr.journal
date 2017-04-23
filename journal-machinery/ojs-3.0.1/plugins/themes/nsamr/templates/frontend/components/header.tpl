@@ -113,5 +113,3 @@
 			{* Wrapper for page content and sidebars *}
 			<div class="pkp_structure_content container">
 				<main class="pkp_structure_main col-xs-12 col-sm-10 col-md-8" role="main">
-
-
