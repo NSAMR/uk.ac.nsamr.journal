@@ -39,111 +39,34 @@
 			{* Header *}
 			<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
 
-				<!--TOP BAR-->
-				<div class="top-bar dark">
+				<!--START STATIC NAVBAR-->
+				<nav class="navbar navbar-default navbar-light navbar-static-top yamm ">
 					<div class="container">
-						<div class="row">
-							<div class="col-sm-6 hidden-xs">
-								<ul class="list-inline">                           
-                            <li>
-                                <a href="https://www.facebook.com/NSAMRStudent/" class="social-icon si-dark si-gray-round si-colored-facebook">
-                                    <i class="fa fa-facebook"></i>
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/nsamr?lang=en" class="social-icon si-dark si-gray-round si-colored-twitter">
-                                    <i class="fa fa-twitter"></i>
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UC8cJMUFNymJG0QoI73V7vZA" class="social-icon si-dark si-gray-round si-colored-google-plus">
-                                    <i class="fa fa-youtube"></i>
-                                    <i class="fa fa-youtube"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/national-student-association-of-medical-research-nsamr-" class="social-icon si-dark si-gray-round si-colored-linkedin">
-                                    <i class="fa fa-linkedin"></i>
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/NSAMR" class="social-icon si-dark si-gray-round si-colored-github">
-                                    <i class="fa fa-github"></i>
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </li> 
-                        </ul>
-							</div>
-							<div class="col-sm-6 text-right">
-
-								<!--USER BUTTON-->
-								<ul id="navigationUser" class="nav nav-reginald nav-pills tab-list pull-right" role="navigation" aria-label="{translate|escape key="common.navigation.user"}">
-									{if $isUserLoggedIn}
-									<li>
-										<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
-											{$loggedInUsername|escape}
-											<span class="badge">
-												{$unreadNotificationCount}
-											</span>
-										</a>
-										<ul class="dropdown-menu dropdown-menu-right">
-											{if array_intersect(array(ROLE_ID_MANAGER, ROLE_ID_ASSISTANT, ROLE_ID_REVIEWER, ROLE_ID_AUTHOR), $userRoles)}
-											<li>
-												<a href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
-													{translate key="navigation.dashboard"}
-													<span class="badge">
-														{$unreadNotificationCount}
-													</span>
-												</a>
-											</li>
-											{/if}
-											<li>
-												<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="profile"}">
-													{translate key="common.viewProfile"}
-												</a>
-											</li>
-											{if array_intersect(array(ROLE_ID_SITE_ADMIN), $userRoles)}
-											<li>
-												<a href="{if $multipleContexts}{url router=$smarty.const.ROUTE_PAGE context="index" page="admin" op="index"}{else}{url router=$smarty.const.ROUTE_PAGE page="admin" op="index"}{/if}">
-													{translate key="navigation.admin"}
-												</a>
-											</li>
-											{/if}
-											<li>
-												<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOut"}">
-													{translate key="user.logOut"}
-												</a>
-											</li>
-											{if $isUserLoggedInAs}
-											<li>
-												<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOutAsUser"}">
-													{translate key="user.logOutAs"} {$loggedInUsername|escape}
-												</a>
-											</li>
-											{/if}
-										</ul>
-									</li>
-									{else}
-									{if !$hideRegisterLink}
-									<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="register"}" class="btn btn-topbar btn-lg btn-action">{translate key="navigation.register"} <i class="fa fa-user"></i></a></span></li>
-									{/if}
-									<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="login"}"  class="btn btn-topbar btn-lg btn-action">{translate key="navigation.login"} <i class="fa fa-user"></i></span></a></li>
-									{/if}
-								</ul><!--END USER BUTTON-->
-
-							</div>
+						<div class="navbar-header">
+							
+							<div id="socialbar" class="navbar-collapse collapse">
+								{include file="frontend/components/socialNavMenu.tpl"}
+							</div><!--/.nav-collapse -->
+						</div><!--/.navbar-header -->
+						<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#socialbar" aria-expanded="false" aria-controls="navbar">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+							</button>
+						<div class="navbar-user pull-right">
+							{include file="frontend/components/userButton.tpl"}
 						</div>
-					</div>
-				</div><!--END TOP BAR-->
+						
+					</div><!--/.container -->
+				</nav><!--END STATIC NAVBAR-->
+
 
 
 				<!--START STATIC NAVBAR-->
 				<nav class="navbar navbar-default navbar-static-top yamm">
 					<div class="container">
-						<div class="navbar-header">
+						<div class="navbar-header navbar-header-logo">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
