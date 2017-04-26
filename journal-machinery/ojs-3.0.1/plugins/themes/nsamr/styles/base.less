@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased !important;
 }
 
+
 a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -20,12 +21,13 @@ a {
   font-weight: 700;
   color: #2C5A8F;
 }
-a:hover {
-  color: #AAACAB;
+
+a, a:hover, a:focus, a:visited {
+  color: @light;
+  text-decoration: none;
+  outline: 0 !important;
 }
+
 a:hover:active {
-  color: #C2C5C3;
-}
-a:visited {
-  color: #2C5A8F;
+  color: @midlight;
 }
