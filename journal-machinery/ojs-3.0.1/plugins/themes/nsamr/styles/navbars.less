@@ -31,19 +31,17 @@
   }
 
   &:hover {
-    color: @middark !important;
+    color: @light;
   }
   &:hover:active {
-    color: @middark !important;
+    color: @midlight !important;
   }
   &:focus {
-    color: @light !important;
+    color: @light;
   }
 }
 
-.nav .open > a {
-    background-color: transparent !important;
-  }
+
 
 .dropdown-menu-user > li > a {
   line-height: 32px !important;
@@ -52,7 +50,6 @@
 .top-bar .list-inline {
   margin-bottom: 5px;
 }
-
 
 .navbar-default .navbar-nav > li > a {
   font-family: "Open Sans", Arial, sans-serif;
@@ -69,16 +66,21 @@
   background-color: @brand-primary-highlight;
 }
 
+ .navbar-default .navbar-nav > li > a:focus {
+  color: @light;
+ }
+
 .navbar-default .navbar-nav > li > a:hover:active {
-  color: #C2C5C3;
+  color: @midlight;
+  background-color: @brand-primary-highlight;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
   color: @light;
   background-color: @brand-primary-highlight;
 }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: @light;
   background-color: @brand-primary-highlight;
 }

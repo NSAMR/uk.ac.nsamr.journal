@@ -99,7 +99,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a href="/journal/journal-index/index.php"><img class="img-responsive" src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if}></a>
+							<a href="{$homeUrl}"><img class="img-responsive" src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if}></a>
 						</div>
 						<div id="navbar" class="navbar-collapse collapse">
 							{include file="frontend/components/primaryNavMenu.tpl"}	
