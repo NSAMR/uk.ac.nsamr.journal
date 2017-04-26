@@ -157,34 +157,37 @@
 <!--service boxes-->
 <div class="container ">
 	<div class="row">
-		<div class="col-sm-6 col-md-3 margin30">
+		<div class="col-md-3 margin30">
 			<div class="service-box wow animated fadeIn" data-wow-delay="1s">
 				<i class="fa fa-users color-1"></i>
 				<h4>Who are we?</h4>
 				<p>
 					We are part of the <b>Student Association of Medical Research</b>, a non-profit, non-governmental and non-partisan <b>student-led</b> organisation representing medical school research societies nationally. NSAMR is registered with the Charity Commission (Reg. 1169158). Our core principles include the promotion of opportunites in academia for medical students, with a focus on <b>Openness and transparency</b>.
 				</p>
+				
 			</div>
 		</div><!--service column-->
-		<div class="col-sm-6 col-md-3 margin30">
+		<div class="col-md-3 margin30">
 			<div class="service-box wow animated fadeIn" data-wow-delay="0.2s">
 				<i class="fa fa-paper-plane color-3"></i>
 				<h4>What do we publish?</h4>
 				<p>
-					We will publish <b>articles</b> covering experimental writeups or critical reviews, <b>letters</b>, <b>case reports</b>, <b>abstracts</b> or <b>posters</b> on any topic related to academic or clinical medicine, provided that the quality is high enough. We are proud to consider writeups of <b>pilot projects</b> with small data sets, <b>negative results</b>, and <b>work in progress</b>.                
+					We will publish <b>articles</b> covering experimental writeups or critical reviews, <b>letters</b>, <b>case reports</b>, <b>abstracts</b> or <b>posters</b> on any topic related to academic or clinical medicine, provided that the quality is high enough. We are proud to consider writeups of <b>pilot projects</b> with small data sets, <b>negative results</b>, and <b>work in progress</b>.              
 				</p>
+				
 			</div>
 		</div><!--service column-->
-		<div class="col-sm-6 col-md-3 margin30">
+		<div class="col-md-3 margin30">
 			<div class="service-box wow animated fadeIn" data-wow-delay="0.3s">
 				<i class="fa fa-pencil color-2"></i>
 				<h4>Why publish with us?</h4>
 				<p>
 					No more waiting for lengthy review processes, only to have your work sold back to you. We aim for your review process to be completed in <b>under three weeks</b>, and you will see your article online <b>within 72 hours</b> of it being accepted. Our dedicated peer-reviewing team guarantee a fast turnaround from submission to publication, with no compromise on quality.
 				</p>
+				
 			</div>
 		</div><!--service column-->
-		<div class="col-sm-6 col-md-3 margin30">
+		<div class="col-md-3 margin30">
 			<div class="service-box wow animated fadeIn" data-wow-delay="0.4s">
 				<i class="fa fa-book color-4"></i>
 				<h4>Become a peer-reviewer</h4>
