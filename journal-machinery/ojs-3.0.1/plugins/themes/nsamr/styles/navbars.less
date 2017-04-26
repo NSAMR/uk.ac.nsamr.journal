@@ -31,13 +31,13 @@
   }
 
   &:hover {
-    color: @middark !important;
+    color: @light;
   }
   &:hover:active {
-    color: @middark !important;
+    color: @midlight !important;
   }
   &:focus {
-    color: @light !important;
+    color: @light;
   }
 }
 
@@ -66,11 +66,16 @@
   background-color: @brand-primary-highlight;
 }
 
+ .navbar-default .navbar-nav > li > a:focus {
+  color: @light;
+ }
+
 .navbar-default .navbar-nav > li > a:hover:active {
-  color: #C2C5C3;
+  color: @midlight;
+  background-color: @brand-primary-highlight;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
   color: @light;
   background-color: @brand-primary-highlight;
 }
