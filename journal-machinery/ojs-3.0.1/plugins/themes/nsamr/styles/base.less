@@ -19,15 +19,20 @@ a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-weight: 700;
-  color: #2C5A8F;
+  color: @brand-selection-3;
+  text-decoration: none;
 }
 
-a, a:hover, a:focus, a:visited {
-  color: @light;
+a, a:hover, a:hover:active, a:focus, a:visited {
+  color: @brand-selection-3;
   text-decoration: none;
   outline: 0 !important;
 }
 
-a:hover:active {
-  color: @midlight;
+a:hover {
+  color: @mid;
+
+  &:active {
+    color: @midlight;
+  }
 }
