@@ -280,7 +280,7 @@
 <!--end LLAMA-->
 
 
-{include file="frontend/components/ctaMailingList.tpl"}
+{include file="frontend/components/cta_mailingList.tpl"}
 
 
 
