@@ -9,7 +9,7 @@ Buttons style
 }
 
 .btn {
-  color: @light;
+  color: @lightest;
   border: 0px;
   font-weight: 900;
   text-transform: uppercase;
@@ -21,30 +21,16 @@ Buttons style
   -ms-border-radius: 2px;
   border-radius: 2px;
 
-  &:hover {
-    color: @light;
+  &:hover, &:focus, &:visited {
+    color: @lightest;
   }
-  &:active {
-    color: @mid;
-  }
-  &:hover:active {
-    color: @mid;
-  }
-  &:focus {
-    color: @light;  
+  &:active, &:hover:active {
+    color: @midlight;
   }
 }
 
-.btn:hover:visited {
-  color: @light;
-}
-.btn:active {
-  color: @mid;
-}
-.btn:visited {
-  color: @light;
-}
 .btn i {
+  color: @lightest;
   margin-left: 5px;
 }
 
@@ -58,32 +44,36 @@ Buttons style
 }
 
 .btn-learnmore {
-  color: @light;
   background-color: @brand-info;
+
+  &:hover, &:focus, &:visited {
+    color: @lightest;
+  }
+
+  &:active, &:hover:active {
+    color: @light;
+    background-color: @brand-info-light;
+  }
 
   &:hover {
     background-color: @brand-info-light;
-  }
-  &:active {
-    background-color: @brand-info-light;
-  }
-  &:hover:active {
-    background-color: @brand-info-light;
-  }
-  &:focus {
-    background-color: @brand-info;
   }
 }
 
 
 .btn-action {
-  color: @light;
   background-color: @brand-action;
 
-  &:hover {
+  &:hover, &:focus, &:visited {
+    color: @lightest;
+  }
+
+  &:active, &:hover:active {
+    color: @light;
     background-color: @brand-action-light;
   }
-  &:hover:active {
+
+  &:hover {
     background-color: @brand-action-light;
   }
 }
