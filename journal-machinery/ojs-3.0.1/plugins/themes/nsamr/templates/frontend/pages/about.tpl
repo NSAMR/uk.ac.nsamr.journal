@@ -25,18 +25,18 @@
         <!--end call to action-->
 
         <!-- Breadcrumbs -->
-        <div style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
+        <div class="row" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
             <div class="container">
-                <div class="row">
+                <div class="row pull-right">
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li>About JSAMR</li>
+                        <li>About</li>
                     </ol>
                 </div>
             </div>
         </div><!-- End breadcrumbs-->
         <div class="space40"></div>
-        <div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
+        
 
         <!-- Start about section -->
         <div class="container">
@@ -139,7 +139,7 @@
         
 
         <!-- Start of team section -->
-        <div class="space80"></div>
+        <div class="space40"></div>
 
         <div class="container">
             <div class="row">
