@@ -66,14 +66,19 @@
 
 				<div class="form-group">
 					<label for="login-username">
-						{translate key="user.username"}
+						<legend>
+							{translate key="user.username"}
+						</legend>
 					</label>
 					<input type="text" name="username" class="form-control" id="login-username" placeholder="{translate key='user.username'}" value="{$username|escape}" maxlenght="32" required>
 				</div>
+				<div class="space20"></div>
 
 				<div class="form-group">
 					<label for="login-password">
-						{translate key="user.password"}
+						<legend>
+							{translate key="user.password"}
+						</legend>
 					</label>
 					<input type="password" name="password" class="form-control" id="login-password" placeholder="{translate key='user.password'}" password="true" maxlength="32" required="$passwordRequired">
 				</div>
@@ -92,7 +97,7 @@
 
 				<div class="buttons">
 					<div class="container-fluid pull-left">
-					<a class="btn btn-lg btn-action" href="{url router=$smarty.const.ROUTE_PAGE page="login"}">{translate key="user.login"} <i class="fa fa-user"></i></a>
+					<button class="btn btn-lg btn-action" href="{url router=$smarty.const.ROUTE_PAGE page="login"}">{translate key="user.login"} <i class="fa fa-user"></i></button>
 					</div>
 					
 
