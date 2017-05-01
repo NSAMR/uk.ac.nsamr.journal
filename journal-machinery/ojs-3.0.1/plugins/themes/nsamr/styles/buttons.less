@@ -4,6 +4,7 @@
 Buttons style
 */
 
+
 .buttons a {
   margin: 5px;
 }
@@ -75,5 +76,22 @@ Buttons style
 
   &:hover {
     background-color: @brand-action-light;
+  }
+}
+
+.btn-action-secondary {
+  background-color: @mid;
+
+  &:hover, &:focus, &:visited {
+    color: @lightest;
+  }
+
+  &:active, &:hover:active {
+    color: @light;
+    background-color: @midlight;
+  }
+
+  &:hover {
+    background-color: @midlight;
   }
 }
