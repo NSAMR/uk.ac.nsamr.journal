@@ -10,16 +10,9 @@
   <ul class="nav navbar-nav navbar-right">`
     <li><a href="{$baseUrl}">Home</a></li>
     <li class="dropdown">
-      <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+      <a href="" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
       <ul class="dropdown-menu">
-
-      {if !$pageTitleTranslated}{translate|assign:"pageTitleTranslated" key=$pageTitle}{/if}
-      {include file="core:frontend/components/headerHead.tpl"}
-
-        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about'}">
-            {translate key="navigation.about"}
-        </li>
-      
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about'}">About JSAMR</a></li>
         <li><a href="/journal/journal-index/placeholder.php">FAQ</a></li>
         <li><a href="/journal/journal-index/hosting.php">Hosting</a></li>
       </ul>
