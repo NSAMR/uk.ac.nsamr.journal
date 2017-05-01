@@ -63,7 +63,7 @@
 
 		<div class="container-fluid">
 			<div class="col-xs-2 col-xs-offset-5">
-				<a class="btn btn-lg btn-action" type="submit">{translate key="user.register"} <i class="fa fa-user"></i></a>
+				<a class="btn btn-lg btn-action" type="submit">{translate key="user.register"} <i class="fa fa-chevron-right"></i></a>
 			</div>
 
 			{url|assign:"rolesProfileUrl" page="user" op="profile" path="roles"}
