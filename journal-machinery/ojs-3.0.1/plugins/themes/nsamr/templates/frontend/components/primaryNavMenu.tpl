@@ -51,5 +51,5 @@
         <li><a href="/journal/journal-index/pol-head.php">Author and Reviewer Policies</a></li>
       </ul>
     </li>
-    <li><a href="/journal/journal-index/contact.php">Contact</a></li>
+    <li><a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="contact"}">Contact</a></li>
   </ul>
