@@ -19,6 +19,11 @@
 			</span>
 		</a>
 		<ul class="dropdown-menu dropdown-menu-right dropdown-menu-user">
+			<li>
+				<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="registrationComplete"}">
+					Get Started
+				</a>
+			</li>
 			{if array_intersect(array(ROLE_ID_MANAGER, ROLE_ID_ASSISTANT, ROLE_ID_REVIEWER, ROLE_ID_AUTHOR), $userRoles)}
 			<li>
 				<a href="{url router=$smarty.const.ROUTE_PAGE page="submissions"}">
