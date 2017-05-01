@@ -57,7 +57,7 @@
 					data-speed="500"
 					data-start="1800"
 					data-easing="Sine.easeOut">
-					<a href="aboutjnsamr.php"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
+					<a href="{url router=$smarty.const.ROUTE_PAGE page='about'}"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
 				</div>
 			</li>
 
@@ -89,7 +89,7 @@
 				data-speed="500"
 				data-start="1800"
 				data-easing="Sine.easeOut">
-				<a href="aboutjnsamr.php"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
+				<a href="{url router=$smarty.const.ROUTE_PAGE page='about'}"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
 				</div>
 			</li>
 
@@ -121,7 +121,7 @@
 				data-speed="500"
 				data-start="1800"
 				data-easing="Sine.easeOut">
-				<a href="aboutjnsamr.php"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
+				<a href="{url router=$smarty.const.ROUTE_PAGE page='about'}"><button class="btn btn-lg btn-learnmore">Learn more <i class="fa fa-angle-right"></i></button></a>
 				</div>
 			</li>
 
@@ -145,7 +145,7 @@
 			</div>
 			<div class="col-sm-4 text-right">
 				<div class="space20"></div>
-				<a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/login" class="btn btn-lg btn-action">Submit a paper <i class="fa fa-edit"></i></a>
+				<a href="{url router=$smarty.const.ROUTE_PAGE page="login"}"  class="btn btn-lg btn-action">Submit a paper <i class="fa fa-edit"></i></a>
 			</div>
 		</div>
 	</div>

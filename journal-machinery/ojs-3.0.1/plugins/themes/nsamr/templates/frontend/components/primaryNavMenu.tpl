@@ -8,7 +8,7 @@
   * Primary navigation menu list for OJS
   *}
   <ul class="nav navbar-nav navbar-right">`
-    <li><a href="{$homeUrl}">Home</a></li>
+    <li><a href="{$baseUrl}">Home</a></li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
       <ul class="dropdown-menu">
