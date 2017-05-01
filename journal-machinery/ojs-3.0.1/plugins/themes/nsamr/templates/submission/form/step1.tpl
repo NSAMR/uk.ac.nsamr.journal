@@ -73,7 +73,7 @@
 
 	{* Cover Note To Editor*}
 	{fbvFormSection for="commentsToEditor" title="submission.submit.coverNote"}
-		{translate key="submission.submit.coverNoteAnnotation"}
+		<label class="description">{translate key="submission.submit.coverNoteAnnotation"}</label>
 		{fbvElement type="textarea" name="commentsToEditor" id="commentsToEditor" value=$commentsToEditor rich=true}
 	{/fbvFormSection}
 
