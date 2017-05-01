@@ -139,7 +139,7 @@
         
 
         <!-- Start of team section -->
-        <div class="space80"></div>
+        <div class="space40"></div>
 
         <div class="container">
             <div class="row">
