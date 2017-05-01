@@ -1,0 +1,75 @@
+{**
+* templates/frontend/pages/userRegister.tpl
+*
+* Copyright (c) 2014-2016 Simon Fraser University Library
+* Copyright (c) 2003-2016 John Willinsky
+* Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+*
+* User registration form.
+*}
+{include file="frontend/components/header-fullwidth.tpl" pageTitle="user.register"}
+
+<div id="main-content" class="page page_register">
+
+	<!-- Breadcrumbs -->
+        <div style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
+            <div class="container">
+                <div class="row">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Register</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- End breadcrumbs-->
+        <div class="space40"></div>
+        <div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
+
+<div class="pkp_structure_content container">	
+	<form class="pkp_form register" id="register" method="post" action="{url op="registerUser"}">
+		{csrf}
+
+		{if $source}
+			<input type="hidden" name="source" value="{$source|escape}" />
+		{/if}
+
+		{include file="common/formErrors.tpl"}
+
+		{include file="frontend/components/registrationForm.tpl"}
+
+		{* When a user is registering with a specific journal *}
+		{if $currentContext}
+
+			{* Users are opted into the Reader and Author roles in the current
+			   journal/press by default. See RegistrationForm::initData() *}
+			{assign var=contextId value=$currentContext->getId()}
+			{foreach from=$readerUserGroups[$contextId] item=userGroup}
+				{if in_array($userGroup->getId(), $userGroupIds)}
+					{assign var="userGroupId" value=$userGroup->getId()}
+					<input type="hidden" name="readerGroup[{$userGroupId}]" value="1">
+				{/if}
+			{/foreach}
+			{foreach from=$authorUserGroups[$contextId] item=userGroup}
+				{if in_array($userGroup->getId(), $userGroupIds)}
+					{assign var="userGroupId" value=$userGroup->getId()}
+					<input type="hidden" name="authorGroup[{$userGroupId}]" value="1">
+				{/if}
+			{/foreach}
+		{/if}
+
+		{include file="frontend/components/registrationFormContexts.tpl"}
+
+		<div class="buttons">
+			<a class="btn btn-lg btn-action btn-form" type="submit">
+				{translate key="user.register"}
+			</a>
+
+			{url|assign:"rolesProfileUrl" page="user" op="profile" path="roles"}
+			<a class="btn btn-default" href="{url page="login" source=$rolesProfileUrl}" class="login">
+				{translate key="user.login"}
+			</a>
+		</div>
+	</form>
+
+
+{include file="common/frontend/footer.tpl"}
