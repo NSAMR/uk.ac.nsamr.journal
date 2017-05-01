@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-sm-8">
                     <div class="left-title-bar">
-                        <h2>Welcome</h2>
+                        <h2>Get started</h2>
                     </div>
                 </div>
             </div>
