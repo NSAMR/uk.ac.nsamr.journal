@@ -12,12 +12,9 @@
   -->
 
 <locale name="en_US" full_name="U.S. English">
-  <!-- About this theme -->
-	<message key="plugins.themes.nsamr.name">NSAMR Theme</message>
-	<message key="plugins.themes.nsamr.description">This theme is a child theme of the bootstrap3 theme.</message>
-
-  <!-- New static pages -->
-  <message key="navigation.about">About JSAMR</message>
+  <!-- Journal management strings -->
+  <message key="manager.setup.reviewOptions.numWeeksPerResponse">Days allowed to accept or decline a review request</message>
+  <message key="manager.setup.reviewOptions.numWeeksPerReview">Days allowed for review completion</message>
 
   <!-- User strings -->
   <message key="user.middleName.annotation">(please include this if you have one)</message>
@@ -26,7 +23,12 @@
   <message key="user.login.registrationComplete.instructions">Thanks for registering! What would you like to do next?</message>
 
   <!-- Submission strings -->
-  <message key="manager.setup.reviewOptions.numWeeksPerResponse">Days allowed to accept or decline a review request</message>
-  <message key="manager.setup.reviewOptions.numWeeksPerReview">Days allowed for review completion</message>
+  <message key="submission.submit.coverNoteAnnotation">Please include ***TODO***</message>
   
+    <!-- About this theme -->
+	<message key="plugins.themes.nsamr.name">NSAMR Theme</message>
+	<message key="plugins.themes.nsamr.description">This theme is a child theme of the bootstrap3 theme.</message>
+
+  <!-- New static pages -->
+  <message key="navigation.about">About JSAMR</message
 </locale>
