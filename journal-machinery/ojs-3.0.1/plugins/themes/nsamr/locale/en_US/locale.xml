@@ -22,4 +22,7 @@
   <!-- Custom text strings -->
   <message key="manager.setup.reviewOptions.numWeeksPerResponse">Days allowed to accept or decline a review request</message>
   <message key="manager.setup.reviewOptions.numWeeksPerReview">Days allowed for review completion</message>
+  <message key="user.middleName.annotation">(please include this if you have one)</message>
+  <message key="user.email">Email address (academic)</message>
+
 </locale>
