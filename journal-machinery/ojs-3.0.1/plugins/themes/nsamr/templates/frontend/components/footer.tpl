@@ -33,7 +33,7 @@
 <footer class="footer" id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 margin-btm-30">
+      <div class="col-xs-12 col-lg-3 margin-btm-30">
         <h3>Quick links</h3>
         <ul class="list-unstyled f-list">
           <li><a href="index.php">Home</a></li>
@@ -43,7 +43,7 @@
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
-      <div class="col-md-3 margin-btm-30">
+      <div class="col-xs-12 col-lg-3 margin-btm-30">
         <h3>Policies</h3>
         <ul class="list-unstyled f-list">
           <li><a href="pol-head.php">Policies and guidelines</a></li>
@@ -51,7 +51,7 @@
           <li><a href="privacypolicy.php">Privacy Policy</a></li>
         </ul>
       </div>
-      <div class="col-md-3 margin-btm-30">
+      <div class="col-xs-12 col-lg-3 margin-btm-30">
         <h3>Recent Articles</h3>
         <div class="side-event clearfix">
           <div class="s-event-date">
@@ -75,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 margin-btm-30">
+      <div class="col-xs-12 col-lg-3 margin-btm-30">
         <h3>Keep in touch</h3>
         <ul class="list-unstyled f-post">
           <li><p class="email"><i class="icon-with-space fa fa-envelope"></i>journal@nsamr.ac.uk</p></li>
