@@ -65,11 +65,10 @@
 				</div>
 
 				<div class="buttons">
-					<div class="container-fluid">
-						<div class="col-xs-2 col-xs-offset-3">
-							<a class="btn btn-lg btn-action" type="submit">{translate key="user.login.resetPassword"} <i class="fa fa-chevron-reload"></i></a>
+						<div class="container-fluid pull-left">
+							<button class="btn btn-lg btn-action" type="submit">{translate key="user.login.resetPassword"} <i class="fa fa-chevron-reload"></i></button>
 						</div>
-					</div>
+					
 
 					{if !$disableUserReg}
 						{url|assign:registerUrl page="user" op="register" source=$source}

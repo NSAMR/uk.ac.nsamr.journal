@@ -91,11 +91,10 @@
 				</div>
 
 				<div class="buttons">
-					<div class="container-fluid">
-						<div class="col-xs-2 col-xs-offset-3">
-							<a class="btn btn-lg btn-action" type="submit">Log in <i class="fa fa-chevron-right"></i></a>
-						</div>
+					<div class="container-fluid pull-left">
+					<a class="btn btn-lg btn-action" href="{url router=$smarty.const.ROUTE_PAGE page="login"}">{translate key="user.login"} <i class="fa fa-user"></i></a>
 					</div>
+					
 
 					{if !$disableUserReg}
 						{url|assign:registerUrl page="user" op="register" source=$source}
