@@ -27,48 +27,58 @@
 
 <div class="pkp_structure_content container">	
 	<form class="pkp_form register" id="register" method="post" action="{url op="registerUser"}">
-		{csrf}
+		<div class="container-fluid">
+			{csrf}
 
-		{if $source}
-			<input type="hidden" name="source" value="{$source|escape}" />
-		{/if}
+			{if $source}
+				<input type="hidden" name="source" value="{$source|escape}" />
+			{/if}
 
-		{include file="common/formErrors.tpl"}
+			{include file="common/formErrors.tpl"}
 
-		{include file="frontend/components/registrationForm.tpl"}
+			{include file="frontend/components/registrationForm.tpl"}
 
-		{* When a user is registering with a specific journal *}
-		{if $currentContext}
+			{* When a user is registering with a specific journal *}
+			{if $currentContext}
 
-			{* Users are opted into the Reader and Author roles in the current
-			   journal/press by default. See RegistrationForm::initData() *}
-			{assign var=contextId value=$currentContext->getId()}
-			{foreach from=$readerUserGroups[$contextId] item=userGroup}
-				{if in_array($userGroup->getId(), $userGroupIds)}
-					{assign var="userGroupId" value=$userGroup->getId()}
-					<input type="hidden" name="readerGroup[{$userGroupId}]" value="1">
-				{/if}
-			{/foreach}
-			{foreach from=$authorUserGroups[$contextId] item=userGroup}
-				{if in_array($userGroup->getId(), $userGroupIds)}
-					{assign var="userGroupId" value=$userGroup->getId()}
-					<input type="hidden" name="authorGroup[{$userGroupId}]" value="1">
-				{/if}
-			{/foreach}
-		{/if}
+				{* Users are opted into the Reader and Author roles in the current
+				   journal/press by default. See RegistrationForm::initData() *}
+				{assign var=contextId value=$currentContext->getId()}
+				{foreach from=$readerUserGroups[$contextId] item=userGroup}
+					{if in_array($userGroup->getId(), $userGroupIds)}
+						{assign var="userGroupId" value=$userGroup->getId()}
+						<input type="hidden" name="readerGroup[{$userGroupId}]" value="1">
+					{/if}
+				{/foreach}
+				{foreach from=$authorUserGroups[$contextId] item=userGroup}
+					{if in_array($userGroup->getId(), $userGroupIds)}
+						{assign var="userGroupId" value=$userGroup->getId()}
+						<input type="hidden" name="authorGroup[{$userGroupId}]" value="1">
+					{/if}
+				{/foreach}
+			{/if}
 
-		{include file="frontend/components/registrationFormContexts.tpl"}
+			{include file="frontend/components/registrationFormContexts.tpl"}
+		</div>
 
-		<div class="buttons">
-			<a class="btn btn-lg btn-action btn-form" type="submit">
-				{translate key="user.register"}
-			</a>
+		<div class="container-fluid">
+			<div class="col-xs-2 col-xs-offset-5">
+				<button class="btn btn-lg btn-action" type="submit">
+					{translate key="user.register"}
+				</button>
+			</div>
 
 			{url|assign:"rolesProfileUrl" page="user" op="profile" path="roles"}
-			<a class="btn btn-lg btn-action-secondary btn-form" href="{url page="login" source=$rolesProfileUrl}" class="login">
-				{translate key="user.login"}
-			</a>
 		</div>
+		<div class="container-fluid pull-right">
+			
+				<label>Already have an account?</label>
+				<button class="btn btn-lg btn-action-secondary" href="{url page="login" source=$rolesProfileUrl}" class="login">
+					{translate key="user.login"}
+				</button>
+			
+		</div>
+
 	</form>
 
 
