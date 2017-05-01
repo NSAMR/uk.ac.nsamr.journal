@@ -45,6 +45,7 @@
 				<label>
 					{translate key="user.affiliation"}
 				</label>
+				{translate key="user.affiliation.annotation"}
 				<input class="form-control" type="text" name="affiliation[{$primaryLocale|escape}]" id="affiliation" value="{$affiliation.$primaryLocale|escape}" required>
 			</div>
 			<div class="form-group country">
@@ -61,35 +62,35 @@
 </div>
 
 <div class="col-md-6"
-	<fieldset class="login">
-		<legend>
-			{translate key="user.login"}
-		</legend>
-		<div class="fields">
-			<div class="form-group email">
-				<label>
-					{translate key="user.email"}
-				</label>
-				<input class="form-control" type="text" name="email" id="email" value="{$email|escape}" maxlength="90" required>
-			</div>
-			<div class="form-group username">
-				<label>
-					{translate key="user.username"}
-				</label>
-				<input class="form-control" type="text" name="username" id="username" value="{$username|escape}" maxlength="32" required>
-			</div>
-			<div class="form-group password">
-				<label>
-					{translate key="user.password"}
-				</label>
-				<input class="form-control" type="password" name="password" id="password" password="true" maxlength="32" required>
-			</div>
-			<div class="form-group password">
-				<label>
-					{translate key="user.repeatPassword"}
-				</label>
-				<input class="form-control" type="password" name="password2" id="password2" password="true" maxlength="32" required>
-			</div>
+<fieldset class="login">
+	<legend>
+		{translate key="user.login"}
+	</legend>
+	<div class="fields">
+		<div class="form-group email">
+			<label>
+				{translate key="user.email"}
+			</label>
+			{translate key="user.email.annotation"}
+			<input class="form-control" type="text" name="email" id="email" value="{$email|escape}" maxlength="90" required>
 		</div>
-	</fieldset>
-</div>
+		<div class="form-group username">
+			<label>
+				{translate key="user.username"}
+			</label>
+			<input class="form-control" type="text" name="username" id="username" value="{$username|escape}" maxlength="32" required>
+		</div>
+		<div class="form-group password">
+			<label>
+				{translate key="user.password"}
+			</label>
+			<input class="form-control" type="password" name="password" id="password" password="true" maxlength="32" required>
+		</div>
+		<div class="form-group password">
+			<label>
+				{translate key="user.repeatPassword"}
+			</label>
+			<input class="form-control" type="password" name="password2" id="password2" password="true" maxlength="32" required>
+		</div>
+	</div>
+</fieldset>
