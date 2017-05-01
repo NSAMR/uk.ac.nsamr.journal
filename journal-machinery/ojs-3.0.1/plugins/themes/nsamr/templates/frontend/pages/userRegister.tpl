@@ -65,7 +65,7 @@
 			</a>
 
 			{url|assign:"rolesProfileUrl" page="user" op="profile" path="roles"}
-			<a class="btn btn-default" href="{url page="login" source=$rolesProfileUrl}" class="login">
+			<a class="btn btn-lg btn-action-secondary btn-form" href="{url page="login" source=$rolesProfileUrl}" class="login">
 				{translate key="user.login"}
 			</a>
 		</div>
