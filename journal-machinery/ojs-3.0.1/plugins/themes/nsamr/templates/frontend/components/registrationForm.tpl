@@ -19,7 +19,7 @@
 <div class="col-md-6"
 	<fieldset class="identity">
 		<legend>
-			{translate key="user.profile"}
+			Setup your JSAMR profile
 		</legend>
 		<div class="fields">
 			<div class="form-group first_name">
@@ -64,7 +64,7 @@
 <div class="col-md-6"
 <fieldset class="login">
 	<legend>
-		{translate key="user.login"}
+		Choose your login details
 	</legend>
 	<div class="fields">
 		<div class="form-group email">

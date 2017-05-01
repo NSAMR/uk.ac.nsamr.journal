@@ -57,7 +57,7 @@
 	</li>
 	{else}
 	{if !$hideRegisterLink}
-	<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="register"}" class="btn btn-topbar btn-lg btn-action">{translate key="navigation.register"} <i class="fa fa-user"></i></a></span></li>
+	<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="register"}" class="btn btn-topbar btn-lg btn-action">{translate key="navigation.register"} <i class="fa fa-chevron-right"></i></a></span></li>
 	{/if}
 	<li><span><a href="{url router=$smarty.const.ROUTE_PAGE page="login"}"  class="btn btn-topbar btn-lg btn-action">{translate key="navigation.login"} <i class="fa fa-user"></i></span></a></li>
 	{/if}

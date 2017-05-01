@@ -11,19 +11,34 @@
 
 <div id="main-content" class="page page_register">
 
-	<!-- Breadcrumbs -->
-        <div style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
-            <div class="container">
-                <div class="row">
-                    <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Register</li>
-                    </ol>
+	<!--call to action-->
+    <div style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-98A3AE-1920x1080.png') repeat; padding: 20px 0 20px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="left-title-bar">
+                        <h2>Register</h2>
+                    </div>
                 </div>
             </div>
-        </div><!-- End breadcrumbs-->
-        <div class="space40"></div>
-        <div class="space40"></div> <!-- TODO Why did I have to put in two of these...? -->
+        </div>
+    </div>
+    <!--end call to action-->
+
+	<!-- Breadcrumbs -->
+    <div style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
+        <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Register</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- End breadcrumbs-->
+
+    <div class="space40"></div>
+	<div class="space40"></div>
 
 <div class="pkp_structure_content container">	
 	<form class="pkp_form register" id="register" method="post" action="{url op="registerUser"}">
@@ -63,7 +78,7 @@
 
 		<div class="container-fluid">
 			<div class="col-xs-2 col-xs-offset-5">
-				<a class="btn btn-lg btn-action" type="submit">{translate key="user.register"} <i class="fa fa-user"></i></a>
+				<a class="btn btn-lg btn-action" type="submit">{translate key="user.register"} <i class="fa fa-chevron-right"></i></a>
 			</div>
 
 			{url|assign:"rolesProfileUrl" page="user" op="profile" path="roles"}
