@@ -63,23 +63,17 @@
 
 		<div class="container-fluid">
 			<div class="col-xs-2 col-xs-offset-5">
-				<button class="btn btn-lg btn-action" type="submit">
-					{translate key="user.register"}
-				</button>
+				<a class="btn btn-lg btn-action" type="submit">{translate key="user.register"} <i class="fa fa-user"></i></a>
 			</div>
 
 			{url|assign:"rolesProfileUrl" page="user" op="profile" path="roles"}
 		</div>
-		<div class="container-fluid pull-right">
-			
-				<label>Already have an account?</label>
-				<button class="btn btn-lg btn-action-secondary" href="{url page="login" source=$rolesProfileUrl}" class="login">
-					{translate key="user.login"}
-				</button>
-			
-		</div>
-
 	</form>
 
+	<div class="container-fluid pull-right">
+		<label>Already have an account?</label>
+		<a class="btn btn-lg btn-action-secondary" href="{url router=$smarty.const.ROUTE_PAGE page="login"}">{translate key="user.login"} <i class="fa fa-user"></i></a>
+	</div>
+	<div class="space80"></div>
 
-{include file="common/frontend/footer.tpl"}
+	{include file="common/frontend/footer.tpl"}
