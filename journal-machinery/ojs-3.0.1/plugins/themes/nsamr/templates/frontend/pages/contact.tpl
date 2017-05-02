@@ -54,52 +54,34 @@
 	<div class="page page_contact">
 
 		<div class="container">
-			
-				<div class="intro-text">
-					Send us a message, and our JSAMR elves will get back to you as soon as possible
-				</div>
-			
-			<form id="contact-form" method="post" action="contactform.php" role="form">
-				<div class="controls">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<label for="form_lastname">Your name *</label>
-								<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required.">
-								<div class="help-block with-errors"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<label for="form_email">Your email address *</label>
-								<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
-								<div class="help-block with-errors"></div>
-							</div>
-						</div>
-					</div>
+			<div class="space40"></div>
+			<legend>
+				<i class="fa fa-envelope-o fa-2x margin20"></i> Send us a message, and our JSAMR elves will get back to you as soon as possible.
+			</legend>
 
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label for="form_message">Your message *</label>
-								<textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-								<div class="help-block with-errors"></div>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<p class="text-muted"><strong>*</strong> These fields are required.</p>
-						</div>
-
-						<div class="col-xs-2 col-xs-offset-5">
-							<input type="submit" class="btn btn-lg btn-action" value="Send message">
-						</div>
-					</div>
-				</div>
-			</form>
+			<div class="intro-text">
+				<ul>
+				 	<li id="#journal"></li>
+					<li id="#it"></li>
+				</ul>
+			</div>
+			<p>(Before anyone gets excited, those links are generated via JS and aren't readable by bots).
 		</div><!--container-->
-
 		<div class="space40"></div>
 	</div><!-- .page -->
 
 	<!---PAGE FOOTER AND SCRIPTS-->
 	{include file="frontend/components/footer.tpl"}
+
+
+	<script language="JavaScript">
+		var journal = "journal";
+		var it = "it";
+		var domain = "nsamr.ac.uk";
+		var journal_linktext = journal + "@" + domain ;
+		var it_linktext = it + "@" + domain ;
+		document.getElementById("#journal").innerHTML = "<a href='" + "mail" + "to:" + journal + "@" + domain + "'>" + journal_linktext + "</a>";
+		document.getElementById("#it").innerHTML = "<a href='" + "mail" + "to:" + it + "@" + domain + "'>" + it_linktext + "</a>";
+		
+	</script>
+
