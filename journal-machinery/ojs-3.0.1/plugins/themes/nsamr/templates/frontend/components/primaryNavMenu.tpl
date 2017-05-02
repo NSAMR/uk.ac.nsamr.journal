@@ -14,7 +14,7 @@
       <ul class="dropdown-menu">
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about'}">About JSAMR</a></li>
         <li><a href="/journal/journal-index/placeholder.php">FAQ</a></li>
-        <li><a href="/journal/journal-index/hosting.php">Hosting</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='hosting'}">Hosting</a></li>
       </ul>
     </li>
 
