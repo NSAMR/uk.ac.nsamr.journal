@@ -51,7 +51,29 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
-	 * Display about page.
+	 * Display FAQ page -- TODO This is currently a placeholder, ALso: HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function faqs($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/placeholder.tpl');
+	}
+
+	/**
+	 * Display placeholder page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function placeholder($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/placeholder.tpl');
+	}
+
+	/**
+	 * Display hosting page TODO HAXXXX
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */

@@ -13,7 +13,7 @@
       <a href="" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
       <ul class="dropdown-menu">
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about'}">About JSAMR</a></li>
-        <li><a href="/journal/journal-index/placeholder.php">FAQ</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='faqs'}">FAQs</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='hosting'}">Hosting</a></li>
       </ul>
     </li>
@@ -24,7 +24,7 @@
         {translate key="navigation.current"}
       </a>
       -->
-      <a href="/journal/journal-index/placeholder.php">Current</a>
+      <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Current</a>
 
     </li>
     <li class="dropdown">
@@ -32,7 +32,7 @@
         {translate key="navigation.archives"}
       </a>
       -->
-      <a href="/journal/journal-index/placeholder.php">Archives</a>
+      <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Archives</a>
 
     </li>
     <li class="dropdown">
