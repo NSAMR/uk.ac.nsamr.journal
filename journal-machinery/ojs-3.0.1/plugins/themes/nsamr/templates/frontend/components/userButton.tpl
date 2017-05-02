@@ -20,7 +20,7 @@
 		</a>
 		<ul class="dropdown-menu dropdown-menu-right dropdown-menu-user">
 			<li>
-				<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="registrationComplete"}">
+				<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="gettingStarted"}">
 					Get Started
 				</a>
 			</li>
