@@ -51,6 +51,17 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display about page.
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function hosting($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/hosting.tpl');
+	}
+
+	/**
 	 * Display editorialTeam page.
 	 * @param $args array
 	 * @param $request PKPRequest
