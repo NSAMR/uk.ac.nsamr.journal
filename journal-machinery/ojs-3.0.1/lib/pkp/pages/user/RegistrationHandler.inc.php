@@ -118,6 +118,20 @@ class RegistrationHandler extends UserHandler {
 	}
 
 	/**
+	 * A landing page once users complete registration
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function gettingStarted($args, $request) {
+		if (!Validation::isLoggedIn()) {
+			$request->redirect(null, 'login');
+		}
+		$this->setupTemplate($request);
+		$templateMgr = TemplateManager::getManager($request);
+		return $templateMgr->fetch('frontend/pages/gettingStarted.tpl');
+	}
+
+	/**
 	 * Check credentials and activate a new user
 	 * @param $args array
 	 * @param $request PKPRequest
