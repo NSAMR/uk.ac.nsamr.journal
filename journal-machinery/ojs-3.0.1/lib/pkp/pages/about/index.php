@@ -24,6 +24,10 @@ switch ($op) {
 		define('HANDLER_CLASS', 'AboutContextHandler');
 		import('lib.pkp.pages.about.AboutContextHandler');
 		break;
+	case 'hosting':
+		define('HANDLER_CLASS', 'AboutContextHandler');
+		import('lib.pkp.pages.about.AboutContextHandler');
+		break;
 	case 'aboutThisPublishingSystem':
 		define('HANDLER_CLASS', 'AboutSiteHandler');
 		import('lib.pkp.pages.about.AboutSiteHandler');
