@@ -62,6 +62,17 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display FAQ page -- TODO This is currently a placeholder
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function faqs($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/placeholder.tpl');
+	}
+
+	/**
 	 * Display editorialTeam page.
 	 * @param $args array
 	 * @param $request PKPRequest
