@@ -21,6 +21,7 @@ switch ($op) {
 	case 'editorialTeam':
 	case 'submissions':
 	case 'faqs':
+	case 'placeholder':
 	case 'hosting':
 	case 'contact':
 		define('HANDLER_CLASS', 'AboutContextHandler');
