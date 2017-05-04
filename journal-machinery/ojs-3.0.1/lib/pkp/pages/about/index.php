@@ -24,6 +24,8 @@ switch ($op) {
 	case 'placeholder':
 	case 'hosting':
 	case 'guides':
+	case 'manuscripts':
+	case 'policies':
 	case 'contact':
 		define('HANDLER_CLASS', 'AboutContextHandler');
 		import('lib.pkp.pages.about.AboutContextHandler');
