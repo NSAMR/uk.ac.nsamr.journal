@@ -320,7 +320,7 @@
         </div><!--team col-->
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src{$baseUrl}/plugins/themes/nsamr/templates/images/team/godwin-tong.jpg" class="img-responsive">
+                <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/godwin-tong.jpg" class="img-responsive">
                 <h4>Godwin Tong</h4>
                 <span>Founding Deputy Editor<br>University of Birmingham</span>
                 <p>
