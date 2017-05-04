@@ -157,7 +157,7 @@
 <!--service boxes-->
 <div class="container ">
 	<div class="row">
-		<div class="col-md-3 margin30">
+		<div class="col-md-3">
 			<div class="service-box wow animated fadeIn" data-wow-delay="1s">
 				<i class="fa fa-users color-1"></i>
 				<h4>Who are we?</h4>
@@ -167,7 +167,7 @@
 				
 			</div>
 		</div><!--service column-->
-		<div class="col-md-3 margin30">
+		<div class="col-md-3">
 			<div class="service-box wow animated fadeIn" data-wow-delay="0.2s">
 				<i class="fa fa-paper-plane color-3"></i>
 				<h4>What do we publish?</h4>
@@ -177,7 +177,7 @@
 				
 			</div>
 		</div><!--service column-->
-		<div class="col-md-3 margin30">
+		<div class="col-md-3">
 			<div class="service-box wow animated fadeIn" data-wow-delay="0.3s">
 				<i class="fa fa-pencil color-2"></i>
 				<h4>Why publish with us?</h4>
@@ -187,7 +187,7 @@
 				
 			</div>
 		</div><!--service column-->
-		<div class="col-md-3 margin30">
+		<div class="col-md-3">
 			<div class="service-box wow animated fadeIn" data-wow-delay="0.4s">
 				<i class="fa fa-book color-4"></i>
 				<h4>Become a peer-reviewer</h4>
