@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-md-6">
 
-                    <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/blocks/manuscript-729617_1920.jpg" class="img-responsive" alt="">
+                    <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/blocks/manuscript-729617_1920.jpg" class="img-responsive" alt="">
                 </div>
             </div><!-- End row-->
         </div><!-- End container of top things -->
@@ -155,7 +155,7 @@
 
             <div class="col-md-3 col-xs-6 margin20">
                 <div class="team-wrap">
-                    <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/matt-byrne.jpg" class="img-responsive">
+                    <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/matt-byrne.jpg" class="img-responsive">
                     <h4>Matthew Byrne</h4>
                     <span>Founder<br>Co-founding Editor-in-Chief<br>Newcastle University</span>
                     <p>
@@ -186,7 +186,7 @@
 
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/steph-rees.jpg" class="img-responsive">
+                <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/steph-rees.jpg" class="img-responsive">
                 <h4>Stephanie Rees</h4>
                 <span>Co-founding Editor-in-Chief<br>University of Leicester</span>
                 <p>
@@ -211,7 +211,7 @@
 
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/helen-jackson.jpg" class="img-responsive">
+                <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/helen-jackson.jpg" class="img-responsive">
                 <h4>Helen Jackson</h4>
                 <span>Founding CTO<br>King's College London</span>
                 <p>
@@ -254,7 +254,7 @@
  
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/akanksha-sinha.jpg" class="img-responsive">
+                <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/akanksha-sinha.jpg" class="img-responsive">
                 <h4>Akanksha Sinha</h4>
                 <span>Founding Deputy Editor<br>University of Sheffield</span>
                 <p>
@@ -278,7 +278,7 @@
 
             <div class="col-md-3 col-xs-6 margin20">
                 <div class="team-wrap">
-                    <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/ciaran-grafton.jpg" class="img-responsive">
+                    <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/ciaran-grafton.jpg" class="img-responsive">
                     <h4>Ciaran Grafton-Clarke</h4>
                     <span>Founding Deputy Editor<br>University of Liverpool</span>
                     <p>
@@ -320,7 +320,7 @@
         </div><!--team col-->
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/godwin-tong.jpg" class="img-responsive">
+                <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/godwin-tong.jpg" class="img-responsive">
                 <h4>Godwin Tong</h4>
                 <span>Founding Deputy Editor<br>University of Birmingham</span>
                 <p>
@@ -350,7 +350,7 @@
         </div><!--team col-->
         <div class="col-md-3 col-xs-6 margin20">
             <div class="team-wrap">
-                <img src="/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/hamilton-morrin.jpg" class="img-responsive">
+                <img src="/journal/journal-machinery/ojs-3.0.1/plugins/themes/nsamr/templates/images/team/hamilton-morrin.jpg" class="img-responsive">
                 <h4>Hamilton Morrin</h4>
                 <span>Founding Technology Specialist<br>King's College London</span>
                 <p>
