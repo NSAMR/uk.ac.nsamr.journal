@@ -98,7 +98,7 @@ class RegistrationHandler extends UserHandler {
 		if ($source = $request->getUserVar('source')) {
 			return $request->redirectUrlJson($source);
 		} else {
-			$request->redirect(null, 'user', 'registrationComplete');
+			$request->redirect(null, 'user', 'gettingStarted');
 		}
 	}
 
@@ -113,8 +113,8 @@ class RegistrationHandler extends UserHandler {
 		}
 		$this->setupTemplate($request);
 		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign('pageTitle', 'user.login.registrationComplete');
-		return $templateMgr->fetch('frontend/pages/userRegisterComplete.tpl');
+		$templateMgr->assign('pageTitle', 'user.login.gettingStarted');
+		return $templateMgr->fetch('frontend/pages/gettingStarted.tpl');
 	}
 
 	/**
