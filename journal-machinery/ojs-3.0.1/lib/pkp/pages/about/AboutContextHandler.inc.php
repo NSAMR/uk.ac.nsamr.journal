@@ -84,6 +84,17 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display hosting page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function guides($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/guides-head.tpl');
+	}
+
+	/**
 	 * Display editorialTeam page.
 	 * @param $args array
 	 * @param $request PKPRequest
