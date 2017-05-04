@@ -38,10 +38,10 @@
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="/journal/journal-index/howtosubmit.php">Submit Your Work</a></li>
-        <li><a href="/journal/journal-index/pol-user-guide-tabs.php">User Guides</a></li>
-        <li><a href="/journal/journal-index/pol-manuscript-guidance.php">Manuscript Guidance</a></li>
-        <li><a href="/journal/journal-index/pol-head.php">Author and Reviewer Policies</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Submit Your Work</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='guides'}">User Guides</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Manuscript Guidance</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Author and Reviewer Policies</a></li>
       </ul>
     </li>
     <li><a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="contact"}">Contact</a></li>

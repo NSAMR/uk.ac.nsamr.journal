@@ -84,6 +84,39 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display User Guides page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function guides($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/guides-head.tpl');
+	}
+
+	/**
+	 * Display manuscript guide page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function manuscripts($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/placeholder.tpl');
+	}
+
+	/**
+	 * Display policies page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function policies($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/placeholder.tpl');
+	}
+
+	/**
 	 * Display editorialTeam page.
 	 * @param $args array
 	 * @param $request PKPRequest
