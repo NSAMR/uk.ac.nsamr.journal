@@ -40,8 +40,8 @@
 
         <!-- Start about section -->
         <div class="container">
-            <div class="row">    
-                <div class="col-md-6 margin20">
+            <div class="row">
+                <div class="col-md-6">
                     <div class="left-title-bar">
                         <h2>A little about us</h2>
                     </div>
@@ -52,10 +52,10 @@
                     <p>SAMR is registered with the Charity Commission with charity number 1169158.</p>
                 </div>
                 <div class="col-md-6">
-
                     <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/blocks/manuscript-729617_1920.jpg" class="img-responsive" alt="">
+                    </div>
                 </div>
-            </div><!-- End row-->
+            </div>
         </div><!-- End container of top things -->
         <div class="space40"></div> 
 
@@ -67,68 +67,72 @@
                     </div>
                 </div>
                 <div class="space40"></div> 
-                <!-- Left hand section -->  
-                <div class="col-md-8">
-                    <!-- Start light-box -->
-                    <div class="clearfix">
 
-                        <!-- Start icon-box -->
-                        <div class="icon-box clearfix">
+                <div clas="row">
+                    <!-- Left hand section -->  
+                    <div class="col-md-8">
+                        <!-- Start light-box -->
+                        <div class="clearfix">
 
-                            <i class="fa fa-cc fill-color-1"></i>
-                            <div class="content">
-                                <h4>We promote Open Research</h4>
-                                <p>
-                                    Open Research doesn't just mean Open Access. We encourage publication of all data and analytical tools used in each manuscript, allowing these, as well as figures, to be cited individually in future work.
-                                </p>
-                                <p>
-                                    Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the same licence.
-                                </p>
+                            <!-- Start icon-box -->
+                            <div class="icon-box clearfix">
+
+                                <i class="fa fa-cc fill-color-1"></i>
+                                <div class="content">
+                                    <h4>We promote Open Research</h4>
+                                    <p>
+                                        Open Research doesn't just mean Open Access. We encourage publication of all data and analytical tools used in each manuscript, allowing these, as well as figures, to be cited individually in future work.
+                                    </p>
+                                    <p>
+                                        Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the same licence.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="space20"></div>
+                            <div class="space20"></div>   
 
-                        <!-- Start icon-box -->
-                        <div class="icon-box clearfix">
-                            <i class="fa fa-circle-o fill-color-2"></i>
-                            <div class="content">
-                                <h4>We believe in transparency</h4>
-                                <p>
-                                    We will publish all conversations between authors and reviewers, alongside all revisions of each manuscript. 
-                                </p>
-                                <p>
-                                    While our review process is double-blind, we encourage reviewers to reveal their identities after publication of the manuscript. Not only can reviewers then claim credit for their work, but any potential conflicts of interest will then be subject to public scrutiny.
-                                </p>
+                            <!-- Start icon-box -->
+                            <div class="icon-box clearfix">
+                                <i class="fa fa-circle-o fill-color-2"></i>
+                                <div class="content">
+                                    <h4>We believe in transparency</h4>
+                                    <p>
+                                        We will publish all conversations between authors and reviewers, alongside all revisions of each manuscript. 
+                                    </p>
+                                    <p>
+                                        While our review process is double-blind, we encourage reviewers to reveal their identities after publication of the manuscript. Not only can reviewers then claim credit for their work, but any potential conflicts of interest will then be subject to public scrutiny.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="space20"></div>
+                            <div class="space20"></div>
 
-                        <!-- Start icon-box -->
-                        <div class="icon-box clearfix">
-                            <i class="fa fa-users fill-color-3"></i>
-                            <div class="content">
-                                <h4>We encourage wider access</h4>
-                                <p>
-                                    It is important that the wider public have access to academic research, and also that medical students have more opportunities to participate in research during their training. Improving access will drive up standards, benefitting all.
-                                </p>
+                            <!-- Start icon-box -->
+                            <div class="icon-box clearfix">
+                                <i class="fa fa-users fill-color-3"></i>
+                                <div class="content">
+                                    <h4>We encourage wider access</h4>
+                                    <p>
+                                        It is important that the wider public have access to academic research, and also that medical students have more opportunities to participate in research during their training. Improving access will drive up standards, benefitting all.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </div><!-- End light-box -->
-                </div><!-- End left-hand section -->
+                            <div class="space20"></div>                         
+                        </div><!-- End light-box -->
+                    </div><!-- End left-hand section -->
 
-                <!-- Right-hand section -->
-                <h4 style="font-weight:bold; text-transform:uppercase">Reasons to publish with us</h4>
-                <div class="col-md-4 margin20">
-                    <ul class="list-unstyled highlight-list">
-                        <li><i class="fa fa-check icon-with-space"></i>The first Open Access academic journal in the UK which actively promotes research by medical students</li>
-                        <li><i class="fa fa-check icon-with-space"></i>No publication fees. Ever.</li>
-                        <li><i class="fa fa-check icon-with-space"></i>Submission-to-publication time of three weeks (depending on number of review rounds)</li>
-                        <li><i class="fa fa-check icon-with-space"></i>Wide range of manuscript types and disciplines</li>
-                        <li><i class="fa fa-check icon-with-space"></i>Transparent peer-review process with publication of all correspondence and manuscript versions</li>
-                        <li><i class="fa fa-check icon-with-space"></i>Robust and user-friendly submission portal</li>
-                        <li><i class="fa fa-check icon-with-space"></i>Excellent Open credentials</li>
-                    </ul>
-                </div><!-- End right-hand section -->    
+                    <!-- Right-hand section -->
+                    <div class="col-md-4">
+                        <h4 style="font-weight:bold; text-transform:uppercase">Reasons to publish with us</h4>
+                        <ul class="list-unstyled highlight-list">
+                            <li><i class="fa fa-check icon-with-space"></i>The first Open Access academic journal in the UK which actively promotes research by medical students</li>
+                            <li><i class="fa fa-check icon-with-space"></i>No publication fees. Ever.</li>
+                            <li><i class="fa fa-check icon-with-space"></i>Submission-to-publication time of three weeks (depending on number of review rounds)</li>
+                            <li><i class="fa fa-check icon-with-space"></i>Wide range of manuscript types and disciplines</li>
+                            <li><i class="fa fa-check icon-with-space"></i>Transparent peer-review process with publication of all correspondence and manuscript versions</li>
+                            <li><i class="fa fa-check icon-with-space"></i>Robust and user-friendly submission portal</li>
+                            <li><i class="fa fa-check icon-with-space"></i>Excellent Open credentials</li>
+                        </ul>
+                    </div><!-- End right-hand section -->    
+                </div><!-- end row-->
                 <div class="space40"></div> 
             </div><!-- End container of icons and reasons -->
         </div>
@@ -153,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-xs-6 margin20">
+            <div class="col-md-3 col-xs-6">
                 <div class="team-wrap">
                     <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/matt-byrne.jpg" class="img-responsive">
                     <h4>Matthew Byrne</h4>
@@ -184,7 +188,7 @@
             </div><!--team-wrap-->
         </div><!--team col-->
 
-        <div class="col-md-3 col-xs-6 margin20">
+        <div class="col-md-3 col-xs-6">
             <div class="team-wrap">
                 <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/steph-rees.jpg" class="img-responsive">
                 <h4>Stephanie Rees</h4>
@@ -209,7 +213,7 @@
             </div><!--team-wrap-->
         </div><!--team col--> 
 
-        <div class="col-md-3 col-xs-6 margin20">
+        <div class="col-md-3 col-xs-6">
             <div class="team-wrap">
                 <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/helen-jackson.jpg" class="img-responsive">
                 <h4>Helen Jackson</h4>
@@ -252,7 +256,7 @@
             </div><!--team-wrap-->
         </div><!--team col-->
  
-        <div class="col-md-3 col-xs-6 margin20">
+        <div class="col-md-3 col-xs-6">
             <div class="team-wrap">
                 <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/akanksha-sinha.jpg" class="img-responsive">
                 <h4>Akanksha Sinha</h4>
@@ -276,7 +280,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-3 col-xs-6 margin20">
+            <div class="col-md-3 col-xs-6">
                 <div class="team-wrap">
                     <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/ciaran-grafton.jpg" class="img-responsive">
                     <h4>Ciaran Grafton-Clarke</h4>
@@ -318,7 +322,7 @@
                 </ul><!--social-->
             </div><!--team-wrap-->
         </div><!--team col-->
-        <div class="col-md-3 col-xs-6 margin20">
+        <div class="col-md-3 col-xs-6">
             <div class="team-wrap">
                 <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/godwin-tong.jpg" class="img-responsive">
                 <h4>Godwin Tong</h4>
@@ -348,7 +352,7 @@
                 </ul><!--social-->
             </div><!--team-wrap-->
         </div><!--team col-->
-        <div class="col-md-3 col-xs-6 margin20">
+        <div class="col-md-3 col-xs-6">
             <div class="team-wrap">
                 <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/team/hamilton-morrin.jpg" class="img-responsive">
                 <h4>Hamilton Morrin</h4>
