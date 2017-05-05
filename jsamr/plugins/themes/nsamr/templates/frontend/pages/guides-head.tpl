@@ -487,3 +487,17 @@
 <!--END SEcTION EDITOR GUIDE-->
 
 
+
+<div class="space40"></div>
+
+
+<!--Call to action -->
+{include file="frontend/components/cta_readyToSubmit.tpl"}
+
+<!--Call to action -->
+{include file="frontend/components/cta_mailingList.tpl"}
+
+<!---STANDARD FOOTER-->
+{include file="frontend/components/footer.tpl"}
+
+
