@@ -46,6 +46,7 @@ session_lifetime = 30
 ; execute periodically
 scheduled_tasks = On
 
+
 ; Site time zone
 ; Please refer to lib/pkp/registry/timeZones.xml for a full list of supported
 ; time zones.
