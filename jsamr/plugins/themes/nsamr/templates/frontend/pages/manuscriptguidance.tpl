@@ -36,6 +36,7 @@
             Please find all the information you need in the sections below.
         </legend>
     </div>
+    <div class="space40"></div>
 
     <div class="container policies" id="top">
         <div class="row">

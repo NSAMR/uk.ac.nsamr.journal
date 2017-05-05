@@ -113,7 +113,7 @@ class AboutContextHandler extends Handler {
 	function policies($args, $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$this->setupTemplate($request);
-		$templateMgr->display('frontend/pages/placeholder.tpl');
+		$templateMgr->display('frontend/pages/policies.tpl');
 	}
 
 	/**
