@@ -70,6 +70,10 @@
 		<div class="space40"></div>
 	</div><!-- .page -->
 
+
+	{include file="frontend/components/cta_mailingList.tpl"}
+
+
 	<!---PAGE FOOTER AND SCRIPTS-->
 	{include file="frontend/components/footer.tpl"}
 
