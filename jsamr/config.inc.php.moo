@@ -29,8 +29,7 @@
 installed = On
 
 ; The canonical URL to the OJS installation (excluding the trailing slash)
-base_url = "http://www.nsamr.ac.uk/journal/journal-machinery/ojs-3.0.1"
-
+base_url = "http://www.nsamr.ac.uk/journal/jsamr"
 
 ; Session cookie name
 session_cookie_name = OJSSID
