@@ -528,10 +528,10 @@
 
 
 <!--Call to action -->
-{include file="frontend/components/cta_readytosubmit.tpl"}
+{include file="frontend/components/cta_readyToSubmit.tpl"}
 
 <!--Call to action -->
-{include file="frontend/components/cta_MailingList.tpl"}
+{include file="frontend/components/cta_mailingList.tpl"}
 
 <!---STANDARD FOOTER-->
 {include file="frontend/components/footer.tpl"}
