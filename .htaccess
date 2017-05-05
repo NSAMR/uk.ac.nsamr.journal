@@ -1,0 +1,2 @@
+# Set the default handler for index page
+DirectoryIndex /jsamr/index.php
