@@ -36,16 +36,17 @@
             Please find all the information you need in the sections below.
         </legend>
     </div>
+    <div class="space40"></div>
 
     <div class="container policies" id="top">
         <div class="row">
             <!--TABS-->
             <div class="tabs col-sm-12">
                 <ul class="nav nav-pills nav-justified" role="tablist">
-                    <li class="active"><a href="#all" role="tab" data-toggle="tab">All Manuscripts</a></li>
-                    <li><a href="#standard" role="tab" data-toggle="tab">Structure of Standard Articles</a></li>
-                    <li><a href="#other" role="tab" data-toggle="tab">Structure of Other Manuscript Types</a></li>
-                    <li><a href="#styleguidelines" role="tab" data-toggle="tab">Style Guidelines</a></li>
+                    <li class="active"><a href="#all">All Manuscripts</a></li>
+                    <li><a href="#standard">Structure of Standard Articles</a></li>
+                    <li><a href="#other">Structure of Other Manuscript Types</a></li>
+                    <li><a href="#styleguidelines">Style Guidelines</a></li>
                 </ul>
             </div>
         </div><!--END TABS-->
