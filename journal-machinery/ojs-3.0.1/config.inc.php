@@ -29,7 +29,7 @@
 installed = On
 
 ; The canonical URL to the OJS installation (excluding the trailing slash)
-base_url = "http://localhost:8888/journal-machinery/ojs-3.0.1/"
+base_url = "http://www.nsamr.ac.uk/journal/journal-machinery/ojs-3.0.1"
 
 ; Session cookie name
 session_cookie_name = OJSSID
@@ -44,7 +44,7 @@ session_lifetime = 30
 ; Enable support for running scheduled tasks
 ; Set this to On if you have set up the scheduled tasks script to
 ; execute periodically
-scheduled_tasks = On
+scheduled_tasks = Off
 
 ; Site time zone
 ; Please refer to lib/pkp/registry/timeZones.xml for a full list of supported
@@ -123,10 +123,10 @@ enable_beacon = 1
 [database]
 
 driver = mysql
-host = localhost
-username = root
-password = root
-name = jsamr
+host = "mysql-55.int.mythic-beasts.com"
+username = nsamr
+password = aZi5deSh
+name = nsamr
 
 ; Enable persistent connections
 persistent = Off
@@ -206,7 +206,7 @@ charset_normalization = Off
 ; Complete path to directory to store uploaded files
 ; (This directory should not be directly web-accessible)
 ; Windows users should use forward slashes
-files_dir = /Users/helen/Files/git/jnsamr/ojs_uploads
+files_dir = /home/nsamr/www/ojs_uploads
 
 ; Path to the directory to store public uploaded files
 ; (This directory should be web-accessible and the specified path
@@ -381,7 +381,7 @@ result_cache_hours = 1
 oai = On
 
 ; OAI Repository identifier
-repository_id = "ojs2.localhost:8888"
+repository_id = "journal.nsamr.ac.uk"
 
 ; Maximum number of records per request to serve via OAI
 oai_max_records = 100
