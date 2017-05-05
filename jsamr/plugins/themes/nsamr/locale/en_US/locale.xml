@@ -23,7 +23,7 @@
   <message key="user.login.registrationComplete.instructions">Thanks for registering! What would you like to do next?</message>
 
   <!-- Submission strings -->
-  <message key="submission.submit.coverNoteAnnotation">Please include ***TODO***</message>
+  <message key="submission.submit.coverNoteAnnotation">Please include 3--5 Subject Codes so we can add appropriate metaata to your article. Choose from the list on our website: http://www.nsamr.ac.uk/journal/jsamr/index.php/jnsamr/about/guides</message>
   
     <!-- About this theme -->
 	<message key="plugins.themes.nsamr.name">NSAMR Theme</message>
