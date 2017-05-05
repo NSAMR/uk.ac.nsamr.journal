@@ -40,7 +40,7 @@
       <ul class="dropdown-menu">
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Submit Your Work</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='guides'}">User Guides</a></li>
-        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Manuscript Guidance</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='manuscriptguidance'}">Manuscript Guidance</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Author and Reviewer Policies</a></li>
       </ul>
     </li>

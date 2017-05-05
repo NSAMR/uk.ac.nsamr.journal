@@ -99,10 +99,10 @@ class AboutContextHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function manuscripts($args, $request) {
+	function manuscriptguidance($args, $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$this->setupTemplate($request);
-		$templateMgr->display('frontend/pages/placeholder.tpl');
+		$templateMgr->display('frontend/pages/manuscriptguidance.tpl');
 	}
 
 	/**
