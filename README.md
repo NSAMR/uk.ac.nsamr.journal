@@ -82,7 +82,7 @@ There are certainly better ways of arranging this than the above, but [@DeckOfPa
     * cache/
     * cache/t_cache
     * cache/t_compile
-    * Possibly some others which I've forgotten (yay) 
+    * Possibly some others which I've forgotten (yay) <br>
  Without these being present with correct permissions (world writable), the journal index simply will not load after installation. You'll see a blank page. If this happens, create the above files and folders then try again before complaining to Helen
 * If you get a message saying something about failing to connect to the database, then your settings in config.inc.php are incorrect
 * When playing with the design of the site, you need to delete the caches a lot because, well, nobody knows. It's hell, it truly is.
