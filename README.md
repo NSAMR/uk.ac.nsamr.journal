@@ -79,18 +79,18 @@ There are certainly better ways of arranging this than the above, but [@DeckOfPa
 
 ## If stuck:
 * OJS3 needs a few folders to exist (even if empty) and to have the correct permissions:
- * cache/
- * cache/t_cache
- * cache/t_compile
- * Possibly some others which I've forgotten (yay)
+    * cache/
+    * cache/t_cache
+    * cache/t_compile
+    * Possibly some others which I've forgotten (yay)
  Without these being present with correct permissions (world writable), the journal index simply will not load after installation. You'll see a blank page. If this happens, create the above files and folders then try again before complaining to Helen
 * If you get a message saying something about failing to connect to the database, then your settings in config.inc.php are incorrect
 * When playing with the design of the site, you need to delete the caches a lot because, well, nobody knows. It's hell, it truly is.
- * I run this:
-  <pre><code>rm -r *.php *.css HTML t_compile/*.php</code></pre>  
+    * I run this:
+        <pre><code>rm -r *.php *.css HTML t_compile/*.php</code></pre>  
 * Sometimes you need to do this:  
-  * Template files: Administration >> Clear Template Cache  
-* If the mysql server won't start, try these things: [http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start](http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start)  
+    * Template files: Administration >> Clear Template Cache  
+* If the SQL server won't start, try these things: [http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start](http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start)  
 
 # Live deployment
 To NSAMR committee members: The JSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo. NSAMR'S IT team has the access details for this server.
