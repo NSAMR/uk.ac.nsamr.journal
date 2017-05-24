@@ -55,14 +55,14 @@ Short version:
 * Check/update OJS config file at journal root
 * Point local PHP server at journal root
 * Press go
-* Slect journal theme
+* Select journal theme "NSAMR"
 * Bonza
 
 Longer version:
 * Fork this repo and check out your fork (as usual)
 * Start your AMP thing (MAMP or WAMP probably) pointing at the journal root folder
 * Create a new MYSQL database on localhost (either via command line or via phpMyAdmin, which is linked to on the start page of MAMP)  
-* $ojs_install_folder/config.php settings:
+* Find the file $ojs_install_folder/config.php settings: 
  * This file needs to contain the settings for the database underlying the current build (obviously), so you need to change to the settings for your local environment. The MAMP start page will helpfully display the settings for connecting to your database. The db name is the name of the db you just made...yeah I just wrote that.
  * You also need to set the path to the folder ojs_uploads, and ensure that the folder is writable
  * To make setup easier to do over and over (and over and over) again, for now there exists config.inc.php.percy (for [@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). Feel free to add your own. NOTE: DO NOT ADD THE REMOTE SERVER'S CONFIG FILE, AS THIS WILL DISPLAY THE DB PASSWORD PUBLICLY
