@@ -63,10 +63,10 @@ Longer version:
 * Start your AMP thing (MAMP or WAMP probably) pointing at the journal root folder
 * Create a new MYSQL database on localhost (either via command line or via phpMyAdmin, which is linked to on the start page of MAMP)  
 * Find the file $ojs_install_folder/config.php settings: 
- * This file needs to contain the settings for the database underlying the current build (obviously), so you need to change to the settings for your local environment. The MAMP start page will helpfully display the settings for connecting to your database. The db name is the name of the db you just made...yeah I just wrote that.
- * You also need to set the path to the folder ojs_uploads, and ensure that the folder is writable
- * To make setup easier to do over and over (and over and over) again, for now there exists config.inc.php.percy (for [@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). Feel free to add your own. NOTE: DO NOT ADD THE REMOTE SERVER'S CONFIG FILE, AS THIS WILL DISPLAY THE DB PASSWORD PUBLICLY
- * When you're done with config.inc.php, change installed = Off to, well On, so you don't get harrassed by the automagical install script
+    * This file needs to contain the settings for the database underlying the current build (obviously), so you need to change to the settings for your local environment. The MAMP start page will helpfully display the settings for connecting to your database. The db name is the name of the db you just made...yeah I just wrote that.
+    * You also need to set the path to the folder ojs_uploads, and ensure that the folder is writable
+    * To make setup easier to do over and over (and over and over) again, for now there exists config.inc.php.percy (for [@DeckOfPandas](https://github.com/DeckOfPandas)' personal desktop machine). Feel free to add your own. NOTE: DO NOT ADD THE REMOTE SERVER'S CONFIG FILE, AS THIS WILL DISPLAY THE DB PASSWORD PUBLICLY
+    * When you're done with config.inc.php, change installed = Off to, well On, so you don't get harrassed by the automagical install script
 * Navigate to the root folder in your browser
 * If you followed the above, you now need to create a few (empty) folders manually. See "If stuck" below.
 * If you installed OJS3 according to the instructions on the box then you won't need to do anything other than manually create the $ojs_uploads folder with the correct permissions, but because Helen has had to edit some core classes this really really really won't work for now. Note to self: just...don't. Urgh.
