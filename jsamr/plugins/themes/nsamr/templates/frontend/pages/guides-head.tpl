@@ -272,12 +272,12 @@
         <hr>
 
         <div class="row">
-            <div class="left-heading">4. Upload FIle</div>
+            <div class="left-heading">4. Upload File</div>
             <div>
                 <ol>
                 <li>Upload the respective file after you select the component of your work that you wish to upload</li>
                 <li>Review Details - Ensure the correct file has been uploaded for each component.</li>
-                <li>Confirm - Click ‘Add another file’ and repeat the upload submission process until all relevant the ‘Article Components’ of your work are uploaded. Then, click ‘Complete’.</li>
+                <li>Confirm - Click ‘Add another file’ and repeat the upload submission process until all the relevant ‘Article Components’ of your work are uploaded. Then, click ‘Complete’.</li>
                 <li>Click ‘Save and continue’</li>
                 <li>Enter the following metadata
                     <ul>
