@@ -19,7 +19,9 @@
   <!-- User strings -->
   <message key="user.middleName.annotation">(please include this if you have one)</message>
   <message key="user.affiliation.annotation">(e.g. university, research institute)</message>
+
   <message key="user.email.annotation">(academic preferred)</message>
+  <message key="user.password.annotation">At least 6 characters</message>
   <message key="user.login.registrationComplete.instructions">Thanks for registering! What would you like to do next?</message>
 
   <!-- Submission strings -->
