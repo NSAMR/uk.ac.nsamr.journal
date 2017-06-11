@@ -65,7 +65,7 @@
     <div class="container">
         <div class="left-heading">Manuscript submission</div>
         <div>
-            <p>Manuscripts must be submitted via the JSAMR online submission system, and must be a PDF document entitled: YEAR_SURNAME_FIRSTNAME_MANUSCRIPTNAMENOSPACES.pdf.</p>
+            <p>Manuscripts must be submitted via the JSAMR online submission system, and must be a PDF document entitled: YEAR_MANUSCRIPTNAMENOSPACES.pdf.</p>
             <p>Please see the example submission and submission template.</p>
             <p>All manuscripts must adhere to JSAMR's style guidelines, otherwise they will be rejected outright.</p>
             <p>The required structure for each article type must be followed.</p>
