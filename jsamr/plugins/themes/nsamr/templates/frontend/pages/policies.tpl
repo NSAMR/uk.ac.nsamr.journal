@@ -166,9 +166,9 @@
                 <li>The Section Editor sends the blinded article to three Peer Reviewers.</li>
                 <li>Reviewers have 48 hours to respond, otherwise an alternative reviewer is selected.</li>
                 <li>Reviewers have 2 weeks to complete their peer review.</li>
-                <li>The Section Editor then compiles a peer review summary and decision to the author.</li>
+                <li>The Section Editor then compiles a peer review summary and sends a decision to the author.</li>
                 <li>The Section Editor may choose to ‘accept with no revisions’, ‘accept with minor revisions’, ‘revise and resubmit’, or ‘reject with no resubmission’.</li>
-                <li>If the Section Editor chooses ‘accept with minor revisions’ or ‘revise and resubmit’, the Section Editor should send the peer-review summary and deicision to the Author</li>
+                <li>If the Section Editor chooses ‘accept with minor revisions’ or ‘revise and resubmit’, the Section Editor should send the peer-review summary and decision to the Author</li>
                 <li>JSAMR aims to respond to authors within one month of article submission.</li>
                 <li>If revisions are required the author then has one month to make the suggested changes and resubmit the article.</li>
                 <li>Articles that receive the editorial decision of ‘accept with minor revisions’ are reviewed by original reviewers.</li>
