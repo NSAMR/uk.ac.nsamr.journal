@@ -150,7 +150,6 @@
         <div>
             <p>Authors should avoid using any materials that have been published elsewhere, e.g. figures, tables, or videos.</p>
             <p>If authors wish to include any material published elsewhere, permission from the copyright holder (author or publisher) must be obtained.</p>
-            <p> you'll find me here if you're a good deputy editor</p>
             <p>This includes any of your own previously published work, if you are not the sole copyright holder.</p>
         </div>  
         <hr>
