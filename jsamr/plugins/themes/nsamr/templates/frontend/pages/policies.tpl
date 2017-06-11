@@ -137,7 +137,7 @@
             <p>JSAMR’s confidentiality is based on the UK Data Protection ACT and the English law of confidentiality.</p>
             <p>All patient information must be anonymised and authors should utilise only the minimum volume of patient information required to achieve the intended research purpose.</p>
             <p>If personal medical information about an identifiable living individual is included, a JSAMR consent form must be obtained and submitted alongside the manuscript/submission.</p>
-            <p>If consent cannot be obtained the all patient identifiable details must be anonymised.</p>
+            <p>If consent cannot be obtained then all patient identifiable details must be anonymised.</p>
             <p>Anonymisation means that the patient or anyone else is unable to identify the patient with certainty.</p>
             <p>Images may be anonymised by the removal of any patient identifiers.</p>
         </div>  
