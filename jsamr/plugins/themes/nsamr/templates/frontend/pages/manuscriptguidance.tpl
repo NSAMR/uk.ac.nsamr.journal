@@ -263,7 +263,6 @@
             <p>JSAMR welcomes articles on basic science e.g. biochemistry, immunology, physiology etc. or clinical research, e.g. randomised control trial, systematic review, meta-analysis, observational studies.</p>
             <p>Structure:</p>
                 <ul>
-                    <li>Audit not accepted.</li>
                     <li>250 word abstract.</li>
                     <li>2000-4000 words.</li>
                     <li>Title page, structured abstract, introduction, materials and methods, results, discussion, conclusions</li>
