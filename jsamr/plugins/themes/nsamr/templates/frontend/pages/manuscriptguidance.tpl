@@ -515,7 +515,7 @@
         <div class="left-heading"><b>References and in-text citations</b></div>
         <div>
             <p>The APA referencing style should be used for all citations.</p>
-            <p>An explanation of the APA style can be found <a href="#">here</a>***.</p>
+            <p>An explanation of the APA style can be found <a href="http://www.apastyle.org/">here</a>http://www.apastyle.org/.</p>
             <p>Unofficial references should be avoided but, if deemed necessary, they should be cited in parentheses.</p>
         </div>      
 
