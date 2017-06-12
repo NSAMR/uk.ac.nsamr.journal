@@ -137,7 +137,7 @@
             <p>JSAMR’s confidentiality is based on the UK Data Protection ACT and the English law of confidentiality.</p>
             <p>All patient information must be anonymised and authors should utilise only the minimum volume of patient information required to achieve the intended research purpose.</p>
             <p>If personal medical information about an identifiable living individual is included, a JSAMR consent form must be obtained and submitted alongside the manuscript/submission.</p>
-            <p>If consent cannot be obtained the all patient identifiable details must be anonymised.</p>
+            <p>If consent cannot be obtained then all patient identifiable details must be anonymised.</p>
             <p>Anonymisation means that the patient or anyone else is unable to identify the patient with certainty.</p>
             <p>Images may be anonymised by the removal of any patient identifiers.</p>
         </div>  
@@ -166,9 +166,9 @@
                 <li>The Section Editor sends the blinded article to three Peer Reviewers.</li>
                 <li>Reviewers have 48 hours to respond, otherwise an alternative reviewer is selected.</li>
                 <li>Reviewers have 2 weeks to complete their peer review.</li>
-                <li>The Section Editor then compiles a peer review summary and decision to the author.</li>
+                <li>The Section Editor then compiles a peer review summary and sends a decision to the author.</li>
                 <li>The Section Editor may choose to ‘accept with no revisions’, ‘accept with minor revisions’, ‘revise and resubmit’, or ‘reject with no resubmission’.</li>
-                <li>If the Section Editor chooses ‘accept with minor revisions’ or ‘revise and resubmit’, the Section Editor should send the peer-review summary and deicision to the Author</li>
+                <li>If the Section Editor chooses ‘accept with minor revisions’ or ‘revise and resubmit’, the Section Editor should send the peer-review summary and decision to the Author</li>
                 <li>JSAMR aims to respond to authors within one month of article submission.</li>
                 <li>If revisions are required the author then has one month to make the suggested changes and resubmit the article.</li>
                 <li>Articles that receive the editorial decision of ‘accept with minor revisions’ are reviewed by original reviewers.</li>

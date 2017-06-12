@@ -65,7 +65,7 @@
 					<li id="#it"></li>
 				</ul>
 			</div>
-			<p>(Before anyone gets excited, those links are generated via JS and aren't readable by bots).
+			<p>(don't worry, those links are generated via JS and aren't readable by bots).
 		</div><!--container-->
 		<div class="space40"></div>
 	</div><!-- .page -->

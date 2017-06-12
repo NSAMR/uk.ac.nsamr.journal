@@ -65,7 +65,7 @@
     <div class="container">
         <div class="left-heading">Manuscript submission</div>
         <div>
-            <p>Manuscripts must be submitted via the JSAMR online submission system, and must be a PDF document entitled: YEAR_SURNAME_FIRSTNAME_MANUSCRIPTNAMENOSPACES.pdf.</p>
+            <p>Manuscripts must be submitted via the JSAMR online submission system, and must be a PDF document entitled: YEAR_MANUSCRIPTNAMENOSPACES.pdf.</p>
             <p>Please see the example submission and submission template.</p>
             <p>All manuscripts must adhere to JSAMR's style guidelines, otherwise they will be rejected outright.</p>
             <p>The required structure for each article type must be followed.</p>
@@ -150,7 +150,6 @@
         <div>
             <p>Authors should avoid using any materials that have been published elsewhere, e.g. figures, tables, or videos.</p>
             <p>If authors wish to include any material published elsewhere, permission from the copyright holder (author or publisher) must be obtained.</p>
-            <p> you'll find me here if you're a good deputy editor</p>
             <p>This includes any of your own previously published work, if you are not the sole copyright holder.</p>
         </div>  
         <hr>
@@ -263,7 +262,6 @@
             <p>JSAMR welcomes articles on basic science e.g. biochemistry, immunology, physiology etc. or clinical research, e.g. randomised control trial, systematic review, meta-analysis, observational studies.</p>
             <p>Structure:</p>
                 <ul>
-                    <li>Audit not accepted.</li>
                     <li>250 word abstract.</li>
                     <li>2000-4000 words.</li>
                     <li>Title page, structured abstract, introduction, materials and methods, results, discussion, conclusions</li>
@@ -517,7 +515,7 @@
         <div class="left-heading"><b>References and in-text citations</b></div>
         <div>
             <p>The APA referencing style should be used for all citations.</p>
-            <p>An explanation of the APA style can be found <a href="#">here</a>***.</p>
+            <p>An explanation of the APA style can be found <a href="http://www.apastyle.org/">here</a>http://www.apastyle.org/.</p>
             <p>Unofficial references should be avoided but, if deemed necessary, they should be cited in parentheses.</p>
         </div>      
 
