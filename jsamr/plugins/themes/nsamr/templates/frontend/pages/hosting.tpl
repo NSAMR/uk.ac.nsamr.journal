@@ -57,10 +57,10 @@
 		<div class="container">
 			
 			<div class="col-md-4">
-				<img src="{$baseUrl}/plugins/themes/nsamr/templates/images/logos/mythicbeasts.png" class="img-responsive" alt="">
+				<a href="https://www.mythic-beasts.com/"><img src="{$baseUrl}/plugins/themes/nsamr/templates/images/logos/mythicbeasts.png" class="img-responsive" alt=""></a>
 			</div>
 			<div class="intro-text col-md-8">
-				JSAMR is proud to be hosted on a shell account with Mythic Beasts, who have provided us with consistently excellent service. We appreciate their kind support of research, Open, and not-for-profits.
+				JSAMR is proud to be hosted on a shell account with <a href="https://www.mythic-beasts.com/">Mythic Beasts</a>, who have provided us with consistently excellent service. We appreciate their kind support of research, Open, and not-for-profits.
 			</div>
 			
 		</div><!--container-->
