@@ -227,7 +227,7 @@
 						</p>
 						<ul class="list-inline tag-list">
 							<li><a href="#">Key word</a></li>
-							<li><a href="#">Open Acess</a></li>
+							<li><a href="#">Open Access</a></li>
 							<li><a href="#">Publish</a></li>
 						</ul>
 					</div>
@@ -248,7 +248,7 @@
 							[ABSTRACT] Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.
 						</p>
 						<ul class="list-inline tag-list">
-							<li><a href="#">Open Acess</a></li>
+							<li><a href="#">Open Access</a></li>
 							<li><a href="#">Key words</a></li>
 							<li><a href="#">Publish</a></li>
 						</ul>
