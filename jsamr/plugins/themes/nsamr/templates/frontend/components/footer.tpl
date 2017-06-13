@@ -84,7 +84,7 @@
             [ABSTRACT] Donec commodo felis nec eros mollis ...
           </p>
           <ul class="list-inline tag-list">
-            <li><a href="#">Open Acess</a></li>
+            <li><a href="#">Open Access</a></li>
             <li><a href="#">Key words</a></li>
             <li><a href="#">Publish</a></li>
           </ul>
