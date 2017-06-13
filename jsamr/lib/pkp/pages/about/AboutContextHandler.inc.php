@@ -84,6 +84,17 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display Submission Process page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function submissionprocess($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/submissionprocess.tpl');
+	}
+
+	/**
 	 * Display User Guides page TODO HAXXXX
 	 * @param $args array
 	 * @param $request PKPRequest

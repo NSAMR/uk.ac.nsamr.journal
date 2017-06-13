@@ -23,6 +23,7 @@ switch ($op) {
 	case 'faqs':
 	case 'placeholder':
 	case 'hosting':
+	case 'submissionprocess':
 	case 'guides':
 	case 'manuscriptguidance':
 	case 'policies':
