@@ -94,7 +94,7 @@
     <div class="col-xs-12 col-lg-3 margin-btm-30">
       <h3>Policies</h3>
       <ul class="list-unstyled f-list">
-        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Submission Process</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='submissionprocess'}">Submission Process</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='guides'}">User Guides</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='manuscriptguidance'}">Manuscript Guidance</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='policies'}">Author and Reviewer Policies</a></li>

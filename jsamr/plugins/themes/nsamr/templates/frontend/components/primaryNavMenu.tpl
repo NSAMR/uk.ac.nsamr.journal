@@ -38,7 +38,7 @@
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Submission Process</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='submissionprocess'}">Submission Process</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='guides'}">User Guides</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='manuscriptguidance'}">Manuscript Guidance</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='policies'}">Author and Reviewer Policies</a></li>
