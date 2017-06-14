@@ -40,6 +40,12 @@
 \definecolor{brand-logo-dark}{HTML}{58778C}
 \definecolor{brand-logo-light}{HTML}{BCD3DB}
 \definecolor{brand-midlight}{HTML}{C2C5C3}
+\definecolor{brand-light}{HTML}{DADEDB}
+\definecolor{brand-lightest}{HTML}{F2F7F3}
+
+\definecolor{brand-body}{HTML}{E8EBEE}
+
+
 
 \titleformat*{\section}{\Large\normalfont}
 \titleformat*{\subsection}{\large\normalfont}
@@ -51,7 +57,6 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[RE,LO]{ARTICLES}
-
 \fancyhead[LE,RO]{\footnotesize\textcolor{brand-secondary}{Running header of this paper}}
 \fancyfoot[LE,LO]{\footnotesize{\textcopyright \textcolor{brand-secondary}{Journal of the Student Association of Medical Research}\\
 \hspace{4mm}\footnotesize2017 Vol 1 Issue 1 \emph{doi:xx.xxxx/xxx}}}
@@ -79,11 +84,51 @@
 \begin{document}
 \pagestyle{fancy}
 
+
 \twocolumn[
 
-		% Title 
-		\huge\textcolor{brand-secondary}{Title of this paper}\\	
-		
+		% Journal banner 
+                \begin{@twocolumnfalse}	
+                		\begin{minipage}{0.95\textwidth}
+                    		\setlength{\fboxsep}{0pt}
+                    		\fcolorbox{white}{white}{\parbox{1.05\textwidth}{		
+					\fcolorbox{white}{white}{\parbox{0.3\textwidth}{						
+							\includegraphics[width=0.25\textwidth]{logo-wide-jsamr.pdf}
+
+                                    			}
+                                    		} 
+					\fcolorbox{white}{white}{\parbox{0.73\textwidth}{		
+							\raggedleft{
+								\large\textcolor{brand-primary}{Journal of the Student Association of Medical Research}\\
+								\smallskip
+								\normalsize\textcolor{brand-primary}{Volume 1, Issue 1}
+								}
+                                    			}
+                                    		} 		
+                    			}
+                    		} 		                    	
+                		\end{minipage} 
+                	\end{@twocolumnfalse}
+
+		\bigskip
+
+		% Title
+                \begin{@twocolumnfalse}	
+                		\begin{minipage}{1.015\textwidth}
+                    		\setlength{\fboxsep}{0pt}		
+                 		\fcolorbox{white}{white}{\parbox{0.9\textwidth}{					
+    					\huge\textcolor{brand-secondary}{Title of this paper: title of this paper title of this paper title of this paper title of this paper title of this paper }
+					\bigskip					
+                    			}
+                    		} 
+                    		\setlength{\fboxsep}{10pt}
+                   		\fcolorbox{white}{white}{\parbox{0.025\textwidth}{					
+    					\includegraphics[width=0.045\textwidth]{logo-dna.pdf}
+                    			}
+                    		} 		
+                		\end{minipage} 
+                	\end{@twocolumnfalse}
+
 		% Author(s)
 		\Large{First Author$^{*}$, Second Author$^{**}$ and Third Author$^{***}$}	
 
