@@ -4,7 +4,6 @@
 
 % PACKAGES
 \usepackage[english]{babel} % English language/hyphenation
-%\usepackage{fontspec} % To use Avenir
 \usepackage{geometry} % For paper size and layout
 \usepackage{color}
 %\usepackage{xcolor}
@@ -21,8 +20,11 @@
 \usepackage{lineno} % Line numbers for review purposes
 \usepackage{microtype} % For uneven columns
 \usepackage{vwcol} % For uneven columns
+
 \usepackage[T1]{fontenc} % For fonts
-\usepackage{lmodern} % {tgheros lmodern paratype} For fonts
+%\usepackage{paratype} % {tgheros lmodern } Font
+\usepackage[sfdefault]{AlegreyaSans}
+
 \usepackage{apacite} % For citations
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -91,13 +93,13 @@
                 \begin{@twocolumnfalse}	
                 		\begin{minipage}{0.95\textwidth}
                     		\setlength{\fboxsep}{0pt}
-                    		\fcolorbox{white}{white}{\parbox{1.05\textwidth}{		
-					\fcolorbox{white}{white}{\parbox{0.3\textwidth}{						
+                    		\fcolorbox{brand-primary}{brand-body}{\parbox{1.05\textwidth}{		
+					\fcolorbox{brand-body}{brand-body}{\parbox{0.3\textwidth}{						
 							\includegraphics[width=0.25\textwidth]{logo-wide-jsamr.pdf}
 
                                     			}
                                     		} 
-					\fcolorbox{white}{white}{\parbox{0.73\textwidth}{		
+					\fcolorbox{brand-body}{brand-body}{\parbox{0.73\textwidth}{		
 							\raggedleft{
 								\large\textcolor{brand-primary}{Journal of the Student Association of Medical Research}\\
 								\smallskip
