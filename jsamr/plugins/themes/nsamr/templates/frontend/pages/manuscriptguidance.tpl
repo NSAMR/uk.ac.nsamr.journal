@@ -65,8 +65,7 @@
     <div class="container">
         <div class="left-heading">Manuscript submission</div>
         <div>
-            <p>Manuscripts must be submitted via the JSAMR online submission system, and must be a PDF document entitled: YEAR_MANUSCRIPTNAMENOSPACES.pdf.</p>
-            <p>Please see the example submission and submission template.</p>
+            <p>Manuscripts must be submitted via the JSAMR online submission system, and must be a PDF document entitled: YEAR_MANUSCRIPTNAMENOSPACES.pdf.</>
             <p>All manuscripts must adhere to JSAMR's style guidelines, otherwise they will be rejected outright.</p>
             <p>The required structure for each article type must be followed.</p>
         </div>  
@@ -75,6 +74,7 @@
         <div class="left-heading">Title Page</div>
         <div>
             <p>Every manuscript must contain a title page, which should include:</p>
+            <p>DO NOT SUBMIT THIS UNTIL WE ASK YOU FOR IT. To keep all reviewing double-blind, this will only be asked for once the reviewing process is complete and your work has been accepted.</p>
             <ul>
                 <li>Article Title.</li>
                 <li>Running title: a short version of the full title (to go at the top of each journal page).</li>
