@@ -1,42 +1,31 @@
 # journal.nsamr.ac.uk
 This is the git repo for the new Journal of the Student Association of Medical Research
-* JSAMR index site: http://www.nsamr.ac.uk/journal/journal-index/index.php
-* JSAMR machinery site: http://www.nsamr.ac.uk/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr
-
-These sites are separate because [@DeckOfPandas](https://github.com/DeckOfPandas) couldn't get the OJS frontend to look super nice (hints welcome please).
+* http://www.nsamr.ac.uk/journal/
 
 ## Journal software and design
 JSAMR is built using Open Journal Systems 3 (OJS 3): https://pkp.sfu.ca/ojs/
 The codebase https://github.com/pkp/ojs is included as a submodule.
-The journal index site uses Bootstrap 3: http://getbootstrap.com/
-
-Documentation provided by PKP:
-* User Guides: https://pkp.gitbooks.io/ 
 
 The "NSAMR" theme for OJS3 is child theme of the bootstrap3 extension of OJS3: https://github.com/NateWr/bootstrap3
 The bootstrap3 codebase is included as a submodule.
 
-NSAMR will contribute back to both OJS and bootstrap3, as well as to other Open Source frameworks ued here, via pull requests.
+NSAMR will contribute back to both OJS and bootstrap3, as well as to other Open Source frameworks used here.
+
+Documentation provided by PKP:
+* User Guides: https://pkp.gitbooks.io/ 
 
 ## License
-JSAMR publishes Open Access articles under the terms of the Creative Commons Attribution (CC BY) License version 4.0, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. The CC BY license can be viewed here: https://creativecommons.org/licenses/by/4.0/
+JSAMR publishes Open Access articles under the terms of the Creative Commons (CC BY) Attribution License 4.0, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. The CC BY Attibtution 4.0 license can be viewed here: https://creativecommons.org/licenses/by/4.0/
 
 Software written by NSAMR is released under the GNU General Public License version 3, as is its parent OJS3. The GNU GPLv3 license allows reuse and redistribution of software in whole or in part, but requires that anyone who distributes code or a derivative work must make the source available under the same terms. The text of the GNU GPLv3 license can be viewed here: https://github.com/NSAMR/journal.nsamr.ac.uk/blob/master/jnsamr/docs/COPYING
 
-All images are either original to NSAMR, or are CC-BY licensed, and textures are freely available from https://www.transparenttextures.com/.
-
-## Access
-* All NSAMR's repositories are public  
-* NSAMR's webserver has push access to this repo and to .uk.ac.nsamr, and requires a password to push and pull. ([@DeckOfPandas](https://github.com/DeckOfPandas) has this for now)  
-* Helen also has push access from two machines
-* People who can merge pull requests to this repo are Helen, Steph and Hamilton (Note: make these be links)
-* If you want to add a public key from another machine, send [@DeckOfPandas](https://github.com/DeckOfPandas) your public key to be added. (You *must* set a password for using your machine's private key if you want public key access to this repo.)  
+All images are either original to NSAMR, or are CC BY licensed with attribution, and background textures are freely available from https://www.transparenttextures.com/.
 
 ## Submitting work to JSAMR
 JSAMR will be launched soon. In the interim period, please email it@nsamr.ac.uk if you want to submit to JSAMR.
 
 ## Ongoing development
-Pull requests to any of our software are welcomed and appreciated.
+Pull requests to any of our websites and software are welcomed and appreciated.
 
 # Step-by_step(ish) instructions to get going with development
 
@@ -51,11 +40,10 @@ You'll need an AMP stack (Apache, MySQL, PHP).
 * If you're using ubuntu then...well, you don't need my hints. 
 
 Short version:
-* Make a local MySQL database and importa some data into it if you want to see any users or journals already made
+* Make a local MySQL database and import some data into it if you want to see any users or journals already made (try the bash script in NSAMR's repository "backups" to get a .gz)
 * Check/update OJS config file at journal root
 * Point local PHP server at journal root
 * Press go
-* Select journal theme "NSAMR"
 * Bonza
 
 Longer version:
@@ -82,15 +70,24 @@ There are certainly better ways of arranging this than the above, but [@DeckOfPa
     * cache/
     * cache/t_cache
     * cache/t_compile
-    * Possibly some others which I've forgotten (yay) <br>
-Without these being present with correct permissions (world writable), the journal index simply will not load after installation. You'll see a blank page. If this happens, create the above files and folders then try again before complaining to Helen
-* If you get a message saying something about failing to connect to the database, then your settings in config.inc.php are incorrect
+    * Possibly some others which I've forgotten (yay)
+    
+Without these being present with correct permissions (world writable), the journal index simply will not load after installation. You'll see a blank page. If this happens, create the above files and folders then try again before complaining to Helen.
+* If you get a message saying something about failing to connect to the database, then your settings in config.inc.php are incorrect. Promise.
 * When playing with the design of the site, you need to delete the caches a lot because, well, nobody knows. It's hell, it truly is.
     * I run this:
         <pre><code>rm -r *.php *.css HTML t_compile/*.php</code></pre>  
-* Sometimes you need to do this:  
+* Sometimes you need to do this in the admin part of the site (you need to be logged in as journal admin):  
     * Template files: Administration >> Clear Template Cache  
 * If the SQL server won't start, try these things: [http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start](http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start)  
 
+
+## Access
+* All NSAMR's repositories are public  
+* People who can merge pull requests to this repo are Helen, Steph and Hamilton (Note: make these be links)
+* NSAMR's webserver has push access to this repo and to .uk.ac.nsamr, and requires a password to push and pull. ([@DeckOfPandas](https://github.com/DeckOfPandas) has this for now)  
+* Helen also has push access from two personal machines
+* If you want to add a public key from another machine, send [@DeckOfPandas](https://github.com/DeckOfPandas) your public key to be added to NSAMR's account. (You *must* set a password for using your machine's private key if you want public key access to this repo.)  
+
 # Live deployment
-To NSAMR committee members: The JSAMR website runs from a clone of this repo on NSAMR's shell server kindly hosted by Mythic Beasts. *Do not* edit files on that machine except by pulling from this git repo. NSAMR'S IT team has the access details for this server.
+To NSAMR committee members: The JSAMR website runs from a clone of this repo on NSAMR's webserver. *Do not* edit files on that machine except by pulling from this git repo. NSAMR'S IT team has the access details for this server.
