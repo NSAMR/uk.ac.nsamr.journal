@@ -57,7 +57,7 @@
                 <div class="step">
                     <div class="icon-square"> <i class="fa fa-keyboard-o"></i> </div>
                     <h5>Typeset your document</h5>
-                    <p>We have <a href="#">LaTeX</a> templates for each kind of submission we accept (other than posters). If your submission uses our LaTex template, and your work is accepted, then it may be published even faster. If this isn't possible for you, then we also accept submissions that use our Microsoft Word template. These templates can all be found in the <a href="pol-manuscript-guidance.php">style guidelines</a> section of our policy documents. <!--Details about what LaTeX is, how to use it, and why it is useful in academic publishing can be found on our <a href="#">FAQs</a> page.</p>-->
+                    <p>We strongly encourage the use of our <a href="#">LaTeX</a> template for a generic article. If this isn't possible for you, then we also accept PDFs from Microsoft Word. The specific layout we require in a Word document can all be found in the <a href="pol-manuscript-guidance.php">style guidelines</a> section of our policy documents. <!--Details about what LaTeX is, how to use it, and why it is useful in academic publishing can be found on our <a href="#">FAQs</a> page.</p>-->
                 </div>
                 <div class="step even">
                     <div class="icon-square"> <i class="fa fa-list-alt"></i> </div>
