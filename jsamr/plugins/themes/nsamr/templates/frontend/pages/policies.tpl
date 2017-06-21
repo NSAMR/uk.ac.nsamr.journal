@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row pull-right">
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{$baseUrl}">Home</a></li>
                 <li>Author and Reviewer Policies</li>
             </ol>
         </div>
