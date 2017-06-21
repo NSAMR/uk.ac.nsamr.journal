@@ -46,10 +46,9 @@
                         <h2>A little about us</h2>
                     </div>
                     <div class="space20"></div>
-                    <p>JSAMR is the Journal of Student Association of Medical Research (SAMR). JSAMR is a <b>high quality</b>, <b>open access</b>, <b>online only</b> journal that is authored, reviewed, and edited by <b>students</b>.</p>
+                    <p>JSAMR is the Journal of the Student Association of Medical Research, a division of <a href="http://www.nsamr.org">NSAMR</a>, the National Student Asssociation of Medical Research. JSAMR is a <b>high quality</b>, <b>open access</b>, <b>online only</b> journal that is authored, reviewed, and edited by <b>medical students</b>.</p>
                     <p>The aim of JSAMR is to <b>educate</b> students about all parts of the journal publication process, and to provide a <b>free</b> platform to give students <b>experience</b> of the journal submission and peer-review process <b>without competition</b> from established researchers.</p>
-                    <p>JSAMR is proudly funded by the Wellcome Trust.</p>
-                    <p>SAMR is registered with the Charity Commission with charity number 1169158.</p>
+                    <p><a href="http://www.nsamr.org">NSAMR</a>, the parent organisation of JSAMR, is proudly funded by the Wellcome Trust, and is registered with the Charity Commission with charity number <a href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityFramework.aspx?RegisteredCharityNumber=1169158&SubsidiaryNumber=0">1169158</a>.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/blocks/manuscript-729617_1920.jpg" class="img-responsive" alt="">
@@ -84,7 +83,7 @@
                                         Open Research doesn't just mean Open Access. We encourage publication of all data and analytical tools used in each manuscript, allowing these, as well as figures, to be cited individually in future work.
                                     </p>
                                     <p>
-                                        Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed, and any new contributions or modifications are released under the same licence.
+                                        Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY Attribution 4.0</a>, allowing sharing, transforming and building upon our content, so long as credit is attributed.
                                     </p>
                                 </div>
                             </div>
