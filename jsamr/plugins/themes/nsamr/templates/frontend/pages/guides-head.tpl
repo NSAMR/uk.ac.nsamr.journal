@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row pull-right">
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{$baseUrl}">Home</a></li>
                 <li>User Guides</li>
             </ol>
         </div>
@@ -65,33 +65,30 @@
     </div>
     <div class="container">
         <div class="row">
-            <p>Thank you for considering to make a submission with JSAMR. This guide will walk you through the steps of making a submission on the website.</p>
+            <p>Thank you for considering submitting a manuscript to JSAMR. This guide will walk you through the steps to make a submission through our website.</p>
             <div class="left-heading">1. Register to be an author</div>
             <div>
-                <p><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">Register</a> on  to create an account as an author.</p>
-                
+                <p><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">Register</a> an account. Please include any middle names you have, and use an academic email address so we can verify your status more easily.</p>
             </div>
         </div>
         <hr>
 
-
         <div class="row">
-            <div class="left-heading">2. Prepare Submission</div>
+            <div class="left-heading">2. Prepare your manuscript</div>
             <div>
-                <p>How to <a href="howtosubmit.php">submit</a> your work.</p>
-                <p>This page outlines how to prepare your work before a submission to improve the likelihood of acceptance and publication.</p> 
-                <p>Ready to submit? Click ‘New Submission’</p>
+                <p>Please read the page outlining our <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='submissionprocess'}">submission process</a>, which describes how to prepare your work before submission to improve the likelihood of acceptance and publication.</p> 
+                <p>Ready to submit? Click <a href="{$baseUrl}/index.php/jnsamr/submission">here</a> to make a new submission (login required).</p>
             </div>
         </div>  
         <hr>
 
         <div class="row">
-            <div class="left-heading">3. Submit Manuscript</div>
+            <div class="left-heading">3. Submit your manuscript</div>
             <div>
                 <ol>
-                <li>Section: Select your article type from the drop-down menu</li>
-                <li>Submission requirements: All the requirements should be ticked</li>
-                <li>Comments for the Editor: Choose the most suitable 2-3 codes for your article/letter from the following:</li> 
+                <li>Section: Select your manuscript type from the drop-down menu</li>
+                <li>Submission requirements: Please read all the items in the list, and check the boxes to indicate your agreement. If you do not agree to any of our requirements, please <a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="contact"}">get in touch</a> with us.</li>
+                <li>Comments for the Editor: Choose two or three of the most suitable codes for your manuscript from the following:</li> 
                 <div class="container">            
                   <table class="table">
                     <thead>
@@ -425,7 +422,7 @@
             <div>
                 <ol>
                     <li>You should have received an email from the Journal Editors with the title “Article review request”. This means you have already been assigned as the Section Editor in charge of this manuscript.</li>
-                    <li><a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/login">Login</a> with your username and password. If you do not have an account, <a href="/journal/journal-machinery/ojs-3.0.1/index.php/jnsamr/user/register">register</a>.</li>
+                    <li><a href="{url router=$smarty.const.ROUTE_PAGE page="login"}">Log in</a> with your username and password. If you do not have an account, please <a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="register"}">register</a>.</li>
                     <li>Once logged in, click “Tasks” on left hand tab on screen</li>
                     <li>If you have a manuscript due to be sent out to reviewers, you should have a notification on the “tasks” tab. Sometimes this does not register so regardless whether you have notifications on “tasks” or not, check your “My Assigned” tab and you should see the new manuscript submitted, with the stage as “Submission”. </li>
                     <li>Click on “Submissions”</li>
