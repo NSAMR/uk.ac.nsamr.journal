@@ -3,28 +3,36 @@
 
 
 % PACKAGES
+
+% Layout
 \usepackage[english]{babel} % English language/hyphenation
-%\usepackage{fontspec} % To use Avenir
 \usepackage{geometry} % For paper size and layout
-\usepackage{color}
-%\usepackage{xcolor}
-\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
-\usepackage{fancyhdr} % For header and footer with odd and even page params
-\usepackage{lipsum}  % For generating sample text
 \usepackage{ragged2e} % For restating fully justified environment
 \usepackage{textcomp} % ??? Can't remember...
+
+% Styling
+\usepackage[T1]{fontenc} % For fonts
+\usepackage{lmodern} % Font for JSAMR
+% \usepackage[sfdefault]{AlegreyaSans} % Different type of font packages
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{fancyhdr} % For header and footer with odd and even page params
 \usepackage{titlesec} % To edit title formats
-\usepackage{lastpage} % Ffor Page X of Y
+\usepackage{lastpage} % For Page X of Y
+\usepackage{lineno} % Line numbers for review purposes
+\usepackage{apacite} % For citations
+\usepackage{color} % For colors
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+
+% Extra objects
+\usepackage{graphicx} % For nicer figures
 \usepackage{booktabs} % For nicer tables
 \usepackage{multicol} % More things for tables (and arranging text)
-\usepackage{graphicx} % For easier figure wrangling
-\usepackage{lineno} % Line numbers for review purposes
 \usepackage{microtype} % For uneven columns
 \usepackage{vwcol} % For uneven columns
-\usepackage[T1]{fontenc} % For fonts
-\usepackage{lmodern} % {tgheros lmodern paratype} For fonts
-\usepackage{apacite} % For citations
-\renewcommand{\familydefault}{\sfdefault}
+
+
+
+
 
 % DEFINITIONS
 \linenumbers
@@ -40,6 +48,12 @@
 \definecolor{brand-logo-dark}{HTML}{58778C}
 \definecolor{brand-logo-light}{HTML}{BCD3DB}
 \definecolor{brand-midlight}{HTML}{C2C5C3}
+\definecolor{brand-light}{HTML}{DADEDB}
+\definecolor{brand-lightest}{HTML}{F2F7F3}
+
+\definecolor{brand-body}{HTML}{E8EBEE}
+
+
 
 \titleformat*{\section}{\Large\normalfont}
 \titleformat*{\subsection}{\large\normalfont}
@@ -51,7 +65,6 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[RE,LO]{ARTICLES}
-
 \fancyhead[LE,RO]{\footnotesize\textcolor{brand-secondary}{Running header of this paper}}
 \fancyfoot[LE,LO]{\footnotesize{\textcopyright \textcolor{brand-secondary}{Journal of the Student Association of Medical Research}\\
 \hspace{4mm}\footnotesize2017 Vol 1 Issue 1 \emph{doi:xx.xxxx/xxx}}}
@@ -79,15 +92,57 @@
 \begin{document}
 \pagestyle{fancy}
 
+
+
+%%%%%%%% START HEADER MATERIAL
 \twocolumn[
+		% JSAMR BANNER
+                \begin{@twocolumnfalse}	
+                		\begin{minipage}{0.95\textwidth}
+                    		\setlength{\fboxsep}{0pt}
+                    		\fcolorbox{brand-body}{brand-body}{\parbox{1.05\textwidth}{		
+					\fcolorbox{brand-body}{brand-body}{\parbox{0.3\textwidth}{	
+							\smallskip					
+							\includegraphics[width=0.25\textwidth]{logo-wide-jsamr.pdf}
+							\smallskip
+                                    			}
+                                    		} 
+					\fcolorbox{brand-body}{brand-body}{\parbox{0.73\textwidth}{		
+							\raggedleft{
+								\large\textcolor{brand-primary}{Journal of the Student Association of Medical Research}\\
+								\smallskip
+								\normalsize\textcolor{brand-primary}{Volume 1, Issue 1}
+								}
+                                    			}
+                                    		} 		
+                    			}
+                    		} 		                    	
+                		\end{minipage} 
+                	\end{@twocolumnfalse}
 
-		% Title 
-		\huge\textcolor{brand-secondary}{Title of this paper}\\	
-		
-		% Author(s)
-		\Large{First Author$^{*}$, Second Author$^{**}$ and Third Author$^{***}$}	
+		\bigskip
 
-		% Affiliation(s)
+		% TITLE OF ARTICLE
+                \begin{@twocolumnfalse}	
+                		\begin{minipage}{1.015\textwidth}
+                    		\setlength{\fboxsep}{0pt}		
+                 		\fcolorbox{white}{white}{\parbox{0.9\textwidth}{					
+    					\huge\textcolor{brand-secondary}{Title of this paper: title of this paper title of this paper title of this paper title of this paper title of this paper }
+					\bigskip					
+                    			}
+                    		} 
+                    		\setlength{\fboxsep}{10pt}
+                   		\fcolorbox{white}{white}{\parbox{0.025\textwidth}{					
+    					\includegraphics[width=0.045\textwidth]{logo-dna.pdf}
+                    			}
+                    		} 		
+                		\end{minipage} 
+                	\end{@twocolumnfalse}
+
+		% AUTHOR(S)
+		\Large{First Author$^{*}$, Second Author$^{**}$, Third Author$^{***}$ and please remove all author names and other identifying information from your manuscript before submitting}	
+
+		% AFFILLIATIONS(S)
 		\setlength{\columnseprule}{1pt}
 		\def\columnseprulecolor{\color{brand-secondary}}
 		\begin{multicols}{2}
@@ -95,10 +150,10 @@
 				$^{**}$affiliation\smallskip\\
 				$^{***}$affiliation}\bigskip\smallskip\\
 			\vfill
-			\small{$^{\alpha}$Corresponding author: email@domain.ac.uk}
+			\small{$^{\alpha}$Corresponding author: $email@domain.ac.uk$}
 			\columnbreak
 
-		% Dates	
+		% DATES	
 			\hangindent=0.8cm 
 			\small{
 				\hspace{8mm}Received: 16$^{th}$ January 2017\smallskip\\
@@ -113,11 +168,11 @@
 
 	\begin{@twocolumnfalse}	
 
-		% Abstract
+		% START ABSTRACT
 		\begin{minipage}{0.95\textwidth}
 		\begin{centering}
 		\setlength{\fboxsep}{10pt}
-		\fcolorbox{brand-primary}{brand-logo-light}{\parbox{\textwidth}{
+		\fcolorbox{brand-logo-light}{brand-logo-light}{\parbox{\textwidth}{
 			\Large{Abstract}\bigskip\\
 			\normalsize
 			\textbf{Introduction}
@@ -129,34 +184,49 @@
 			\textbf{Conclusions}
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\\
 			}
-		} % End fbox
+		} 
 		\end{centering}
-		\end{minipage} % END ABSTRACT
+		\end{minipage}
+		% END ABSTRACT
 
 		
 	\end{@twocolumnfalse}
 \vspace{8mm}
-] % End @twocolumnfalse
+] 
+%%%%%%%% END HEADER MATERIAL
 
 
-% Article text
+
+
+%%%%%%%% START ARTICLE
+
+% INTRODUCTION
 \section{Introduction}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo. As explained in section \ref {methods} (this is a reference to another section).
 
-Phasellus consequat luctus lobortis. Curabitur vulputate maximus tortor, quis dapibus tellus commodo eget. Ut hendrerit at risus vel tristique. Morbi faucibus accumsan ornare. Phasellus faucibus eleifend volutpat. Nullam ut tellus nisi. Praesent dolor sapien, pellentesque vel tortor nec, mattis fermentum tortor. Praesent quis fermentum nibh. Suspendisse libero magna, sodales in erat egestas, pharetra vulputate lectus. This is a working footnote\footnote{Footnote is present!}
+This is a citation \cite{Burns1981}, and this in-text citation is exemplified by \citeA{Burns1981}. As explained in section \ref {methods}, this demonstrates a reference to another section. Furthermore, this is a footnote\footnote{Hello!}
+
+Figure  \ref{fig:one-column} shows a single-column figure,  ad Figure  \ref{fig:one-column} shows a two-column figure. 
+
+Table \ref{tab:one-column} shows an example of a single-column table. Table \ref{tab:two-column} shows an example of a table that requires two columns.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo. 
+
+Phasellus consequat luctus lobortis. Curabitur vulputate maximus tortor, quis dapibus tellus commodo eget. Ut hendrerit at risus vel tristique. Morbi faucibus accumsan ornare. Phasellus faucibus eleifend volutpat. Nullam ut tellus nisi. Praesent dolor sapien, pellentesque vel tortor nec, mattis fermentum tortor. Praesent quis fermentum nibh. Suspendisse libero magna, sodales in erat egestas, pharetra vulputate lectus.
 
 Aliquam tincidunt, metus vel viverra hendrerit, tellus urna fringilla diam, at bibendum lacus tortor nec nulla. Donec rutrum tellus quam, vitae interdum dolor lacinia in. Sed rutrum ultrices tincidunt. Ut pretium fermentum commodo. Curabitur elit quam, auctor id finibus vel, faucibus eu ligula. Sed ut odio sit amet felis pulvinar varius. Phasellus porttitor magna dolor, et pretium erat hendrerit ut. Duis sit amet tincidunt sem, ut consequat lectus. Nam consectetur, odio et aliquet pulvinar, purus mauris molestie dui, id sodales mi nulla vitae risus. Pellentesque finibus orci ante, hendrerit auctor velit congue interdum. Donec dignissim eu sem sit amet sollicitudin. Aenean congue nunc nisi, ac aliquam lectus hendrerit quis.
-Figure  \ref{fig:one-column} shows a one-column figure (this is a reference to a figure).
-\cite{Buss2008} (this is a citation)
 
+
+% METHODS
 \section{Methods}
 \label{methods}
 \subsection{This is a subheading}
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. 
+
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{logo-wide-jsamr.pdf}
-\caption{Figure legend goes here if required. This is a single-column figure. All figures must be vector graphics if possible, or at least 600dpi.}
+\caption{Figure caption goes here if required. All figures must be vector graphics if possible, or at least 600dpi. This is a single-column figure; to create a two-column figure, begin and end with figure*.}
 \label{fig:one-column}
 \end{figure}
 
@@ -180,31 +250,33 @@ This is an ordered list:
 
 This is an unordered list:
  \begin{itemize}
-   \item  First Level
+   \item  First level item
    \begin{itemize}
-     \item  Second Level
+     \item  Second level item
      \begin{itemize}
-       \item  Third Level
+       \item  Third level item
        \begin{itemize}
-         \item  Fourth Level
+         \item  Fourth level item
        \end{itemize}
      \end{itemize}
    \end{itemize}
  \end{itemize}
 
-\subsection{This is a subheading}
-\lipsum[10-11]
-\cite {Burns1981}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo. 
 
+\subsection{This is a subheading}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo. 
+
+% RESULTS
 \section{Results}
-\subsection{This is a subheading}
-\subsubsection{This is a sub-subheading}
 
-Table \ref{tab:one-column} shows an example of a simple single column table.
+\subsection{This is a subheading}
+
+\subsubsection{This is a sub-subheading}
 
 \begin{table}
 \begin{centering}
-\caption{A single-column table}\label{tab:one-column}
+\caption{A two-column table. Tables have captions above rather than below.}\label{tab:one-column}
 	\begin{tabular}[\columnwidth]{ccl}\toprule
 		Experiment &  Variable 1 &  Variable 2 \\
 		\midrule
@@ -217,15 +289,12 @@ Table \ref{tab:one-column} shows an example of a simple single column table.
 		\bottomrule
 	\end{tabular}\par
 	\medskip
-\textit{Notes for this table if required. All values should be rounded to 2 dp}
-\end{centering}
+\textit{Notes for this table if required. Tables have captions above rather than below. All values should be rounded to 2 dp. It is preferred that column rules are avoided, and minimal horizontal rules are used.}\end{centering}
 \end{table}
-
-Table \ref{tab:two-column} shows an example of a table that requires two columns.
 
 \begin{table*}
 \begin{centering}
-\caption{A two-column table}\label{tab:two-column}%
+\caption{A two-column table. Tables have captions above rather than below.}\label{tab:two-column}%
 	\begin{tabular}[\columnwidth]{ccccccccc}\toprule
 	Condition & V1 & V2 & V3 & V4 & V5 & V6 & V7 & V8 \\
 	\midrule
@@ -240,28 +309,37 @@ Table \ref{tab:two-column} shows an example of a table that requires two columns
 	\bottomrule
 	\end{tabular}\par
 	\medskip
-\textit{Notes for this table if required. All values should be rounded to 2 dp}
-\end{centering}
+\textit{Notes for this table if required. Tables have captions above rather than below. All values should be rounded to 2 dp. It is preferred that column rules are avoided, and minimal horizontal rules are used.}\end{centering}
 \end{table*}
 
-\lipsum[12]
-\subsubsection{This is a sub-subheading}
-\lipsum[13]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo.
 
 \subsection{This is a subheading}
-\subsubsection{This is a sub-subheading}
-\lipsum[14]
-\subsubsection{This is a sub-subheading}
-\lipsum[15]
 
-\subsection{This is a subheading}
-\lipsum[16-18]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo.
 
+\subsubsection{This is a sub-subheading}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo.
+
+Phasellus consequat luctus lobortis. Curabitur vulputate maximus tortor, quis dapibus tellus commodo eget. Ut hendrerit at risus vel tristique. Morbi faucibus accumsan ornare. Phasellus faucibus eleifend volutpat. Nullam ut tellus nisi. Praesent dolor sapien, pellentesque vel tortor nec, mattis fermentum tortor. Praesent quis fermentum nibh. Suspendisse libero magna, sodales in erat egestas, pharetra vulputate lectus.
+
+
+% DISCUSSION 
 \section{Discussion}
-\lipsum[19-23]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo.
 
+Phasellus consequat luctus lobortis. Curabitur vulputate maximus tortor, quis dapibus tellus commodo eget. Ut hendrerit at risus vel tristique. Morbi faucibus accumsan ornare. Phasellus faucibus eleifend volutpat. Nullam ut tellus nisi. Praesent dolor sapien, pellentesque vel tortor nec, mattis fermentum tortor. Praesent quis fermentum nibh. Suspendisse libero magna, sodales in erat egestas, pharetra vulputate lectus.
+
+Aliquam tincidunt, metus vel viverra hendrerit, tellus urna fringilla diam, at bibendum lacus tortor nec nulla. Donec rutrum tellus quam, vitae interdum dolor lacinia in. Sed rutrum ultrices tincidunt. Ut pretium fermentum commodo. Curabitur elit quam, auctor id finibus vel, faucibus eu ligula. Sed ut odio sit amet felis pulvinar varius. Phasellus porttitor magna dolor, et pretium erat hendrerit ut. Duis sit amet tincidunt sem, ut consequat lectus. Nam consectetur, odio et aliquet pulvinar, purus mauris molestie dui, id sodales mi nulla vitae risus. Pellentesque finibus orci ante, hendrerit auctor velit congue interdum. Donec dignissim eu sem sit amet sollicitudin. Aenean congue nunc nisi, ac aliquam lectus hendrerit quis.
+
+
+% CONCLUSION
 \section{Conclusions}
-\lipsum[24-32]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, tortor vel mattis tristique, est ligula sollicitudin neque, a fermentum dui elit vitae lectus. Integer posuere mi eu nisl malesuada efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum non orci placerat nunc consectetur euismod quis a augue. Nam quis nulla a magna porttitor porttitor. Vivamus eget consectetur leo. Integer blandit lacus ac placerat cursus. Duis elit ante, malesuada facilisis justo a, vehicula semper justo.
+
+
+%%%%%%%% END ARTICLE
+
 
 \bibliography{sample-article}
 
