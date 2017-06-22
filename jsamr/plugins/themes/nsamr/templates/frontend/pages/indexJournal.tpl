@@ -160,7 +160,7 @@
 		<div class="col-md-3">
 			<div class="service-box wow animated fadeIn" data-wow-delay="1s">
 				<i class="fa fa-users color-1"></i>
-				<h4>Who are we?</h4>
+				<h4>asdadasasd</h4>
 				<p>
 					JSAMR is part of the <b>National Student Association of Medical Research</b>, a non-profit, non-governmental and non-partisan <b>student-led</b> organisation representing medical school research societies nationally. <a href="http://www.nsamr.org">NSAMR</a> is registered with the Charity Commission (<a href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityFramework.aspx?RegisteredCharityNumber=1169158&SubsidiaryNumber=0">Reg. 1169158</a>). Our core principles include the promotion of opportunites in academia for medical students, with a focus on <b>Openness and transparency</b>. Everything we publish is licenced under Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY Attribution 4.0</a>
 				</p>
