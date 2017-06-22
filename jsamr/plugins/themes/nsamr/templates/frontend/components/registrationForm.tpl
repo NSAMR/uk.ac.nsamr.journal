@@ -84,7 +84,7 @@
 			<label>
 				{translate key="user.password"} *
 			</label>
-			{translate key="user.password"}
+			{translate key="user.password.annotation"}
 			<input class="form-control" type="password" name="password" id="password" password="true" maxlength="32" required>
 		</div>
 		<div class="form-group password">
