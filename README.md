@@ -11,8 +11,9 @@ The bootstrap3 codebase is included as a submodule.
 
 NSAMR will contribute back to both OJS and bootstrap3, as well as to other Open Source frameworks used here.
 
-Documentation provided by PKP:
-* User Guides: https://pkp.gitbooks.io/ 
+## Documentation :
+* User Guides provided by PKP: https://pkp.gitbooks.io/ 
+* http://openaccess.mtak.hu/dokumentumok/OJS/ojs3-en.pdf
 
 ## License
 JSAMR publishes Open Access articles under the terms of the Creative Commons (CC BY) Attribution License 4.0, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. The CC BY Attibtution 4.0 license can be viewed here: https://creativecommons.org/licenses/by/4.0/
