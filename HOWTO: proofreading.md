@@ -4,4 +4,4 @@
 4. Click on the little pencil icon in the top right hand corner of the window with the code in
 5. Try not to alter anything in < > tags!!!!
 6. When you’re done editing, fill in the little form at the bottom to say roughly what you did
-7. Submit a Pull Request against the ‘master’ branch so others can review your suggestions (details on this to follow)
+7. Submit a Pull Request against the ‘master’ branch so others can review your suggestions (details on this are in another doc)
