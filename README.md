@@ -2,7 +2,7 @@
 This is the git repo for the new Journal of the Student Association of Medical Research
 * http://www.nsamr.ac.uk/journal/
 
-## Journal software and design
+## Journal software and designddddddddd
 JSAMR is built using Open Journal Systems 3 (OJS 3): https://pkp.sfu.ca/ojs/
 The codebase https://github.com/pkp/ojs is included as a submodule.
 
