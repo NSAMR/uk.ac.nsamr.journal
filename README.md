@@ -15,7 +15,7 @@ NSAMR will contribute back to both OJS and bootstrap3, as well as to other Open 
 * Open Journal Systems User Guides provided by PKP: https://pkp.gitbooks.io/ 
 * Learning OJS3: A visual guide to Open Journal Systems: http://openaccess.mtak.hu/dokumentumok/OJS/ojs3-en.pdf
 * JSAMR documentation: 
-  * [How to proofread for JSAMR's website in your web browser](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Proofread%20for%20JSAMR's%20website%20in%20your%20web%20browser.md)
+  * [How to proofread for the JSAMR website in your browser](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Proofread%20for%20the%20JSAMR%20website%20in%20your%20browser.md)
   * [How to develop for JSAMR on a local machine](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Develop%20for%20JSAMR%20on%20a%20local%20machine.md)
   * [How to submit a Pull Request to JSAMR](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Submit%20a%20Pull%20Request%20to%20JSAMR.md)
   * [How to test and deploy updates to JSAMR](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Test%20and%20deploy%20updates%20to%20the%20JSAMR%20website.md)
