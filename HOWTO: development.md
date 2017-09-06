@@ -1,4 +1,4 @@
-# Step-by_step(ish) instructions to get going with development
+# HOWTO: development
 
 ## Local development
 As usual when frameworks are used, developing locally requires you to build the site and serve it the same way as the web server does (PHP and Apache), otherwise you'll just see raw code. 
@@ -51,13 +51,3 @@ Without these being present with correct permissions (world writable), the journ
 * Sometimes you need to do this in the admin part of the site (you need to be logged in as journal admin):  
     * Template files: Administration >> Clear Template Cache  
 * If the SQL server won't start, try these things: [http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start](http://stackoverflow.com/questions/41309275/mysql-server-on-mamp-wont-start)  
-
-# Administrators for core repository
-* All NSAMR's repositories are publicly viewable
-* People who can merge pull requests to this repo are Helen, Steph and Hamilton (Note: make these be links)
-* NSAMR's webserver has push access to this repo and to uk.ac.nsamr, and requires a password to push and pull. ([@DeckOfPandas](https://github.com/DeckOfPandas) has this for now)  
-* Helen also has push access from two personal machines
-* If you want to add a public key from another machine, send [@DeckOfPandas](https://github.com/DeckOfPandas) your public key to be added to NSAMR's account. (You *must* set a password for using your machine's private key if you want public key access to this repo.)  
-
-# Live deployment
-To JSAMR committee members: The JSAMR website runs from a clone of this repo on NSAMR's webserver. *Do not ever ever ever* edit files on that machine except by pulling from this git repo. There are no exceptions to this. NSAMR'S IT team has the access details for this server in case you'd like to update the site yourself.
