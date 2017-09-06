@@ -6,4 +6,4 @@
 4. Click on the little pencil icon in the top right hand corner of the window with the code in
 5. Try not to alter anything in < > tags unless you know what you are doing!!!!
 6. When you’re done editing, fill in the little form at the bottom to say roughly what you did
-7. Submit a Pull Request [here's how](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20submit%20a%20Pull%20Request.md) against the ‘master’ branch so repo admins can review your suggestions
+7. Submit a Pull Request [(here's how)](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Submit%20a%20Pull%20Request%20to%20JSAMR.md) against the ‘master’ branch so repo admins can review your suggestions
