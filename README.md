@@ -1,6 +1,7 @@
 # journal.nsamr.ac.uk
-This is the git repo for the new Journal of the Student Association of Medical Research
-* http://www.nsamr.ac.uk/journal/
+This is the git repo for the new Journal of the Student Association of Medical Research: http://www.nsamr.ac.uk/journal/
+
+JSAMR is the first Open Access journal in the UK by medical students for medical students.
 
 ## Journal software and design
 JSAMR is built using Open Journal Systems 3 (OJS 3): https://pkp.sfu.ca/ojs/
