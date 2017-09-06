@@ -1,4 +1,4 @@
-# HOWTO: Proofread for JSAMR's website in your web browser
+# HOWTO: Proofread for the JSAMR website in your browser
 
 1. Go to [https://github.com/NSAMR/uk.ac.nsamr.journal/]()
 2. Make a new branch for your work using the dropdown bar labelled "Branch" on the top left
