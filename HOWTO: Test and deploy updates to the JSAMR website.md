@@ -1,4 +1,4 @@
-# HOWTO: Test and deploy updates to JSAMR website
+# HOWTO: Test and deploy updates to the JSAMR website
 
 Details here are deliberately vague for security reasons, but there are more details in our internal Google Drive, plus @DeckOfPandas is always on hand to help.
 
