@@ -1,3 +1,5 @@
+#HOWTO: submit a Pull Request
+
 1.  Click on the "Code" tab to load the repository's index page
 2. Select the branch with your changes using the dropdown bar labelled "Branch" on the top left
 3. Click on "Pull request" on the right hand side of the page (below the bright green "Clone" button) -- this will only appear if you have any changes
