@@ -12,8 +12,19 @@ The bootstrap3 codebase is included as a submodule.
 NSAMR will contribute back to both OJS and bootstrap3, as well as to other Open Source frameworks used here.
 
 ## Documentation :
-* User Guides provided by PKP: https://pkp.gitbooks.io/ 
-* http://openaccess.mtak.hu/dokumentumok/OJS/ojs3-en.pdf
+* Open Journal Systems User Guides provided by PKP: https://pkp.gitbooks.io/ 
+* Learning OJS3: A visual guide to Open Journal Systems: http://openaccess.mtak.hu/dokumentumok/OJS/ojs3-en.pdf
+* JSAMR documentation: 
+  * [How to proofread for JSAMR's website in your web browser](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Proofread%20for%20JSAMR's%20website%20in%20your%20web%20browser.md)
+  * [How to develop for JSAMR on a local machine](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Develop%20for%20JSAMR%20on%20a%20local%20machine.md)
+  * [How to submit a Pull Request to JSAMR](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Submit%20a%20Pull%20Request%20to%20JSAMR.md)
+  * [How to test and deploy updates to JSAMR](https://github.com/NSAMR/uk.ac.nsamr.journal/blob/master/HOWTO:%20Test%20and%20deploy%20updates%20to%20the%20JSAMR%20website.md)
+
+## Workflow and branch structure
+
+`JSAMR/uk.ac.nsamr.journal:master` is the main branch for JSAMR: Pull Requests should be made into this branch, and releases will be made from here. The branch is protected, so all Pull Requests must be approved by a repository owner.
+
+Contributors should fork the core JSAMR repo (https://github.com/NSAMR/uk.ac.nsamr.journal), and should make sure their WIP branches are kept up-to-date with branch `:master`.
 
 ## License
 JSAMR publishes Open Access articles under the terms of the Creative Commons (CC BY) Attribution License 4.0, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. The CC BY Attibtution 4.0 license can be viewed here: https://creativecommons.org/licenses/by/4.0/
