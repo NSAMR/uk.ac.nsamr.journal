@@ -1,4 +1,4 @@
-# HOWTO: submit a Pull Request
+# HOWTO: Submit a Pull Request to JSAMR
 
 1.  Click on the "Code" tab to load the repository's index page
 2. Select the branch with your changes using the dropdown bar labelled "Branch" on the top left
