@@ -1,4 +1,4 @@
-# HOWTO: development
+# HOWTO: Develop for JSAMR on a local machine
 
 ## Local development
 As usual when frameworks are used, developing locally requires you to build the site and serve it the same way as the web server does (PHP and Apache), otherwise you'll just see raw code. 
