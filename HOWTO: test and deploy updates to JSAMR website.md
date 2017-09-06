@@ -2,6 +2,10 @@
 
 Details here are deliberately vague for security reasons, but there are more details in our internal Google Drive, plus @DeckOfPandas is always on hand to help.
 
+## Important
+
+To JSAMR committee members: The JSAMR website runs from a clone of this repo on NSAMR's webserver. *Do not ever ever ever* edit website files on that machine except by pulling from this git repo. There are no exceptions to this.
+
 ## TEST
 1. Ensure that NSAMR/uk.ac.nsamr.journal :test branch has all the changes you want to deploy
 2. Log in to the JSAMR webserver via SSH
