@@ -128,6 +128,17 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display authorlanding page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function authorlanding($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/authorlanding.tpl');
+	}
+
+	/**
 	 * Display editorialTeam page.
 	 * @param $args array
 	 * @param $request PKPRequest
