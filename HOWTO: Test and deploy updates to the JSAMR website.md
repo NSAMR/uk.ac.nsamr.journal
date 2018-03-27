@@ -6,7 +6,15 @@ Details here are deliberately vague for security reasons, but there are more det
 
 To JSAMR committee members: The JSAMR website runs from a clone of this repo on NSAMR's webserver. *Do not ever ever ever* edit website files on that machine except by pulling from this git repo. There are no exceptions to this.
 
-## TEST
+## TEST	ON STAGING SERVER AGAINST DUMMY DB
+TODO -- ask MB for new DB
+
+## TEST ON STAGING SERVER AGAINST LIVE DB
+1. git clone this repo into the relevant folder on the server
+2. Set sensible values in config.inc.php so the test OJS installation can connect to the same DB
+3. Marvel at changes
+
+## TEST LIVE
 1. Ensure that NSAMR/uk.ac.nsamr.journal :test branch has all the changes you want to deploy
 2. Log in to the JSAMR webserver via SSH
 3. Navigate to the root folder of the github repository TEST clone (which is usually identical to master)
