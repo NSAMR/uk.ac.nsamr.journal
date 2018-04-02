@@ -47,7 +47,7 @@
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute NEW<span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='authorlanding'}">Authors</a></li>
+        <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='landing_author'}">Authors</a></li>
       </ul>
     </li>
     
