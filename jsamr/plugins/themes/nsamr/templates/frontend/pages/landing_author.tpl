@@ -95,7 +95,7 @@
                     <p>Our aim is to help you publish, and our editorial and reviewer teams can help you through the whole process if you need us to.</p>
                 </div>
                 <div class="step even" id="policy">
-                    <div class="icon-square"> <i class="fa fa-file-text"></i> </div>
+                    <div class="icon-square"> <i class="fa fa-file-text-o"></i> </div>
                     <h5>Read our author policy documents</h5>
                     <p>Our <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='policies'}">Author Policies</a> describe what we need you to agree to, and also what we undertake to offer you. These policies include our eligibility criteria, details about copyright, confidentiality requirements and more.</p>
                 </div>
@@ -117,13 +117,13 @@
                     <p>Using our <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='guides'}">Submission Checklist</a> will help you check that your manuscript follows our <a>Manuscript Preparation Guidelines</a> and <a>Style Guidelines</a>, and will help avoid unecessary delay in the review process (or even outright rejection pending re-working).</p>
                 </div>
                 <div class="step even" id="signup">
-                    <div class="icon-square"> <i class="fa fa-file-text"></i> </div>
+                    <div class="icon-square"> <i class="fa fa-sign-in"></i> </div>
                     <h5>Sign up to our online submission system</h5>
                     <p>JSAMR uses a comprehensive online system to manage submissions and publications, based on <a>Open Journal Systems</a>. Sign up <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='xxx'}">here</a> or using the button at the top of the page.</p>
                     <p>You will only need to register for an account once, and having this account will enable you to track the progress of your submission, as well as communicate securely with your Editor and Reviewers within our system. To preserve the double-blind review process, and academic integrity within the principles of Open, we require all communications to go through our platform, and you will not be able to contact your Editor or Reviewers outside this.</p>
                 </div>
                 <div class="step" id="submission">
-                    <div class="icon-square"> <i class="fa fa-paper-plane"></i> </div>
+                    <div class="icon-square"> <i class="fa fa-cloud-upload"></i> </div>
                     <h5>Go through the submission process</h5>
                     <p>When you are signed in, click "Submit now" and go through the submission process step by step. There are plenty of instructions in the system, but you'll probably find our User Guide for Authors</a> helpful so you're comfortable with what to type where. The process will collect all relevant information from you, and you will be able to upload all your documents.</p>
                     <p>Remember not to upload the cover sheet for your manuscript until we ask you for it, as this will not be sent out to reviewers.</p>
@@ -135,7 +135,7 @@
                     <p>Your Editor will then invite at least two appropriate Peer Reviewers to give feedback on your manuscript, and will collate their reponses, before contacting you with their decision. Editors' decisions can include Accept, Accept subject to minor revision, Accept subject to major revision, and Reject. The Editor will explain their decision to you, and will share the feedback from the Reviewers.</p>
                 </div>
                 <div class="step" id="next">
-                    <div class="icon-square"> <i class="fa fa-paper-plane"></i> </div>
+                    <div class="icon-square"> <i class="fa fa-arrow-circle-right"></i> </div>
                     <h5>Next steps</h5>
                     <p>If your manuscript is accepted for publication, then congratulations! We will contact you about how to proceed, but steps will include uploading your manuscript's cover sheet, and checking through and approving a typset version of your paper that we will make for you. Your original manuscript will appear online within 72 hours of being accepted, and the typeset version will be added when complete and approved by you. We will also publish the Reviewers' feedback and Editorial comments alongside your manuscript, as well as any written correspondence between you and your Editor or Reviewers during the review process.</p>
                     <p>If your Editor decides that you need to work on your manuscript further before we can accept it, then you can use their feedback and the feedback from the Reviewers to guide your improvements. We will be happy to help you as much as you need to re-work your submission. You can then upload your resubmission through the same part of the system as your original submission.</p>
