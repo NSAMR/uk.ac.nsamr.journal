@@ -52,3 +52,39 @@ a:hover {
     color: @midlight;
   }
 }
+
+.icon-list {
+  .fa {
+    padding-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .reorder-responsive {
+    display: table;
+  }
+  .reorder-left {
+    display: table-header-group;
+  }
+  .reorder-right {
+    display: table-footer-group;
+  }
+  .responsive-pull-left {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
