@@ -139,6 +139,17 @@ class AboutContextHandler extends Handler {
 	}
 
 	/**
+	 * Display documentation_author page TODO HAXXXX
+	 * @param $args array
+	 * @param $request PKPRequest
+	 */
+	function documentation_author($args, $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		$this->setupTemplate($request);
+		$templateMgr->display('frontend/pages/documentation_author.tpl');
+	}
+
+	/**
 	 * Display editorialTeam page.
 	 * @param $args array
 	 * @param $request PKPRequest

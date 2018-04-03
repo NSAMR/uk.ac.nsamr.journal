@@ -28,6 +28,7 @@ switch ($op) {
 	case 'manuscriptguidance': //OLD
 	case 'policies': //OLD
 	case 'landing_author':
+	case 'documentation_author':
 	case 'contact':
 		define('HANDLER_CLASS', 'AboutContextHandler');
 		import('lib.pkp.pages.about.AboutContextHandler');
