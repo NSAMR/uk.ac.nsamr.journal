@@ -11,7 +11,6 @@ Titles style
     .border-width{
         height: 1px;
         width: 90px;
-        background-color: $skincolor;
         display: block;
         margin: 10px auto;
     }
@@ -19,14 +18,22 @@ Titles style
         font-size: 16px;
     }
 }
-.left-title-bar{
+.left-title-bar , .left-title-bar-body {
     h2{
-        color: $darkest;
+        color: @darkest;
         text-transform: uppercase;
         font-weight: 700;
         padding-left: 10px;
-        border-left: 3px solid $brand-secondary;
-        margin-top: 15px;
+        border-left: 3px solid @brand-secondary;
+    }
+}
+.left-title-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.left-title-bar-body {
+    h2{
+        margin-top: 50px;
         margin-bottom: 15px;
     }
 }
@@ -40,7 +47,6 @@ Titles style
         content: "";
         width: 50px;
         height: 2px;
-        background-color: $skincolor;
         position: absolute;
         left: 0;
         bottom: -10px;
@@ -58,7 +64,6 @@ Titles style
         content: "";
         width: 50px;
         height: 2px;
-        background-color: $skincolor;
         position: absolute;
         left: 0;
         bottom: -10px;

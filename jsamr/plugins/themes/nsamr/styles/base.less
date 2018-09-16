@@ -7,7 +7,7 @@
   font-size: 1.3rem;
   line-height: 2.3rem;
   margin: 0;
-  background-color: #E8EBEE;
+  background-color: @brand-body;
   color: @darkest;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -29,6 +29,15 @@ legend {
   margin: 40px 0;
 }
 
+.a-light {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+  color: @lightest;
+}
+
 a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -40,7 +49,6 @@ a {
 }
 
 a, a:hover, a:hover:active, a:focus, a:visited {
-  color: @brand-selection-3;
   text-decoration: none;
   outline: 0 !important;
 }
@@ -50,5 +58,53 @@ a:hover {
 
   &:active {
     color: @midlight;
+  }
+}
+
+.a-light:hover {
+  color: @mid;
+
+  &:active {
+    color: @midlight;
+  }
+}
+
+a:visited, a-light:visited {
+  color: @brand-selection-3;
+}
+
+.icon-list {
+  .fa {
+    padding-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .reorder-responsive {
+    display: table;
+  }
+  .reorder-left {
+    display: table-header-group;
+  }
+  .reorder-right {
+    display: table-footer-group;
+  }
+  .responsive-pull-left {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

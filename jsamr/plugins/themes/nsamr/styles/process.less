@@ -1,13 +1,6 @@
-/*
-Process
-*/
+@import "variables.less";
 
-.process h2{
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 22px;
-}
+
 .process-step {
     margin: 0 auto;
     width: 700px;
@@ -20,7 +13,7 @@ Process
     position: absolute;
     top: 0;
     left: 50%;
-    border-left: 1px solid #bbb;
+    border-left: 1px solid @mid;
     height: 100%;
 }
 .step {
@@ -36,9 +29,6 @@ Process
     text-align: right;
     padding: 10px 405px 0 0;
 }
-.step h5 {
-    color: #3f8dbf
-}
 .step .icon-square {
     position: relative;
     margin-left: 10px;
@@ -50,7 +40,7 @@ Process
     content: "";
     display: block;
     width: 65px;
-    border-bottom: 1px solid #C2C5C3;
+    border-bottom: 1px solid @mid;
     position: absolute;
     top: 35px;
     left: -65px;
@@ -68,19 +58,20 @@ Process
     font-style: normal;
     line-height: 1;
     text-align: center;
-    color: #bbb;
+    color: @mid;
     font-size: 40px;
     padding: 0;
     margin: 0 0 10px 0;
     display: table;
     width: 70px;
     height: 70px;
-    border: 2px solid #C2C5C3;
+    border: 2px solid @mid;
     /* @include transition (all 200ms ease-in);*/
 }
 .step:hover .icon-square i {
-    background-color: $skincolor;
-    color: $lightest;
+    background-color: @brand-selection-5;
+    color: @brand-body-light;
+    border: none;
 }
 .icon-square i:before {
     display: table-cell;
@@ -88,9 +79,9 @@ Process
     text-align: center;
 }
 .step h5{
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
-    color: @darkest;
+    color: @brand-selection-1;
     font-size: 20px;
 }
 @media (max-width: 767px){
