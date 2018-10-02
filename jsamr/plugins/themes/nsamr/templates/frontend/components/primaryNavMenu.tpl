@@ -42,6 +42,8 @@
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='guides'}">User Guides</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='manuscriptguidance'}">Manuscript Guidance</a></li>
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='policies'}">Author and Reviewer Policies</a></li>
+        <li><a href="http://eepurl.com/dHwECf">Peer Reviewer applications</a></li>
+
       </ul>
     </li>
     <li><a href="{url router=$smarty.const.ROUTE_PAGE page="about" op="contact"}">Contact</a></li>
