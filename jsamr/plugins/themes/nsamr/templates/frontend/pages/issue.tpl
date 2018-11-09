@@ -45,7 +45,15 @@
 		{else}
 			{include file="frontend/components/ctaBar.tpl"}
 			{include file="frontend/components/breadcrumbs_issue.tpl" currentTitle=$issueIdentification}
-			{include file="frontend/objects/issue_toc.tpl"}
+
+			{* Indicate if this is only a preview *}
+			{if !$issue->getPublished()}
+				{include file="frontend/components/notification.tpl" type="warning" messageKey="editor.issues.preview"}
+			{/if}
+			
+			<div class="container">
+				{include file="frontend/objects/issue_toc.tpl"}
+			</div>
 		{/if}
 
 	</div>
