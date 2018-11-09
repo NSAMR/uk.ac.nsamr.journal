@@ -20,19 +20,9 @@
 
 <div class="page_index_site">
 
-	<!--call to action-->
-	<div class="row" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-98A3AE-1920x1080.png') repeat; padding: 20px 0 20px 0;">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8">
-					<div class="left-title-bar">
-						<h2>Issue Title</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--end call to action-->
+	<!--end header bar-->
+	{include file="frontend/components/pageHeaderBar.tpl" currentTitle=$issueIdentification titlePrefix="JSAMR"}
+	<!--end header bar-->	
 
 	<div id="main-content" class="page page_issue page_index_site">
 
@@ -43,7 +33,6 @@
 
 		{* Display an issue with the Table of Contents *}
 		{else}
-			{include file="frontend/components/ctaBar.tpl"}
 			{include file="frontend/components/breadcrumbs_issue.tpl" currentTitle=$issueIdentification}
 
 			{* Indicate if this is only a preview *}
