@@ -40,7 +40,7 @@
 	<!--end call to action-->
 
 	<!-- Breadcrumbs -->
-	<div class="row" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
+	<div class="row" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brickwall_@2X.png') repeat; padding: 10px 0 10px 0;" class="col-sm-12 hidden-xs text-right">
 		<div class="container">
 			<div class="row pull-right">
 				<ol class="breadcrumb">
