@@ -203,7 +203,7 @@
 <div class="space40"></div> 
 
 <!--LLAMA-->
-<div class="archives-info" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 60px 0;">
+<div class="archives-info" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brickwall_@2X.png') repeat; padding: 60px 0;">
 	<div class="container">
 		<div class="row events-row">
 			<div class="col-md-9">

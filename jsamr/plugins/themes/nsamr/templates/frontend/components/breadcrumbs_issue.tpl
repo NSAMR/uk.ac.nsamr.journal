@@ -14,7 +14,7 @@
  * @uses $currentTitleKey string Translation key for title of current page.
  *}
 
-<nav class="cmp_breadcrumbs col-sm-12 hidden-xs text-right" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brick-wall-E8EBEE-1920x1080.png') repeat; padding: 10px 0 10px 0;" role="navigation" aria-label="{translate key="navigation.breadcrumbLabel"}">
+<nav class="cmp_breadcrumbs col-sm-12 hidden-xs text-right" style="background: url('{$baseUrl}/plugins/themes/nsamr/templates/images/patterns/brickwall_@2X.png') repeat; padding: 10px 0 10px 0;" role="navigation" aria-label="{translate key="navigation.breadcrumbLabel"}">
 	<ol class="breadcrumb">
 		<li>
 			<a href="{url page="index" router=$smarty.const.ROUTE_PAGE}">
