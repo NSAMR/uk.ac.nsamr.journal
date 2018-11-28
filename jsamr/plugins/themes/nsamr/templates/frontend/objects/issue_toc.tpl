@@ -16,19 +16,14 @@
  *}
 <div class="issue-toc">
 
-	{* Indicate if this is only a preview *}
-	{if !$issue->getPublished()}
-		{include file="frontend/components/notification.tpl" type="warning" messageKey="editor.issues.preview"}
-	{/if}
-
 	{* Issue introduction area above articles *}
 	<div class="heading">
 
-		<div class = "title">This is a title</div>
+		<div class = "title"></div>
 		{* Issue cover image and description*}
 		{assign var=issueCover value=$issue->getLocalizedCoverImage()}
 		{if $issueCover}
-			<div class="thumbnail">
+			<div class="thumbnail" style="background: transparent; border: none">
 				<a class="cover" href="{url op="view" page="issue" path=$issue->getBestIssueId()}">
 					<img class="img-responsive" src="{$coverImagePath|escape}{$issueCover|escape}"{if $issue->getLocalizedCoverImageAltText() != ''} alt="{$issue->getLocalizedCoverImageAltText()|escape}"{/if}>
 				</a>
