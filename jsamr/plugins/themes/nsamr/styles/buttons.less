@@ -10,28 +10,28 @@ Buttons style
 }
 
 .btn {
-  color: @lightest;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
   border: 0px;
   font-weight: 900;
+  letter-spacing: 0.175rem;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1.5rem;
   margin: 5px;
-  color: @lightest;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  border-radius: 0.5rem;
 
   &:hover, &:focus, &:visited {
-    color: @lightest;
+    color: #ffffff;
   }
   &:active, &:hover:active {
-    color: @midlight;
+    color: #ffffff;
   }
 }
 
 .btn i {
-  color: @lightest;
   margin-left: 5px;
 }
 
@@ -45,14 +45,9 @@ Buttons style
 }
 
 .btn-learnmore {
-  background-color: @brand-info;
-
-  &:hover, &:focus, &:visited {
-    color: @lightest;
-  }
+  background-color: @brand-info !important;
 
   &:active, &:hover:active {
-    color: @light;
     background-color: @brand-info-light;
   }
 
@@ -65,12 +60,7 @@ Buttons style
 .btn-action {
   background-color: @brand-action;
 
-  &:hover, &:focus, &:visited {
-    color: @lightest;
-  }
-
   &:active, &:hover:active {
-    color: @light;
     background-color: @brand-action-light;
   }
 
@@ -82,16 +72,19 @@ Buttons style
 .btn-action-secondary {
   background-color: @mid;
 
-  &:hover, &:focus, &:visited {
-    color: @lightest;
-  }
-
   &:active, &:hover:active {
-    color: @light;
     background-color: @midlight;
   }
 
   &:hover {
     background-color: @midlight;
   }
+}
+
+.btn-galley {
+  font-size: 1.1rem !important;
+}
+
+.btn-galley-large {
+  font-size: 1.5rem !important; 
 }

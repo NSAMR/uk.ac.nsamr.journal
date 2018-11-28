@@ -49,7 +49,7 @@
 {/if}
 
 {* Don't be frightened. This is just a link *}
-<a class="galley-link btn btn-galley role="button" {$type}{if $restricted} restricted{/if}" href="{url page=$page op="view" path=$parentId|to_array:$galley->getBestGalleyId($currentJournal)}">
+<a class="galley-link btn btn-galley-large btn-learnmore role="button" {$type}{if $restricted} restricted{/if}" href="{url page=$page op="view" path=$parentId|to_array:$galley->getBestGalleyId($currentJournal)}">
 
 	{* Add some screen reader text to indicate if a galley is restricted *}
 	{if $restricted}

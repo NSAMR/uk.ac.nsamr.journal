@@ -14,22 +14,37 @@
  * @uses $issueGalleys array Galleys for the entire issue
  * @uses $showGalleyLinks bool Show galley links to users without access?
  *}
-{include file="frontend/components/header.tpl" pageTitleTranslated=$issueIdentification}
 
-<div id="main-content" class="page page_issue">
+ <!---STANDARD HEAD INFO AND NAV-->
+{include file="frontend/components/header-fullwidth.tpl" pageTitleTranslated=$issueIdentification}
 
-	{* Display a message if no current issue exists *}
-	{if !$issue}
-		{include file="frontend/components/breadcrumbs_issue.tpl" currentTitleKey="current.noCurrentIssue"}
-		{include file="frontend/components/notification.tpl" type="warning" messageKey="current.noCurrentIssueDesc"}
+<div class="page_index_site">
 
-	{* Display an issue with the Table of Contents *}
-	{else}
-		{include file="frontend/components/ctaBar.tpl"}
-		{include file="frontend/components/breadcrumbs_issue.tpl" currentTitle=$issueIdentification}
-		{include file="frontend/objects/issue_toc.tpl"}
-	{/if}
+	<!--end header bar-->
+	{include file="frontend/components/pageHeaderBar.tpl" currentTitle=$issueIdentification titlePrefix="JSAMR"}
+	<!--end header bar-->	
 
+	<div id="main-content" class="page page_issue page_index_site">
+
+		{* Display a message if no current issue exists *}
+		{if !$issue}
+			{include file="frontend/components/breadcrumbs_issue.tpl" currentTitleKey="current.noCurrentIssue"}
+			{include file="frontend/components/notification.tpl" type="warning" messageKey="current.noCurrentIssueDesc"}
+
+		{* Display an issue with the Table of Contents *}
+		{else}
+			{include file="frontend/components/breadcrumbs_issue.tpl" currentTitle=$issueIdentification}
+
+			{* Indicate if this is only a preview *}
+			{if !$issue->getPublished()}
+				{include file="frontend/components/notification.tpl" type="warning" messageKey="editor.issues.preview"}
+			{/if}
+			
+			<div class="container">
+				{include file="frontend/objects/issue_toc.tpl"}
+			</div>
+		{/if}
+
+	</div>
 </div>
 
-{include file="common/frontend/footer.tpl"}

@@ -1,0 +1,219 @@
+% SET ARTICLE STYLE
+\documentclass[paper=a4,fontsize=11pt,twocolumn]{article}
+
+
+% PACKAGES
+
+% Layout
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{geometry} % For paper size and layout
+\usepackage{ragged2e} % For restating fully justified environment
+\usepackage{textcomp} % ??? Can't remember...
+
+% Styling
+\usepackage[T1]{fontenc} % For fonts
+\usepackage{lmodern} % Font for JSAMR
+% \usepackage[sfdefault]{AlegreyaSans} % Different type of font packages
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{fancyhdr} % For header and footer with odd and even page params
+\usepackage{titlesec} % To edit title formats
+\usepackage{lastpage} % For Page X of Y
+\usepackage{lineno} % Line numbers for review purposes
+\usepackage{apacite} % For citations
+\usepackage{color} % For colors
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+
+% Extra objects
+\usepackage{graphicx} % For nicer figures
+\usepackage{booktabs} % For nicer tables
+\usepackage{multicol} % More things for tables (and arranging text)
+\usepackage{microtype} % For uneven columns
+\usepackage{vwcol} % For uneven columns
+
+
+
+
+
+% DEFINITIONS
+\linenumbers
+ \geometry{
+	 a4paper,
+	 top=20mm,
+	 right=15mm,
+	 left=15mm,
+ 	 bottom=20mm,
+ 	 }
+
+% TITLES, HEADER, FOOTER
+\definecolor{header-footer-title}{HTML}{5a8f2c} 
+\definecolor{base-text-headings}{HTML}{333333} % e.g. section name, journal name etc
+
+% FILLS
+\definecolor{dark-grey-fill}{HTML}{C5C5C3}
+\definecolor{soft-grey-fill}{HTML}{E8EBEE} 
+\definecolor{abstract-fill}{HTML}{d3dbbc} %
+
+% ALL DARK BASE COLOURS
+% #2c5a8f blue
+% #5a2c8f purple
+% #5a8f2c leaf green
+% #8f5a2c rust
+% #8f2c5a dark red
+% #2c8f5a bottle green
+
+% ALL CORRESPONDING LIGHT BASE COLOURS (same order as above)
+% #bcd3db 
+% #d3bcdb
+% #d3dbbc
+% #dbd3bc
+% #d3bcdb
+% #bcdbd3
+
+
+\titleformat*{\section}{\Large\normalfont}
+\titleformat*{\subsection}{\large\normalfont}
+\titleformat*{\subsubsection}{\large\normalfont}
+\titleformat*{\paragraph}{\normalfont}
+
+
+% HEADERS AND FOOTERS 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,LO]{\textcolor{base-text-headings}{ABSTRACTS}}
+\fancyhead[LE,RO]{\footnotesize\textcolor{header-footer-title}{Running header of this abstract}}
+\fancyfoot[LE,LO]{\footnotesize{\textcopyright \textcolor{header-footer-title}{Journal of the Student Association of Medical Research}\\
+\hspace{4mm}\footnotesize2017 Vol 1 Issue 1 \emph{doi:xx.xxxx/xxx}}}
+\fancyfoot[RE,RO]{\footnotesize Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+
+% MISC
+\graphicspath{{figures/}}
+\hbadness=100000 % Turn off those dreadful overfull and underful hboxes
+\hfuzz=1000pt
+\vbadness=100000
+\vfuzz=1000pt
+\bibliographystyle{apacite}
+
+
+% MACROS
+\newcommand{\horizontalstrip}[1]{\par\noindent\colorbox{shadecolor}
+{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}}
+
+
+
+% START OF DOCUMENT
+\begin{document}
+\pagestyle{fancy}
+
+
+
+%%%%%%%% START HEADER MATERIAL
+\twocolumn[
+		% JSAMR BANNER
+                \begin{@twocolumnfalse}	
+                		\begin{minipage}{0.95\textwidth}
+                    		\setlength{\fboxsep}{0pt}
+                    		\fcolorbox{soft-grey-fill}{soft-grey-fill}{\parbox{1.05\textwidth}{		
+					\fcolorbox{soft-grey-fill}{soft-grey-fill}{\parbox{0.3\textwidth}{	
+							\smallskip					
+							\includegraphics[width=0.25\textwidth]{logo-wide-jsamr.pdf}
+							\smallskip
+                                    			}
+                                    		} 
+					\fcolorbox{soft-grey-fill}{soft-grey-fill}{\parbox{0.73\textwidth}{		
+							\raggedleft{
+								\textcolor{base-text-headings}{Journal of the Student Association of Medical Research}\\
+								\smallskip
+								\normalsize\textcolor{base-text-headings}{Volume 1, Issue 1}
+								}
+                                    			}
+                                    		} 		
+                    			}
+                    		} 		                    	
+                		\end{minipage} 
+                	\end{@twocolumnfalse}
+		\bigskip
+
+		
+		% TITLE 
+                \begin{@twocolumnfalse}	
+                		\begin{minipage}{1.015\textwidth}
+                    		\setlength{\fboxsep}{0pt}
+                 		\fcolorbox{white}{white}{\parbox{0.9\textwidth}{	
+					\Large\textcolor{base-text-headings}{ABSTRACT}
+					\bigskip
+	
+    					\Large\textcolor{header-footer-title}{Retrospective review of 200 cases of difficult asthma presenting to outpatient to understand the prevalence of T2 High and T2 Low asthma in this population}
+					\bigskip					
+                    			}
+                    		} 
+                    		\setlength{\fboxsep}{10pt}
+                   		\fcolorbox{white}{white}{\parbox{0.025\textwidth}{					
+    					\includegraphics[width=0.045\textwidth]{logo-dna.pdf}
+                    			}
+                    		} 		
+                		\end{minipage} 
+                	\end{@twocolumnfalse}
+
+		% AUTHOR(S)
+		\large\textcolor{base-text-headings}{First Author$^{*}$, Second Author$^{**}$, Third Author$^{***}$ and please remove all author names and other identifying information from your manuscript before submitting}	
+
+		\hspace{8mm}
+				
+		% AFFILLIATIONS(S)
+		\setlength{\columnseprule}{1pt}
+		\def\columnseprulecolor{\color{header-footer-title}}
+		\begin{multicols}{2}
+			\small\textcolor{base-text-headings}{$^{*\alpha}$affiliation\smallskip\\
+				$^{**}$affiliation\smallskip\\
+				$^{***}$affiliation}\bigskip\smallskip\\
+			\vfill
+			\small\textcolor{base-text-headings}{$^{\alpha}$Corresponding author: $email@domain.ac.uk$}
+			\columnbreak
+
+		% DATES	
+			\hangindent=0.8cm 
+			\small\textcolor{base-text-headings}{
+				\hspace{8mm}Received: 16$^{th}$ January 2017\smallskip\\
+				Revised: 31$^{st}$ January 2017, 10$^{th}$ February 2017\smallskip\\
+				Accepted: 11$^{th}$ February 2017\smallskip\\
+				Available online: 12$^{th}$ February 2017\bigskip\\
+				\vfill
+				\hspace{8mm}Keywords: \colorbox{dark-grey-fill}{\strut keyword 1} \colorbox{dark-grey-fill}{\strut keyword 2} \colorbox{dark-grey-fill}{\strut keyword 3}
+				}
+		\end{multicols}
+		\bigskip		
+	
+	\hspace{8mm}
+
+	\begin{@twocolumnfalse}	
+
+		% START ABSTRACT
+		\begin{minipage}{0.95\textwidth}
+		\begin{centering}
+		\setlength{\fboxsep}{10pt}
+		\fcolorbox{abstract-fill}{abstract-fill}{\parbox{\textwidth}{
+			\normalsize
+			\textbf{Aim} \smallskip \\
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\bigskip \\
+			\textbf{Methods} \smallskip \\
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\bigskip \\
+			\textbf{Results} \smallskip \\
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\bigskip \\
+			\textbf{Conclusion} \smallskip \\
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+			}
+		} 
+		\end{centering}
+		\end{minipage}
+		% END ABSTRACT
+
+		
+	\end{@twocolumnfalse}
+\vspace{8mm}
+] 
+
+\end{document}
+
