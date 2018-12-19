@@ -105,6 +105,12 @@
 									{$author->getLocalizedAffiliation()|escape}
 								</div>
 							{/if}
+							{if $author->getPrimaryContact()}
+								<div class="article-author-affilitation">
+									{$author->getEmail()|escape}
+								</div>
+							{/if}
+							
 							{if $author->getOrcid()}
 								<span class="orcid">
 									<a href="{$author->getOrcid()|escape}" target="_blank">
@@ -113,6 +119,7 @@
 									</a>
 								</span>
 							{/if}
+							<br>
 						{/foreach}
 					</div>
 				{/if}
