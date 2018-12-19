@@ -1,3 +1,5 @@
+@import "variables.less";
+
 /*
 Titles style
 */
@@ -11,7 +13,7 @@ Titles style
     .border-width{
         height: 1px;
         width: 90px;
-        background-color: $skincolor;
+        background-color: @brand-primary;
         display: block;
         margin: 10px auto;
     }
@@ -21,13 +23,13 @@ Titles style
 }
 .left-title-bar{
     h2{
-        color: $darkest;
+        margin: 1rem auto;
+        vertical-align: middle;
+        color: @headings-color;
         text-transform: uppercase;
         font-weight: 700;
-        padding-left: 20px;
-        border-left: 4px solid $brand-secondary;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        border-left: 4px solid @headings-border-color;
+        padding: 0.5rem 3rem;
     }
 }
 .left-heading{
@@ -40,7 +42,7 @@ Titles style
         content: "";
         width: 50px;
         height: 2px;
-        background-color: $skincolor;
+        background-color: @brand-primary;
         position: absolute;
         left: 0;
         bottom: -10px;
@@ -58,7 +60,7 @@ Titles style
         content: "";
         width: 50px;
         height: 2px;
-        background-color: $skincolor;
+        background-color: @brand-secondary;
         position: absolute;
         left: 0;
         bottom: -10px;

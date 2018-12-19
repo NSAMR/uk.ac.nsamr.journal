@@ -1,3 +1,5 @@
+@import "variables.less";
+
 /*
 Team
 */
@@ -45,4 +47,83 @@ Team
   display: block;
   margin-bottom: 10px;
   font-weight: 700;
+}
+
+
+/*
+  PUBLICATIONS
+*/
+
+.article-sidebar, .article-summary {
+  img {
+    border: 1px solid @middark;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  }
+}
+
+.article_heading {
+  margin: 1.5em auto 1em auto;  
+}
+
+.article-keywords {
+    padding: 0 2em;
+    margin-top: -1em;
+    margin-bottom: 5em;
+    .label {
+      padding: 0;
+    }
+}
+
+.tag-list li {
+  padding: 0px;
+}
+
+.tag-list li a {
+  color: @headings-color;
+  background-color: #79d4b6;
+  display: block;
+  padding: 3px 5px;
+  border: 1px solid @middark;
+  margin: 0 0.2em 0 0.2em;
+}
+
+/*
+accordions
+*/
+.panel-group .panel {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.panel-default, .date-published {
+  border-color: @middark;
+}
+
+.panel-default > .panel-heading {
+  background: @midlight;
+  color: #000;
+  font-weight: 600;
+}
+
+.panel-title {
+  color: @brand-primary;
+}
+
+.panel-body {
+  background-color: @body-fill-lightest;
+}
+
+.panel-group .panel .panel-heading .panel-title a:before {
+  font-family: FontAwesome;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f107";
+  margin-right: 5px;
+}
+
+.panel-group .panel .panel-heading .panel-title a.collapsed:before {
+  content: "\f106";
 }
