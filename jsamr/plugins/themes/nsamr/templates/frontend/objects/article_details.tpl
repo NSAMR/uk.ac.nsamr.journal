@@ -105,6 +105,12 @@
 									{$author->getLocalizedAffiliation()|escape}
 								</div>
 							{/if}
+							{if $author->getPrimaryContact()}
+								<div style="font-style:italic">
+									{$author->getEmail()|escape}
+								</div>
+							{/if}
+							
 							{if $author->getOrcid()}
 								<span class="orcid">
 									<a href="{$author->getOrcid()|escape}" target="_blank">
@@ -113,6 +119,7 @@
 									</a>
 								</span>
 							{/if}
+							<br>
 						{/foreach}
 					</div>
 				{/if}
@@ -120,9 +127,11 @@
 				{* Article abstract *}
 				{if $article->getLocalizedAbstract()}
 					<div class="article-summary" id="summary">
-						<h2>{translate key="article.abstract"}</h2>
-						<div class="article-abstract">
-							{$article->getLocalizedAbstract()|strip_unsafe_html|nl2br}
+						<h2 class="article_heading">{translate key="article.abstract"}</h2>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								{$article->getLocalizedAbstract()|strip_unsafe_html}
+							</div>
 						</div>
 					</div>
 				{/if}
@@ -137,7 +146,7 @@
 			<section class="article-more-details">
 
 				{* Screen-reader heading for easier navigation jumps *}
-				<h2 class="sr-only">{translate key="plugins.themes.bootstrap3.article.details"}</h2>
+				<h2 class="article_heading">{translate key="plugins.themes.bootstrap3.article.details"}</h2>
 
 				{* Citation formats *}
 				{if $citationPlugins|@count}
@@ -232,6 +241,7 @@
 
 				{* Licensing info *}
 				{if $copyright || $licenseUrl}
+					<h2 class="article_heading">Copyright</h2>
 					<div class="panel panel-default copyright">
 						<div class="panel-body">
 							{if $licenseUrl}
