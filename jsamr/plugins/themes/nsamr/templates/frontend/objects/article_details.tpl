@@ -137,9 +137,24 @@
 				{/if}
 
 				{* Keywords *}
-				{* @todo keywords not yet implemented *}
-
-				{call_hook name="Templates::Article::Main"}
+				{if !empty($keywords[$currentLocale])}
+				<h2 class="article_heading">Article Keywords</h2>
+				<div class="item article-keywords">
+					<span class="label">
+						{capture assign=translatedKeywords}{translate key="article.subject"}{/capture}
+						{translate key="semicolon" label=$translatedKeywords}
+					</span>
+					<span class="value">
+						<ul class="list-inline tag-list">
+						{foreach from=$keywords item=keyword}
+							{foreach name=keywords from=$keyword item=keywordItem}
+								<li><a>{$keywordItem|escape}{if !$smarty.foreach.keywords.last}{/if}</a></li>
+							{/foreach}
+						{/foreach}
+					</ul>
+					</span>
+				</div>
+				{/if}
 
 			</section><!-- .article-main -->
 

@@ -15,6 +15,7 @@ PALETTE
 	@brand-body: 				#E8EBEE;	// 9 shades up from 2o
 	@brand-body-lighter: 		#f9fbff;	// #fafcff #f9fcff;	// based on brand-body
 	@body-fill: 				#fcfcff;	// 
+	@body-fill-lightest: 				fefeff;
 
 	@lightest: 					#F2F7F3;	// #E9EBED 9 shades up from 1o
 	@light: 					#DADEDB;	// 
@@ -53,13 +54,16 @@ ICON COLORS
 LINKS
 */
 
+@link_color: @brand-selection-3;
+@link_light_color: #F2F7F3;
+
 .a-light {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-weight: 700;
-  color: #F2F7F3;
+  color: @link_light_color;
 }
 .a-light:hover {
   color: #AAACAB;
