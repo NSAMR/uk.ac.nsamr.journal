@@ -24,16 +24,15 @@
         {translate key="navigation.current"}
       </a>
       -->
-      <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Current</a>
+      <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
+        Current
+      </a>
 
     </li>
     <li class="dropdown">
-      <!-- <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
+      <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
         {translate key="navigation.archives"}
       </a>
-      -->
-      <a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='placeholder'}">Archives</a>
-
     </li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
