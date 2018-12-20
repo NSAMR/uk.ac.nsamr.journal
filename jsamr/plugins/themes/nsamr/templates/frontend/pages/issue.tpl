@@ -48,3 +48,13 @@
 	</div>
 </div>
 
+<div class="space40"></div>
+
+<!--Call to action -->
+{include file="frontend/components/cta_readytosubmit.tpl"}
+
+<!--Call to action -->
+{include file="frontend/components/cta_mailingList.tpl"}
+
+<!--Standard footer -->
+{include file="frontend/components/footer.tpl"}
