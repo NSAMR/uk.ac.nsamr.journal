@@ -11,6 +11,7 @@ WORK IN PROGRESS
 1. Title does not have line breaks in the middle of words
 1. Title in lower case other than proper nouns or as grammar dictates
 1. Title has no full stop at the end, question mark is fine
+1. Author initials have full stops after, with short space after (`\,`)
 1. All authors have affiliations
 1. Corresponding author noted
 1. Dates correct (in final step before signoff with no leading zero
