@@ -23,10 +23,10 @@ WORK IN PROGRESS
 # Checklist for copy
 
 1. Acronyms and TLAs defined if used n>2 [*]
-1. Units have correct spacing
-1. No text running outside columns
+1. Units have correct spacing, short space after (`\,`)
+1. No text or URLs running outside columns
 1. No figures spilling out of columns
-1. All figures and tables have captions
+1. All figures and tables have captions, table captions above, figure captions below
 
 
 
