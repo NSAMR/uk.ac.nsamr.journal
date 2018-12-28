@@ -295,9 +295,52 @@ JSAMR publishes two issues a year e.g. Volume 1, Issue 1. (a.k.a. 1,1) and Volum
 
 ## Creating the bibliography
 
-We will use BibTeX to generate the Bibliography for each manuscript, which requires that you make a .bib file that will be built into the pdf of the manuscript. There is a sample .bib file in each template folder. Helen recommends using [JabRef](http://www.jabref.org/) to manage bibliographies and hence the generation of this .bib file.
+We use BibTeX to generate the Bibliography for each manuscript, which requires that you make a .bib file that will be built into the pdf of the manuscript. There is a sample .bib file in each template folder. We recommend using [JabRef](http://www.jabref.org/) to manage bibliographies and hence the generation of this .bib file.
 
-TODO: Write detailed information about how to enter data for each cited item
+You must treat all special characters in references in a similar way to the main text, as previously described. E.g. `10%` in the title should be `10\%` (don't do the special spacing for units (`\,`) here).
+
+### Authors
+Must be done in the format: `{Matthew Byrne and Helen Jackson}` or `{Byrne, M. and Jackson, J}`
+
+If there is a person with two surnames (which are not hyphenated e.g. von Damm) google how to make this display correctly
+
+For institutes as authors encase them in double curly brackets e.g. `{{National Health Service}}` to prevent it from displaying as `N. H. Service`
+
+### Capitalisation
+Titles must be encased in double curly brackets {{}} to ensure that any words which are capitalisated display correctly.
+
+### DOI or URL
+If there is a DOI field delete the URL field
+If there is no DOI field keep the URL field
+
+### Remove superfluous info
+For the citations, we do not want to display the month or any notes about it so delete
+`month = {},` and `note = {},` a lot of the other fields are not needed.
+
+The only fields you really need for an @article is author, year, journal, volume, pages
+
+There are also special citations types e.g @incollection which can be used for different roles, e.g. book sections
+
+For reports, and other things not published in journals you can use @misc
+
+For the full list of article types and how to do citations check here [https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management](https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management)
+
+### Citations won't display
+When you are compiling the document you may notice that some of the references do not render correctly.
+
+There are two places where the error may be, and error in:
+1. the citation code
+1. the bib file
+
+#### Troubleshooting Citation Code errors
+Check the \bibliography{} code matches the name of the .bib file, name it references.bib and use the code \bibliography{references} as things like colons can break this link.
+
+Sometimes it's just a single reference code that is incorrect, e.g. in the .bib file the code is byrne2018 but in the document it is Byrne18. Capitalisation causes errors as well as incorrect text. Try deleting references in turn and recompiling to see if you can isolate the reference which is causing the error. Then see if the codes match, or check the .bib file for that entry.
+
+#### Troubleshooting .bib file errors
+Sometimes special characters that cause things to break, or there's a comma after a field missed or a } missed. Or a mandatory field is missed.
+
+If it's a global error, this may be because errors can happen if the .bib file as non jab ref source such as RefWorks, mendeley do not perfectly create .bib files. If you can import it into jabref try doing that to see if that can fix it. If that doesn't fix it the first step is to go through and delete all the crap that we don't need e.g. abstract, editor, file, issn, month, publisher (unless it's a book).
 
 ## If you are stuck:
 LaTeX is a bit sneaky, and sometimes you will need to build a pdf multiple times before it will be done properly. In some cases you will need to "Trash the aux files" before trying to build again, so this is alwaysa safe place to start if you get errors.
@@ -328,6 +371,3 @@ Put a `%` infront of `\usepackage{lineno}`
 
 ### Making comments
 You can use `%` before text to make comments, these do not show in the final version and can be a good way of keeping track of the main sections and what things mean.
-
-
-
