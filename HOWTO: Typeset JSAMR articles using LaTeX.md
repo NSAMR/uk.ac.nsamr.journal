@@ -115,20 +115,19 @@ If an author has multiple references in the same year use a, b, c etc after auth
 Where there is no author name e.g. for an institution use the whole name of the institution in lower case with no spaces or punctuation then the year e.g. The Children’s Commissioner 2017 would be ` \cite{thechildrenscommissioner2017}` 
 
 There are different types of references you can do.
-* `\citep{byrne2018} = (Byrne, 2018)`
-* `\cite{byrne2018} = Byrne (2018)`
-* `\citeauthor{byrne} = Byrne`
-* `\citeyearpar{byrne2018} = (2018)`
+* `\citep{byrne2018}` = `(Byrne, 2018)`
+* `\cite{byrne2018}` = `Byrne (2018)`
+* `\citeauthor{byrne}` = `Byrne`
+* `\citeyearpar{byrne2018}` = `(2018)`
 
-In e.g. "Jackson (2018) thinks this thing", citation always needs to go straight after author name, the (2018) is the citation in this example.
+In e.g. `Jackson (2018) thinks this thing`, citation always needs to go straight after author name, the (2018) is the citation in this example.
 
-For multiple citations e.g. (Byrne, 2018; Jackson, 2017) use a comma between author codes: \citep{byrne2018,jackson2017}
+For multiple citations e.g. `(Byrne, 2018; Jackson, 2017)` use a comma between author codes: `\citep{byrne2018,jackson2017}`
 
 All bibtex citations should be listed as authorYEAR to make citations standardised.
-Figures
-See the article template for examples of how to do figures, and see the overleaf.com tutorial on figures.
 
-Enter this code while in word to make your life easier.
+### Figures
+See the article template for examples of how to do figures, and see the overleaf.com tutorial on figures. Enter this code while in word to make your life easier. See overleaf for examples.
 
 Examples:
 
@@ -228,47 +227,90 @@ The first key word: `psychiatry / mental health` is a JSAMR subject code and the
 JSAMR has a canonical list of all specialties, this is the main way we group articles from similar fields on our website:
 
 anaesthesia / Intensive care medicine
+
 cardiology / cardiovascular medicine
+
 cardiothoracic surgery
+
 clinical genetics
+
 clinical immunology
+
 clinical pathology
+
 clinical pharmacology and therapeutics
+
 dermatology
+
 ear, nose and throat / otolaryngology
+
 emergency / acute medicine
+
 endocrinology and diabetes
+
 gastroenterology
+
 general internal medicine
+
 general practice / primary care
+
 general surgery
+
 genito-urinary medicine
+
 haematology
+
 hepatobiliary medicine
+
 histopathology
+
 immunology
+
 infectious diseases
+
+
 medical education
+
 medical humanities
+
 medical technology
+
 medicine for the elderly
+
 neurology / neuroscience
+
 neurosurgery
+
 obstetrics and gynaecology
+
 oncology
+
 ophthalmology
+
 oral and maxillofacial surgery
+
 paediatrics and child health
+
 palliative medicine
+
 plastic surgery
+
 psychiatry / mental health
+
 public health
+
 radiology / nuclear medicine
+
 renal medicine
+
 respiratory medicine
+
 rheumatology
+
 statistics
+
 trauma / orthopaedics
+
 urology
 
 #### MESH keywords
@@ -278,8 +320,11 @@ Select keywords which are relevant to the paper and that are in the MeSH databas
 
 ### Header and footer
 Check the Volume and Issue number are correct
+
 If the author hasn't provided a running header, make one up from their title, it should be a concise version of the title.
+
 In the bottom left it will say 2018 Vol 1 Issue 1 pp.x--y. Use `pp.x--y` multiple pages use `p.x` for single pages.
+
 The `--` creates a larger dash between the page numbers
 
 #### Page numbers
@@ -311,11 +356,11 @@ Titles must be encased in double curly brackets {{}} to ensure that any words wh
 
 ### DOI or URL
 If there is a DOI field delete the URL field
+
 If there is no DOI field keep the URL field
 
 ### Remove superfluous info
-For the citations, we do not want to display the month or any notes about it so delete
-`month = {},` and `note = {},` a lot of the other fields are not needed.
+For the citations, we do not want to display the month or any notes about it so delete `month = {},` and `note = {},` a lot of the other fields are not needed.
 
 The only fields you really need for an @article is author, year, journal, volume, pages
 
