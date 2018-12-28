@@ -17,6 +17,8 @@ Templates to use as a base for typesetting are in the folder [uk.ac.nsamr.journa
 ## First things first
 LaTeX is a very powerful typesetting framework that can be used to generate beautiful documents easily, with consistent styling.
 
+It is a programming language that was written specifically for publishers when typesetting books and journals. By introducing some computer code into the typesetting process it gives the typesetters complete control over the layout of a document and it allows easy, standardised replication of work, something which is difficult when using programmes such as InDesign.
+
 To get started:
 * Download and install a LaTeX distribution for your computer
   * Mac: Download MacTeX from [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
@@ -56,6 +58,9 @@ To summarise, if a symbol doesn’t render: google the code for it.
 
 You can see all the maths symbols here: [https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
 
+### Units
+Units should have a special spacing `\,` between the number and the unit e.g. `10\,m` for 10m and `10\,\%` for 10%. This stops the unit rendering after a linebreak, plus uses the correct spacing (smaller than normal space).
+
 ### Capitalisation
 Check that things are capitalised correctly. Proper nouns should be capitalised. Conditions and diseases should be capitalised only if their common spelling is capitalised (Google it)
 
@@ -79,16 +84,24 @@ To fix this, once you have copied everything across to LaTeX, use the search and
 
 THIS IS A VERY IMPORTANT STEP, IF QUOTE MARKS ARE MISSED IT COULD RESULT IN ACCIDENTAL PLAGIARISATION. This is because if you quote something and then remove the quote marks from it, it’s no longer a quote.
 
+For long pieces of quoted text you can use a block quote, if you need to do this google it.
+
 ### 1st, 2nd, 3rd, 4th, 5th...
 The st, nd, rd of 1st, 2nd, 3rd, 4th etc... needs to be made superscript. This can be done with the following code immediately following the text. E.g. ` 1$^{st}$ ` 
-` $^{st}$
-$^{nd}$
-$^{rd}$
-$^{th}$ `
+
+`$^{st}$`
+`$^{nd}$`
+`$^{rd}$`
+`$^{th}$ `
 
 ### Italics, bold text
 Use the code ` \textit{insert text here} ` for italics.
 Use the code ` \textbf{insert text here} ` for bold text.
+
+"et al" needs to be italicised every time when it is used in text by the author
+
+### Hyphens
+There is a difference between `-`, `--` and `---` in LaTeX code - look up the difference in google.
 
 ### Citations and references
 JSAMR uses APA referencing.
@@ -99,13 +112,15 @@ Each reference must be given unique identifier in the .bib file. This is commonl
 
 If an author has multiple references in the same year use a, b, c etc after authorYEAR e.g. byrne2018a, byrne2018b
 
-Where there is no author name e.g. for an institution use the whole name of the institution in lower case with no spaces or punctuation then the year e.g. The Children’s Commissioner 2017 would be \cite{thechildrenscommissioner2017}
+Where there is no author name e.g. for an institution use the whole name of the institution in lower case with no spaces or punctuation then the year e.g. The Children’s Commissioner 2017 would be ` \cite{thechildrenscommissioner2017}` 
 
 There are different types of references you can do.
-* \citep{byrne2018} = (Byrne, 2018)
-* \cite{byrne2018} = Byrne (2018)
-* \citeauthor{byrne} = Byrne
-* \citeyearpar{byrne2018} = (2018)
+* `\citep{byrne2018} = (Byrne, 2018)`
+* `\cite{byrne2018} = Byrne (2018)`
+* `\citeauthor{byrne} = Byrne`
+* `\citeyearpar{byrne2018} = (2018)`
+
+In e.g. "Jackson (2018) thinks this thing", citation always needs to go straight after author name, the (2018) is the citation in this example.
 
 For multiple citations e.g. (Byrne, 2018; Jackson, 2017) use a comma between author codes: \citep{byrne2018,jackson2017}
 
@@ -115,20 +130,52 @@ See the article template for examples of how to do figures, and see the overleaf
 
 Enter this code while in word to make your life easier.
 
+Examples:
+
+#### \cite
+
+Code:
+
+``\cite{sampasakanyinga2015} showed that adolescents who reported an unmet need for mental health service support were statistically more likely to spend more than two hours a day on social media compared to those who have no identified unmet need for support.``
+
+Builds:
+
+``Sampasa-Kanyinga and Lewis (2015) showed that adolescents who reported an unmet need for mental health service support were statistically more likely to spend more than two hours a day on social media compared to those who have no identified unmet need for support.``
+
+Exactly the same for multiple citations:
+
+Code:
+
+``In the last decade, there has been an upsurge in the number of adolescents described as `extreme internet users'. Technology and social media have recently become an integral part of 21$^{st}$ century adolescent life, with over 71\% reporting regularly viewing more than one social media site \citep{lenhart2015,walsh2017}.``
+
+Builds:
+
+``In the last decade, there has been an upsurge in the number of adolescents described as 'extreme internet users'. Technology and social media have recently become an integral part of 21st century adolescent life, with over 71% reporting regularly viewing more than one social media site (Lenhart, 2015; Walsh & Walsh, 2017).``
+
+#### \citep
+
+Code:
+
+``In the last decade, there has been an upsurge in the number of adolescents described as `extreme internet users'. Technology and social media have recently become an integral part of 21$^{st}$ century adolescent life, with over 71\% reporting regularly viewing more than one social media site \citep{lenhart2015}``
+
+Builds:
+
+``In the last decade, there has been an upsurge in the number of adolescents described as 'extreme internet users'. Technology and social media have recently become an integral part of 21st century adolescent life, with over 71% reporting regularly viewing more than one social media site (Lenhart, 2015)``
+
 ### Abbreviations
 Abbreviations are only to be used if there are three of the same abbreviation in the article, use the search function to check how many times they are used. Remove abbreviations and replace them with the full text if <3.
 
 Headings should not have any abbreviations.
 
 ### Headings, and subheadings
-Title - no hyphenation, use \mbox{} around the word which has automatically hyphenated to stop this from happening
+Title - no hyphenation, use `\mbox{}` around the word which has automatically hyphenated to stop this from happening
 
 Headings, subheadings - first letter capitalised, rest lowercase (unless proper noun), no abbreviations
 
 Use the code:
-\section
-\subsection
-\subsubsection
+`\section`
+`\subsection`
+`\subsubsection`
 
 For the first level of heading, second level of heading, and third level of heading, respectively.
 
@@ -145,12 +192,106 @@ Additionally, all numbers under 10 should be written as text e.g. 8 = eight
 
 Thousands, should be separated by a comma e.g. 100500900 would be 100,500,900 (Latex may do this automatically, if not put the commas in)
 
-
 ## Typesetting guidelines
+Once you have made all the changes you need to in word you then need to copy if across to into the LaTeX template.
 
 Please keep to the formatting and styling demonstrated in the template LaTeX file you use as a base. Each template includes example figures and tables taking one and two columns. If you need to do something not demonstrated, please raise a github Issue.
 
-At some point there will be a jsamr_article.sty class for each manuscript type that will be imported in the LaTeX file which will take out some of the complicated-looking header information, but don't worry about that for now.
+1. Copy the jsamr-article-template or whichever template you require
+1. Use the search function. Search: change me
+1. Copy and paste the relevant bits of text into the document
+1. Compile the document as you go along to check that everything is rendering okay and that you haven’t messed anything up by accident, there’s nothing worse than getting to the end of the document and to get an error message and the document won’t compile.
+1. Compile after inserting figures or symbols to check that they are rendering correctly.
+1. Paste the text from the exported references .bib file into the .bib file you are using for this document. Alternatively you can use the .bib file they have provided directly, just make sure that you change the name of the uploaded reference file to: references.bib so that it matches the bibliography file name at the very end of the template.
+1. Check the references render correctly, and check that they match the information that the author included in their reference list.
+
+### Author affiliations
+All author affiliations should have their country listed.
+
+### Peer-reviewed and Not-peer reviewed
+If the document was Peer-reviewed you do not need to make any changes.
+If the document was Not peer-reviewed you need to change Peer-reviewed to Not peer-reviewed.
+
+### Dates submitted, revised, accepted
+Dates for date submitted, revised, accepted can be obtained through the JSAMR software.
+
+Click on the submission, click on ‘Editorial History’ in the top right. You will need to read through the log of what exactly has happened to the article to determine the specific dates as it does not present them in a nice way, but the date is there but requires a little bit of reading. If there is any confusion contact the submissions Editor who took that submission through the peer review process.
+
+### Keywords
+Key words should be in lowercase, and should be listed as subject code(s) first in alphabetical order, then MESH key words in alphabetical order. There should be no more than five keywords per manuscript.
+
+For example: an article about the effect social media has on pre-existing mental health disease would have the key words: `psychiatry / mental health` `attention deficit disorder with hyperactivity` `body dysmorphic disorder` `depression` `social media`
+
+The first key word: `psychiatry / mental health` is a JSAMR subject code and the rest are MESH key words.
+
+#### Subject codes
+JSAMR has a canonical list of all specialties, this is the main way we group articles from similar fields on our website:
+
+anaesthesia / Intensive care medicine
+cardiology / cardiovascular medicine
+cardiothoracic surgery
+clinical genetics
+clinical immunology
+clinical pathology
+clinical pharmacology and therapeutics
+dermatology
+ear, nose and throat / otolaryngology
+emergency / acute medicine
+endocrinology and diabetes
+gastroenterology
+general internal medicine
+general practice / primary care
+general surgery
+genito-urinary medicine
+haematology
+hepatobiliary medicine
+histopathology
+immunology
+infectious diseases
+medical education
+medical humanities
+medical technology
+medicine for the elderly
+neurology / neuroscience
+neurosurgery
+obstetrics and gynaecology
+oncology
+ophthalmology
+oral and maxillofacial surgery
+paediatrics and child health
+palliative medicine
+plastic surgery
+psychiatry / mental health
+public health
+radiology / nuclear medicine
+renal medicine
+respiratory medicine
+rheumatology
+statistics
+trauma / orthopaedics
+urology
+
+#### MESH keywords
+Search the keywords authors have given against the MeSH database in pubmed. https://www.ncbi.nlm.nih.gov/mesh/
+
+Select keywords which are relevant to the paper and that are in the MeSH database. Select up to 5 keywords in total. If the author has no provided keywords or the ones they have provided aren't appropriate try and come up with some which are relevant to the paper. Papers do not need to have 5 key words each.
+
+### Header and footer
+Check the Volume and Issue number are correct
+If the author hasn't provided a running header, make one up from their title, it should be a concise version of the title.
+In the bottom left it will say 2018 Vol 1 Issue 1 pp.x--y. Use `pp.x--y` multiple pages use `p.x` for single pages.
+The `--` creates a larger dash between the page numbers
+
+#### Page numbers
+For front matter page numbers should be in roman numerals `\pagenumbering{Roman}` should be in their templates already. For other sections Latex will automatically do arabic numberals.
+
+Once the entire issue has been compiled the Editor-in-Chief will draw up a list of the order of the articles and the page numbers that they will all have.
+
+As not manuscript will start on page 1. You will need to change the starting page number. This is done with the code `\setcounter{page}{x}` where x is the first page of that document.
+
+JSAMR publishes two issues a year e.g. Volume 1, Issue 1. (a.k.a. 1,1) and Volume 1, Issue 2 (a.k.a. 1,2) .
+
+1,2 is technically a continuation of 1,1, as they are both in the same Volume. Therefore the page numbers for 1,2 continue from 1,1. E.g. if 1,1 finishes on page 33, 1,2 should start on page 34 (excluding front matter - that is why front matter is done in roman numerals, as it does not count towards page numbers). Please kindly remind your Editor-in-Chief of this if they do not do this.
 
 ## Creating the bibliography
 
@@ -163,9 +304,30 @@ LaTeX is a bit sneaky, and sometimes you will need to build a pdf multiple times
 
 When you are making the bibliography, you need to typeset with LaTeX, then BibTex once or twice, then LaTeX again quite a few times so all the cross references are built properly.
 
-For more, ask Helen or google.
+LaTeX requires the user to be proactive when fixing issues.
+* Undo, undo, undo - first undo whatever mistake you’ve made, and try to figure out if you’ve missed something simple like a } or ].  You’ve probably deleted something by accident and simply redoing the edit you want to make will fix the problem.
+* Sometimes the file will not compile. You can also use % before a line of code to ‘remove’ them from the compiled version to see if the error is in that line of code.
+* If it’s related to how to insert a certain figure or type of text. Check the jsamr-article-template.tex file as most of the things we expect you to do are contained within that template, and can be copied across.
+* Check if overleaf.com has a tutorial on the issue you have encountered.
+* Search Google for a solution (but don’t install \package… without discussing with the Editor in Chief, as these can sometimes mess stuff up).
+* Ask the Editor in Chief, once all the above options have been exhausted, with a little searching and re-attempts 95% of problems can be solved. 
 
-Happy typesetting :)
+## Extra Latex tips
+### Don’t delete code
+Use `%` instead of deleting code so that we don’t have to start again.
+
+### File structure
+File structure is important. Keep all files related to each submission separate. They must be within their own folder.
+You can copy the sample-article folder, so that you have the correct base files.
+Use hypens to separate words in filenames
+All figures and images must me in the figures folder within the main article folder
+
+### How to get rid of line numbers
+If the author has written then document in latex it will probably have line numbers shown.
+Put a `%` infront of `\usepackage{lineno}`
+
+### Making comments
+You can use `%` before text to make comments, these do not show in the final version and can be a good way of keeping track of the main sections and what things mean.
 
 
 
