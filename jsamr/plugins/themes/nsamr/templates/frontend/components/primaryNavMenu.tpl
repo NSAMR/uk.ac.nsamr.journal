@@ -17,17 +17,10 @@
         <li><a href="{url router=$smarty.const.ROUTE_PAGE page='about' op='hosting'}">Hosting</a></li>
       </ul>
     </li>
-
     <li>
-      <!--
       <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
         {translate key="navigation.current"}
       </a>
-      -->
-      <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
-        Current
-      </a>
-
     </li>
     <li class="dropdown">
       <a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
