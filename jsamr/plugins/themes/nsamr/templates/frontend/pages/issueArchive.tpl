@@ -48,7 +48,10 @@
                 <p>
 	                {* No issues have been published *}
 					{if !$issues}
-						{translate key="current.noCurrentIssueDesc"}
+						<!--{translate key="current.noCurrentIssueDesc"} HAXXXX-->
+						<div class="space20"></div>
+		                <p>We haven't published any Issues yet, but we will publish our first one very soon.</p>
+		                <p>Sign up to our mailing list below to make sure you hear about our news!</p>
 					{* List issues *}
 					{else}
 						<ul class="issues_archive">
@@ -67,9 +70,6 @@
 						{/if}
 					{/if}
 				</p>
-				<div class="space20"></div>
-                <p>We haven't published any Issues yet, but we will publish our first one very soon.</p>
-                <p>Sign up to our mailing list below to make sure you hear about our news!</p>
             </div>
             <div class="col-md-6">
                 <img src="{$baseUrl}/plugins/themes/nsamr/templates/images/blocks/manuscript-729617_1920.jpg" class="img-responsive" alt="">
