@@ -24,4 +24,4 @@ If there is no submission already (e.g. conference abstracts, editorials) you wi
 1. Every time a subsequent change is made to the submission after it has been scheduled for publication, you will need to click schedule for production again.
 
 ## For current submissions
-Take the same approach, but you will need to edit the metadata that the author has already entered so that it is all correct, including co-authors and affiliations. You will need to upload the typeset file as a new submission as before.
+Take the same approach, but you will need to edit the metadata that the author has already entered so that it is all correct, including co-authors and affiliations. You will need to upload the typeset file as a new file as before, but under the submission the author made.
