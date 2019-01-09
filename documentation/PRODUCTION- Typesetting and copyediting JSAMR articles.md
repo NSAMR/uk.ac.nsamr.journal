@@ -1,34 +1,65 @@
-# How to copyedit and typeset JSAMR articles using LaTeX
+# Typesetting and copyediting JSAMR articles
 
 ## Introduction
-This is a guide to help Copy and Typesetting Editors in the process taking an article from a peer reviewed version to the final print version.
+This is a guide to help Editors in the process of taking an article from a finalised peer-reviewed version to the final print version that we will publish online.
 
-There are two tasks
-1. Copy editing
+There are three stages involved in doing this:
 1. Typesetting
+1. Copy editing
+2. Production
 
-Copy Editing concerns making sure there are no errors in the document. Typesetting concerns putting the raw text into the LaTeX template.
+Typesetting concerns putting the raw text into our LaTeX template, or indeed anywhere you fancy, and building an attractive-looking PDF of the manuscript, which can then be reviewed and updated as required.
 
-## Online repositories
-The JSAMR repository lives here: [https://github.com/NSAMR/uk.ac.nsamr.journal/](https://github.com/NSAMR/uk.ac.nsamr.journal/).
+Copy Editing concerns making sure there are no errors in the typeset manuscript. 
 
-Templates to use as a base for typesetting are in the folder [uk.ac.nsamr.journal/latex-templates](https://github.com/NSAMR/uk.ac.nsamr.journal/tree/master/latex-templates).
+Production is the process of uploading the final typeset manuscript to the JSAMR system, and adding its metadata and so on, and adding it to an existing or upcoming Issue of JSAMR as appropriate.
 
-## First things first
-LaTeX is a very powerful typesetting framework that can be used to generate beautiful documents easily, with consistent styling.
 
-It is a programming language that was written specifically for publishers when typesetting books and journals. By introducing some computer code into the typesetting process it gives the typesetters complete control over the layout of a document and it allows easy, standardised replication of work, something which is difficult when using programmes such as InDesign.
+## First things first: what is LaTeX, and why are we using it?
 
-To get started:
-* Download and install a LaTeX distribution for your computer
+LaTeX is a very powerful typesetting framework that can be used to generate beautiful documents easily, without having to worry about layout and styling issues such as "Are all my second-level subheadings in the same size font" and "Why is there a pagebreak here with just one line of text before it? Can't it just be more /sensible/???". LaTeX takes out a huge amount of that work for you, leaving you to get on with your Actual Work, rather than messing around with margins to make sure your paragraph spacing looks right after different types of title.
+
+LaTeX is a programming language (some disagree with this definition, but I am not one of them) that was written specifically for publishers when typesetting books, journals and other kinds of documents ready for publication. By introducing some LaTeX commands into the text you want to typeset, as well as some 'header' material that tells LaTeX how your document is set up, you can control exactly how you want your finished document to be laid out.
+
+LaTeX is amazingly useful when people need to work together to create publishable material that all looks the same. LaTeX allows easy, standardised replication of work, for example, based on using standard templates agreed on by your group or organisation, something which is difficult when using other programmes, which I will hold back from naming here. Ultimately, if you send someone some LaTeX source files, the document they build will be identical to the one you built yourself. Very cool.
+
+While the default settings for how to lay out blocks of text and columns and figures and so on adhere to the heuristic of "do something sensible -- a best guess" about what it thinks you want, you can customise almost all settings yourself if you are so inclined, so don't imagine that all LaTeX documents made by anyone else who uses it will end up looking the same (although if you don't change the defaults then there is a certain 'look' you might learn to spot...)
+
+A nerd thing I lvoe about LaTeX is that its source files (ignoring images just for now) are simple text files, which can be compared line by line using any version control software, such as GitHub as we do here. This means that changes to files can be seen easily using, as in this example, git, so you can see the exact line containing the change. Moreover, only /changes/ to files are stored in git, so if files cannot be compared line by line then the whole file must be added to the version control repository every time it changes at all, which uses a lot of disk space realllly fast.
+
+A last awesome thing I love about LaTeX is this: as a built-in standard, LaTeX builds files in PDF format, which can be opened on any machine, and will look the same on every machine: a great advantage for collaborative working. [How many times have you had conversations like "Well that's not what the image layout looks like on myyyy screen"] Furthermore, PDFs are "vector" files, that is, files containing instructions about how to 'draw' their contents, ather than essentially taking a one-off photo of your file. This allows almost infinite zooming in without loss of quality, which obviously cannot be achieved the other way.
+
+## Okay, I'm sold. What do I need to do to get started?
+
+To use LaTeX on your computer, you need:
+1. The LaTex framework to be installed
+1. Some software you can use to type LaTeX into that will then build your gorgeous files for you.
+
+### Install the LaTex framework:
+* Download and install a TeX distribution for your computer (LaTex is actually sort-of a package written on top of the TeX framework, don't worry about this)
   * Mac: Download MacTeX from [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
   * Windows: Download MiKTeX from here: [https://miktex.org/](https://miktex.org/)
-* Test your setup by trying to build the project in a JSAMR template folder
 
-If you're just getting started try [http://www.overleaf.com](http://www.overleaf.com) and read their tutorials here [http://www.overleaf.com/learn](http://www.overleaf.com/learn). Once you are confident using LaTeX please move to a desktop version as described above as this will allow greater scope for collaboration.
+### Install some software for you to use LaTeX:
+* Mac: Helen recommends TeXShop, available here: [https://pages.uoregon.edu/koch/texshop/](https://pages.uoregon.edu/koch/texshop/). It is kept well up to date, and in Helen's view strikes the right balance between ease-of-use and flexiblility/powerz.
+* Windows: TODO
+
+### Try out your new setup with our test file
+Download it from here UODATE, open it in your LaTeX software of choice, and see if you can build it into a beautiful PDF!
+
+If this all feels a bit much, which is fine, you can try [http://www.overleaf.com](http://www.overleaf.com), which is an online LaTeX editor. Check out their tutorials at [http://www.overleaf.com/learn](http://www.overleaf.com/learn) if you fancy it. Once you are confident using LaTeX, please do move to a desktop version as described above, as this will make it much easier to work together. Overleaf is great for many things, but JSAMR'S needs don't quite fit those things.
+
+
+## JSAMR's LaTeX assets
+TODO
+
+The JSAMR repository lives here: [https://github.com/NSAMR/uk.ac.nsamr.journal/](https://github.com/NSAMR/uk.ac.nsamr.journal/).
+
+TODO Templates to use as a base for typesetting are in the folder [uk.ac.nsamr.journal/latex-templates](https://github.com/NSAMR/uk.ac.nsamr.journal/tree/master/latex-templates).
+
 
 ## Collaboration and workflow
-When you are assigned to typeset a manuscript, download it from the JSAMR admin panel. Some manuscripts will already have been typeset in LaTeX by their authors (hurrah), and others should in theory be a text document (.doc or .docx) with the generic JSAMR styling to indiciate headings, subheadings etc.
+When you are assigned to typeset a manuscript, download whatever files there are at that stage in the submission process from the JSAMR admin panel. Some manuscripts will already have been typeset in LaTeX by their authors (hurrah), and others will in theory be a text document (.doc or .docx) with the generic JSAMR styling to indiciate headings, subheadings etc.
 
 To start typesetting, use a JSAMR LaTeX template as a base. **NEVER ALTER THE TEMPLATE FILES**. Instead, make a new folder in uk.ac.nsamr.journal/papers called issuenumber-yymmdd-author-papertitle and copy the files you need into it. These will include the relevant template file, JSAMR logos, and the final versions of files approved by the editor and reviewers uploaded through the website. Then you can copy and paste text from the author's manuscript into the relevant sections of your LaTeX file.
 
