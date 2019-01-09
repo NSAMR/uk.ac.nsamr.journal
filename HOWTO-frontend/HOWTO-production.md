@@ -1,4 +1,4 @@
-#How to upload a typeset article to display on the website
+# How to upload a typeset article to display on the website
 If there is no submission already (e.g. conference abstracts, editorials) you will need to make a ``New Submission''. If there is already a submission (e.g. reviews, original research, case reports etc) you will need to use this.
 
 ## For new submissions:
