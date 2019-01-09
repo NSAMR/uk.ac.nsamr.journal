@@ -1,6 +1,7 @@
+#How to upload a typeset article to display on the website
 If there is no submission already (e.g. conference abstracts, editorials) you will need to make a ``New Submission''. If there is already a submission (e.g. reviews, original research, case reports etc) you will need to use this.
 
-**For new submissions:**
+## For new submissions:
 1. Select the correct section, tick all of the tick boxes, and click save and continue.
 1. Upload the article components under the correct headings (uploading PDFs under ``article text'' will be the one you use pretty much all of the time)
 1. Enter the metadata from the LaTeX document, you will need to remove all LaTeX code. The common LaTeX code that will need to be removed is `\mbox{WORD}` from the title (this prevents hyphenation of that word at the end of a line) and special symbols in the abstract (these will need to be replaced with ordinary text).
@@ -22,5 +23,5 @@ If there is no submission already (e.g. conference abstracts, editorials) you wi
 1. The Permissions for the submission should automatically be attached.
 1. Every time a subsequent change is made to the submission after it has been scheduled for publication, you will need to click schedule for production again.
 
-**For current submissions**
+## For current submissions
 Take the same approach, but you will need to edit the metadata that the author has already entered so that it is all correct, including co-authors and affiliations. You will need to upload the typeset file as a new submission as before.
