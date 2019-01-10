@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%
+% SET UP ARTICLE STYLE
+%%%%%%%%%%%%%%
+
+\ifcsname twocolumnlayout\endcsname
+	\documentclass[paper=a4,twocolumn,fontsize=11pt]{article}
+\else
+	\documentclass[paper=a4,fontsize=11pt]{article}
+\fi
+  
+
+
+
+%%%%%%%%%%%%%%
+% JSAMR CLASSES AND SETTINGS
+%%%%%%%%%%%%%%
+
+\input{\jsamrtemplatepath/jsamr-classes-and-settings}
+
+
+
+%%%%%%%%%%%%%%
+%  MANUSCRIPT SETTINGS
+%%%%%%%%%%%%%%
+
+\input{\pathtomanuscript/manuscript-settings}
+
+% Read in extra latex if there is any
+\ifcsname manuscriptextralatex\endcsname
+	\input{\pathtomanuscript/content/extra-latex}
+\fi
+  
+
+
+%%%%%%%%%%%%%%
+% DOCUMENT HEADER AND FOOTER
+%%%%%%%%%%%%%%
+
+% Header
+\fancyhead[RE,LO]{\journalsectionname}
+\fancyhead[LE,RO]{\footnotesize\textcolor{articleandrunningtitlecolor}{\runningheader}}
+
+% Footer
+\fancyfoot[LE,LO]{\footnotesize{\textcopyright \textcolor{articleandrunningtitlecolor}{\basejournalname}\\
+\footnotesize\hspace{4mm}{\basevolissue}\hspace{2mm}\basepagerange\hspace{2mm}\doistring
+\emph{\doistring}
+}}
+\fancyfoot[RE,RO]{\footnotesize p.\thepage}
+
+
+
+%%%%%%%%%%%%%%
+% MAIN DOCUMENT
+%%%%%%%%%%%%%%
+
+\begin{document}
+
+\ifcsname twocolumnlayout\endcsname
+	\twocolumn[
+\fi
+
+
+	% JSAMR BANNER
+	\input{\jsamrtemplatepath/jsamr-component-banner}
+
+
+	% TITLE 
+	\begin{@twocolumnfalse}	
+                	\begin{minipage}{1.015\textwidth}
+                		\setlength{\fboxsep}{0pt}		
+                		\fcolorbox{white}{white}{\parbox{0.9\textwidth}{					
+	    				\huge\textcolor{articleandrunningtitlecolor}{\fulltitle }
+					\bigskip					
+                			} % close parbox
+                		} % close fcolorbox 
+                		\setlength{\fboxsep}{10pt}
+                		\fcolorbox{white}{white}{\parbox{0.025\textwidth}{					
+    					\includegraphics[width=0.045\textwidth]{\jsamrtemplatepath/logos/logo-dna.pdf}
+                    		} % close parbox
+                    	} % close fcolorbox  		
+                	\end{minipage} 
+	\end{@twocolumnfalse}
+
+
+	% AUTHOR(S)
+	\Large{\fullauthorsstring}	
+
+
+	% AFFILLIATIONS AND CONTACT
+	\setlength{\columnseprule}{1pt}
+	\def\columnseprulecolor{
+		\color{articleandrunningtitlecolor}
+	}
+	\begin{multicols}{2}
+		\small{
+			\fullauthorsaffiliation
+			\vfill
+			$^{\alpha}$Corresponding author: $\correspondingauthor$
+		}
+		\columnbreak
+
+	
+		% DATES	
+		% Print dates if given
+		\hangindent=0.8cm % All lines below the first 
+		\onehalfspacing{
+			\indent{
+            			\small{
+        					\ifcsname twocolumnlayout\endcsname
+						\hspace{13px}
+					\else
+						\hspace{-2px}					
+					\fi
+					\manuscriptppeerreviewed\\
+            				\ifcsname datereceived\endcsname
+						Received: \datereceived\\
+					\fi
+					\ifcsname daterevised\endcsname
+						Revised: \daterevised\\
+					\fi
+					\ifcsname dateaccepted\endcsname
+						Accepted: \dateaccepted\\
+					\fi
+					\ifcsname dateavailableonline\endcsname
+						Available online: \dateavailableonline\\
+					\fi
+        					\vfill
+           			}
+			}
+		}			
+
+		% KEYWORDS
+		\hangindent=0.8cm % All lines below the first 
+		\ifcsname keywordone\endcsname
+			\hspace{8mm}Keywords: \colorbox{grey}{\strut \keywordone} 
+		\fi
+		\ifcsname keywordtwo\endcsname
+			\colorbox{grey}{\strut \keywordtwo} 
+		\fi
+		\ifcsname keywordthree\endcsname
+			\colorbox{grey}{\strut \keywordthree} 
+		\fi
+		\ifcsname keywordfour\endcsname
+			\colorbox{grey}{\strut \keywordfour} 
+		\fi
+		\ifcsname keywordfive\endcsname
+			\colorbox{grey}{\strut \keywordfive} 
+		\fi
+		\vfill
+	\end{multicols}
+	\bigskip		
+	
+	% ABSTRACT
+	% Read in and print abstract if there is one
+	\ifcsname manuscriptabstract\endcsname
+		\input{\jsamrtemplatepath/jsamr-component-abstract-box}
+	\fi
+	\vspace{8mm}
+	
+\ifcsname twocolumnlayout\endcsname
+	]
+\fi
+
+
+%%%%%%%%%%%%%%
+% DOCUMENT BODY
+%%%%%%%%%%%%%%
+
+\normalsize
+
+% Read in and print body if there is one
+\ifcsname manuscriptbody\endcsname
+	\noindent % Don't indent first line of first paragraph, as per current general Anglo-American style
+	\input{\pathtomanuscript/content/body.tex}
+\fi
+
+
+  
+
+%%%%%%%%%%%%%%
+% AUTHOR STATEMENTS
+%%%%%%%%%%%%%%
+
+% Start two column environment if desired
+\setlength{\columnseprule}{0pt} % Removes the horrid vertical line that is drawn between the columns by default
+\ifcsname twocolumnendmatter\endcsname
+	\begin{multicols}{2}
+\fi
+	
+% Read in and print author statements if wanted
+\ifcsname manuscriptauthorstatements\endcsname
+	
+	\section*{Author statements}
+	\input{\jsamrtemplatepath/jsamr-author-statements}
+\fi
+
+
+
+%%%%%%%%%%%%%%
+% REFERENCES
+%%%%%%%%%%%%%%
+
+% Render reference list if wanted
+\ifcsname manuscriptbibliography\endcsname
+	\renewcommand{\bibname}{References} % changes default name Bibliography to References
+	\bibliography{\pathtomanuscript/bibliography}
+\fi
+
+% End multicol environment if we were in it
+\ifcsname twocolumnendmatter\endcsname
+	\end{multicols}
+\fi
+
+
+\end{document}

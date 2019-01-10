@@ -1,0 +1,786 @@
+% INTRODUCTION
+\section{Introduction}
+With over 8200 new diagnoses made around the world every year, chronic myeloid leukaemia (CML) is a blood cancer characterised by uncontrolled division of myeloid-lineage progenitors in the bone marrow, accumulating in peripheral blood \citep{RefWorks:doc:58309926e4b05b192d72d473}. CML typically presents with nonspecific symptoms including fatigue, weight-loss, night-sweats, fever and recurrent infections, and is diagnosed with a bone marrow biopsy \citep{RefWorks:doc:583b173fe4b066125b214e79}.
+
+CML used to be a fatal condition, until extensive research in the 1990s prompted a breakthrough --- imatinib --- which nearly doubled five-year survival rates \citep{RefWorks:doc:583b0619e4b066125b214bec}. However, imatinib fails to elicit a positive response in one in three CML patients \citep{RefWorks:doc:583b5609e4b066125b215900}. Examining the roles of the underlying mechanisms prompting malignant transformation of CML allows us to look at how effectively different drug therapies accomplish their targets.
+This essay aims to consider the consequences of imatinib failure, and explore the effectiveness of a second generation drug --- dasatinib --- in treating these cases. Subsequently, the results of the large-scale DASISION trial are analysed and contextualised to compare these two generations of CML therapy. Finally, this review examines the very recent approval of dasatinib as a first-line therapy in England, considering the cost-effectiveness of this decision. Being the most frequent CML diagnosis, the scope of this essay is restricted to Philadelphia-positive chronic-phase CML \citep{RefWorks:doc:58309926e4b05b192d72d473}. Furthermore, as the median age of CML diagnosis is 67 years, the discussion will be limited to adult patients \citep{RefWorks:doc:58309926e4b05b192d72d473}.
+
+% Background
+\section{Background}
+
+Following a groundbreaking discovery in 1959, researchers described the Philadelphia chromosome (Ph): a balanced reciprocal translocation between the Abelson murine leukaemia proto-oncogene (ABL) --- normally found on chromosome 9 --- with the breakpoint cluster region (BCR) from chromosome 22 \citep{RefWorks:doc:58309b92e4b05b192d72d4da,RefWorks:doc:58309bb1e4b047a10adac048,RefWorks:doc:58309b12e4b047a10adac03d,RefWorks:doc:58309a92e4b0de15c9d88743}. The result: a deregulated, constitutively active tyrosine-kinase, BCR-ABL \citep{RefWorks:doc:58309bd3e4b05b192d72d4eb}. Understanding the structure of these ubiquitously expressed proteins allows us to consider targets for therapy, and hypothesise their failures.
+
+% figure 1
+\begin{figure}
+\centering
+\begin{tikzpicture}
+
+\node [draw, ellipse callout, fill=light-grey, callout absolute pointer={(-1.3, 0)}] at (-1.1,0.75) {ATP};
+\draw [arrow, very thick] (-2.6,0.6) -- (-2.6,0.1);
+\node[align=center] at (-3.8,0) {\rotatebox{90}{NH\textsubscript{2}}};
+\fill[brand-logo-light, draw=black] (-3.5,0) rectangle (-2.7,-1);
+\node[text width=1.5cm, align=center] at (-3.1,-0.5) {\rotatebox{90}{Ib}};
+\fill[brand-logo-light, draw=black] (-3.3,-1) rectangle (-2.7,-2);
+\node[text width=1.5cm, align=center] at (-3.0,-1.5) {\rotatebox{90}{Ia}};
+\fill[white, draw=black] (-2.7,0) rectangle (-2.5,-2);
+\fill[brand-logo-dark, draw=black] (-2.5,0) rectangle (-2.1,-2);
+\node[text width=1.5cm, align=center] at (-2.3,-1) {\rotatebox{90}{SH3}};
+\fill[white, draw=black] (-2.1,0) rectangle (-1.9,-2);
+\fill[brand-logo-dark, draw=black] (-1.9,0) rectangle (-1.5,-2);
+\node[text width=1.5cm, align=center] at (-1.7,-1) {\rotatebox{90}{SH2}};
+\fill[white, draw=black] (-1.5,0) rectangle (-1.3,-2);
+\fill[brand-logo-dark, draw=black] (-1.3,0) rectangle (-0.5,-2);
+\node[text width=1.5cm, align=center] at (-0.9,-1) {\rotatebox{90}{SH1}};
+\fill[white, draw=black] (-0.5,0) rectangle (0.0,-2);
+\fill[brand-logo-light, draw=black] (0.0,0) rectangle (0.4,-2);
+\node[text width=1.5cm, align=center] at (0.2,-1) {\rotatebox{90}{PxxP}};
+\fill[light-grey, draw=black] (0.4,0) rectangle (0.8,-2);
+\node[text width=1.5cm, align=center] at (0.6,-1) {\rotatebox{90}{NLS}};
+\fill[brand-logo-light, draw=black] (0.8,0) rectangle (1.2,-2);
+\node[text width=1.5cm, align=center] at (1.0,-1) {\rotatebox{90}{PxxP}};
+\fill[grey, draw=black] (1.2,0) rectangle (1.6,-2);
+\node[text width=1.5cm, align=center] at (1.4,-1) {\rotatebox{90}{DNA BD}};
+\fill[light-grey, draw=black] (1.6,0) rectangle (2.0,-2);
+\node[text width=1.5cm, align=center] at (1.8,-1) {\rotatebox{90}{NLS}};
+\fill[grey, draw=black] (2.0,0) rectangle (2.4,-2);
+\node[text width=1.5cm, align=center] at (2.2,-1) {\rotatebox{90}{DNA BD}};
+\fill[light-grey, draw=black] (2.4,0) rectangle (2.8,-2);
+\node[text width=1.5cm, align=center] at (2.6,-1) {\rotatebox{90}{NLS}};
+\fill[grey, draw=black] (2.8,0) rectangle (3.2,-2);
+\node[text width=1.5cm, align=center] at (3.0,-1) {\rotatebox{90}{DNA BD}};
+\fill[light-grey, draw=black] (3.2,0) rectangle (3.6,-2);
+\node[text width=1.5cm, align=center] at (3.4,-1) {\rotatebox{90}{G-Actin BD}};
+\fill[white, draw=black] (3.6,0) rectangle (3.7,-2);
+\fill[brand-logo-light, draw=black] (3.7,0) rectangle (4.1,-2);
+\node[text width=1.5cm, align=center] at (3.9,-1) {\rotatebox{90}{NES}};
+\fill[light-grey, draw=black] (4.1,0) rectangle (4.5,-2);
+\node[text width=1.5cm, align=center] at (4.3,-1) {\rotatebox{90}{F-Actin BD}};
+\node[align=center] at (4.75,0) {\rotatebox{90}{COOH}};
+
+\end{tikzpicture}
+
+\caption{Illustration representing the ABL protein. Nuclear localisation signals and DNA binding occur towards 3\textquotesingle \thinspace \citep{RefWorks:doc:583334dae4b0de15c9d902ed}, while three SRC homology domains (SH1, SH2, and SH3) by the NH\textsubscript{2} terminus \citep{RefWorks:doc:58333428e4b047a10adb43f4} allow interaction and binding with receptor tyrosine kinases. Figure adapted from Deininger, Goldman, and Melo (2000).}
+
+\label{fig:ABL}
+\end{figure}
+
+% figure 2
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}
+
+\node [draw, ellipse callout, fill=light-grey, callout absolute pointer={(-3.5, 0)}] at (-3.25,0.75) {ATP};
+\node[text width=1.5cm, align=center] at (-4.3,0) {\rotatebox{90}{NH\textsubscript{2}}};
+\fill[brand-logo-dark, draw=black] (-4,0) rectangle (-3.5,-2);
+\node[text width=1.5cm, align=center] at (-3.75,-1) {\rotatebox{90}{DD}};
+\fill[white, draw=black] (-3.5,0) rectangle (-3.0,-2);
+\fill[brand-logo-light, draw=black] (-3.0,0) rectangle (-2.5,-2);
+\node[text width=1.5cm, align=center] at (-2.75,-1) {\rotatebox{90}{cAMP}};
+\fill[white, draw=black] (-2.5,0) rectangle (-2.0,-2);
+\fill[brand-logo-light, draw=black] (-2.0,0) rectangle (-1.5,-2);
+\node[text width=1.5cm, align=center] at (-1.75,-1) {\rotatebox{90}{cAMP}};
+\fill[white, draw=black] (-1.5,0) rectangle (-1.0,-2);
+\fill[grey, draw=black] (-1.0,0) rectangle (-0.5,-2);
+\node[text width=1.5cm, align=center] at (-0.75,-1) {\rotatebox{90}{RHO-GEF}};
+\fill[white, draw=black] (-0.5,0) rectangle (0.0,-2);
+\fill[light-grey, draw=black] (0.0,0) rectangle (0.5,-2);
+\node[text width=1.5cm, align=center] at (0.25,-1) {\rotatebox{90}{CaLB}};
+\fill[white, draw=black] (0.5,0) rectangle (1.0,-2);
+\fill[light-grey, draw=black] (1.0,0) rectangle (1.5,-2);
+\node[text width=1.5cm, align=center] at (1.25,-1) {\rotatebox{90}{RAC-GAP}};
+\fill[white, draw=black] (1.5,0) rectangle (1.75,-2);
+\node[text width=1.5cm, align=center] at (2.1,0) {\rotatebox{90}{COOH}};
+
+\end{tikzpicture}
+}
+
+\caption{Illustration representing the structure of the ubiquitously expressed BCR protein. Figure adapted from Deininger, Goldman, and Melo (2000).}
+\label{fig:BCR}
+\end{figure}
+
+The functions of ABL (Figure \ref{fig:ABL}) are theorised to be varied, and normally involved in cell-cycle regulation and genotoxicity, by responding to mutations caused by chemical agents. The protein is believed to have involvement with receptor tyrosine kinase (RTK) cell signalling pathway modulation \citep{RefWorks:doc:5834545de4b09a21e93790d0}. Despite being tightly regulated, mutations of ABL are responsible for its oncogenic activation \citep{RefWorks:doc:5836f6cee4b066125b20d2e0,RefWorks:doc:5836f703e4b09a21e9383112,RefWorks:doc:583455c2e4b09a21e93790f8}. As ABL tyrosine-kinase is a proliferative gene encouraging mitosis, constitutive activation makes it an endlessly propelling accelerator.
+
+On the other hand, the structure of BCR (Figure \ref{fig:BCR}) is not understood as well --- BCR knockout mice viably survive, hinting at redundancy mechanisms \citep{RefWorks:doc:58345bf8e4b027b9d41441c6}. BCR is also implied to have a role in G-protein signal transduction pathways \citep{RefWorks:doc:59ac0ccce4b021c5b154a8cb}.
+
+Causes for this translocation (Figure \ref{fig:BCRABL}) spotlight around radiation exposure; BCR-ABL translocations have been induced in haematopoietic cells by exposure to ionising radiation in vitro, suggesting that BCR-ABL occurrence is a result of epigenetic context, rather than a random translocation \citep{RefWorks:doc:58347d5be4b066125b203ebd}. The genes for BCR (Figure \ref{fig:BCRbreak}) and ABL (Figure \ref{fig:ABLbreak}) in human lymphocytes are theorised to be shorter than previously believed, favouring translocation events \citep{RefWorks:doc:58347da0e4b066125b203ed0}.
+
+% figure 3
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}
+
+\node[text width=3cm, align=center] at (0,1) {ABL}; %ABL
+
+\draw [arrow] (-3.7,0.6) -- (-3.7,0.2);
+\draw [very thick] (-4,0) -- (4,0);
+
+\fill[brand-logo-dark, draw=black] (-3.3,0.3) rectangle (-2.9,-0.3); %1
+\node[text width=3cm, align=center] at (-3.1,0.5) {Ib}; %Ib
+
+\draw [arrow] (-1.8,0.6) -- (-1.8,0.2);
+
+\fill[brand-logo-dark, draw=black] (-1.15,0.3) rectangle (-0.85,-0.3); %2
+\node[text width=3cm, align=center] at (-1.0,0.5) {Ia}; %Ia
+
+\draw [arrow] (-0.3,0.6) -- (-0.3,0.2);
+
+\fill[brand-logo-dark, draw=black] (-0.1,0.3) rectangle (0.2,-0.3); %3
+\node[text width=3cm, align=center] at (0.05,0.5) {a2}; %a2
+
+\fill[brand-logo-dark, draw=black] (0.4,0.3) rectangle (0.7,-0.3); %4
+\node[text width=3cm, align=center] at (0.55,0.5) {a3}; %a3
+
+\fill[brand-logo-dark, draw=black] (0.8,0.3) rectangle (0.9,-0.3); %5
+
+\fill[brand-logo-dark, draw=black] (1.0,0.3) rectangle (1.2,-0.3); %6
+
+\fill[brand-logo-dark, draw=black] (1.3,0.3) rectangle (1.4,-0.3); %7
+
+\fill[brand-logo-dark, draw=black] (1.5,0.3) rectangle (1.7,-0.3); %8
+
+\fill[brand-logo-dark, draw=black] (1.8,0.3) rectangle (1.9,-0.3); %9
+
+\fill[brand-logo-dark, draw=black] (2.0,0.3) rectangle (2.1,-0.3); %10
+
+\fill[brand-logo-dark, draw=black] (2.2,0.3) rectangle (2.3,-0.3); %11
+
+\fill[brand-logo-dark, draw=black] (2.5,0.3) rectangle (3.9,-0.3); %12
+\node[text width=3cm, align=center] at (3.2,0.5) {a11}; %a11
+
+\end{tikzpicture}
+}
+\caption{Illustration representing the breakpoint locations in the ABL gene. Breakpoints occur over a 300kb area, but as exon a1 is spliced out of the primary mRNA, BCR always fuses with exon a2 \citep{RefWorks:doc:58345cc7e4b09a21e937923d}. Figure adapted from Deininger, Goldman, and Melo (2000).}
+\label{fig:ABLbreak}
+\end{figure}
+
+% figure 4
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}
+
+\node[text width=3cm, align=center] at (0,1) {BCR}; %BCR
+
+\draw [very thick] (-4,0) -- (4,0);
+
+\fill[brand-logo-light, draw=black] (-3.9,0.3) rectangle (-3.1,-0.3); %1
+\node[text width=3cm, align=center] at (-3.5,0.5) {e1}; %e1
+
+\fill[brand-logo-light, draw=black] (-2.9,0.3) rectangle (-2.7,-0.3); %2
+\node[text width=3cm, align=center] at (-2.8,0.5) {e1'}; %e1'
+
+\fill[brand-logo-light, draw=black] (-2.4,0.3) rectangle (-2.2,-0.3); %3
+\node[text width=3cm, align=center] at (-2.3,0.5) {e2'}; %e2'
+
+\draw [arrows=<->] (-2.2,-0.5) -- (-1.3,-0.5);
+\node[text width=3cm, align=center] at (-1.75,-0.7) {m-bcr}; %m-bcr
+
+\fill[brand-logo-light, draw=black] (-1.3,0.3) rectangle (-1.2,-0.3); %4
+\fill[brand-logo-light, draw=black] (-1.05,0.3) rectangle (-0.95,-0.3); %5
+\fill[brand-logo-light, draw=black] (-0.95,0.3) rectangle (-0.75,-0.3); %6
+\fill[brand-logo-light, draw=black] (-0.75,0.3) rectangle (-0.65,-0.3); %7
+\fill[brand-logo-light, draw=black] (-0.65,0.3) rectangle (-0.4,-0.3); %8
+\fill[brand-logo-light, draw=black] (-0.35,0.3) rectangle (-0.25,-0.3); %9
+\fill[brand-logo-light, draw=black] (-0.25,0.3) rectangle (-0.15, -0.3); %10
+
+\fill[brand-logo-light, draw=black] (0.2,0.3) rectangle (0.27,-0.3); %11
+\fill[brand-logo-light, draw=black] (0.27,0.3) rectangle (0.4,-0.3); %12
+\fill[brand-logo-light, draw=black] (0.4,0.3) rectangle (0.6,-0.3); %13
+
+\draw [arrows=<->] (0.5,-0.5) -- (2.1,-0.5);
+\node[text width=3cm, align=center] at (1.4,-0.7) {M-bcr}; %M-bcr
+
+\fill[brand-logo-light, draw=black] (0.90,0.3) rectangle (1.1,-0.3); %14
+\node[text width=3cm, align=center] at (1,0.5) {b2}; %b2
+\fill[brand-logo-light, draw=black] (1.1,0.3) rectangle (1.3,-0.3); %15
+\fill[brand-logo-light, draw=black] (1.3,0.3) rectangle (1.5,-0.3); %16
+\fill[brand-logo-light, draw=black] (1.6,0.3) rectangle (1.8,-0.3); %17
+\node[text width=3cm, align=center] at (1.7,0.5) {b3}; %b3
+\fill[brand-logo-light, draw=black] (1.9,0.3) rectangle (2.0,-0.3); %18
+
+\fill[brand-logo-light, draw=black] (2.2,0.3) rectangle (2.3,-0.3); %19
+\fill[brand-logo-light, draw=black] (2.3,0.3) rectangle (2.5,-0.3); %20
+
+\draw [arrows=<->] (2.6,-0.5) -- (3.2,-0.5);
+\node[text width=3cm, align=center] at (2.9,-0.7) {\(\mu\)-bcr}; %mu-bcr
+
+\fill[brand-logo-light, draw=black] (2.6,0.3) rectangle (2.8,-0.3); %21
+\fill[brand-logo-light, draw=black] (2.8,0.3) rectangle (3.0,-0.3); %22
+\node[text width=3cm, align=center] at (2.9,0.5) {e19}; %e19
+\fill[brand-logo-light, draw=black] (3.0,0.3) rectangle (3.2,-0.3); %23
+
+\fill[brand-logo-light, draw=black] (3.4,0.3) rectangle (3.6,-0.3); %24
+\fill[brand-logo-light, draw=black] (3.7,0.3) rectangle (3.9,-0.3); %25
+
+\end{tikzpicture}
+}
+\caption{Illustration representing the breakpoint locations in the BCR gene. BCR breakpoints happen within one of three cluster regions, but due to alternative splicing, a large number of fusion transcripts are possible \citep{RefWorks:doc:58345fbde4b066125b203840}. Figure adapted from Deininger, Goldman, and Melo (2000).}
+\label{fig:BCRbreak}
+\end{figure}
+
+% figure 5
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}
+
+\node[text width=3cm, align=center] at (0,1) {BCR-ABL}; %BCR-ABL
+%e1a2 
+\node[text width=1.5cm, align=left] at (-4,0) {e1a2};
+\fill[brand-logo-light, draw=black] (-1.2,0.3) rectangle (0, -0.3); %ABL
+\fill[brand-logo-dark, draw=black] (0,0.3) rectangle (0.3,-0.3); %BCR
+\fill[brand-logo-dark, draw=black] (0.3,0.3) rectangle (0.5,-0.3);
+\fill[brand-logo-dark, draw=black] (0.5,0.3) rectangle (0.7,-0.3);
+\fill[brand-logo-dark, draw=black] (0.7,0.3) rectangle (1.1,-0.3);
+\fill[brand-logo-dark, draw=black] (1.1,0.3) rectangle (1.3,-0.3);
+\fill[brand-logo-dark, draw=black] (1.3,0.3) rectangle (1.4,-0.3);
+\fill[brand-logo-dark, draw=black] (1.4,0.3) rectangle (1.6,-0.3);
+\fill[brand-logo-dark, draw=black] (1.6,0.3) rectangle (2.0,-0.3);
+\fill[brand-logo-dark, draw=black] (2.0,0.3) rectangle (2.1,-0.3);
+\fill[brand-logo-dark, draw=black] (2.1,0.3) rectangle (2.3,-0.3);
+\fill[brand-logo-dark, draw=black] (2.3,0.3) rectangle (2.5,-0.3);
+\fill[brand-logo-dark, draw=black] (2.5,0.3) rectangle (3.5,-0.3);
+
+%b2a2 
+\node[text width=1.5cm, align=left] at (-4,-1) {b2a2};
+\fill[brand-logo-light, draw=black] (-3.3,-0.7) rectangle (-2.9, -1.3); %ABL
+\fill[brand-logo-light, draw=black] (-2.9,-0.7) rectangle (-2.72, -1.3);
+\fill[brand-logo-light, draw=black] (-2.72,-0.7) rectangle (-2.43, -1.3);
+\fill[brand-logo-light, draw=black] (-2.43,-0.7) rectangle (-2.24, -1.3);
+\fill[brand-logo-light, draw=black] (-2.24,-0.7) rectangle (-1.9, -1.3);
+\fill[brand-logo-light, draw=black] (-1.9,-0.7) rectangle (-1.63, -1.3);
+\fill[brand-logo-light, draw=black] (-1.63,-0.7) rectangle (-1.42, -1.3);
+\fill[brand-logo-light, draw=black] (-1.42,-0.7) rectangle (-1.36, -1.3);
+\fill[brand-logo-light, draw=black] (-1.36,-0.7) rectangle (-1.2, -1.3);
+\fill[brand-logo-light, draw=black] (-1.2,-0.7) rectangle (-1.0, -1.3);
+\fill[brand-logo-light, draw=black] (-1.0,-0.7) rectangle (-0.9, -1.3);
+\fill[brand-logo-light, draw=black] (-0.9,-0.7) rectangle (-0.8, -1.3);
+\fill[brand-logo-light, draw=black] (-0.8,-0.7) rectangle (-0.6, -1.3);
+\fill[brand-logo-light, draw=black] (-0.6,-0.7) rectangle (0, -1.3);
+\fill[brand-logo-dark, draw=black] (0,-0.7) rectangle (0.3,-1.3); %BCR
+\fill[brand-logo-dark, draw=black] (0.3,-0.7) rectangle (0.5,-1.3);
+\fill[brand-logo-dark, draw=black] (0.5,-0.7) rectangle (0.7,-1.3);
+\fill[brand-logo-dark, draw=black] (0.7,-0.7) rectangle (1.1,-1.3);
+\fill[brand-logo-dark, draw=black] (1.1,-0.7) rectangle (1.3,-1.3);
+\fill[brand-logo-dark, draw=black] (1.3,-0.7) rectangle (1.4,-1.3);
+\fill[brand-logo-dark, draw=black] (1.4,-0.7) rectangle (1.6,-1.3);
+\fill[brand-logo-dark, draw=black] (1.6,-0.7) rectangle (2.0,-1.3);
+\fill[brand-logo-dark, draw=black] (2.0,-0.7) rectangle (2.1,-1.3);
+\fill[brand-logo-dark, draw=black] (2.1,-0.7) rectangle (2.3,-1.3);
+\fill[brand-logo-dark, draw=black] (2.3,-0.7) rectangle (2.5,-1.3);
+\fill[brand-logo-dark, draw=black] (2.5,-0.7) rectangle (3.5,-1.3);
+
+%b3a2 
+\node[text width=1.5cm, align=left] at (-4,-2) {b2a3};
+\fill[brand-logo-light, draw=black] (-3.5,-1.7) rectangle (-3.0, -2.3); %ABL
+\fill[brand-logo-light, draw=black] (-3.0,-1.7) rectangle (-2.2, -2.3);
+\fill[brand-logo-light, draw=black] (-2.2,-1.7) rectangle (-1.6, -2.3);
+\fill[brand-logo-light, draw=black] (-1.6,-1.7) rectangle (-0.9, -2.3);
+\fill[brand-logo-light, draw=black] (-0.9,-1.7) rectangle (-0.3, -2.3);
+\fill[brand-logo-light, draw=black] (-0.3,-1.7) rectangle (-0.2, -2.3);
+\fill[brand-logo-light, draw=black] (-0.2,-1.7) rectangle (0, -2.3);
+\fill[brand-logo-dark, draw=black] (0,-1.7) rectangle (0.3,-2.3); %BCR
+\fill[brand-logo-dark, draw=black] (0.3,-1.7) rectangle (0.5,-2.3);
+\fill[brand-logo-dark, draw=black] (0.5,-1.7) rectangle (0.7,-2.3);
+\fill[brand-logo-dark, draw=black] (0.7,-1.7) rectangle (1.1,-2.3);
+\fill[brand-logo-dark, draw=black] (1.1,-1.7) rectangle (1.3,-2.3);
+\fill[brand-logo-dark, draw=black] (1.3,-1.7) rectangle (1.4,-2.3);
+\fill[brand-logo-dark, draw=black] (1.4,-1.7) rectangle (1.6,-2.3);
+\fill[brand-logo-dark, draw=black] (1.6,-1.7) rectangle (2.0,-2.3);
+\fill[brand-logo-dark, draw=black] (2.0,-1.7) rectangle (2.1,-2.3);
+\fill[brand-logo-dark, draw=black] (2.1,-1.7) rectangle (2.3,-2.3);
+\fill[brand-logo-dark, draw=black] (2.3,-1.7) rectangle (2.5,-2.3);
+\fill[brand-logo-dark, draw=black] (2.5,-1.7) rectangle (3.5,-2.3);
+
+%e19a2 
+\node[text width=1.5cm, align=left] at (-4,-3) {e19a2};
+\fill[brand-logo-light, draw=black] (-3.7,-2.7) rectangle (-3.3, -3.3); %ABL
+\fill[brand-logo-light, draw=black] (-3.3,-2.7) rectangle (-3.26, -3.3);
+\fill[brand-logo-light, draw=black] (-3.26,-2.7) rectangle (-3.19, -3.3);
+\fill[brand-logo-light, draw=black] (-3.19,-2.7) rectangle (-3.13, -3.3);
+\fill[brand-logo-light, draw=black] (-3.13,-2.7) rectangle (-2.97, -3.3);
+\fill[brand-logo-light, draw=black] (-2.97,-2.7) rectangle (-2.7, -3.3);
+\fill[brand-logo-light, draw=black] (-2.7,-2.7) rectangle (-2.5, -3.3);
+\fill[brand-logo-light, draw=black] (-2.5,-2.7) rectangle (-2.4, -3.3);
+\fill[brand-logo-light, draw=black] (-2.4,-2.7) rectangle (-2.32, -3.3);
+\fill[brand-logo-light, draw=black] (-2.32,-2.7) rectangle (-2.0, -3.3);
+\fill[brand-logo-light, draw=black] (-2.0,-2.7) rectangle (-1.6, -3.3);
+\fill[brand-logo-light, draw=black] (-1.6,-2.7) rectangle (-0.9, -3.3);
+\fill[brand-logo-light, draw=black] (-0.9,-2.7) rectangle (-0.3, -3.3);
+\fill[brand-logo-light, draw=black] (-0.3,-2.7) rectangle (-0.2, -3.3);
+\fill[brand-logo-light, draw=black] (-0.2,-2.7) rectangle (0, -3.3);
+\fill[brand-logo-dark, draw=black] (0,-2.7) rectangle (0.3,-3.3); %BCR
+\fill[brand-logo-dark, draw=black] (0.3,-2.7) rectangle (0.5,-3.3);
+\fill[brand-logo-dark, draw=black] (0.5,-2.7) rectangle (0.7,-3.3);
+\fill[brand-logo-dark, draw=black] (0.7,-2.7) rectangle (1.1,-3.3);
+\fill[brand-logo-dark, draw=black] (1.1,-2.7) rectangle (1.3,-3.3);
+\fill[brand-logo-dark, draw=black] (1.3,-2.7) rectangle (1.4,-3.3);
+\fill[brand-logo-dark, draw=black] (1.4,-2.7) rectangle (1.6,-3.3);
+\fill[brand-logo-dark, draw=black] (1.6,-2.7) rectangle (2.0,-3.3);
+\fill[brand-logo-dark, draw=black] (2.0,-2.7) rectangle (2.1,-3.3);
+\fill[brand-logo-dark, draw=black] (2.1,-2.7) rectangle (2.3,-3.3);
+\fill[brand-logo-dark, draw=black] (2.3,-2.7) rectangle (2.5,-3.3);
+\fill[brand-logo-dark, draw=black] (2.5,-2.7) rectangle (3.5,-3.3);
+
+\end{tikzpicture}
+}
+\caption{Illustration representing common BCR-ABL chimeras. As the ABL portion of the chimera remains similar across translocations, ABL is likely to carry the qualities for malignancy \citep{RefWorks:doc:58309926e4b05b192d72d473}. Figure adapted from Deininger, Goldman, and Melo (2000).}
+\label{fig:BCRABL}
+\end{figure}
+
+However, Ph+ hematopoietic cells are present at low frequencies in asymptomatic individuals without indicators of leukaemia, suggesting that alternative mechanisms also influence why only a minority of Ph+ cells become leukaemic \citep{RefWorks:doc:58347e6be4b027b9d4144c20}. As Ph-- states have also been observed in some CML cases, BCR-ABL may not be the only genetic insult involved \citep{RefWorks:doc:58347fcce4b066125b203f3d}.
+
+% Disease progression
+\section{Disease progression}
+
+% table 1
+\begin{table}
+\centering
+\caption{Table defining histological descriptions of the blood and bone marrow at different CML stages \citep{RefWorks:doc:583af437e4b027b9d4155dc5}.}
+\begin{tabu} to 0.475\textwidth {XX[2]}
+   \toprule
+Phase &  Histological description\\
+		\midrule
+		Chronic (CP)  & < 10\,\% blasts\\
+		Accelerated (AP)  &10-19\,\% blasts \textit{or} > 20\,\% basophils\\
+		Blast (BP)  & > 20\,\% blasts\\
+		\bottomrule
+\label{table:histology}
+\end{tabu}
+\end{table}
+
+Over 90\,\% of new diagnoses of CML are chronic phase (CP); without effective treatment, this aggravates within seven years to accelerated phase (AP), as illustrated in Table \ref{table:histology} \citep{RefWorks:doc:583af437e4b027b9d4155dc5}. As genetic insults pile up, the Ph+ cells develop further mutations, deteriorating into blast crisis (BP) \citep{RefWorks:doc:58309829e4b05b192d72d445}. BCR-ABL itself drives further point mutations, but also damages Ph+ cells in numerous ways --- these mechanisms are what drive the cell into malignancy in the first place \citep{RefWorks:doc:58309926e4b05b192d72d473}. 
+
+% Malignant transformation
+\section{Malignant transformation}
+
+Once BCR-ABL forms, it leads the cell to malignancy through four major pathways (Figure \ref{fig:transformation}). Firstly, BCR-ABL is theorised to alter adhesion properties --- since adhesion to bone marrow stroma negatively influences cell growth, progenitors avoid this regulation, as seen in developing CML \citep{RefWorks:doc:5838765ce4b09a21e9385e58,RefWorks:doc:5838763de4b09a21e9385e54}. Additionally, BCR-ABL downregulates inhibitory proteins --- BCR-ABL-positive bone marrow cells are observed to induce degradation of crucial inhibitors to cell communication \citep{spatchcock}. Excitingly, downregulation of these proteins is an early hallmark of myeloproliferative neoplasia, so a decline of ABI1 and ABI2 may have potential as diagnostic or screening tools.
+
+% figure 6
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}[node distance=2cm]
+
+\node (BCRABL) [translocation] {BCR-ABL};
+\node (process1) [process, below of=BCRABL, xshift=-0.201\textwidth] {Modified adhesion properties};
+\node (process2) [process, below of=BCRABL, xshift=-0.067\textwidth]{Activation of mitogenic signalling};
+\node (process3) [process, below of=BCRABL, xshift=0.067\textwidth] {Inhibiting apoptosis};
+\node (process4) [process, below of=BCRABL, xshift=0.201\textwidth] {Down-regulating inhibitory proteins};
+
+\node (pathway1) [pathway, below of=process2, xshift=-0.0996\textwidth] {RAS};
+\node (pathway2) [pathway, below of=process2, xshift=-0.0332\textwidth] {PI3 kinase};
+\node (pathway3) [pathway, below of=process2, xshift=0.0332\textwidth]  {JAK-STAT};
+\node (pathway4) [pathway, below of=process2, xshift=0.0996\textwidth]  {MYC};
+
+\node (malignant) [translocation, below of=BCRABL, yshift=-3.7cm] {Malignant tranformation};
+
+\draw [arrow] (BCRABL.south) |- ($(BCRABL.south) - (0,3mm)$) -| (process1.north);
+\draw [arrow] (BCRABL.south) |- ($(BCRABL.south) - (0,3mm)$) -| (process2.north);
+\draw [arrow] (BCRABL.south) |- ($(BCRABL.south) - (0,3mm)$) -| (process3.north);
+\draw [arrow] (BCRABL.south) |- ($(BCRABL.south) - (0,3mm)$) -| (process4.north);
+
+\draw [arrow] (process2.south) |- ($(process2.south) - (0,3mm)$) -| (pathway1.north);
+\draw [arrow] (process2.south) |- ($(process2.south) - (0,3mm)$) -| (pathway2.north);
+\draw [arrow] (process2.south) |- ($(process2.south) - (0,3mm)$) -| (pathway3.north);
+\draw [arrow] (process2.south) |- ($(process2.south) - (0,3mm)$) -| (pathway4.north);
+
+\draw [arrow] (process1.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+\draw [arrow] (pathway1.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+\draw [arrow] (pathway2.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+\draw [arrow] (pathway3.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+\draw [arrow] (pathway4.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+\draw [arrow] (process3.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+\draw [arrow] (process4.south) |- ($(malignant) + (0,9mm)$) -| (malignant.north);
+
+\end{tikzpicture}
+}
+\caption{Diagram showing the major pathways involved in malignant transformation of BCR-ABL.  Figure adapted from Deininger, Goldman, and Melo (2000).}
+\label{fig:transformation}
+\end{figure}
+
+Additionally, the constitutive action of BCR-ABL tyrosine-kinase and the subsequent RAS activation results in growth-factor withdrawal, preventing apoptosis in primary cells \citep{RefWorks:doc:5839a869e4b04961d35918bf}. Researchers theorise this to involve the phosphorylation of a pre-apoptotic protein: BAD \citep{RefWorks:doc:5839a9cbe4b066125b21237d}. In murine cell lines, Ph transcription prompts signals demonstrating proliferative and anti-apoptotic behaviours. Typically, apoptosis resists hyperproliferative signals, but due to these anti-apoptotic qualities, replication of these Ph+ cells can result in a myeloproliferative neoplasia \citep{RefWorks:doc:5839ab0ce4b027b9d4153445}.
+
+The most significant pathway involves activation of mitogenic signaling via RAS, JAK-STAT, PI3 kinase, or the MYC pathway. In fibroblasts, BCR-ABL substrates behave as adaptors stabilising RAS, constitutively activating its growth-stimulatory cascade. In BCR-ABL-positive cells, transcription factors constitutively phosphorylate STAT, causing an autocrine loop in early progenitors, upregulating the RAS pathway too \citep{RefWorks:doc:5838793ee4b09a21e9385f89,RefWorks:doc:58387a54e4b066125b21013e,RefWorks:doc:58387761e4b066125b210070}. Even as CML progenitors are dependent on external growth factors, they thrive off autocrine signalling better than Ph-- progenitors \citep{RefWorks:doc:58387b12e4b066125b210151}.
+
+PI3 kinase is fundamental to BCR-ABL-positive cell growth; by complexing using adapter molecules CRK and CRKL, PI3 kinase cascades anti-apoptotic proteins including BAD \citep{RefWorks:doc:5838823be4b066125b210264,RefWorks:doc:58388287e4b027b9d4151689}. Research suggests that in the presence of PI3, BCR-ABL plays an important role in the RAS and JAK-STAT pathways too \citep{RefWorks:doc:5838823be4b066125b210264}.
+
+Hypothesised to behave as a transcription factor activated by the BCR-ABL SH2 domain, MYC is overexpressed in numerous cancers \citep{RefWorks:doc:5839a55ce4b027b9d41533c7}. Its absence is associated with suppression of malignancy \citep{RefWorks:doc:5839a55ce4b027b9d41533c7}. Based on cellular context, MYC acts either as a proliferative or apoptotic signal. This counterbalance favours malignancy upon SH2 activation, as noted in BCR-ABL-positive murine cells \citep{RefWorks:doc:5839a59ee4b09a21e9387fdd}.
+
+% figure 7
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}[node distance=3cm]
+
+\node (models) [rotatedresistance] {\rotatebox{90}{Experimental models}};
+\node (modelc) [resistance, right of=models, xshift=-14mm, yshift=-0.14\textheight] {Cell lines};
+\node (modela) [resistance, right of=models, xshift=-11mm, yshift=0.14\textheight]{Animal models};
+
+\node (modela1) [process, below of=modela, xshift=12mm, yshift=0.05\textheight] {Introduce myeloproliferative cells into model};
+\node (modela1a) [point, right of=modela1, xshift=-1mm, yshift=-0.033\textheight] {Graft immunodeficient mice with human Ph+ cells};
+\node (modela1b) [point, right of=modela1, xshift=-1mm, yshift=0.033\textheight] {Allograft transplantation of BCR-ABL transformed murine cells};
+
+\node (modela2) [process, above of=modela, xshift=12mm, yshift=-0.05\textheight] {Edit model genome};
+\node (modela2a) [point, right of=modela2, xshift=-1mm, yshift=-0.033\textheight] {Genetically modify model to include BCR-ABL chimera};
+\node (modela2b) [point, right of=modela2, xshift=-1mm, yshift=0.033\textheight] {Introduce BCR-ABL-containing retroviruses into murine bone marrow};
+
+\node (modelc1) [process, below of=modelc, xshift=12mm, yshift=0.02\textheight] {Haem-atopoetic cells};
+\node (modelc1g) [point, right of=modelc1, xshift=-1mm, yshift=0.022\textheight] {\cmark ~Many Ph+ cell lines available};
+\node (modelc1b) [point, right of=modelc1, xshift=-1mm, yshift=-0.022\textheight] {\xmark ~Express other genetic lesions too};
+
+\node (modelc2) [process, right of=modelc, xshift=-9mm, yshift=0mm] {Primary cells};
+\node (modelc2g) [point, right of=modelc2, xshift=-1mm, yshift=0.022\textheight] {\cmark ~Composed of patient material};
+\node (modelc2b) [point, right of=modelc2, xshift=-1mm, yshift=-0.022\textheight] {\xmark ~Mature incredibly rapidly};
+
+\node (modelc3) [process, above of=modelc, xshift=12mm, yshift=-0.02\textheight] {Fibroblasts};
+\node (modelc3g) [point, right of=modelc3, xshift=-1mm, yshift=0.022\textheight] {\cmark ~Easy to manipulate};
+\node (modelc3b) [point, right of=modelc3, xshift=-1mm, yshift=-0.022\textheight] {\xmark ~Effects depend on cell line};
+
+\draw (models.east) -| ($(models.east) + (1mm,0)$) |- (modelc.west);
+\draw (models.east) -| ($(models.east) + (1mm,0)$) |- (modela.west);
+\draw (modela.south) -| ($(modela.south) + (0mm,0)$) |- (modela1.west);
+\draw (modela.north) -| ($(modela.north) + (0mm,0)$) |- (modela2.west);
+\draw (modelc.south) -| ($(modelc.south) + (0mm,0)$) |- (modelc1.west);
+\draw (modelc.east) -| ($(modelc.east) + (0mm,0)$) |- (modelc2.west);
+\draw (modelc.north) -| ($(modelc.north) + (0mm,0)$) |- (modelc3.west);
+
+\draw (modela1.east) -| ($(modela1.east) + (1mm,0)$) |- (modela1a.west);
+\draw (modela1.east) -| ($(modela1.east) + (1mm,0)$) |- (modela1b.west);
+\draw (modela2.east) -| ($(modela2.east) + (1mm,0)$) |- (modela2a.west);
+\draw (modela2.east) -| ($(modela2.east) + (1mm,0)$) |- (modela2b.west);
+
+\draw (modelc1.east) -| ($(modelc1.east) + (1mm,0)$) |- (modelc1g.west);
+\draw (modelc1.east) -| ($(modelc1.east) + (1mm,0)$) |- (modelc1b.west);
+\draw (modelc2.east) -| ($(modelc2.east) + (1mm,0)$) |- (modelc2g.west);
+\draw (modelc2.east) -| ($(modelc2.east) + (1mm,0)$) |- (modelc2b.west);
+\draw (modelc3.east) -| ($(modelc3.east) + (1mm,0)$) |- (modelc3g.west);
+\draw (modelc3.east) -| ($(modelc3.east) + (1mm,0)$) |- (modelc3b.west);
+
+\end{tikzpicture}
+}
+\caption{Of mice and men --- diagram outlining experimental models used for CML research. Research is either in vivo using mice (that are genetically modified or have had myeloproliferative cells introduced into them), or in vitro using human cell lines (of fibroblasts, primary cells from patients, or haematopoietic stem cells) \citep{RefWorks:doc:58309926e4b05b192d72d473}.}
+\label{fig:model}
+\end{figure}
+
+That being said, all these mechanisms identified as essential features vary based on the experimental system used (Figure \ref{fig:model}). For instance, an SH2 deletion in BCR-ABL causes fibroblast cells lines to become defective, whilst animal models continue replicating \citep{RefWorks:doc:5836f375e4b066125b20d252,RefWorks:doc:5836f3b2e4b09a21e93830ca}.
+
+% Targets for therapy
+\section{Targets for therapy}
+
+Effectiveness of CML treatments are established by performing reverse transcription-polymerase chain reaction (RT-PCR) of the patient\textquotesingle s bone marrow to determine cytogenetic response to the therapy \citep{RefWorks:doc:583b750ce4b04961d35942e2}. If Ph+ cells make up under 35\,\% of the bone marrow, the patient has achieved a major cytogenetic response (MCyR); the absence of Ph+ cells using cytogenetic testing (such as fluorescent in-situ hybridisation) is termed a complete cytogenetic response (CCyR), although RT-PCR may still be able to detect Ph+ cells \citep{RefWorks:doc:583b5609e4b066125b215900}.
+
+A potentially curative treatment for CML is an allogeneic haematopoietic stem-cell transplantation (allo-HSCT); however, given the effectiveness of drug therapies, allo-HSCT is rarely performed \citep{RefWorks:doc:583b173fe4b066125b214e79}. In addition to symptomatic treatment, modern drug strategies focus on inhibiting gene expression during translation, enhancing immune detection of leukaemic cells, and --- the greatest breakthrough --- signal transduction inhibitors to regulate protein function. As the main transformative property of BCR-ABL tyrosine-kinase is its constitutive action, tyrosine-kinase inhibitors (TKIs) halt the oncogenic pathway \citep{RefWorks:doc:58309926e4b05b192d72d473}. TKIs replaced the existing therapy --- parenteral interferon-alpha and cytarabine --- and greatly decreased the need for allo-HSCT except during progression into BP \citep{RefWorks:doc:583b5609e4b066125b215900}.
+
+Innovative drug designing and targeted cellular modelling produced the revolutionary imatinib: a successful TKI which blocks ATP from reaching its binding site. The drug competes for the kinase domain of ABL (Figure \ref{fig:ABL}), causing the ATP binding site of BCR-ABL to fold over the substrate binding site, preventing downstream tyrosine phosphorylation and thereby inhibiting constitutive BCR-ABL tyrosine-kinase activity \citep{RefWorks:doc:583b01e7e4b04961d3592edb}. Consequently, Ph+ cells undergo apoptosis, and patients often revert to Ph-- dominant haematopoiesis. As imatinib has specificity for BCR-ABL, Ph-- cells remain unaffected, as they express additional redundant RTKs \citep{RefWorks:doc:583b5731e4b066125b21592c}.
+
+The phase III IRIS trial randomised 1106 Ph+ CML-CP patients to either imatinib or --- the existing therapy --- an interferon-alpha plus cytarabine combination \citep{RefWorks:doc:585b3fdee4b05e0ea0615992}. Bone marrow samples were collected until the patient\textquotesingle s CML progressed or they lost cytogenetic response. From the imatinib group, 85.2\,\% achieved MCyR and 73.8\,\% achieved CCyR, compared to only 22.1\,\% achieving MCyR and 8.5\,\% achieving CCyR with the combination therapy. Even as these results are artificially elevated by excluding patients whose condition did not improve, the conclusions were consistent with previous trials, and have been replicated since.
+
+Courtesy of its effectiveness and the high median age of CML patients, treatment with imatinib restores a normal life expectancy in patients, and hence, has been a first-line therapy for Ph+ CML-CP/AP under National Institute for Health and Care Excellence (NICE) guidelines \citep{RefWorks:doc:583b1deae4b066125b214f4e,RefWorks:doc:583b55b1e4b066125b2158e1}.
+
+However, a third of CML patients being treated with imatinib will present a suboptimal response --- an unlikelihood of producing favourable long-term outcomes, but potential benefits from continuation --- due to drug resistance or intolerance, and be unable to achieve CCyR \citep{RefWorks:doc:583b5609e4b066125b215900}. Imatinib failure is occasionally a result of patient non-compliance, especially in patients who are: young, suffering adverse effects (AEs), and whose dosage had been increased \citep{RefWorks:doc:583b6dbde4b09a21e938a834}.
+
+A suboptimal response is an initial sign of imatinib failure, followed by imatinib resistance (ImR). Essentially, once the Ph+ cell identifies mechanisms allowing for a suboptimal response, the patient\textquotesingle s CML is expected to develop ImR within months, decreasing likelihood of achieving CCyR. Resistance becomes increasingly likely with extended imatinib use: 49\,\% of CML patients with suboptimal responses are imatinib-resistant within 24 months \citep{RefWorks:doc:583b75b4e4b027b9d415738f}.
+
+% figure 8
+\begin{figure}
+\centering
+\begin{tikzpicture}[node distance=2cm]
+
+\node (imatinib) [translocation] {Imatinib use};
+\node (responsea) [process, below of=imatinib, xshift=-0.12\textwidth] {Achieving cytogenetic response};
+\node (responser) [process, below of=imatinib, xshift=0.12\textwidth] {Imatinib resistance};
+
+\node (mutation1) [process, below of=responser, xshift=-0.2\textwidth] {BCR-ABL dependent mutations};
+\node (mutation2) [process, below of=responser, xshift=0.05\textwidth] {BCR-ABL independent mechanisms};
+\node (ImR) [translocation, below of=mutation1, xshift=0.1\textwidth]  {Ph+ CML cell develops imatinib resistance};
+
+\node (resistance1) [resistance, below of=ImR, xshift=0.13\textwidth] {Primary imatinib resistance};
+\node (resistance2) [resistance, below of=ImR, xshift=-0.13\textwidth] {Secondary imatinib resistance};
+
+\node (resistance1c) [process, below of=resistance1, yshift=-2mm, xshift=-0.17\textwidth] {Primary cytogenetic resistance};
+\node (resistance1h) [process, below of=resistance1, yshift=-2mm, xshift=-0.03\textwidth] {Primary haematologic resistance};
+
+\draw [arrow] (imatinib.south) |- ($(imatinib.south) - (0,5mm)$) -| (responsea.north);
+\draw [arrow] (imatinib.south) |- ($(imatinib.south) - (0,5mm)$) -| (responser.north);
+\draw [arrow, color=brand-logo-dark, line width=1mm] (responsea) -- node[anchor=south] {Continued use} (responser);
+
+\draw [arrow] (responser.south) |- ($(responser.south) - (0,5mm)$) -| (mutation1.north);
+\draw [arrow] (responser.south) |- ($(responser.south) - (0,5mm)$) -| (mutation2.north);
+
+\draw [arrow] (mutation1.south) |- ($(ImR.north) + (0,5mm)$) -| (ImR.north);
+\draw [arrow] (mutation2.south) |- ($(ImR.north) + (0,5mm)$) -| (ImR.north);
+
+\draw [arrow] (ImR.south) |- ($(ImR.south) - (0,3mm)$) -| (resistance1.north);
+\draw [arrow] (ImR.south) |- ($(ImR.south) - (0,3mm)$) -| (resistance2.north);
+
+\draw [arrow] (resistance1.south) |- ($(resistance1.south) - (0,3mm)$) -| (resistance1c);
+\draw [arrow] (resistance1.south) |- ($(resistance1.south) - (0,3mm)$) -| (resistance1h);
+
+\draw [color=brand-logo-dark, line width=1mm] (resistance2.west) -| ($(resistance2.west) - (3mm, 0)$) |- (responsea.west);
+
+\end{tikzpicture}
+
+\caption{Diagram showing pathways through which Ph+ CML cells may develop resistance to imatinib treatment \citep{RefWorks:doc:583b5ff3e4b066125b215aad}.}
+\label{fig:pathways}
+\end{figure}
+
+ImR is classified as primary when imatinib never has any cytogenetic effect to begin with; secondary ImR, on the other hand, is classified when the initial cytogenetic effect of imatinib wanes with repeated use. A variety of mechanisms are attributed to ImR development (Figure \ref{fig:pathways}); a number of these are a result of BCR-ABL itself, as well as other cellular processes.
+
+Firstly, BCR-ABL increases the occurrence of further point mutations; the substitution mutation T315I is frequently observed with secondary ImR  \citep{RefWorks:doc:583b61bae4b066125b215b1c}. In addition to further decreasing adhesive properties of proteins, the mutations modify the active site of BCR-ABL; as a result, many TKIs can no longer competitively bind. Finally, BCR-ABL amplification is associated with both ABL kinase oncogene proliferation, and reactivation of BCR-ABL signal transduction, resulting in further point mutations  \citep{RefWorks:doc:583b61bae4b066125b215b1c}.
+
+Aside from BCR-ABL, imatinib occasionally struggles with cell action too. Research demonstrates that overexpression of drug efflux pumps and underexpression of the drug uptake transporter result in decreased intracellular accumulation  \citep{RefWorks:doc:583b61bae4b066125b215b1c}. Alternatively, serum glycoprotein sequestration of imatinib will plummet bioavailability. Some cyclooxygenases metabolise imatinib; raised transcription shortens the drug\textquotesingle s therapeutic window, causing primary resistance \citep{RefWorks:doc:583b6510e4b09a21e938a599}.
+
+Enter dasatinib: a second-generation TKI newly developed to tackle ImR CML-CP, competitively inhibiting BCR-ABL tyrosine kinase activity 325-times more potently than imatinib \citep{RefWorks:doc:583c13cee4b027b9d41589ed}. With the exception of the T315I mutation, dasatinib is effective in all remaining 22 identified point mutations associated with ImR \citep{RefWorks:doc:583c13cee4b027b9d41589ed}.
+
+Dasatinib primarily targets the SRC proto-oncogene domains (Figure \ref{fig:ABL}) of BCR-ABL, but also interacts with other tyrosine kinases including the growth-factor receptor c-Kit and EphB4 --- a receptor associated with ImR and overexpressed in blast crisis \citep{RefWorks:doc:59ac4236e4b07cfb2e760718,RefWorks:doc:583c13cee4b027b9d41589ed}. Olivieri and Manzione (2007) attribute the superior potency of dasatinib to its greater flexibility; additionally, dasatinib solely binds to the active configuration of ABL kinase, thereby being more selective than imatinib \citep{RefWorks:doc:59ac469ce4b021c5b154adff}. As a result of its greater potency, selectivity, and multiple targets --- including those directly involved in ImR --- dasatinib is molecularly more effective than imatinib.
+
+Whilst NICE guidelines formerly recommended high-dose imatinib (HDI) upon identification of imatinib-resistance in CML-CP patients, they have recommended using dasatinib or nilotinib since December 2016 \citep{RefWorks:doc:583b55b1e4b066125b2158e1,RefWorks:doc:585a6ecce4b08f4705f3869d}
+
+A 2012 Health Technology Assessment concluded that when treated with HDI, an ImR CML-CP patient\textquotesingle s chance of achieving MCyR and CCyR were 64\,\% and 36\,\% \citep{RefWorks:doc:583dbc80e4b066125b21f1e0}. In comparison, the START-C trial for ImR CML-CP patients treated with dasatinib had 47\,\% of patients achieving MCyR and 53\,\% achieving CCyR, supporting the modified guidelines \citep{RefWorks:doc:583f7741e4b0c3b530630106}.
+
+% DASISION trial
+\section{DASISION trial}
+
+The effectiveness of dasatinib in treating ImR CML-CP has been long established; the recent focus aimed to determine its potential as a first-line therapy. Compared to imatinib, dasatinib has been demonstrated to elicit a faster and significantly greater rate of CCyR with decreased CML progression when used for treatment of newly diagnosed CML-CP, as established in DASISION: the first five-year multinational randomised phase III trial which compared the efficacies of dasatinib and imatinib in newly-diagnosed Ph+ CML-CP \citep{RefWorks:doc:58403a89e4b088d36ea8c1b1,RefWorks:doc:58564bd8e4b0f87b6b283223}. This study is particularly pivotal as its results were repeatedly cited as evidence by NICE for their December 2016 approval of dasatinib use \citep{RefWorks:doc:585a6f1ee4b02418eb47cc08}.
+
+Within three months of their diagnosis, DASISION randomised 516 Ph+ CML-CP patients to receive either 100mg dasatinib once daily (OD) or imatinib 400mg OD \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. Peripheral blood samples were taken from patients every three months; if CCyR was suspected, bone marrow was checked after 28 days using RT-PCR. The primary outcome being measured was the rate of confirmed CCyR by twelve months; overall time to and duration of CCyR, progression-free survival (PFS) and overall survival (OS) were measured as secondary outcomes. Other secondary outcomes were overall time to and rates of major molecular responses (MMR), where only minute amounts of BCR-ABL protein are detected in the marrow, even using the highly sensitive RT-PCR \citep{RefWorks:doc:59ac1d9fe4b0eb7a8e729b18}.
+
+Over the course of five years, the data collected by DASISION supported the results of previous phase II trials; progression to AP or BP occurred in only 1.9\,\% of patients randomised to dasatinib, compared to 3.5\,\% of imatinib patients \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. Cytogenetic responses were achieved quicker with dasatinib than imatinib at 3-monthly follow-ups (Figure \ref{fig:CCyR}), as was MMR (Figure \ref{fig:MMRa}). Additionally, 76\,\% of patients on dasatinib achieved MMR at the end of the five-year trial, compared to only 64\,\% of imatinib patients (Figure \ref{fig:MMRb}). With reference to their primary outcomes, 77\,\% of dasatinib-treated patients and 66\,\% of imatinib-treated patients had achieved a CCyR confirmed with RT-PCR of bone marrow.
+
+% figure 9
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    \begin{axis}[
+            ybar,
+            bar width=.4cm,
+            width=0.45\textwidth,
+            height=0.3\textwidth,
+            legend style={at={(0.5,1)},
+                anchor=south,legend columns=1},
+            symbolic x coords={3,6,9,12},
+            xtick=data,
+            ymin=0,ymax=90,
+            ylabel={Rate of CCyR (\,\% of patients)},
+            xlabel={Time of treatment (months)},        ]
+      \addplot [brand-logo-dark, fill=brand-logo-dark] table[x=Response,y=Dasatinib (100 mg OD)]{\ccyrdata};
+      \addplot [brand-logo-light, fill=brand-logo-light] table[x=Response,y=Imatinib (400 mg OD)]{\ccyrdata};
+        \legend{Dasatinib (100 mg OD), Imatinib (400 mg OD)}
+    \end{axis}
+\end{tikzpicture}
+
+\caption{Chart comparing rates of CCyR (P=0.001) at three-month intervals over twelve months in patients from the DASISION trial. Within the first year, 83\,\% of dasatinib patients had achieved CCyR, compared to only 72\,\% of imatinib patients. Data adapted from Kantarjian et al. (2016).}
+\label{fig:CCyR}
+\end{figure}
+
+% figure 10
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    \begin{axis}[
+            ybar,
+            bar width=.4cm,
+            width=0.45\textwidth,
+            height=0.3\textwidth,
+            legend style={at={(0.5,1)},
+                anchor=south,legend columns=1},
+            symbolic x coords={3,6,9,12},
+            xtick=data,
+            ymin=0,ymax=50,
+            ylabel={Rate of MMR (\,\% of patients)},
+            xlabel={Time of treatment (months)},        ]
+      \addplot [brand-logo-dark, fill=brand-logo-dark] table[x=Response,y=Dasatinib (100 mg OD)]{\mmrdata};
+      \addplot [brand-logo-light, fill=brand-logo-light] table[x=Response,y=Imatinib (400 mg OD)]{\mmrdata};
+        \legend{Dasatinib (100 mg OD), Imatinib (400 mg OD)}
+    \end{axis}
+\end{tikzpicture}
+
+\caption{Chart comparing rates of MMR (P<0.0001) at three-month intervals over twelve months in patients from the DASISION trial. At twelve months, 46\,\% of dasatinib patients, compared to only 28\,\% of imatinib patients, achieved MMR. Data adapted from Kantarjian et al. (2016).}
+\label{fig:MMRa}
+\end{figure}
+
+% figure 1
+\begin{figure}
+\centering
+\resizebox {\columnwidth} {!} {
+\begin{tikzpicture}[y=.06cm, x=.1cm,font=\sffamily]
+ 	%axis
+	\draw (0,0) -- coordinate (x axis mid) (60,0);
+    	\draw (0,0) -- coordinate (y axis mid) (0,80);
+    	%ticks
+    	\foreach \x in {0,12,...,60}
+     		\draw (\x,1pt) -- (\x,-3pt)
+			node[anchor=north] {\x};
+    	\foreach \y in {0,20,...,80}
+     		\draw (1pt,\y) -- (-3pt,\y) 
+     			node[anchor=east] {\y}; 
+	%labels      
+	\node[below=0.8cm] at (x axis mid) {Time since initiation of treatment (months)};
+	\node[rotate=90, above=0.8cm] at (y axis mid) {Rate of MMR (\% of patients)};
+	%plots
+	\draw plot[mark=*, mark options={fill=brand-logo-dark}] 
+		file {Dasatinib100mgOD.data};
+	\draw plot[mark=triangle*, mark options={fill=brand-logo-light} ] 
+		file {Imatinib400mgOD.data};
+	%legend
+	\begin{scope}[shift={(20,15)}] 
+	\draw (0,0) -- 
+		plot[mark=*, mark options={fill=brand-logo-dark}] (0.25,0) -- (0.5,0) 
+		node[right]{Dasatinib [100mg OD]};
+	\draw[yshift=\baselineskip] (0,0) -- 
+		plot[mark=triangle*, mark options={fill=brand-logo-light}] (0.25,0) -- (0.5,0)
+		node[right]{Imatinib [400mg OD]};
+	\end{scope}
+\end{tikzpicture}
+}
+\caption{Chart comparing rates of MMR (P=0.022) at twelve month intervals over 60 months in patients from the DASISION trial. Data adapted from Kantarjian et al. (2016).}
+\label{fig:MMRb}
+\end{figure}
+
+
+Aside from those outcomes, the rates of PFS and OS were comparable for both drugs. Kantarjian et al. (2016) identified that patients who achieved BCR-ABL transcript levels of <10\,\% at three months were most likely to reach CCyR and MMR by five years. At three months, 84\,\% of patients on the dasatinib arm had a BCR-ABL transcript level of <10\,\%, compared to 64\,\% for imatinib. However, when performing estimations based on measures including age at diagnosis and age-adjusted life expectancy, the estimated five-year OS was 91\,\% for dasatinib compared to 90\,\% for imatinib.
+
+On the other hand, the same method yielded a five-year PFS of 85\,\% for dasatinib and 86\,\% for imatinib. It was also calculated that whilst more imatinib-assigned patients were dying as a result of CML-related complications, the five-year OS for both drugs were not statistically significant with a confidence interval of 95\,\%, as dasatinib caused more deaths by AEs.
+
+Both drugs were found to have a similar safety profile, although the reported AEs significantly differed \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. While grade 1-2 AEs were reported less frequently with dasatinib, 15\,\% of AEs reported with dasatinib were grade 3 or 4, compared to only 11\,\% with imatinib. Pleural effusions and pulmonary hypertension were almost exclusively observed in the dasatinib group: although analysis showed that experiencing these AEs did not diminish the chance of achieving CCyR, both are severe to life-threatening conditions. Two patients treated with dasatinib suffered a transient ischaemic attack, while two imatinib-treated patients developed peripheral arterial disease.
+
+There were 26 participant deaths during the trial --- 3\,\% of the dasatinib group, and 2\,\% of the imatinib group \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. The deaths of dasatinib patients mostly occurred in the thirtieth month, and were ascribed to cardiovascular disease or sepsis; in fact, all 11 deaths of dasatinib-treated patients were associated with an infection occurring between 0.2 and 4.5 years after taking their final dose of dasatinib. On the other hand, imatinib-treated patients passed away earlier in the study, with their deaths attributed to progression of their disease to AP/BP.
+
+The data collected from DASISION is valid on account of the strong quality of the research. Firstly, all the referenced data has a strict 95\,\% confidence interval and low P-values, suggesting high significance; the volume of patients and quarterly bone-marrow biopsies improved reliability of the data.
+
+Strict exclusion criteria and randomisation greatly reduced selection bias; however, by excluding women of childbearing age and patients who earlier had a different cancer, they increased sampling bias, as participants were no longer necessarily representative of general CML patients. Patients being recruited for the trial over 15 months at 108 study centres from 26 countries also contributed to reducing selection bias.
+
+% table 2
+\begin{table}
+\centering
+\caption{Table displaying demographic and baseline disease characteristics of the patients from the DASISION trial. Data adapted from Kantarjian et al. (2016).}
+\begin{tabu} to 0.475\textwidth {X[3]XX}
+   \toprule
+Characteristic & Dasatinib (N=259)  & Imatinib (N=260)   \\
+\midrule
+ Age & & \\
+\hspace{3mm} Median \textit{{(}years{)}} & 46 & 49 \\
+\hspace{3mm} Range \textit{{(}years{)}} & 18--84 & 18--78 \\
+\hspace{3mm} >65 years \textit{{(}n (\%){)}} & 20 (8) & 24 (9) \\
+
+& & \\
+
+Sex \textit{{(}n (\%){)}} & & \\
+\hspace{3mm} Male  & 144 (56) & 163 (63) \\
+\hspace{3mm} Female & 115 (44) & 97 (37) \\
+
+& & \\
+
+Hasford risk \textit{{(}n (\%){)}} & & \\
+\hspace{3mm} Low  & 86 (33) & 87 (33) \\
+\hspace{3mm} Intermediate & 124 (48) & 123 (47) \\
+\hspace{3mm} High & 49 (19) & 50 (19) \\
+
+& & \\
+
+Time from diagnosis to randomisation \textit{{(}months{)}} & & \\
+\hspace{3mm} Median  & 1 & 1 \\
+\hspace{3mm} Range & 0.03--9.7 & 0.1--8.0 \\
+
+& & \\
+
+White-cell count \textit{{(}$\times$10\textsuperscript{--9}/liter{)}} & & \\
+\hspace{3mm} Median  & 25.1 & 23.5 \\
+\hspace{3mm} Range & 2.5--493.0 & 1.4--475.0 \\
+
+& & \\
+
+Platelet count \textit{{(}$\times$10\textsuperscript{--9}/liter{)}} & & \\
+\hspace{3mm} Median  & 448 & 390 \\
+\hspace{3mm} Range & 58--1880 & 29--2930 \\
+
+& & \\
+
+Peripheral-blood blasts \textit{{(}\%{)}} & & \\
+\hspace{3mm} Median  & 1.0 & 1.0 \\
+\hspace{3mm} Range & 0.0--10.0 & 0.0--11.0 \\
+
+& & \\
+
+Peripheral-blood basophils \textit{{(}\%{)}} & & \\
+\hspace{3mm} Median  & 4.0 & 4.0 \\
+\hspace{3mm} Range & 0.0--27.8 & 0.0--19.5 \\
+
+& & \\
+
+Bone marrow blasts \textit{{(}\%{)}} & & \\
+\hspace{3mm} Median  & 2.0 & 2.0 \\
+\hspace{3mm} Range & 0.0--14.0 & 0.0--12.0 \\
+
+& & \\
+
+BCR-ABL transcript type \newline \textit{{(}n (\%){)}} & & \\
+\hspace{3mm} b2a2 and b3a2  & 253 (98) & 255 (98) \\
+\hspace{3mm} b2a3 & 1 (<1) & 1 (<1) \\
+\hspace{3mm} b3a3 & 1 (<1) & 1 (<1) \\
+\hspace{3mm} Other rare variant & 3 (1) & 1 (<1) \\
+
+& & \\
+
+Previous therapy for CML \newline \textit{{(}n (\%){)}} & & \\
+\hspace{3mm} Hydroxyurea  & 189 (73) & 190 (73) \\
+\hspace{3mm} Anagrelide & 8 (3) & 3 (1) \\
+\hspace{3mm} Imatinib & 3 (1) & 4 (2) \\
+
+   \bottomrule
+\label{table:baseline}
+\end{tabu}
+\end{table}
+
+To minimise allocation bias, Kantarjian et al. (2016) stratified the patients according to their Hasford risk score (a calculation of relative risk in CML patients) before randomising them to either treatment; consequently, both treatments had similar baseline characteristics for demographic data (Table \ref{table:baseline}), type of BCR-ABL transcript and mean haematological traits.
+
+The authors disclosed funding, remuneration and compensations from the pharmaceutical companies manufacturing dasatinib (Bristol-Myers Squibb) and imatinib (Novartis), the former of which two researchers owned stock in \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. However, preset diagnostic criteria (defining CML phases, and molecular or cytogenetic responses) limited researcher bias; the researchers not engaging directly with the participants restricted any observer-expectancy effect. Finally, the qualitative and histological nature of the data eliminated respondent biases --- participants cannot falsely manipulate cytogenetic response.
+
+A major drawback for DASISION was the high attrition: only 61\,\% of patients taking dasatinib and 63\,\% of patients taking imatinib successfully completed their therapy \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. This was mostly due to treatment failure, but also attributed to non-concordance or switching therapies. Marin et al. (2010) estimated that 26\,\% of patients undergoing imatinib treatment are non-compliant; Abbott (2012) projects non-adherence to be higher with dasatinib due to its AEs. This explains drug intolerance being the leading cause of attrition in the dasatinib group, compared to treatment failure in imatinib patients. 
+
+A limitation of the trial is the length of study; even as five years allowed for a large pool of data to be collected, the secondary outcomes continued to be assessed for a longer period of time. For instance, a follow-up demonstrated that 4.6\,\% of patients from the dasatinib group, and 7.3\,\% from the imatinib group had transformed from CML-CP to AP/BP by five years.
+
+The authors concluded the study by establishing that authorities should recommend dasatinib as a first-line therapy for newly-diagnosed CML-CP \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. In fact, following data from the first year of DASISION, the European Medicines Agency and US Food and Drug Administration both approved dasatinib as a first-line treatment for newly diagnosed CML-CP/AP, followed by NICE in December 2016 \citep{RefWorks:doc:58403a89e4b088d36ea8c1b1,RefWorks:doc:585a6f1ee4b02418eb47cc08}.
+
+% NICE guidelines
+\section{NICE guidelines}
+
+After recognising that dasatinib had a \textquotesingle superior efficacy compared with imatinib, and had an acceptable safety profile\textquotesingle, NICE approved its use for treating CML-CP/AP in December 2016 \citep{RefWorks:doc:585a6f1ee4b02418eb47cc08}. Initially its \textquotesingle high cost\textquotesingle \hspace{0pt} was quoted as \pounds 30477 per year for dasatinib 100mg OD, despite having approved the use of imatinib 400mg twice daily (BD), costing \pounds 41960 per year \citep{RefWorks:doc:583b55b1e4b066125b2158e1}. Upon reconsideration in 2016, the Cancer Drugs Fund reviewed patient access schemes aiming to minimise cost, although the details of this are confidential \citep{RefWorks:doc:585a6f1ee4b02418eb47cc08}.
+
+A systematic review by Rogers et al. (2012) found that if patients were prescribed dasatinib 100mg OD compared to imatinib 400mg BD, dasatinib increased life expectancy and quality-adjusted life years (QALYs) by over 45 days more than imatinib (Table \ref{table:cost}), whilst costing \pounds 50545.00 less overall. The incremental cost-effectiveness ratio was found to be most favourable to dasatinib at this dosage. The only drawback they identified was that the median patient spent almost seven months longer on dasatinib treatment, although they lived for six months longer too.
+
+% table 3
+\begin{table}
+\centering
+\caption{Table comparing cost-effectiveness outcomes of dasatinib 100mg OD to imatinib 400mg BD in the treatment of ImR Ph+ CML-CP. Data adapted from Rogers et al. (2012).}
+\begin{tabu} to 0.475\textwidth {X[1.5]XXX[1.2]}
+   \toprule
+Result & Dasatinib  & Imatinib   & Differences \\
+\midrule
+Mean life years added \textit{{(}years{)}}& 7.13       & 7.02       & 0.11        \\
+Mean QALYs \textit{{(}years{)}}            & 5.70       & 5.56       & 0.13        \\
+Drug cost \textit{{(}\pounds{)}}                 & 194,716.00 & 243,129.00 & -47,413.00  \\
+Other costs \textit{{(}\pounds{)}}    & 64,742.00  & 66,874.00  & -2131.00     \\
+Total cost \textit{{(}\pounds{)}}                & 259,459.00 & 310,003.00 & -50,545.00 \\
+   \bottomrule
+\label{table:cost}
+\end{tabu}
+\end{table}
+
+A probabilistic sensitivity analysis in 2007 concluded a 99.9\,\% probability that dasatinib treatment would be more cost-effective than imatinib assuming a threshold of \pounds 30000 per QALY; when extrapolated for 24-month data, this was calculated to an incremental cost per QALY of \pounds 6905 \citep{RefWorks:doc:58405bb8e4b0ccb837453b43}. Rogers et al. (2012) reported this to be \textquotesingle considerably less than the NICE threshold range\textquotesingle \hspace{0pt} (p. 125). Additionally, dasatinib is severely discounted in a number of situations by Bristol-Myers Squibb \citep{RefWorks:doc:585a3f40e4b02418eb47c841}.
+
+% Hereafter
+\section{Hereafter}
+
+Scheduled to conclude in 2018, the five-year SIMPLICITY cohort study of 1400 participants is comparing CCyR rates of newly diagnosed CML-CP patients taking dasatinib, imatinib, or nilotinib \citep{RefWorks:doc:58565c19e4b02dcd50f4ccad}. In light of the conclusions from DASISION, as well as numerous phase II trials preceding it, this study is also expected to clarify how effective a clinical tool dasatinib is in treating ImR and newly diagnosed Ph+ CML-CP \citep{RefWorks:doc:58403a89e4b088d36ea8c1b1,RefWorks:doc:58564bd8e4b0f87b6b283223}.
+
+Just as imatinib-resistance prompted its production, the emergence of dasatinib-resistance is a justified concern --- where would clinicians go if CML stopped responding to this second-generation TKI? By performing BCR-ABL kinase domain analysis from 22 CML patients unresponsive to dasatinib, five novel mutations were identified; the most common --- T315I --- is also encountered with imatinib- and nilotinib-resistance \citep{RefWorks:doc:585ba6dde4b05e0ea0615ea0}. Hence, a caveat to treating dasatinib-resistant CML is that patients are typically also unresponsive to imatinib and nilotinib; hence, the efficacy of another TKI, ponatinib --- still awaiting phase III research --- is being considered \citep{RefWorks:doc:5863a058e4b0147c58332219}. Ponatinib has molecularly been demonstrated to have fairly non-specific kinase binding ability --- as a result, the drug can bind to a variety of different sites, allowing it to tackle a number of BCR-ABL mutations including T315I \citep{RefWorks:doc:59ac7919e4b07cfb2e760c36}.
+
+The phase II PACE trial observed 449 CML-CP/AP/BP patients (suffering from a variety of TKI failures) being treated with ponatinib 45mg OD over 15 months \citep{RefWorks:doc:5863a4b4e4b05e0ea061e44d}. They found that 46\,\% of dasatinib-resistant CML-CP patients achieved CCyR; in comparison, DASISION --- published by many of the same researchers as PACE --- reported 83\,\% CCyR for newly diagnosed CML-CP patients treated with dasatinib \citep{RefWorks:doc:58564bd8e4b0f87b6b283223}. However, 46\,\% CCyR is better than a rate insignificantly over 0\,\%, as is the case for dasatinib- and nilotinib-resistant patients being treated with dasatinib, nilotinib, or imatinib \citep{RefWorks:doc:5863a4b4e4b05e0ea061e44d}.
+
+In June 2017, NICE published guidance on ponatinib, recommending it for dasatinib- and nilotinib-resistant strains of CML in any phase of disease \citep{RefWorks:doc:5863a9a2e4b001981459f37f}. Just as innovation prompted imatinib, failure of which triggered further second-generation therapies, our imminent course is approaching ponatinib, aiming to maximise quality-of-life and life expectancy in CML patients beyond the capacity of current practice.
+
+Research is crucial to our practise of evidence-based medicine. This narrative of our treatment of CML, as our understanding of how the malignancy progressed, is a testament to how we respond to challenges, themselves prompted by breakthroughs. Imatinib was regarded a revolutionary novel treatment; research initiative magnified our outcomes further with the second-generation dasatinib. We are already studying the horizon for our forthcoming challenges; and it is with this spirit that dasatinib may now be prescribed to newly-diagnosed Ph+ CML-CP patients.
