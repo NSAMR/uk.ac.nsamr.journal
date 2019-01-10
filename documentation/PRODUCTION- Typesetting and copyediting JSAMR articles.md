@@ -1,36 +1,208 @@
-# How to copyedit and typeset JSAMR articles using LaTeX
+# Typesetting and copyediting JSAMR articles
 
 ## Introduction
-This is a guide to help Copy and Typesetting Editors in the process taking an article from a peer reviewed version to the final print version.
+This is a guide to help Editors in the process of taking an article from a finalised peer-reviewed version to the final print version that we will publish online.
 
-There are two tasks
-1. Copy editing
+There are three stages involved in doing this:
 1. Typesetting
+1. Copy editing
+2. Production
 
-Copy Editing concerns making sure there are no errors in the document. Typesetting concerns putting the raw text into the LaTeX template.
+**Typesetting** concerns putting the raw text into our LaTeX template, or indeed anywhere you fancy, and building an attractive-looking PDF of the manuscript, which can then be reviewed and updated as required.
 
-## Online repositories
-The JSAMR repository lives here: [https://github.com/NSAMR/uk.ac.nsamr.journal/](https://github.com/NSAMR/uk.ac.nsamr.journal/).
+**Copy editing** is about making sure there are no errors in the typeset manuscript. 
 
-Templates to use as a base for typesetting are in the folder [uk.ac.nsamr.journal/latex-templates](https://github.com/NSAMR/uk.ac.nsamr.journal/tree/master/latex-templates).
+**Production** is the process of uploading the final typeset manuscript to the JSAMR system,  adding its metadata and so on, and assigning it to an existing or upcoming Issue of JSAMR as appropriate, with correct public URL and copyright notices. @mbyrne has written about this elsewhere, so I'll leave this out of this enormous tome for now.
 
-## First things first
-LaTeX is a very powerful typesetting framework that can be used to generate beautiful documents easily, with consistent styling.
 
-It is a programming language that was written specifically for publishers when typesetting books and journals. By introducing some computer code into the typesetting process it gives the typesetters complete control over the layout of a document and it allows easy, standardised replication of work, something which is difficult when using programmes such as InDesign.
+## First things first: what is LaTeX, and why are we using it?
 
-To get started:
-* Download and install a LaTeX distribution for your computer
+### Leaving you free to do the actual work
+LaTeX is a very powerful typesetting framework that can be used to generate beautiful documents easily, without having to worry about layout and styling issues such as "Are all my second-level subheadings in the same size font" and "Why is there a pagebreak here with just one line of text before it? Can't it just be more /sensible/???". LaTeX takes out a huge amount of that work for you, leaving you to get on with your Actual Work, rather than messing around with margins to make sure your paragraph spacing looks right after different types of title.
+
+LaTeX is a programming language (some disagree with this definition, but I am not one of them) that was written specifically for publishers when typesetting books, journals and other kinds of documents ready for publication. By introducing some LaTeX commands into the text you want to typeset, as well as some 'header' material that tells LaTeX how your document is set up, you can control exactly how you want your finished document to be laid out.
+
+### Collaboration friendly
+LaTeX is amazingly useful when people need to work together to create publishable material that all looks the same. LaTeX allows easy, standardised replication of work, for example, based on using standard templates agreed on by your group or organisation, something which is difficult when using other programmes, which I will hold back from naming here. Ultimately, if you send someone some LaTeX source files, the document they build will be identical to the one you built yourself. Very cool.
+
+### Customisable beyond imagination
+While the default settings for how to lay out blocks of text and columns and figures and so on adhere to the heuristic of "do something sensible" -- 'a best guess' about what it thinks you want, you can customise almost all settings yourself if you are so inclined, so don't imagine that all LaTeX documents made by anyone else who uses it will end up looking the same (although if you don't change the defaults then there is a certain 'look' you might learn to spot...)
+
+### Plays nicely with version control systems
+A project-management thing I love about LaTeX is that its source files (ignoring images just for now) are simple text files, which can be compared line by line using any version control software, such as GitHub as we do here. This means that changes to files can be seen easily using, as in this example, git, so you can see the exact line containing the change. Moreover, only /changes/ to files are stored in git, so if files cannot be compared line by line then the whole file must be added to the version control repository every time it changes at all, which uses a lot of disk space realllly fast.
+
+### Reproducibly built files, and vector graphics file format
+A last awesome thing I love about LaTeX is this: as a built-in standard, LaTeX builds files in PDF format, which can be opened on any machine, and will look the same on every machine: a great advantage for collaborative working. [How many times have you had conversations like "Well that's not what the image grid looks like on myyyy screen", and "What have you got the margins set to?"]
+
+Nerd time:
+Furthermore, PDFs are "vector" format files, as are SVG and EPS and more, that is, the files contain instructions about how to 'draw' their contents (where possible). The other way of storing graphics/text files is using formats like PNG and JPG, which essentially reduce to taking a one-off snapshot of your file and storing that as a set of absolute descriptions of pixels. Vector graphics formats theoretically allow infinite zooming in without loss of image quality, which obviously cannot be achieved the other way, because at some point you only have $this many pixels, so zooming in won't help, right. But sometimes fine, if you're drawing your own images it might not be possible to use a vector format, in which case...use a high enough resolution and you'll be gravy. Anyway. tl;dr: vector file formats unless not possible, which should be with very good reason.
+
+## Okay, I'm sold. What do I need to do to get started with LaTeX?
+
+To use LaTeX on your computer, you need:
+1. The LaTex framework to be installed
+1. Some software you can use to type LaTeX into that will then build your gorgeous files for you.
+
+### Install the LaTex framework:
+Download and install a TeX distribution for your computer (LaTex is actually sort-of a package written on top of the TeX framework, don't worry about this)
   * Mac: Download MacTeX from [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
   * Windows: Download MiKTeX from here: [https://miktex.org/](https://miktex.org/)
-* Test your setup by trying to build the project in a JSAMR template folder
 
-If you're just getting started try [http://www.overleaf.com](http://www.overleaf.com) and read their tutorials here [http://www.overleaf.com/learn](http://www.overleaf.com/learn). Once you are confident using LaTeX please move to a desktop version as described above as this will allow greater scope for collaboration.
+### Install some software for you to use LaTeX:
+* Mac: Helen recommends TeXShop, available here: [https://pages.uoregon.edu/koch/texshop/](https://pages.uoregon.edu/koch/texshop/). It is kept well up to date, and in Helen's view strikes the right balance between ease-of-use and flexiblility/powerz.
+* Windows: TODO
+
+### Try out your new setup with our test file
+Download it from here UPDATE, open it in your LaTeX software of choice, and see if you can build it into a beautiful PDF!
+
+If you're all good up to here, then yay, gravy etc.
+
+
+### Helllp, I'm panicking...
+If this all feels a bit much, which could not be more fine ...seriously, no judgement here, ever... then you can try Overleaf, [http://www.overleaf.com](http://www.overleaf.com), which is an online LaTeX editor. Check out their tutorials at [http://www.overleaf.com/learn](http://www.overleaf.com/learn) if you fancy it. You can try this with our test file, or with any from Overleaf's tutorial, but for production-ready JSAMR work unfortunately Overleaf can't support the flexibility we need. But if Overleaf can help get you started, once you're more confident using LaTeX, please do move to a desktop version as described above, as this will make it much easier to collaborate. Overleaf is great for many things, but JSAMR'S needs don't quite fit those things.
+
+
+-------
+
+
+# JSAMR's approach to typesetting
+
+# Overview and philosophy
+The idea is that any published JSAMR manuscript has three parts, if you look at it from an ontological point of view -- go on, have a think...:
+* Layout
+* Styling
+* Content
+* Metadata and settings
+
+There is no reason that either Layout or Styling should be replicated in some .tex file we create for every new manuscript. Firstly, why write the same code twice? Secondly, all that would happen if we were to copy and paste the same code into more than one place is that we would inevitably at some point decide on some change, and make that in one place but not the other, then get very confused when our built documents looked shifty, or didn't all look the same as each other. Imagine wanting to move the main header logo to the left my 5px: you'd have to do that for everrrrrrry document... ...sounds stressful, yes. 
+
+We will avoid these problems, well, we will try.
+
+We will write down the 'metedata', that is, the details about a manuscript, /just once/, then 'inject' these details along with the manuscript's content into a styled template, so layout, styling and content can remain separate, with details on top, but all end up being used together, and we can all get enough sleep...hurrah.
+
+# Typesetting a manuscript
+
+These notes will be given following the principle described above: layout vs styling vs content vs mtadata and settings
+
+## Layout
+JSAMR has a layout template that is flexible enough to display sections in a built manuscript if we want them, and to omit them if we don't want them. This means that we can build any of our (written) manuscript types from one single template, as long as we can instruct LaTeX what we do and do not what to include (which we can via a single settings file for each manuscript -- see below).
+
+The layout template we have for manuscript types including Original Research, Reviews, Abstracts, and indeed any writing that reduces simply to a one- or two-coloumn block of text, can be the same base template, with some parts being omitted if not needed. Handy. non? (Front matter will need something else, but let's leave that for now).
+
+tl;dr: You don't have to deal with layout: focus on /what/ goes on the page rather than /where/
+
+A last somewhat 'sneaky' thing in the `Content` section is JSAMR's own public content, meaning its logos and so on. Similarly, we only need one copy of these, so let's just have one copy to build from, mmkay?
+
+## Styling
+Our published manuscripts will all have the same base styling, save for the odd few color changes which can be set up from a manuscript's settings file if required, so it makes sense to just write down our settings once, rather than try to replicate them all anew for every new manuscript we typeset.
+
+## Content
+The content of manuscripts will differ, of course, in the actual words and sections the author has written, but manuscripts will overwhelmingly not differ in the list of 'types' of content they may have: for example, a review article may contain an abstract, some main body text, some author statements and some references; an editorial may only contain some main text and some references; some other manuscript may be of a type that does not require an abstract, yet some other type requires /only/ an abstract. Here you can see that content 'type' is different from the actual content itself, and can hence be abstracted away into our template layout.
+
+The actual content for a manuscript is 'just' plain text after all, with a few extra LaTeX commands to denote things like section headings and citations. There is no need to repeat the layout and style class details for these over and over again, so we pull out each section of the content on its own, and just 'plug it in' to the template where appropriate. Hurrah.
+
+## Metadata and settings
+It is obvious that each manuscript will have a different title, running headers, authors, afiliations, keywords and so on. However, if you think about it, these things are entirely separate from the actual content of the manuscript, that is, from the actual work; these 'metadata' /describe/ the work rather than being part of it.
+
+Think of a box of cornflakes: it has some words and pictures on its outside that generally communicate "cornflakes", and state their manufacturer and so on, but inside the box are actual cornflakes, which are an entirely separate affair; at least, they are after about the age of 18 months, before which many brightly coloured non-food objects seem to look just as good as actual food, if not better.
+
+We might label up any number of boxes, but we still need to put things in them too. 
+
+We will obviously display these metadata on the typeset manuscript where relevant, but let's not write them all down more than once, right? Because why does it make sense to type out an author's name by hand in two or three different places in the same manuscript? (Hint: it does not).
+
+But there are other parameters we need to set about a manuscript than just its title and other text to display on it: for example, should the text of this manscript be in a two-column layout, or a single column? What about the end matter, such as Author Statements -- also two columns? Do you want the page numbering for this manuscript to use Latin characters, as we use for front matter, or Greek, as we use for everything else?
+
+Using a file to hold the metadata and settings for each manuscript allows us to specificy all these individual parameters in one place, from the title of the manuscript, what to display as the running header, to how many columns to use for the Author Statements and References, and many other parameters too. Doing this will also allow us to see easily which sections we have and haven't included in a particular typeset manuscript 'at a glance', as it were.
+
+A quick note on flexibility vs ease of use:
+While some of the questions above could be settled without asking the user to 'do anything', for example, by using a template for Review-type manuscripts that automatically laid out the text in two columns, plus another for Editorials that automatically laid out the text in one column, doing too many things like this would come at the cost of simplicity: here, being able to use only a single template for all our manuscript types. At the other end of the spectrum, if a user could customise absolutely every aspect of their document, then the settings file would soon become unreasonably difficult to use (well, to use effectively and accurately). The decision on this tradeoff is very much a WIP, and comments on this are actively welcomed.
+
+## Summary
+Each JSAMR manuscript has:
+* **A layout template**: JSAMR's own one, you probably never/rarely need to touch this (at least after we've agreed on our publishing layouts and have ironed out all bugz)
+* A **style settings template**: again JSAMR's core settings file, which you probably won't need to change. (You might /want/ to in the future, but that is firmly out of spec here).
+* It's own **Content files** -- the actual words/jam of the manuscript. These all live in subdirectories of the main dir for that manuscript; map below.
+* It's own **Metadata and settings file** where you enter all pertinent information, just once, which can then be 'plugged into' the generic template automagically. This file also lives in the main dir for that manuscript.
+
+## Quick n dirty startup: Where to put your files
+
+### Create a general JSAMR project folder
+Create some directory you are going to use for JSAMR typesetting, at least for now. For example, call it `jsamr'.
+
+### Create a folder for the JSAMR assets
+You only need to download the folder containing JSAMR layout and settings/styling templates once, after which you can use those same files to build all your projects, that being, like, the whle idea...
+
+Download the folder `jsamr-assets` from the GitHub repo, and put it in `jsamr`, or whatever was the name of your main project directory. This will result in the templates folder being at `jsamr/jsamr-assets`.
+
+### Source files for a manuscript
+Each manuscript will have been uploaded in final approved form to the JSAMR system, possibly in a number of files. You will need to download whatever files there are at that stage in the submission process from the JSAMR admin panel. 
+
+Firstly, create a new dir inside your project folder for your new manuscript, for example `byrne-2018`, so ending up being located at `jsamr/byrne-2018`.
+
+Inside this new dir, create new subdirectories for `content/`, `figures/` and `data/` as applicable. These will eventually contain the plain text files for your manuscript.
+
+To use the JSAMR templates, you need to split out the content of a manuscript into its various sections, and save each in a new .tex file in the appropriate subdirectory of your manuscript folder.
+
+Subdirectories need to be named as follows, with files inside such as follows:
+* `content`
+  * abstract.tex
+  * body.tex
+  * extra-latex.tex (ignore for now)
+* `figures`
+  * Files containing figures used in this manuscript, one per file
+* `data`
+  * Some authors may include some raw data files that they want to build into their manuscript. If so -- while thankfully this is rare -- these files go here.
+
+For example, a "Review" manuscript type might have an abstract and some body text, so you create a file named abstract.tex and another called body.tex, and copy and paste the relevant parts of the manuscript into a new file for each, saved inside the subdirectory `contents`. See below for more details about which sections to split out. Actually working out which bits of the authors text go in which content files should be reasonably straightforward to work out.
+
+The source files you paste the manuscript's content into will need to be altered at least somewhat to make them render as LaTeX. For example, in body.tex you may need to denote \section{} and \subsection{} and so on. Overall, though, these files will be mostly plaintext and straightfoward LaTeX commands, as hopefully most of the 'machinery' has been stashed away in the JSAMR template files.
+
+
+
+If there is a bib file (pleeeeeease for the love of dog let the author have included a bib file...), then name it `bibliography.bib` and put that inside your main directory too: here `jsamr/byrne-2018`. (Don't put it in any of the subdirectories).
+
+### Settings file for this manuscript
+Make a copy of the JSAMR template settings file from the GitHub repo, name it `manuscript-settings.tex`, and put it in your manuscript's dir, along with `content/` and 'figures/` dirs and so on, so its path is something like this: `jsamr/byrne-2018/manuscript-settings.tex`.
+
+To build a manuscript, use the JSAMR 'build' file, which is 'just' another LaTeX file where you enter the name of the manuscript you want to build. Examples below, promise.
+
+
+### Building your file
+Make a copy of the BUILD_ME file in the JSAMR repo. Put this in your project dir, not in a manuscript dir. The idea is that you can use this one single file to build any of your manuscripts, without changing anything other than line in the file that contains the dir name of the project you want to build.
+
+For example (don't use this for realz in case I forget to update it...):
+
+```
+% File path to the folder containing the manuscript you want to build
+\newcommand{\pathtomanuscript}{krishnan-when-second-comes-first} % Blank if this file is in the manuscript root folder
+%\newcommand{\pathtomanuscript}{krishnan-when-second-comes-first} % Blank if this file is in the manuscript root folder
+
+% File path to JSAMR templates
+\newcommand{\jsamrtemplatepath}{jsamr-templates}
+
+% Change the layout template depending on what manuscript type you're building
+\input{\jsamrtemplatepath/jsamr-layout-review} 
+```
+
+In summary. you have files containing the source material for the manuscript you want to typeset, you have JSAMR templates and style files, and you create a settings file for that manuscript. Then you press GO, just ONCE, and you're done. (TM)
+
 
 ## Collaboration and workflow
-When you are assigned to typeset a manuscript, download it from the JSAMR admin panel. Some manuscripts will already have been typeset in LaTeX by their authors (hurrah), and others should in theory be a text document (.doc or .docx) with the generic JSAMR styling to indiciate headings, subheadings etc.
 
-To start typesetting, use a JSAMR LaTeX template as a base. **NEVER ALTER THE TEMPLATE FILES**. Instead, make a new folder in uk.ac.nsamr.journal/papers called issuenumber-yymmdd-author-papertitle and copy the files you need into it. These will include the relevant template file, JSAMR logos, and the final versions of files approved by the editor and reviewers uploaded through the website. Then you can copy and paste text from the author's manuscript into the relevant sections of your LaTeX file.
+
+For example,
+
+
+* Make a new directory somewhere, anywhere you like. For example: `jsamr-typsetting`
+* Then make a new subdirectory within that called something like the author name, for example `byrne-focus-and-scope`: so `jsamr-typsetting/byrne-focus-and-scope`
+* Also place the `jsamr-assets` directory inside this same folder: so `jsamr-typsetting/jsamr-assets/...all our things`
+
+
+then put all the newly downloaded manuscript files into a subdirectory within it, for example 
+
+download the folder `jsamr-assets' into it. Next
+
+use a JSAMR LaTeX template as a base. **NEVER ALTER THE TEMPLATE FILES**. Instead, make a new folder in uk.ac.nsamr.journal/papers called issuenumber-yymmdd-author-papertitle and copy the files you need into it. These will include the relevant template file, JSAMR logos, and the final versions of files approved by the editor and reviewers uploaded through the website. Then you can copy and paste text from the author's manuscript into the relevant sections of your LaTeX file.
 
 Please (regularly) commit your work to your own fork of the main repo. When you build the pdf for an article, don't commit it (they're quite large) -- the theory is that the pdf can always be rebuilt to look eactly the same from the LaTeX files you commit.
 
