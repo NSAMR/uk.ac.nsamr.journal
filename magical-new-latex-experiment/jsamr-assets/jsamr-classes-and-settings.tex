@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%
+% PACKAGES -- DO NOT CHANGE THESE ON PAIN OF DEATH/HELEN
+%%%%%%%%%%%%%%
+
+% Layout
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{geometry} % For paper size and layout
+\usepackage{ragged2e} % For restating fully justified environment
+\usepackage{textcomp} % ??? Can't remember...
+\usepackage{setspace}
+\usepackage{fancyhdr} % For header and footer with odd and even page params
+\usepackage{lastpage} % For Page X of Y
+\usepackage{lineno} % Line numbers for review purposes
+
+% Fonts
+\usepackage[T1]{fontenc} % For fonts
+\usepackage{lmodern} % Font for JSAMR
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titlesec} % To edit title formats
+\usepackage{pifont} % For tick/cross symbols
+
+% Colors
+\usepackage{color} % For colors
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+
+% Extra objects e.g. figures and tables
+\usepackage{graphicx} % For nicer figures
+\usepackage{booktabs} % For nicer tables
+\usepackage{multicol} % More things for tables (and arranging text)
+\usepackage{microtype} % For uneven columns
+\usepackage{vwcol} % For uneven columns
+\usepackage[utf8]{inputenc} % For flowcharts and Latin numbering and more
+\usepackage{inputenc}
+\usepackage{tikz} % For charts
+\usetikzlibrary{plotmarks, shapes.geometric, arrows, calc, shapes.callouts} % For graphs, flowcharts/diagrams, callouts
+\usepackage{tabu} % For tables
+\usepackage{pgfplots} % For tables
+
+
+
+%%%%%%%%%%%%%%
+% LAYOUT SETTINGS
+%%%%%%%%%%%%%%
+
+% General document settings
+ \geometry{
+	 a4paper,
+	 top=20mm,
+	 right=15mm,
+	 left=15mm,
+ 	 bottom=20mm,
+}
+
+% Header and footer style
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+
+
+%%%%%%%%%%%%%%
+% REFERENCE SETTINGS
+%%%%%%%%%%%%%%
+
+\usepackage[natbibapa]{apacite}
+\bibliographystyle{apacite}
+\def\citeapos#1{\citeauthor{#1}'s (\citeyear{#1})}
+\usepackage{url}
+\usepackage{breakurl} %this prevents very long URLs in the references from overflowing the column boundaries
+\usepackage[breaklinks]{hyperref}
+\hypersetup{hidelinks}
+
+
+
+%%%%%%%%%%%%%%
+% FONTS
+%%%%%%%%%%%%%%
+
+\titleformat*{\section}{\Large\normalfont}
+\titleformat*{\subsection}{\large\normalfont}
+\titleformat*{\subsubsection}{\large\normalfont}
+\titleformat*{\paragraph}{\normalfont}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\urlstyle{same}
+
+
+
+%%%%%%%%%%%%%%
+% COLORS
+%%%%%%%%%%%%%%
+	 
+% Our logo and core header colours, just in case useful
+\definecolor{brand-logo-dark}{HTML}{58778C}
+\definecolor{brand-logo-light}{HTML}{BCD3DB}
+\definecolor{grey}{HTML}{C2C5C3}
+\definecolor{light-grey}{HTML}{DADEDB}
+\definecolor{lightest-grey}{HTML}{F2F7F3}
+
+% Core colors that are the same for all manuscript types
+\definecolor{journaltitlecolour}{HTML}{1A2530}
+\definecolor{articleandrunningtitlecolor}{HTML}{2C5A8F}
+\definecolor{headerbarbackground}{HTML}{E8EBEE}
+
+% Colors that change between manuscript types
+\definecolor{abstract-fill-article}{HTML}{BCD3DB}
+\definecolor{abstract-fill-abstract}{HTML}{BCD3DB}
+
+% Not sure these are used anywhere ???
+\definecolor{dark}{RGB}{69, 92, 108}
+\definecolor{light}{RGB}{171, 197, 198}
+
+
+
+%%%%%%%%%%%%%%
+% MISC
+%%%%%%%%%%%%%%
+
+% Fudge factors
+\hbadness=100000 % Turn off those dreadful overfull and underful hboxes
+\hfuzz=1000pt
+\vbadness=100000
+\vfuzz=1000pt
+
+% Macros
+\newcommand{\horizontalstrip}[1]{\par\noindent\colorbox{shadecolor}
+{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}}

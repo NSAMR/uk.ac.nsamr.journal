@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%
+% TO BUILD A JSAMR MANUSCRIPT
+%
+% This file asks you where JSAMR template files are, and the folder containing the manuscript you want to build, both relative to where ***this*** file is
+%
+% Then reads in the settings for this particular manuscript (title, author names etc)
+%
+% Then uses the layout template for this manuscript type to pull in whatever components are appropriate, including the standard JSAMR style settings, which won't change from layout template to layout template
+% 
+% Assumptions:
+% * File paths you give below are relative to ***this*** file
+% * The folder with the manuscript in contains dirs "content", "data" and "figures" (latter two can obvs be empty or absent if not required)
+% * The text of the manuscript is split up into simple files containing just the text and required laTeX to render it, all in the content/ dir: abstract.tex, body.tex, bibliography.bib and so on; if any of these don't apply for this manuscript, comment out or remove the relevant lines in  manuscript-settings.tex and they won't be rendered
+%
+% Build this file, LaTeX and BibTeX. Output file will have the same name as this file, but .pdf not .tex obviously, and will land in this folder.
+%
+% Admire and feel smug!
+%
+%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%
+% THE FILE PATHS NEED TO BE GIVEN BEFORE CALLING THE LAYOUT TEMPLATE
+%%%%%%%%%%%%%%
+
+% CHANGE THIS
+% File path to the folder containing the manuscript you want to build
+\newcommand{\pathtomanuscript}{sample-editorial} % Type . if this file is in the manuscript root folder
+
+
+% PROBABLY DON'T NEED TO CHANGE THESE
+% File path to JSAMR templates
+\newcommand{\jsamrtemplatepath}{jsamr-assets}
+
+% Change the layout template depending on what manuscript type you're building
+\input{\jsamrtemplatepath/jsamr-layout-main} % turns out I've squeezed most things into just this single one....fingers crossed

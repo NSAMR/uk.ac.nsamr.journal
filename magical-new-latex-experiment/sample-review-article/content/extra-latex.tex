@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+% Extra colors etc -- this article only
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+
+
+\tikzstyle{translocation} = [rectangle, rounded corners, minimum width=0.3\textwidth, minimum height=1cm,text centered, draw=black, fill=brand-logo-light]
+\tikzstyle{process} = [rectangle, rounded corners, minimum height=0.8cm,text centered, text width=0.1\textwidth, draw=black, fill=light-grey]
+\tikzstyle{pathway} = [rectangle, rounded corners, text width=0.05\textwidth, minimum height=0.4cm,text centered, draw=black, fill=grey]
+\tikzstyle{resistance} = [rectangle, rounded corners, text width=0.1\textwidth, minimum width=0.1\textwidth, minimum height=1cm,text centered, draw=black, fill=grey]
+\tikzstyle{rotatedresistance} = [rectangle, rounded corners, minimum width=0.05\textwidth, minimum height=5cm, text centered, draw=black, fill=brand-logo-light]
+\tikzstyle{point} = [rectangle, rounded corners, text width=0.17\textwidth, minimum height=0.8cm,text centered, draw=black, fill=light-grey]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+
+
+\begin{filecontents}{\pathtomanuscript/data/Dasatinib100mgOD.data}
+#Time since initiation of treatment (months) 	Rate of MMR (\% of patients)
+0	0
+12	46
+24	64
+36	67
+48	73
+60	76
+\end{filecontents}
+
+\begin{filecontents}{\pathtomanuscript/data/Imatinib400mgOD.data}
+# Time since initiation of treatment (months) 	Rate of MMR (\% of patients)
+0	0
+12	28
+24	46
+36	55
+48	60
+60	64
+\end{filecontents}
+
+\pgfplotstableread[row sep=\\,col sep=&]{
+	Response & Dasatinib (100 mg OD) & Imatinib (400 mg OD) \\ 
+	3 & 54.0 & 31.0 \\ 
+	6 & 73.0 & 59.0 \\ 
+	9 & 78.0 & 67.0  \\ 
+	12 & 83.0 & 72.0 \\
+    }\ccyrdata
+
+\pgfplotstableread[row sep=\\,col sep=&]{
+	Response & Dasatinib (100 mg OD) & Imatinib (400 mg OD) \\ 
+	3 & 8.0 & 0.4 \\ 
+	6 & 27.0 & 8.0 \\ 
+	9 & 39.0 & 18.0  \\ 
+	12 & 46.0 & 28.0 \\
+    }\mmrdata
