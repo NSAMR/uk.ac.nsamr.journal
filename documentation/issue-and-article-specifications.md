@@ -267,10 +267,10 @@ The sections are ordered in the following order:
 1. Pre-Publication Manuscripts
 
 Each issue must have the following Front Matter, in this order:
-* Editorial Board
-* Reviewers
-* Issue Summary
-* Contents
+1. Editorial Board
+1. Reviewers
+1. Issue Summary
+1. Contents
 
 And each issue must have an Editorial article written by a member of the Editorial Board, the topic can be on anything of the authors choosing.
 
