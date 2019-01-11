@@ -1,8 +1,10 @@
-# Article Specifications
+# Issue and Article Specifications
 
 This is the ***COMPREHENSIVE*** (probably not) list of shit the journal issues and articles are spec'd against. Whoa, are you in for a treat.
 
 ## Cover Image Spec
+
+Adobe InDesign is used to create the front page.
 
 All text has hyphenation turned off.
 
@@ -43,6 +45,14 @@ All text has hyphenation turned off.
   * `ABBREVIATED TITLE IN CAPS, COVERING TWO LINES` (font size 14, semi-bold, optical spacing)
   * ``Starting page number lower case, page abbreviated to `p. ` ``(font size 10, semi-bold, optical spacing)]
   * `Brief description of submission covering three lines` (font size 14, regular, optical spacing)
+
+## Non cover page items
+
+These are typset in LaTeX.
+* A4 paper size
+* Margins: top=20mm, right=15mm, left=15mm, bottom=20mm
+* Base font size: 11
+* Font: lmodern
 
 ## Editorial Board
 * Section: No Section name
