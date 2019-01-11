@@ -30,7 +30,7 @@ All text has hyphenation turned off.
 * Alignment: Left aligned
 * Text: `VOLUME [number] ISSUE [NUMBER]`
 
-### Volume and Issue
+### Month and year
 * Font: Myriad Pro
 * Title font size: 8 (semi-bold, optical spacing)
 * Alignment: Right aligned
