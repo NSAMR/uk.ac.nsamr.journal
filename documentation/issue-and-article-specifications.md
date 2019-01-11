@@ -291,5 +291,16 @@ These are all the Galley items you can use, in the order they must be in.
 * The Volume number increases each year, and the issue number resets everytime a new volume is started.
 * Issue 2 is technically a continuation of Issue 1, and therefore the page number for Issue 2 continues from when Issue 1 ended. E.g. Last page of volume 1 = 33, first page of volume 2 = 34.
 
+## Metadata
+* All meta data is present and the same as in the pdf version.
+* Page numbers are not separated by a single hyphen here `-`, not a double hyphen as in the LaTeX document `--`.
+* URL is in the format: `Year-volume-issue-authorsurname`. E.g. `2018-1-1-byrne`
+ * For multiple submissions by the same author in the same issue add the number afterwards. e.g. `2018-1-1-byrne-2`. Do not add `-1` to the first submission by that author.
+ 
+## Online abstract
+* All code is removed from online abstract, and all figures render correctly, you may need to use makeshift symbols or type out characters in full if they do not render.
 
-
+## Thumbnail image
+* .png file, 72 dpi, A4 aspect ratio
+* For all articles except `Posters` and `Images in Medicine` the thumbnail should be an image of the first page of the article.
+* For `Posters` and `Images in Medicine` the thumbnail should be an image of the poster or image if it is in an A4 aspect ratio, otherwise it should be an image of the first page of the article.
