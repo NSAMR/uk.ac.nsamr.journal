@@ -127,7 +127,7 @@ All text has hyphenation turned off.
   * Dates: `Received:`, `Revised:`, `Accepted:`, `Available online:`
   * Keywords: Yes
 * Abstract: Yes
-  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. `**Introduction:** Text`
+  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. **Introduction:** Text
 * Author statements: Yes
 * References: APA
 * Footer: Yes, arabic page numbers
@@ -149,7 +149,7 @@ All text has hyphenation turned off.
   * Dates: `Received:`, `Revised:`, `Accepted:`, `Available online:`
   * Keywords: Yes
 * Abstract only, no main text
-  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. `**Introduction:** Text`
+  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. **Introduction:** Text
 * Author statements: Yes
 * References: APA
 * Footer: Yes, arabic page numbers
