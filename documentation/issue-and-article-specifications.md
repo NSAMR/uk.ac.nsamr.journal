@@ -90,8 +90,8 @@ All text has hyphenation turned off.
 * Abstract: No
 * Footer: Yes, roman numeral page numbers
 
-## Editorial
-* Section: EDITORIAL
+## Editorials
+* Section: EDITORIALS
 * Running header: Yes
 * JSAMR Banner: Yes
 * Title: Huge font size, separated by a big skip
@@ -111,6 +111,49 @@ All text has hyphenation turned off.
 * References: APA, double column
 * Footer: Yes, arabic page numbers
 
+## MANUSCRIPTS: Original Research; Reviews; Quality Improvement and Audit; Case reports; Competition Entry; Education, Letters, Opinions, and Reflections
+* Section: Yes, in CAPS, top left
+* Running header: Yes, top right
+* JSAMR Banner: Yes, below header
+* Title: Huge font size, separated by a big skip
+* Colours for title abstract box etc: See colours section
+* Columns: double column (abstract, title, and author single column)
+* Author: Large
+* Meta data:
+  * Joint first authorship?
+  * Author affiliation
+  * Corresponding author email address
+  * Peer reviewed: Yes *(are letters peer reviewed?)*
+  * Dates: `Received:`, `Revised:`, `Accepted:`, `Available online:`
+  * Keywords: Yes
+* Abstract: Yes
+  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. `**Introduction:** Text`
+* Author statements: Yes
+* References: APA
+* Footer: Yes, arabic page numbers
+
+## MANUSCRIPTS: Posters; Conference; Images in Medicine
+* Section: Yes, in CAPS, top left
+* Running header: Yes, top right
+* JSAMR Banner: Yes, below header
+* Conference prize winner?: Conference only, above title
+* Title: Huge font size, separated by a big skip
+* Colours for title abstract box etc: See colours section
+* Columns: double column (abstract, title, and author single column)
+* Author: Large
+* Meta data:
+  * Joint first authorship?
+  * Author affiliation
+  * Corresponding author email address
+  * Peer reviewed: Yes *(are letters peer reviewed?)*
+  * Dates: `Received:`, `Revised:`, `Accepted:`, `Available online:`
+  * Keywords: Yes
+* Abstract only, no main text
+  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. `**Introduction:** Text`
+* Author statements: Yes
+* References: APA
+* Footer: Yes, arabic page numbers
+
 ## Colours:
 
 ### Title, running header, footer colour
@@ -127,29 +170,12 @@ All text has hyphenation turned off.
 * d3dbbc - `Education`, `Letters, Opinions, and Reflections`
 * d3bcdb - `Posters`, `Conference`, `Images in Medicine`
 
-## Reviews
-* Section: Yes
-* Running header: Yes
-* JSAMR Banner: Yes
-* Title: Huge font size, separated by a big skip
-* Colours for title abstract box etc: See colours section
-* Columns: double column (abstract, title, and author single column)
-* Author: Large
-* Meta data:
-  * Joint first authorship?
-  * Author affiliation
-  * Corresponding author email address
-  * Peer reviewed/not peer reviewed
-  * Dates: `Received:`, `Revised:`, `Accepted:`, `Available online:`
-  * Keywords: Yes
-* Abstract: Yes
-  * Any subheadings are in bold, and separated from corresponding text my colon. E.g. `**Introduction:** Text`
-* Author statements: Yes
-* References: APA
-* Footer: Yes, arabic page numbers
+## Author name
+* First author names must be listed as `First Name Surname`. Initials are optional and should have a special space between the initials and the next initial or surname e.g. `Matthew H.\,V.\,Byrne`.
+* Co-authors should be listed as `First Name Initial(s) Surname` where possible. But be listed as `Initial(s) Surname`, and should again be separated by the special space `\,`
 
 ## Author affiliation, joint first authorship, corresponding author
-After each authors name there may be the following:
+After each authors name there may be the following as superscript text:
 * Author affiliations are numbered
 * Joint first authorship is signified by an astrix `*`
 * Corresponding author is signified by the greek letter alpha `\alpha`
@@ -160,36 +186,67 @@ Author's affiliation must be present, joint first authorship and corresponding a
 
 Author affiliation should be followed by the country, e.g. `King's College London, United Kingdom`
 
-Joint first authorship corresponds to the following text: `Both authors contributed equally as joint first author`
-
-
-
-
-
-Images: 
+Joint first authorship corresponds to the following text: `Both authors contributed equally as joint first author` 
 
 ## Keywords
+* Maximum 5 keywords
+* All in lowercase
+* First Keyword is JSAMR Subject code
+* All other keywords are MESH key words in alphabetical order
 
+## Page numbers
+* All Journal front matter should be numbered in lower case roman numerals.
+* All Journal articles should be numbered in arabic numerals.
+* The page number for a single page of an article is displayed in the bottom right of the page. This will always be displayed `p.[page number]`.
+* The page range for an article is displayed in the bottom left after `[year] Volume [number] Issue [number]`. Page numbers are displayed `p.1` for single pages and `pp.1--2` for multiple pages.
 
-## Galley Items
-These are all the Galley items you can use, in the order they must be in.
-1. PDF
-1. OpenDyslexic PDF
-1. Poster
-1. Peer review
-1. Original submission
-1. Raw Data
-1. Data Analysis
-1. Transcripts
-1. Hi-res Images
+## Typesetting
 
-## Special characters
+### Grammar
+* Should not be changed.
 
 ### Units
-Units should have a special spacing `\,` between the number and the unit e.g. `10\,m` for `10m` and `10\,\%` for `10%`
+* Separated by `\,` e.g. `10\,m` gives `10 m`
 
+### Capitalisation
+* Titles have first letter of first word capitalised
+* Proper nouns, and specific diseases where they are capitalised (after googling) should be capitalised
 
-Thumbnail cover image
+### Quotations
+* Sinlge quote marks are used for colloquial terms.
+* Double quote marks are used for quoting someone else.
+* The open quote mark must be `` ` `` or ``` `` ```, and the cloding quote mark must be ` ' ` or ` '' `, for single and double quote marks respectively
+
+### "et al"
+* "et al" needs to be italicised every time when it is used in text by the author
+
+### Referencing and citation
+* APA style
+
+### Titles
+* No hyphenation in titles and subtitles
+* No full stop at end of titles and subtitles, question marks allowed.
+
+### Numbers
+* Sentences shouldn’t start with a number in numericals it should start with a number in text e.g. `...end of previous sentence. 11 people...` should be `...end of previous sentence. Eleven people...`
+* All numbers under 10 should be written as text e.g. `8` = `eight`
+* Thousands, should be separated by a comma e.g. `100500900` would be `100,500,900`
+
+### Dates
+* No leading zero for dates
+
+### Acronyms
+* Acronyms and TLAs defined if used n>2, author needs to sign off on this change.
+
+### Overspilling keywords, links, email addressed, words, figures, and tables
+* Keywords should be within column boundries, if keywords overspill the boundaries they should be put on a new line using `\\`.
+* All text should be within column boundries, long links/emails should be put on a new line or broken using LaTeX code to fit, do not manually break using a space as this will mean the link or email does not work.
+* Figures and tables should be resizes so that they fit within the boundaries.
+
+### Figure and table captions
+* All figures should have captions below the figure.
+* All tables should have captions above the image.
+* All tables and figures should be linked within the text using the fig ref LaTeX commands.
 
 # Production specifications
 
@@ -217,11 +274,22 @@ Each issue must have the following Front Matter, in this order:
 
 And each issue must have an Editorial article written by a member of the Editorial Board, the topic can be on anything of the authors choosing.
 
-## Page numbers
-All Journal front matter should be numbered in lower case roman numerals.
+## Galley Items
+These are all the Galley items you can use, in the order they must be in.
+1. PDF
+1. OpenDyslexic PDF
+1. Poster
+1. Peer review
+1. Original submission
+1. Raw Data
+1. Data Analysis
+1. Transcripts
+1. Hi-res Images
 
-All Journal articles should be numbered in arabic numerals.
+## Year, Volume, Issue
+* JSAMR will produce 1 volume with 2 issues per year. E.g. `2018 Volume 1, Issue 1`, `2018 Volume 1, Issue 2`, `2019 Volume 2, Issue 1`, `2019 Volume 2, Issue 2`
+* The Volume number increases each year, and the issue number resets everytime a new volume is started.
+* Issue 2 is technically a continuation of Issue 1, and therefore the page number for Issue 2 continues from when Issue 1 ended. E.g. Last page of volume 1 = 33, first page of volume 2 = 34.
 
-The page number for a single page of an article is displayed in the bottom right of the page. This will always be displayed `p.[page number]`.
 
-The page range for an article is displayed in the bottom left after `[year] Volume [number] Issue [number]`. Page numbers are displayed `p.1` for single pages and `pp.1-2` for multiple pages.
+
