@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:13+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:13+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Raport de evaluare"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Acest modul implementează raportarea CVS ce conține o listă cu sarcinile de evaluare pentru o revistă."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Sesiune"
+
+msgid "plugins.reports.reviews.reviewerId"
+msgstr "ID-ul evaluatorului"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Evaluator"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Data angajării"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Data înștiințării"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Data confirmării"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Data încheierii"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Dată rapel"

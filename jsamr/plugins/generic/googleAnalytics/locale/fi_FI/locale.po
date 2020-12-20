@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2020-10-14 12:50+0000\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
+"Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
+"google-analytics-plugin/fi_FI/>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analytics -lisäosa"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Yhdistä OJS Google Analytics -palveluun. Vaatii Google Analytics -tilin. Lisätietoja löytyy <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics\">Google Analytics -palvelun kotisivuilta</a>."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr ""
+"<p>Tällä lisäosalla Google Analytics -palvelua voidaan käyttää julkaisun kotisivujen kävijätilastointiin. Lisäosa vaatii, että sinulla on voimassa oleva Google Analytics -tili. Lisätietoja löytyy <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics\">Google Analytics -palvelun kotisivuilta</a>.</p>\n"
+"\t<p>Huomaa, että Google Analytics päivittyy noin 24 tunnin viiveellä. Tänä aikana 'Tarkista tila' -toiminto ei välttämättä ilmoita oikein, onko lisäosan käyttöönotto onnistunut.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Tilin numero"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Anna tilin numero."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Google Analytics -tilin numero"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr ""
+"Google Analytics -tilastoinnin aktivoimiseksi, anna tilin numeron tähän ("
+"muotoa UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Yksi tai useampi annetuista tilin numeroista on väärin."

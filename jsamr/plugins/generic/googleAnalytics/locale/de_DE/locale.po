@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2020-01-29 10:35+0000\n"
+"Last-Translator: Heike Riegler <heike.riegler@julius-kuehn.de>\n"
+"Language-Team: German <http://translate.pkp.sfu.ca/projects/plugins/"
+"google-analytics-plugin/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google-Analytics-Plugin"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Verbinden Sie OJS mit Google Analytics, der Google-Anwendung zur Nutzungsanalyse von Webseiten-Traffic. Voraussetzung ist, dass Sie bereits einen Google-Analytics-Zugang haben. Siehe <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics</a> für weitere Informationen."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr ""
+"<p>Mit diesem Plugin ist es möglich, Nutzung und Traffic für diese "
+"Zeitschrift zu erheben und zu analysieren. Bitte beachten Sie, dass Sie "
+"hierfür bereits einen Google-Analytics-Zugang haben müssen. Siehe <a href=\""
+"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google "
+"Analytics</a> für weitere Informationen.</p>\n"
+"<p> Bitte beachten Sie, dass Google Analytics bis zu 24 Stunden Vorlauf "
+"benötigt, bevor Statistiken gesammelt und berichtet werden. Während dieser "
+"Zeit zeigt die 'Check Status' Funktion möglicherweise nicht korrekt an, ob "
+"der erforderliche Tracking Code erkannt wurde.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Account-ID"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Bitte geben Sie die Account-ID ein."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Google Analytics Account-Nummer"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Um die Leser/innenschaft veröffentlichter Artikel per Google Analytics zu verfolgen, geben Sie hier eine Account-Nummer ein (z.B. UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Eine oder mehrere Google-Analytics-Accountnummern, die für Autor/innen des Beitrags eingegeben worden sind, sind nicht gültig."

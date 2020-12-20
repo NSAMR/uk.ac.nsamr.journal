@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:13+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:13+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Модуль «Отчет о рецензиях»"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Реализует отчет в формате CSV, содержащий список заданий на рецензирование для журнала."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Раунд"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Название материала"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID материала"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Дата назначения"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Дата уведомления"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Дата подтверждения"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Дата подтверждения получения"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Нерассмотрен"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Дата окончания"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Дата напоминания"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Превышение срока рецензирования в днях"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Превышение срока ответа в днях"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Рекомендация"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Комментарии к материалу"

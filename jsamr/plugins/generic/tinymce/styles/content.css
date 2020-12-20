@@ -1,0 +1,40 @@
+/**
+ * @file plugins/generic/tinymce/styles/content.css
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @brief Additional CSS for TinyMCE content editor
+ */
+
+html,
+body {
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	background: #fff;
+	padding: 14px;
+	margin: 0;
+}
+
+p:first-child {
+	margin-top: 0;
+}
+
+span.pkpTag {
+	padding: 0.5em;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #777;
+}
+
+a {
+	color: #007ab2;
+}
+
+a:hover,
+a:focus {
+	color: #113241;
+}

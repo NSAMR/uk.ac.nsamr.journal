@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:56-08:00\n"
+"PO-Revision-Date: 2020-06-04 17:39+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Параметры журнала доступа"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Создавать файлы журнала"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Активация этого параметра приведет к созданию модулем файлов журнала доступа в каталоге files. Эти файлы должны быть использованы для извлечения данных по статистике использования. Если вы не хотите создавать дополнительные файлы журнала доступа, вы можете оставить этот параметр отключенным и использовать файлы журнала доступа вашего сервера."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Регулярное выражение для разбора файлов журнала"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Регулярное выражение, используемое по умолчанию, может разибрать файлы журнала доступа apache в комбинированном формате, а также файлы журнала, создаваемые модулем. Если ваши файлы журнала доступа формируются в другом формате, то вам необходимо вставить регулярное выражение, которое может разобрать его и выдать ожидаемые значения. Для получения более подробной информации смотрите UsageStatsLoader::_getDataFromLogEntry()."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Настройки модуля «Статистика использования» сохранены"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Параметр конфиденциальности данных"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Путь к файлу для соли (salt), используемой в целях анонимности"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "К файлу соли (salt) нет доступа для записи."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "Чтобы быть уверенным в конфиденциальности данных, вы должны указать файл, доступный для чтения и записи веб-пользователем, в этом файле будет содержаться случайным образом сгенерированное значение соли (salt). Это файл НЕ ДОЛЖЕН попадать в резервные копии, чтобы быть уверенным в конфиденциальности данных. Соль (salt) генерируется случайным образом, используя один из следующих вариантов: функция mcrypt_create_iv, которая требует расширения mcrypt для PHP; функция openssl_random_pseudo_bytes, которая требует расширения openssl для PHP; файл /dev/urandom, который работает только на *nix-системах; функция mt_rand, которая не является криптографически безопасной. Таким образом, если вы используете сервер под Windows, пожалуйста, удостоверьтесь, что вы установили либо расширение mcrypt для PHP или включили openssl, чтобы получить криптографически безопасно сгенерированную соль (salt)."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Включите этот параметр, если вы хотите использовать версию плагина, которая учитывает требования законов о конфиденциальности, то есть хранит хэшированные IP-адреса, сообщает пользователям об отслеживании информации и дает возможность пользователям отказаться. Обратите внимание: при включении этого параметра нельзя будет воспользоваться возможностями плагина, связанными с географическим местоположением."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Включение конфиденциальности данных требует файла с солью (salt)."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Включение конфиденциальности данных убирает Город из дополнительных статистик."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Включение конфиденциальности данных убирает Регион из дополнительных статистик."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Учитывать требования конфиденциальности данных"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Дополнительная статистическая информация"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Включить или отключить сбор следующей дополнительной информации. Это повлияет на возможные статистические отчеты, которые вы можете получить, а также повлияет на размер базы данных. НЕ МЕНЯЙТЕ НАСТРОЙКУ, если вы не до конца понимаете, что вы делаете."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Дополнительная колонка «Город» требует наличия дополнительной колонки «Регион»."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Архивы"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Включите этот параметр для сжатия архивированных файлов журнала с помощью инструмента gzip (вам нужно будет настроить параметр gzip в файле config.inc.php). Если у вас сайт с большим трафиком, стоит включить этот параметр, чтобы сэкономить место на диске."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Сжать архивы"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Параметры отображения статистики"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Эти настройки будут применены только для статистики использования в контексте «{$contextName}»."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Показывать график статистики материалов читателю"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Выберите тип графика для отображения статистики скачивания"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Столбики"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Линии"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Задайте максимальное количество данных для одновременного представления в конкретной точке оси x. Большое значение может генерировать малопонятные графики. Безопасное значение — между 3 и 5."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Задача загрузчика файлов статистики использования"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Файл «{$file}» не может быть открыт и был отклонен."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Строка с номером  {$lineNumber} из файла «{$file}» является некорректной записью журнала и файл был отклонен."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "Строка с номером {$lineNumber} из файла «{$file}» содержит URL-адрес, из которого система не может убрать свой базовый URL-адрес."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Невозможно загрузить данные, извлеченные из файла «{$file}». Файл был перемещен снова в каталог stage."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Модуль «Статистика использования» отключен. Файлы журнала не обрабатываются."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Каталог {$directory} не является пустым. Это может означать, что предыдущая обработка завершилась неудачей или обработка запущена параллельно. Этот файл будет автоматически заново обработан, если вы используете scheduledTasksAutoStage.xml, в противном случае вам необходимо переместить любые оставшиеся файлы в каталоге processing обратно в каталог stage."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Модуль «Статистика использования»"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Представляет данные статистики использования объектов. Может использовать файлы журнала доступа сервера для извлечения статистики."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "Отчет о статистике использования PKP"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "Отчет о статистике использования PKP, формируемый по умолчанию (готовый для COUNTER)"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Информация о конфиденциальности модуля «Статистика использования»"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Информация о конфиденциальности модуля «Статистика использования»"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Информация о статистике использования"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Мы сохраняем анонимные данные о статистике использования. Пожалуйста прочтите подробности в <a href=\"{$privacyInfo}\">Информации о конфиденциальности</a>."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Вы отказались от сбора статистики использования. Пока вы видите это сообщение, статистика о вашем использовании этого сайта не будет собираться. Щелкните на кнопке ниже, чтобы изменить свое решение.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Разрешить"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Отклонить"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>При желании вы можете отказаться от участия в процессе сбора данных. Щелкнув на кнопку «Отклонить» ниже, вы можете явно отказаться от участия в статистическом анализе. При нажатии кнопки «Отклонить» в вашей системе создается файл <em>cookie</em>, который хранит данное решение. Если настройки безопасности вашего браузера автоматически удаляют файлы cookie, вам нужно будет снова нажимать на конпку «Отклонить» при следующем входе в этот журнал. Файл cookie действует только для одного браузера. Если вы используете другой браузер, вам нужно снова нажать кнопку «Отклонить». В этом cookie не хранится никакая личная информация о вас. Cookie с отказом действителен в течение одного года после вашего последнего входа в журнал.</p>\n"
+"\t\t<p>Пожалуйста помните, что общие журналы доступа сервера не попадают под ваше решение отказаться от процесса подробной оценки. Пожалуйста, прочтите наше общее <a href=\"{$privacyStatementUrl}\">Заявление о конфиденциальности</a>.</p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Статистика Public Knowledge Project (готовая для COUNTER)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Сумма всех скачиваний файла"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Данные скачивания пока недоступны."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Янв Фев Мар Апр Май Июн Июл Авг Сен Окт Ноя Дек"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Скачивания"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "Каждый журнал может переопределить эти настройки на странице модулей журнала."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Общая информация о конфиденциальности</h3>\n"
+"\t\t<p>Пожалуйста обратитесь к общему <a href=\"{$privacyStatementUrl}\">Заявлению о конфиденциальности</a>.</p>\n"
+"\t\t<h3>Статистика использования</h3>\n"
+"\t\t<p>Для того чтобы можно было проанализировать использование и влияние нашего журнала и опубликованных в нем статей, мы собираем и записываем данные о доступе к главной странице журнала, выпускам, статьям, гранкам и дополнительным файлам. В процессе сбора все данные делаются анонимными. Никакая личная информация не записывается. IP-адреса делаются анонимными путем хэширования (с помощью <em>SHA 256</em>) в сочетании с <em>безопасной 64-символьной солью</em>, которая автоматически <em>генерируется случайным образом и меняется каждый день</em>. Поэтому IP-адреса не могут быть реконструированы.</p>\n"
+"\t\t<p>Следующая информация собирается вместе с анонимными IP-адресами:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Тип доступа (то есть административный)</li>\n"
+"\t\t<li>Время запроса</li>\n"
+"\t\t<li>Запрошенный URL</li>\n"
+"\t\t<li>Код статуса HTTP</li>\n"
+"\t\t<li>Браузер</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Собранные данные используются только для оценивания. IP-адреса никак не сопоставляются с ID пользователей. Технически невозможно отследить конкретный набор данных по конкретному IP-адресу.</p>"
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Общая информация о конфиденциальности</h3>\n"
+"\t\t<p>Пожалуйста обратитесь к нашему <a href=\"{$privacyStatementUrl}\">"
+"Заявлению о конфиденциальности</a>.</p>\n"
+"\t\t<h3>Статистика использования</h3>\n"
+"\t\t<p>Для того чтобы можно было проанализировать использование и влияние "
+"наших публикаций, мы собираем и записываем данные о доступе к главной "
+"странице, категориям, сериям, книгам и файлам. В процессе сбора все данные "
+"делаются анонимными. Никакая личная информация не записывается. IP-адреса "
+"делаются анонимными путем хэширования (с помощью <em>SHA 256</em>) в "
+"сочетании с <em>безопасной 64-символьной солью</em>, которая автоматически "
+"<em>генерируется случайным образом и меняется каждый день</em>. Поэтому IP-"
+"адреса не могут быть реконструированы.</p>\n"
+"\t\t<p>Следующая информация собирается вместе с анонимными IP-адресами:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Тип доступа (то есть административный)</li>\n"
+"\t\t<li>Время запроса</li>\n"
+"\t\t<li>Запрошенный URL</li>\n"
+"\t\t<li>Код статуса HTTP</li>\n"
+"\t\t<li>Браузер</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Собранные данные используются только для оценивания. IP-адреса никак "
+"не сопоставляются с ID пользователей. Технически невозможно отследить "
+"конкретный набор данных по конкретному IP-адресу.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr ""
+"Каждое издательство может переопределять эти настройки на странице модулей "
+"издательства."

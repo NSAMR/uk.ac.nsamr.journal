@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:07+00:00\n"
+"PO-Revision-Date: 2020-10-19 15:42+0000\n"
+"Last-Translator: Eirik Hanssen <eirikh@oslomet.no>\n"
+"Language-Team: Norwegian Bokmål <http://translate.pkp.sfu.ca/projects/"
+"plugins/google-analytics-plugin/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr ""
+"Dette programtillegget integrerer OJS og Google Analytics, som er Googles "
+"verktøy for å analysere nettstedstrafikk. Det kreves at du allerede har en "
+"konto hos Google Analytics. Se <a href=\"http://www.google.com/analytics/\" "
+"title=\"Google Analytics site\">Google Analytics nettsted</a> for mer "
+"informasjon."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Innstillinger"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Innstillinger for Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Når denne programutvidelsen er slått på kan Google Analytics benyttes til å samle og analysere nettstedsbruk og -trafikk for dette tidsskriftet. Merk at denne programutvidelsen forutsetter at du allerede har konto hos Google Analytics. Se <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics nettsted</a> for mer informasjon.</p><p>Merk at det kan ta opptil 24 timer før Google Analytics samler og rapporterer statistikk. I denne perioden er ikke nødvendigvis 'Check Status'-funksjonen korrekt mht. om den har funnet tidsskriftets sporingskode.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Kontonummer"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "Klikke på 'Check Status' i Google Analytics, for å se sporingskoden for ditt nettsted. I eldre sporingskoder vises kontonummer i sporingskoden slik: _uacct = \"###\". I nye sporingskoder vises kontonummeret i sporingskoden slik: var pageTracker = _gat._getTracker(\"###\"). Skriv inn den teksten som svarer til ###."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Skriv inn et kontonummer."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Sporingskode"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Velg en sporingskode."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Gammel sporingskode (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Ny sporingskode (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Kontonummer hos Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr ""
+"Legg inn et kontonummer her for å følge med på lesingen av publiserte "
+"artikler gjennom Google Analytics. Bruk på formen: UA-xxxxxx-x."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr ""
+"Ett eller flere av Google Analytics-kontonumrene som er lagt inn for "
+"innleverende forfattere er ugyldige."

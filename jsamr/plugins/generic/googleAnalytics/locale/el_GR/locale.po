@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:06+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Διασυνδέει το OJS με το Google Analytics, την εφαρμογή για την ανάλυση της επισκεψιμότητας του ιστοτόπου της Google. Προϋποθέτει την ύπαρξη λογαριασμού στο Google Analytics. Δείτε τον ιστότοπο του <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics </a> για περισσότερες πληροφορίες."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Με αυτό το Πρόσθετο ενεργοποιημένο το Google Analytics μπορεί να συλλέξει και να αναλύσει τα στοιχεία χρήσης και κίνησης του ιστοτόπου αυτού του περιοδικού. Σημειώστε ότι πρέπει να υπάρχει ενεργός λογαριασμός στο Google Analytics. Δείτε τον ιστότοπο του <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics </a> για περισσότερες πληροφορίες.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Κωδικός λογαριασμού"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Παρακαλούμε εισάγετε έναν κωδικό λογαριασμού."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Κωδικός λογαριασμού στο Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Για την καταγραφή της αναγνωσιμότητας ενός δημοσιευμένου άρθρου με την χρήση του Google Analytics, εισάγετε έναν κωδικό λογαριασμού (π.χ. UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Ένας ή περισσότεροι κωδικοί λογαριασμού στην Google Analytics για συγγραφείς δεν είναι έγκυροι."

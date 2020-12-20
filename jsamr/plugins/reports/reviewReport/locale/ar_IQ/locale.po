@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:11+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:11+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "تقرير التحكيم"
+
+msgid "plugins.reports.reviews.description"
+msgstr "هذه الإضافة تعطي تقريراً بصيغة CSV يتضمن قائمة لمهام التحكيم في المجلة."
+
+msgid "plugins.reports.reviews.round"
+msgstr "الجولة"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "عنوان طلب التقديم"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "رمز طلب التقديم"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "المحكم"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "تأريخ التكليف"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "تأريخ الإشعار"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "تأريخ التأكيد"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "تأريخ الإقرار"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "غير معتبر"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "تأريخ الإكمال"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "تأريخ التذكير"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "أيام التجاوز للتحكيم"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "أيام التجاوز للإجابة"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "التوصية"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "التعليقات على طلب التقديم"

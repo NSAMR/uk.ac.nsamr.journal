@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:04:58+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:04:58+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Gestionnaire de bloc personnalisé"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Nom du bloc"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Ajouter un bloc"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Contenu"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Plugiciel de bloc personnalisé)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Il s'agit d'un bloc créé par l'utilisateur."
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Gérer les blocs personnalisés"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Ce plugiciel vous permet de gérer (ajouter, modifier, supprimer) les blocs personnalisés de la barre latérale."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Blocs personnalisés"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Aucun bloc personnalisé n'a été créé."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Le nom du bloc personnalisé est requis."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Le nom du bloc personnalisé ne doit contenir que des lettres, des chiffres, des tirets et/ou des traits de soulignement."

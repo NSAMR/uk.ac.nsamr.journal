@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install SYSTEM "../../lib/pkp/dtd/install.dtd">
+<!--
+  * dbscripts/xml/install.xml
+  *
+  * Copyright (c) 2014-2020 Simon Fraser University
+  * Copyright (c) 2003-2020 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Installation descriptor file.
+  -->
+
+<install version="3.2.1.2">
+	<code function="checkPhpVersion" />
+
+	<code function="createDirectories"/>
+	<code function="createDatabase"/>
+
+	<!-- PKP schema components -->
+	<schema file="lib/pkp/xml/schema/common.xml" />
+	<schema file="lib/pkp/xml/schema/log.xml" />
+	<schema file="lib/pkp/xml/schema/controlledVocab.xml" />
+	<schema file="lib/pkp/xml/schema/scheduledTasks.xml" />
+	<schema file="lib/pkp/xml/schema/temporaryFiles.xml" />
+	<schema file="lib/pkp/xml/schema/announcements.xml" />
+	<schema file="lib/pkp/xml/schema/reviews.xml" />
+	<schema file="lib/pkp/xml/schema/reviewForms.xml" />
+	<schema file="lib/pkp/xml/schema/submissions.xml" />
+	<schema file="lib/pkp/xml/schema/submissionFiles.xml" />
+	<schema file="lib/pkp/xml/schema/categories.xml" />
+	<schema file="lib/pkp/xml/schema/notes.xml" />
+	<schema file="lib/pkp/xml/schema/views.xml" />
+	<schema file="lib/pkp/xml/schema/metadata.xml" />
+	<schema file="lib/pkp/xml/schema/genres.xml" />
+	<schema file="lib/pkp/xml/schema/tombstone.xml" />
+	<schema file="lib/pkp/xml/schema/rolesAndUserGroups.xml" />
+	<schema file="lib/pkp/xml/schema/metrics.xml" />
+	<schema file="lib/pkp/xml/schema/libraryFiles.xml" />
+	<schema file="lib/pkp/xml/schema/navigationMenus.xml" />
+
+	<!-- OJS schema -->
+	<schema file="dbscripts/xml/ojs_schema.xml" />
+
+	<!-- CLOB/Text indexes handled differently for MySQL and PostgreSQL -->
+	<data file="dbscripts/xml/indexes.xml" />
+
+	<!-- Other install tasks -->
+	<code function="createData"/>
+	<code function="createConfig"/>
+	<code function="addPluginVersions"/>
+	<code function="installDefaultNavigationMenus"/>
+</install>

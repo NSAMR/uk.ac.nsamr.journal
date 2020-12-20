@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:35+00:00\n"
+"PO-Revision-Date: 2020-02-01 18:35+0000\n"
+"Last-Translator: Osman Durmaz <osmandurmaz@hotmail.de>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/ojs/api/tr/>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "api.submissions.403.unpublishedIssues"
+msgstr "Yayımlanmamış konuları görüntüleme izniniz yok."
+
+msgid "api.contexts.403.contextsDidNotMatch"
+msgstr ""
+"Derginin API bağlantısına veya site-geneli API bağlantısına bir sorgu "
+"yapmadan bu dergiyi görüntüleyemez veya düzenleyemezsiniz."
+
+msgid "api.contexts.403.notAllowed"
+msgstr "Bu dergiyi görüntüleme yetkiniz bulunmuyor."
+
+msgid "api.contexts.403.requestedDisabledContexts"
+msgstr "Yalnızca izin verilen dergileri görüntüleyebilirsiniz."
+
+msgid "api.submissions.403.contextRequired"
+msgstr ""
+"Bir gönderi yapmak veya düzenlemek için derginin API adresine bir sorgu "
+"yapmanız gereklidir."
+
+msgid "api.submissions.403.cantChangeContext"
+msgstr "Bir gönderinin dergisini değiştiremezsiniz."
+
+msgid "api.publications.403.submissionsDidNotMatch"
+msgstr "Sorguladığınız yayın bu gönderiye ait değil."
+
+msgid "api.publications.403.contextsDidNotMatch"
+msgstr "Sorguladığınız yayın bu dergiye ait değil."
+
+msgid "api._payments.400.invalidPaymentMethod"
+msgstr "Seçtiğiniz ödeme yöntemi desteklenmiyor."
+
+msgid "api.emailTemplates.403.notAllowedChangeContext"
+msgstr ""
+"Bu e-posta şablonunu başka bir dergiye taşıma yetkisine sahip değilsiniz."
+
+msgid "api.contexts.404.contextNotFound"
+msgstr "Sorguladığınız dergi bulunamadı."
+
+msgid "api.contexts.403.notAllowedDelete"
+msgstr "Bu dergiyi silme yetkisine sahip değilsiniz."
+
+msgid "api.contexts.403.notAllowedEdit"
+msgstr "Bu dergiyi düzenleme yetkisine sahip değilsiniz."
+
+msgid "api.contexts.403.requiresContext"
+msgstr "Bu dergiyi site-geneli API ile düzenleyemezsiniz."

@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-09 05:35+0000\n"
+"Last-Translator: Ramli Baharuddin <ramli.baharuddin@relawanjurnal.id>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/plugins/"
+"orcid-profile-plugin/id/>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.orcidProfile.author.accessDenied"
+msgstr "Akses ORCID ditolak pada"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "Semua"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.error"
+msgstr "Galat"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.help"
+msgstr "Tentukan jumlah hasil log yang dihasilkan oleh plugin"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logSectionTitle"
+msgstr "Log permintaan ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication"
+msgstr ""
+"Kirim surel untuk meminta otorisasi dari penulis jika satu artikel diterima, "
+"misalnya kirim ke copy editing"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "Pengaturan Surel"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidScope"
+msgstr "Batasan Akses Profil"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "Rahasia Klien"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "ID Klien"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "Sandbox Anggota"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "Anggota"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Public Sandbox"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "Publik"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "API ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description.globallyconfigured"
+msgstr ""
+"API ORCID diatur secara global oleh pemilik. Kredensial berikut sudah "
+"tersimpan."
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr ""
+"Aturlah akses API ORCID terlebih dahulu untuk menarik data informasi profil "
+"ORCID ke dalam pengguna dan profil penulis serta memperbaharui catatan ORCID "
+"terkait dengan publikasi baru (khusus untuk Anggota ORCID)."
+
+msgid "plugins.generic.orcidProfile.manager.settings.hidden"
+msgstr "tersembunyi"
+
+msgid "plugins.generic.orcidProfile.manager.settings.title"
+msgstr "Pengaturan API ORCID"
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "Alamat surel ata id ORCID:"
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "Tidak menemukan data dari ORCID."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr ""
+"Anda dapat mengisi formulir ini dengan informasi dari profil ORCID. Masukkan "
+"alamat surel atau ORCID iD sesuai dengan profil ORCID, lalu klik \"Kirim\"."
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "Memungkinkan mengimpor informasi profil pengguna dari ORCID."
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "Plugin Profil ORCID"
+
+msgid "plugins.generic.orcidProfile.author.accessTokenStored"
+msgstr ""
+"Akses catatan ORCID diberikan terbatas pada {$orcidAccessScope}, valid hingga"
+
+msgid "plugins.generic.orcidProfile.about.display"
+msgstr ""
+"Untuk disetujui bahwa Anda sudah memiliki iD ORCID dan telah diotentikasi, "
+"kami menampilkan icon iD ORCID <img src=\"https://orcid.org/sites/default/"
+"files/images/orcid_16x16(1).gif\" alt=\"iD icon\" width=\"16\" height=\"16\" "
+"border=\"0\"> di samping nama Anda pada halaman artikel naskah dan pada "
+"profil umum pengguna Anda.<br>\n"
+"\t\tPelajari lebih kanjut di <a href=\"https://orcid.org/blog/2013/02/22/how-"
+"should-orcid-id-be-displayed\">Bagaimana tampilan iD ORCID yang "
+"seharusnya.</a>"
+
+msgid "plugins.generic.orcidProfile.about.display.title"
+msgstr "Di mana iD ORCID ditampilkan?"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyPublicAPI"
+msgstr ""
+"Jurnal ini mengumpulkan iD ORCID Anda sehingga kami bisa {menambahkan tujuan "
+"dan membedakan antara Member API dan Public API].\n"
+"\tBila Anda klik tombol “Beri Otorisasi” pada halaman popup ORCID, kami akan "
+"meminta Anda untuk membagikan iD Anda dengan menggunakan proses otentikasi: "
+"baik dengan <a href=\"https://support.orcid.org/hc/en-us/articles/"
+"360006897454\">mendaftar iD ORCID</a> atau, jika sudah punya, <a href=\""
+"https://support.orcid.org/hc/en-us/categories/360000661673\">login ke akun "
+"ORCID Anda</a>, lalu beri izin kami untuk menngambil iD ORCID Anda. Kami "
+"melakukan ini untuk memastikan bahwa Anda dikenali dengan akurat dan "
+"mengaitkan iD ORCID Anda dengan aman.<br>\n"
+"\tPelajari lebih lanjut <a href=\"https://orcid.org/blog/2017/02/20/whats-so-"
+"special-about-signing\">tentang istimewanya jika sign in.</a>"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhy.title"
+msgstr "Bagaimana dan mengapa kami mengoleksi iD ORCID?"
+
+msgid "plugins.generic.orcidProfile.about.orcidExplanation"
+msgstr ""
+"ORCID adalah organisasi nirlaba independen yang menyediakan pengidentifikasi "
+"tetap - iD ORCID - yang membedakan Anda dari peneliti lain dan mekanisme "
+"untuk menghubungkan hasil dan aktivitas penelitian Anda ke iD Anda. ORCID "
+"terintegrasi dengan banyak sistem yang digunakan oleh penerbit, penyandang "
+"dana, lembaga, dan layanan yang terkait dengan penelitian lainnya. Pelajari "
+"lebih lanjut di <a href=\"https://orcid.org\"> orcid.org </a>."
+
+msgid "plugins.generic.orcidProfile.about.title"
+msgstr "Apa itu ORCID?"
+
+msgid "plugins.generic.orcidProfile.authorise"
+msgstr "Izinkan dan Hubungkan iD ORCID Anda"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "Buat atau hubungkan iD ORCID Anda"
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.failure.contact"
+msgstr ""
+"Hubungi manajer jurnal menggunakan nama, iD ORCID, dan rincian naskah Anda."
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "Tautan otorisasi ORCID sudah digunakan atau tidak valid."
+
+msgid "plugins.generic.orcidProfile.verify.denied"
+msgstr "Anda menolak akses ke rekaman ORCID Anda."
+
+msgid "plugins.generic.orcidProfile.verify.duplicateOrcid"
+msgstr "iD ORCID sudah disimpan untuk naskah ini."
+
+msgid "plugins.generic.orcidProfile.verify.failure"
+msgstr "iD ORCID ANda tidak bisa diverifikasi. Tautan tidak valid lagi."
+
+msgid "plugins.generic.orcidProfile.verify.success"
+msgstr ""
+"iD ORCID Anda telah diverifikasi dan berhasil dihubungkan dengan naskah."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished"
+msgstr "Naskah akan ditambahkan ke dalam rekaman ORCID Anda selama Publikasi."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure"
+msgstr "Naskah tidak bisa ditambahkan ke dalam rekaman ORCID Anda."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success"
+msgstr "Naskah telah dimasukkan ke rekaman ORCID anda."
+
+msgid "plugins.generic.orcidProfile.verify.title"
+msgstr "Otorisasi ORCID"
+
+msgid "plugins.generic.orcidProfile.author.unauthenticated"
+msgstr "iD ORCID tidak diotentikasi! Mintalah otentikasi dari kontributor."
+
+msgid "plugins.generic.orcidProfile.author.orcidEmptyNotice"
+msgstr "Perhatikan di bawah ini untuk meminta id ORCID otentik"
+
+msgid "plugins.generic.orcidProfile.author.deleteORCID"
+msgstr "Hapus iD ORCID dan akses token!"
+
+msgid "plugins.generic.orcidProfile.author.requestAuthorization"
+msgstr "Kirim surel untuk meminta otorisasi ORCID dari kontributor"

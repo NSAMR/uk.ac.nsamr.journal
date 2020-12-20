@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:13+00:00\n"
+"PO-Revision-Date: 2020-02-15 18:35+0000\n"
+"Last-Translator: Primož Svetek <primoz.svetek@gmail.com>\n"
+"Language-Team: Slovenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/sl/>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Poročilo o recenziji"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Ta vtičnik ureja poročilo CSV o recenzijah, ki vsebuje seznam recenzij in podatke o njih."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Krog"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Naslov prispevka"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID prispevka"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Recenzent"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Datum dodelitve"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Datum obveščanja"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Datum potrditve"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Datum končanja"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Datum opominjanja"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Priporočilo"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Komentarji prispevka"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Zapadli dnevi odgovorov"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Zapadli dnevi recenzije"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Neupoštevno"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Potrjen datum"

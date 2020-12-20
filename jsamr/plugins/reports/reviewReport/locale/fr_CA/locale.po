@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:12+00:00\n"
+"PO-Revision-Date: 2020-02-28 20:36+0000\n"
+"Last-Translator: Marie-Hélène Vézina [UdeMontréal] <marie-"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Rapport d'évaluation"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Ce plugiciel met en place un rapport CSV contenant une liste d'assignations d'évaluation pour une revue."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Cycle"
+
+msgid "plugins.reports.reviews.reviewerId"
+msgstr "ID de l'évaluateur"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Évaluateur-trice"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Date d'assignation"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Date d'avis"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Date de confirmation"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Date de complétion"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Date de rappel"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Titre de la soumission"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID de la soumission"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Recommandation"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Commentaires sur la soumission"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Jour(s) de retard pour donner une réponse"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Jour(s) de retard pour la remise de l'évaluation"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Non considéré-e"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Date de l'accusé de réception (remerciement)"

@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:07+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:07+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Модуль «Google Analytics»"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Интегрирует OJS с Google Analytics, приложением для анализа трафика веб-сайта от компании Google. Требует наличия у Вас учетной записи в системе Google Analytics. Пожалуйста, просмотрите <a href=\"http://www.google.com/analytics/\" title=\"сайт Google Analytics\">сайт Google Analytics</a> для получения более подробной информации."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>При включении этого модуля можно использовать Google Analytics для сбора и анализа данных об использовании сайта и трафике. Обратите внимание, что этот модуль требует наличия у Вас учетной записи в системе Google Analytics. Пожалуйста, просмотрите <a href=\"http://www.google.com/analytics/\" title=\"сайт Google Analytics\">сайт Google Analytics</a> для получения более подробной информации.</p><p>Пожалуйста, обратите внимание, что Google Analytics может потребоваться до 24 часов для начала сбора статистики и формирования отчетов. В течение этого периода функция «Check Status» может неправильно отображать наличие требуемого для отслеживания кода.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Номер учетной записи"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Пожалуйста введите номер учетной записи."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Номер учетной записи Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Чтобы отслеживать чтение опубликованной статьи с помощью Google Analytics, введите здесь номер учетной записи (например, UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Один или несколько введенных номеров учетных записей Google Analytics, принадлежащих авторам материала, являются неправильными."

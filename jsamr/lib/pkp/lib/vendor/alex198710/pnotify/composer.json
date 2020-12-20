@@ -1,0 +1,16 @@
+{
+	"name" : "alex198710/pnotify",
+	"description" : "Wrapper around the PNotify plugin",
+	"type" : "symfony-bundle",
+	"keywords" : [ "pnotify", "notification" ],
+	"license" : "GPL-3.0+",
+	"authors" : [{
+			"name" : "alex198710",
+			"email" : "alex198710@hotmail.com"
+		}
+	],
+	"require" : {
+		"php": ">=5.3.2"
+	},
+    "minimum-stability": "dev"
+}

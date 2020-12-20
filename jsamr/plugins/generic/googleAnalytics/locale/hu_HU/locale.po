@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13T21:07:39+00:00\n"
+"PO-Revision-Date: 2020-02-21 13:36+0000\n"
+"Last-Translator: Gabor Klinger <ojshelp@konyvtar.mta.hu>\n"
+"Language-Team: Hungarian <http://translate.pkp.sfu.ca/projects/plugins/"
+"google-analytics-plugin/hu/>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analytics Plugin"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Integrálja a OJS-t a Google Analytics weboldal forgalommeghatározási alkalmazásával. Szükséges, hogy legyen meglévő Google Analytics fiókja. További információt a <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics webhely\"> Google Analytics webhelyen </a> talál."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Az ezzel a bővítménnyel engedélyezett Google Analytics a webhelyhasználat és a forgalom összegyűjtésére és elemzésére használható. Felhívjuk figyelmét, hogy ez a plugin megköveteli, hogy legyen beállított Google Analytics fiókja. További információt a <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics webhely\"> Google Analytics webhelyen </a> talál. </ P> <p> Kérjük, vegye figyelembe, hogy A Google Analytics 24 órát igényel az első statisztikai adatok gyűjtése és jelentése előtt. Ebben az időszakban a \"Állapot ellenőrzése\" funkció nem tudja pontosan jelenteni, hogy észlelte-e a szükséges követőkódot.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Fiókszám"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Kérjük, írja be a fiókszámát."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Google Analytics fiókszám"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "A közzétett cikkek olvasóinak nyomon követése a Google Analytics segítségével, adjon meg egy fiókszámot itt(pl. UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "A beküldő szerzők számára megadott egy vagy több Google Analytics-fiók szám nem érvényes."

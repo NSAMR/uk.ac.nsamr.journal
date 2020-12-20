@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:07+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:07+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Plugin Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Mengintegrasikan OJS dengan Google Analytics, aplikasi analisis lalu lintas web site dari Google. Mewajibkan Anda telah men-setup akun Google Analytics. Silahkan lihat <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Situs Google Analytics</a> untuk informasi lebih lanjut."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Pengaturan"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Pengaturan Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Dengan plugin ini memungkinkan Google Analytics untuk dapat digunakan untuk mengumpulkan dan menganalisa penggunaan situs web dan lalu lintas untuk jurnal ini. Harap perhatikan bahwa plugin ini mewajibkan Anda telah men-setup sebuah akun Google Analytics. Silahkan lihat <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Situs Google Analytics</a> untuk informasi lebih lanjut.</p><p>Perlu diketahui bahwa Google Analytics mungkin memerlukan hingga 24 jam sebelum statistik dikumpulkan dan dilaporkan. Selama periode ini, fungsi 'Periksa Status' mungkin tidak secara akurat melaporkan apakah telah mendeteksi kode pelacakan yang diperlukan untuk jurnal.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Nomor Akun"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "Dalam Google Analytics, klik 'Periksa Status' untuk melihat kode pelacakan untuk situs Anda. Untuk kode warisan pelacakan, nomor account ditampilkan dalam kode pelacakan sebagai: _uacct = \"###\". Untuk kode pelacakan baru, jumlah account ditampilkan dalam kode pelacakan sebagai: var pageTracker = _gat._getTracker (\"###\"). Masukkan teks yang sesuai dengan ###."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Silahkan masukkan nomor akun."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Pelacakan Kode"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Silahkan pilih pelacakan kode yang akan digunakan."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Pelacakan kode warisan (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Pelacakan kode baru (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Nomor Akun Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Untuk melacak pembaca artikel yang diterbitkan menggunakan Google Analytics, masukkan nomor akun di sini (e.g. UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Satu atau lebih nomor akun Google Analytics dimasukkan untuk penyampaian penulis tidak valid."

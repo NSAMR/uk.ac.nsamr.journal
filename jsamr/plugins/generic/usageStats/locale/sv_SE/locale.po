@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:56-08:00\n"
+"PO-Revision-Date: 2020-05-27 23:15+0000\n"
+"Last-Translator: Magnus Annemark <magnus.annemark@ub.lu.se>\n"
+"Language-Team: Swedish <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Inställningar för åtkomstloggar"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Skapa loggfiler"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Med den här inställningen aktiverat kommer pluginet skapa filer med åtkomstloggar i files-katalogen. Dessa filer är till för att extrahera användningsstatistik ur. Om du inte längre vill att OJS ska skapa filer med åtkomstloggar kan du lämna det här alternativet avaktiverat och istället använda din webbservers egna åtkomstlogg-filer."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Reguljärt uttryck för parsning av loggfiler"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Reguljärt uttryck att använda som som standard för att parsa Apaches åtkomstlogg-filer i kombinerat format samt pluginets egna loggfiler. Om du använder åtkomstloggar i något annat format behöver du redigera det reguljära uttrycket så att det kan fånga värden från detta format. Se UsageStatsLoader::_getDataFromLogEntry() för mer information."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Inställningar för användningsstatistik-pluginet sparade"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Inställningar för dataskydd"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Sökväg till fil med salt för anonymisering"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "Saltfilen är inte skrivbar."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "För att säkert samla in data med respekt för dataskyddet behöver du ange en fil som kan användas för att lagra ett framslumpat \"salt\"-värde. Webbserverns användare behöver ha både läs- och skrivrättigheter till filen. Saltet genereras slumpmässigt genom antingen: funktionen mcript_create_iv, som kräver PHP:s mcrypt; funktionen openssl_random_pseudo_bytes, som kräver PHP:s openssl; filen /dev/urandow, som enbart fungerar i *nix-system; eller funktionen mt_rand, som inte är kryptografiskt säker. Var därför noga med att installera antingen PHP mcrypt eller openssl, så att du använder ett kryptografiskt säkert salt."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Aktivera den här inställningen om du vill att pluginet ska respektera lagstiftning som ställer krav på personlig integritet, t.ex. genom att bara spara IP-adresser i hashad form, genom att informera användarna om statistikinsamlandet och samtidigt erbjuda dem möjlighet att avböja deltagande. Tänk på att om du aktiverar det här alternativet kommer du inte att kunna använda geolokaliserings-funktionaliteten som finns i pluginet."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "För att aktivera dataskydd behövs en saltfil."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Om dataskydd är aktiverat går det inte att använda statistik om Stad."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Om dataskydd är aktiverat går det inte att använda statistik om Region."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Respektera dataskyddet"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Statistik-tillval"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Aktivera eller avaktivera insamling av nedanstående ytterligare information. Det här påverkar vilka statistikrapporter som är möjliga att göra, och påverkar även databasens storlek. ÄNDRA INTE om du inte verkligen vet vad du gör."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Tillvalet \"Stad\" är beroende av tillvalet \"Region\"."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Arkiv"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Aktivera den här inställningen för att komprimera arkiverade loggfiler med verktyget gzip (du behöver konfigurera gzip-inställningen i config.inc.php). Om du har en webbplats med mycket trafik kan detta vara en god idé för att spara diskutrymme."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Komprimera arkiv"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Alternativ för visning av statistik"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "De här inställningarna påverkar bara användningsstatistik för {$contextName}."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Visa ett statistikdiagram för läsaren på varje bidrag"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Välj diagramtyp för nedladdningsstatistiken"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Staplar"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Linje"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Ange max antal data att presentera samtidigt för en specifik punkt på x-axeln. Ett högre värde kan göra det svårt att läsa diagrammet. Något mellan 3 och 5 är säkert."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Filladdningsuppgift för användningsstatistik"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Det gick inte att öppna filen {$file} och den var därför avvisad."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Rad nummer {$lineNumber} i filen {$file} är inte en giltig loggpost, filen avvisades."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "Rad nummer {$lineNumber} i filen {$file} innehåller en URL som systemet inte klarar av att klippa bort bas-URL:en från."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Kunde inte läsa in data extraherade från filen {$file}. Filen flyttades till stage igen."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Pluginet för användningsstatistik är avaktiverat. Inga loggfiler behandlades."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Katalogen {$directory} är inte tom. Det här kan vara ett tecken på en tidigare process som fallerat, eller en annan process som körs samtidigt. Filen kommer behandlas på nytt automatiskt om du också använder scheduledTasksAutoStage.xml. I annat fall behöver du manuellt flytta övergivna filer från processing-katalogen till stage-katalogen."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Användningsstatistik"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Presentera användningsstatistik för objekt. Kan använda serverns åtkomstloggar för att extrahera statistik."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "Rapport PKP Användningsstatistik"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "Rapport PKP Standard användningsstatistik (COUNTER-förberedd)"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Information om användningsstatistik och integritet"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Information om användningsstatistik och integritet"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Information om användningsstatistik"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Vi loggar anonymiserad användningsstatistik. För detaljer, se vår <a href=\"{$privacyInfo}\">integritetsinformation</a>."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Din avanmälan från statistikinsamlingen har registrerats. Så länge du ser det här meddelandet kommer ingen statistik över din användning av den här webbplatsen att samlas in. Tryck på knappen nedan om du vill ångra ditt beslut.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Anmälan"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Avanmälan"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Om du så önskar kan du avanmäla dig från datainsamlingen. Genom att klicka på knappen för avanmälan nedan kan du aktivt avstå från att delta i statistikanalysen. När du trycker på knappen för avanmälan sparas en <em>kaka</em> i ditt system där ditt val sparas. Om du har en webbläsare vars integritetsinställningar gör att kakor tas bort automatiskt behöver du avanmäla dig på nytt nästa gång du besöker den här webbplatsen. Kakan gäller bara i en webbläsare, så om du använder en annan webbläsare nästa gång behöver du avanmäla dig igen. Ingen personlig information sparas i den här kakan, och den gäller ett år från den tidpunkt du senast besökte webbplatsen.</p>\n"
+"\t\t<p>Tänk på att generella serverloggar inte påverkas av den här avanmälan. Se vår allmänna <a href=\"{$privacyStatementUrl}\">integritetspolicy</a>.</p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Public Knowledge Project-statistik (COUNTER-förberedd)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Summa av alla filnedladdningar"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Nedladdningsdata är inte tillgängliga än."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Jan Feb Mar Apr Maj Jun Jul Aug Sep Okt Nov Dec"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Nedladdningar"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "Varje tidskrift kan ersätta de här inställningarna från tidskriftens pluginsida."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Allmän integritetsinformation</h3>\n"
+"\t\t<p>Se vår allmänna <a href=\"{$privacyStatementUrl}\""
+">integritetspolicy</a>.</p>\n"
+"\t\t<h3>Användningsstatistik</h3>\n"
+"\t\t<p>För att kunna analysera vår tidskrifts och dess publicerade artiklars "
+"användning och genomslag samlar vi in och loggar besök på tidskriftens "
+"förstasida, nummer, artiklar, publiceringsversioner samt bilagor. Alla data "
+"anonymiseras i processen. Ingen information om personer loggas. IP-adresser "
+"anonymiseras genom hashning (med <em>SHA 256</em>) i kombination med ett <em>"
+"64 tecken långt \"salt\"</em>, som automatiskt <em>genereras slumpmässigt "
+"och skrivs över dagligen</em>. Därför kan IP-adresser inte återskapas.</p>\n"
+"\t\t<p>Följande information samlas in utöver de anonymiserade IP-"
+"adresserna:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Åtkomsttyp (d.v.s. administrativ)</li>\n"
+"\t\t<li>Tid för begäran</li>\n"
+"\t\t<li>Begärd URL</li>\n"
+"\t\t<li>HTTP-statuskod</li>\n"
+"\t\t<li>Webbläsare</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Insamlade data används endast i utvärderingssyfte. IP-adresser går "
+"inte att koppla till användar-ID:n. Det är tekniskt omöjligt att spåra ett "
+"specifik delmängd av data till en specifik IP-adress.</p>"
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Allmän integritetsinformation</h3>\n"
+"\t\t<p>Se vår allmänna <a href=\"{$privacyStatementUrl}\""
+">integritetspolicy</a>.</p>\n"
+"\t\t<h3>Användningsstatistik</h3>\n"
+"\t\t<p>För att kunna analysera vår tidskrifts och dess publicerade artiklars "
+"användning och genomslag samlar vi in och loggar besök på tidskriftens "
+"förstasida, nummer, artiklar, publiceringsversioner samt bilagor. Alla data "
+"anonymiseras i processen. Ingen information om personer loggas. IP-adresser "
+"anonymiseras genom hashning (med <em>SHA 256</em>) i kombination med ett <em>"
+"64 tecken långt \"salt\"</em>, som automatiskt <em>genereras slumpmässigt "
+"och skrivs över dagligen</em>. Därför kan IP-adresser inte återskapas.</p>\n"
+"\t\t<p>Följande information samlas in utöver de anonymiserade IP-"
+"adresserna:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Åtkomsttyp (d.v.s. administrativ)</li>\n"
+"\t\t<li>Tid för begäran</li>\n"
+"\t\t<li>Begärd URL</li>\n"
+"\t\t<li>HTTP-statuskod</li>\n"
+"\t\t<li>Webbläsare</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Insamlade data används endast i utvärderingssyfte. IP-adresser går "
+"inte att koppla till användar-ID:n. Det är tekniskt omöjligt att spåra ett "
+"specifik delmängd av data till en specifik IP-adress.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr "Varje press kan upphäva dessa inställningar från pressens plugin-sida."

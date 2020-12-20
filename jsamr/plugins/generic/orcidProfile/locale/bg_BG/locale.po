@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:16+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:16+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "Добавка за ORCID профил"
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "Позволява инпортиране на информация от ORCID профили на потребители."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr "Можете предварително да разпространите този формуляр с информация от ORCID профил. Въведете имейл или идентификатор, свързани с ORCID профил, после щракнете \"Изпращане\"."
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "Не се намериха данни от ORCID."
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "Имейл адрес или ORCID идентификатор:"
+
+msgid "plugins.generic.orcidProfile.manager.settings.title"
+msgstr "Настройки на ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.hidden"
+msgstr "скрит"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr "Моля потвърдете достъп от ORCID API за използване изтеглянето на информация от ORCID профил в профила на автор и допълване на свързаните ORCID записи с публикацията (само за членове на ORCID)."
+
+msgid "plugins.generic.orcidProfile.manager.settings.description.globallyconfigured"
+msgstr "ORCID API е конфигуриран глобално от хостинга. Следните данни за достъп са съхранени."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "Обществен"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Обществен \"пясъчник\""
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "Член"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "\"Пясъчник\" на потребител"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "Идентификатор на клиент"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "Таен ключ на клиент"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidScope"
+msgstr "Обхват на достъпа до профил"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "Найстроики на имейл"
+
+msgid "plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication"
+msgstr "Изпращане на имейл за изискване на удостоверяване за ORCID от авторите на статии за публикуване на ново издание"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logSectionTitle"
+msgstr "Журнал на заявките за ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.help"
+msgstr "Изберете количеството на записаната в журнали информация от добавката"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.error"
+msgstr "Грешки"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "Всичко"
+
+msgid "plugins.generic.orcidProfile.author.accessDenied"
+msgstr "Достъпът до ORCID отказан"
+
+msgid "plugins.generic.orcidProfile.author.accessTokenStored"
+msgstr "Предоставен е достъп до ORCID записи с обхват {$orcidAccessScope}, валиден до"
+
+msgid "plugins.generic.orcidProfile.author.requestAuthorization"
+msgstr "Изпращане на имейл за изискване на удостоверяване за ORCID от автор"
+
+msgid "plugins.generic.orcidProfile.author.deleteORCID"
+msgstr "Изтриване на ORCID идентификатор и ключ за достъп!"
+
+msgid "plugins.generic.orcidProfile.author.orcidEmptyNotice"
+msgstr "Вижте по-долу за да изискате удостоверяване за ORCID идентификатор"
+
+msgid "plugins.generic.orcidProfile.author.unauthenticated"
+msgstr "ORCID идентификатор не е удостоверен! Моля изискайте удостоверяване от автора."
+
+msgid "plugins.generic.orcidProfile.verify.title"
+msgstr "ORCID упълномощаване"
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success"
+msgstr "Предложената работа беше добавена във Вашия ORCID запис."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure"
+msgstr "Предложената работе не може да се добави във Вашия ORCID запис."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished"
+msgstr "Предложената работа ще бъде добавена във Вашия ORCID запис по време на публикуването."
+
+msgid "plugins.generic.orcidProfile.verify.success"
+msgstr "Вашият ORCID запис беше верифициран и успешно асоцииран с предложената работа."
+
+msgid "plugins.generic.orcidProfile.verify.failure"
+msgstr "Вашият ORCID запис не беше верифициран. Хипервръзката вече не е валидна."
+
+msgid "plugins.generic.orcidProfile.verify.duplicateOrcid"
+msgstr "ORCID идентификатор вече е записан за тази предложена работа."
+
+msgid "plugins.generic.orcidProfile.verify.denied"
+msgstr "Вие отказахте достъп до Вашия ORCID запис."
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "Хипервръзката за ORCID удостоверяване вече е използване или не е валидна."
+
+msgid "plugins.generic.orcidProfile.failure.contact"
+msgstr "Моля свържете се с мениджър на списанието, посочвайки своето име ORCID идентификатор и подробности за предлаганата работа."
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "Създаване или свързване с Вашия ORCID идентификатор"
+
+msgid "plugins.generic.orcidProfile.authorise"
+msgstr "Упълномощаване и свързване на Вашия ORCID идентификатор"
+
+msgid "plugins.generic.orcidProfile.about.title"
+msgstr "Какво е ORCID?"
+
+msgid "plugins.generic.orcidProfile.about.orcidExplanation"
+msgstr "ORCID е независима, нетърговска организация, която предоставя постоянен идентификатор ORCID iD – който Ви отличава от други изследователи и свързва Вашите публикации на изследвания дейности с Вашия идентификатор. ORCID се използва в много системи, изпорзвани от издатели, финансиращи органи, институции и други свързани с изследвания услуги. Научете повече на <a href=\"https://orcid.org\">orcid.org</a>."
+
+msgid "plugins.generic.orcidProfile.about.howAndWhy.title"
+msgstr "Защо и как ние събираме ORCID идентификатори?"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyPublicAPI"
+msgstr ""
+"Това списание събира Вашите ORCID идентификатори за да можем [добавете цел и направете разлика между API за членове и обществен API].\n"
+"\tКогато кликнете бутон “Упълномощаване” в изскачащия прозорец за ORCID, ще Ви помолим да споделите своя идентификатор чрез процес на упълномощаване извършван чрез: <a href=\"https://support.orcid.org/hc/en-us/articles/360006897454\">регистриране за ORCID идентификатор</a> или, ако Вие имате такъв, чрез <a href=\"https://support.orcid.org/hc/en-us/categories/360000661673\">влизане във Вашия ORCID профил</a>, а след това предоставяне на нас разрешение да получим Вашия ORCID идентификатор. Ние правим това за да подсигурим, че коректно сте идентифицирани и сигурно сме свързали Вашия ORCID идентификатор.<br>\n"
+"\tНаучете повече на <a href=\"https://orcid.org/blog/2017/02/20/whats-so-special-about-signing\">What’s so special about signing in.</a>"
+
+msgid "plugins.generic.orcidProfile.about.display.title"
+msgstr "Къде се показват ORCID идентификатори?"
+
+msgid "plugins.generic.orcidProfile.about.display"
+msgstr ""
+"За да се потвърди, че Вие използвате свой идентификатор и че той е удостоверен, ние показваме икона ORCID iD <img src=\"https://orcid.org/sites/default/files/images/orcid_16x16(1).gif\" alt=\"iD icon\" width=\"16\" height=\"16\" border=\"0\"> срещу Вашето име на страницата на предложена от Вас статия и във Вашия обществено достъпен профил.<br>\n"
+"\t\tНаучете повече на <a href=\"https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed\">How should an ORCID iD be displayed.</a>"

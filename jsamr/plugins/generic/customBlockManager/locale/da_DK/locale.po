@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:04:57+00:00\n"
+"PO-Revision-Date: 2020-02-01 10:35+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/"
+"custom-block-manager-plugin/da/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Brugerdefineret blok-administrator"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Administrér brugerdefinerede blokke"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Denne plug-in gør dig i stand til håndtere (tilføje, redigere og slette) brugerdefinerede blokke i sidemenuen."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Brugerdefinerede blokke"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Bloknavn"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Tilføj blok"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Der er ikke oprettet nogen brugerdefinerede blokke."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Indhold"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Brugerdefineret blok)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Dette er et brugerdefineret blok."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Et brugerdefineret blok-navn er påkrævet."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr ""
+"Det brugerdefinerede blok-navn må kun indeholde bogstaver, numre og "
+"bindestreg/understregning."

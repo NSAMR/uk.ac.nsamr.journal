@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:26+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:26+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr "Το Πρόσθετο αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OJS με την χρήση του επεξεργαστή περιεχομένου <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Ρυθμίσεις"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Επιλογή ετικέτας"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Δεν υπάρχουν διαθέσιμες ετικέτες γι αυτό το πεδίο."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Μπορείτε να εισάγετε από τις παρακάτω ετικέτες:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Κύριο όνομα επικοινωνίας (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Κύριο email επικοινωνίας (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Όνομα επαφής υποστήριξης (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Email επαφής υποστήριξης (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Τηλέφωνο επαφής υποστήριξης (\"{$value}\")"

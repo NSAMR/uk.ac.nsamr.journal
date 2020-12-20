@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:25+00:00\n"
+"PO-Revision-Date: 2020-04-05 16:37+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/ca/>\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Mòdul d'integració amb TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr "Aquest mòdul activa l'edició WYSIWYG (\"el que veus, és el que tens\") a les àrees de text de l'OMP utilitzant l'editor de contingut <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Configuració"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Telèfon del contacte de suport (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Correu electrònic del contacte de suport (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Nom del contacte de suport (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Correu electrònic del contacte principal (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Nom del contacte principal (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Podeu inserir qualsevol de les següents etiquetes:"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "No hi ha cap etiqueta disponible per a aquest camp."
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Seleccionar etiqueta"

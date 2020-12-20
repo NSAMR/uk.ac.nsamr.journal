@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:04:57+00:00\n"
+"PO-Revision-Date: 2020-04-05 15:37+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/"
+"custom-block-manager-plugin/ca/>\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Administrador de blocs personalitzats"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Administra blocs personalitzats"
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Blocs personalitzats"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Nom del bloc"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Afegeix un bloc"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Contingut"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Bloc personalitzat)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Aquest bloc l'ha creat un usuari."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr ""
+"El nom del bloc personalitzat només pot contenir lletres, números i guions o "
+"guions baixos."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "El nom del bloc personalitzat és necessari."
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "No s'ha creat cap bloc personalitzat."
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr ""
+"Aquest mòdul permet gestionar (afegir, editar i eliminar) blocs de la barra "
+"lateral personalitzats."

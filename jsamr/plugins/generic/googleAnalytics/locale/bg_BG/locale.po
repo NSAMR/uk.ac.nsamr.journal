@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:06+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Добавка за Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Интегриране на OJS с Google Analytics - прложението на Google за анализиране трафика към сайта. Изисква се да сте създали профил за Google Analytics. Моля, прегледайте сайта <a href=\"http://www.google.com/analytics/\" title=\"Сайт Google Analytics\">Google Analytics</a> за повече информация."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>С активиране на тази добавка може да се използва Google Analytics за събиране и анализиране използването на сайта и трафика към него. моля, обърнете внимание, че това изисква да сте направили профил в Google Analytics. Моля прегледайте сайта <a href=\"http://www.google.com/analytics/\" title=\"Сайт Google Analytics\">Google Analytics</a> за повече информация.</p><p>Обърнете внимение, че Google Analytics може да изисква до 24 часа преди да покаже статистика. През това време функцията 'Check Status' може да връща, че не е открила искания код за проследяване.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Номер на профила"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Моля въведете номера на профила."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Номер на профила в Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "За да следите четенето на статии чрез Google Analytics, въведете номер на профил (например: UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Един или повече номера на профили за Google Analytics, въведени като автори на прадложени работи, не са валидни."

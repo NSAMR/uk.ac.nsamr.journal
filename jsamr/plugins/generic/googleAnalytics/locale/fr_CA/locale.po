@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2020-02-01 19:35+0000\n"
+"Last-Translator: Marie-Hélène Vézina [UdeMontréal] <marie-"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/plugins/"
+"google-analytics-plugin/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Plugiciel Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr ""
+"Intégrer OJS à Google Analytics, l’application d'analyse de trafic des sites "
+"webs de Google. Vous devez avoir un compte Google Analytics pour utiliser "
+"cette application. Veuillez consulter le <a href=\"http://www.google.com/"
+"analytics/\" title=\"Google Analytics site\">site Google Analytics </a> pour "
+"de plus amples renseignements."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Paramètres"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Paramètres de Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr ""
+"<p> Au moyen de ce plugiciel, vous pouvez utiliser Google Analytics pour "
+"collecter et analyser l'utilisation et le trafic du site Web pour cette "
+"revue. Veuillez noter que pour utiliser ce plugiciel, vous devez déjà avoir "
+"un compte Google Analytics. Veuillez consulter le <a href=\""
+"http://www.google.com/analytics/\" title=\"Google Analytics site\">site "
+"Google Analytics </a> pour de plus amples renseignements.</p><p>Veuillez "
+"noter que Google Analytics peut nécessiter jusqu'à 24 heures avant que les "
+"statistiques soient colligées et analysées. Durant cette période, la "
+"fonction « Vérifier l'état » peut ne pas indiquer correctement s'il le code "
+"de repérage de la revue a été correctement détecté.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Numéro de compte"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "À partir de Google Analytics, cliquez sur Vérifier l'état pour voir le code de repérage de votre site. Le numéro de compte est affiché dans le code de repérage : _uacct = \"###\". Pour un nouveau code de repérage, le numéro de compte est affiché dans le code de repérage : var pageTracker = _gat._getTracker(\"###\"). Entrez le texte correspondant à ###."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Veuillez entrer un numéro de compte."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Code de repérage"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Prière de sélectionner le code de repérage à utiliser."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Code de repérage patrimonial (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Nouveau code de repérage (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Numéro de compte Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Pour retracer le lectorat des articles publiés à l'aide de Google Analytics, saisir un numéro de compte ici (par ex., UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr ""
+"Un ou plusieurs numéros de compte Google Analytics saisi(s) pour les auteurs-"
+"es des soumissions ne sont pas valides."

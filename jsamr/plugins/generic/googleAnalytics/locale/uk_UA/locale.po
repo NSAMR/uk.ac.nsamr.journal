@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:08+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:08+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Модуль Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Інтеграція OJS з Google Analytics - інструментом Google для аналізу трафіку веб-сайту. Вимагається вже налаштований обліковий запис Google Analytics. Для отримання додаткової інформації, будь ласка, див. <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">сайт Google Analytics</a>."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Дозволяє використовувати Google Analytics для збирання та аналізу статистичних даних щодо використання цього журналу. Будь ласка, зауважте, що для використання цього модуля ви повинні мати обліковий запис у Google Analytics. Для отримання додаткової інформації, будь ласка, див. <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">сайт Google Analytics</a>.</p><p>Будь ласка, майте на увазі, що Google Analytics потребує до 24 годин, перш ніж статистика буде зібрана та доступна для перегляду. Упродовж цього періоду функція 'Перевірити статус' може надавати некоректну відповідь щодо того, чи був визначений коректний код відслідковування для цього журналу.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Номер облікового запису"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Будь ласка, введіть номер облікового запису."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Номер облікового запису Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Для того, щоб відстежувати перегляди опублікованих статей за допомогою Google Analytics введіть сюди номер облікового запису (наприклад, UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Як мінімум один із введених номерів облікових записів Google Analytics для авторів подань не є коректним."

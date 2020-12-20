@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-15T14:05:03-07:00\n"
+"PO-Revision-Date: 2020-07-24 13:47+0000\n"
+"Last-Translator: Marie-Hélène Vézina [UdeMontréal] <marie-"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/ojs/"
+"author/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+# localization file for fr_CA. Last revision 2019-10-22T10:41:52 by Marie-Hélène Vézina, Bibliothèques, Université de Montréal.
+msgid "author.submit"
+msgstr "Nouvelle soumission"
+
+msgid "author.track"
+msgstr "Soumissions actives"
+
+msgid "author.competingInterests"
+msgstr ""
+"Intérêts divergents <a target=\"_new\" class=\"action\" href=\""
+"{$competingInterestGuidelinesUrl}\">Politique d'intérêts divergents</a>"
+
+msgid "author.submit.submitArticle"
+msgstr "Soumettre un article"
+
+msgid "author.submit.stepsToSubmit"
+msgstr "Soumettre un article en cinq étapes"
+
+msgid "author.submit.startHereTitle"
+msgstr "Commencer une nouvelle soumission"
+
+msgid "author.submit.startHereLink"
+msgstr "<a href=\"{$submitUrl}\" class=\"action\">Cliquer ici</a> pour vous rendre à la première étape du processus de soumission en cinq étapes."
+
+msgid "author.submit.step1"
+msgstr "Étape 1. Commencer la soumission"
+
+msgid "author.submit.step2"
+msgstr "Étape 2. Téléverser la soumission"
+
+msgid "author.submit.step3"
+msgstr "Étape 3. Saisir les métadonnées de la soumission"
+
+msgid "author.submit.step4"
+msgstr "Étape 4. Télécharger les fichiers supplémentaires"
+
+msgid "author.submit.step4a"
+msgstr "Étape 4a. Ajouter un fichier supplémentaire"
+
+msgid "author.submit.step5"
+msgstr "Étape 5. Confirmer la soumission"
+
+msgid "author.submit.start"
+msgstr "Commencer"
+
+msgid "author.submit.upload"
+msgstr "Téléverser la soumission"
+
+msgid "author.submit.metadata"
+msgstr "Saisir les métadonnées"
+
+msgid "author.submit.supplementaryFiles"
+msgstr "Téléverser les fichiers supplémentaires"
+
+msgid "author.submit.confirmation"
+msgstr "Confirmation"
+
+msgid "author.submit.nextSteps"
+msgstr "Étapes suivantes"
+
+msgid "submission.submit.cancelSubmission"
+msgstr "Vous pouvez compléter cette soumission ultérieurement en la sélectionnant dans le menu des soumissions actives de l'auteur-e."
+
+msgid "author.submit.notAccepting"
+msgstr "Cette revue n'accepte pas de soumissions pour le moment."
+
+msgid "author.submit.requestWaiver"
+msgstr "Demande d'exemption"
+
+msgid "author.submit.qualifyForWaiver"
+msgstr "Veuillez envisager d'être exempté des Frais de soumission d'article pour cet article"
+
+msgid "author.submit.addReasonsForWaiver"
+msgstr "Veuillez utiliser la boîte de commentaires ci-dessous pour expliquer pourquoi vous devriez être exempté des frais."
+
+msgid "author.submit.mustEnterWaiverReason"
+msgstr "Si vous effectuez une demande d'exemption, vous devez inscrire une justification dans l'espace prévu à cet effet."
+
+msgid "author.submissions.queuedReviewSubsequent"
+msgstr "Cycle d'évaluation {$round}"
+
+msgid "author.submissions.queuedReviewRevisions"
+msgstr "En évaluation : révisions requises"
+
+msgid "author.submissions.queuedEditingCopyedit"
+msgstr "En révision : correction de texte requise"
+
+msgid "author.submissions.queuedEditingProofread"
+msgstr "En révision : correction des épreuves requise"
+
+msgid "author.submissions.uploadCopyeditedVersion"
+msgstr "Téléverser le fichier révisé"
+
+msgid "author.submissions.proofreadingCorrections"
+msgstr "Corrections des épreuves"
+
+msgid "author.submissions.confirmDelete"
+msgstr "Êtes-vous certain-e de vouloir supprimer cette soumission incomplète ?"
+
+msgid "author.submissions.viewStatus"
+msgstr "Voir le statut"
+
+msgid "author.submissions.noSubmissions"
+msgstr "Aucune soumission."
+
+msgid "author.submit.journalSection"
+msgstr "Rubrique de la revue"
+
+msgid "author.submit.journalSectionDescription"
+msgstr "Les articles doivent être soumis à l'une des rubriques de la revue."
+
+msgid "author.submit.verifyChecklist"
+msgstr ""
+"Vous devez vous assurer que tous les éléments de la liste de vérification de "
+"la soumission sont satisfaits avant de continuer."
+
+msgid "author.submit.copyrightNoticeAgree"
+msgstr "Les auteurs-es acceptent les conditions de l'avis de droit d'auteur, qui s'appliqueront à cette soumission si et quand elle sera publiée par cette revue (des commentaires au,à la rédacteur-trice peuvent être ajoutés ci-dessous)."
+
+msgid "author.submit.copyrightNoticeAgreeRequired"
+msgstr "Vous devez accepter les conditions de l'avis de droit d'auteur avant de pouvoir continuer."
+
+msgid "submission.submit.coverNote"
+msgstr "Commentaires pour le,la rédacteur-trice"
+
+msgid "author.submit.comments"
+msgstr "Saisir du texte (optionnel)"
+
+msgid "author.submit.form.sectionRequired"
+msgstr "Veuillez sélectionner une rubrique de la revue appropriée pour cette soumission."
+
+msgid "author.submit.form.localeRequired"
+msgstr "Veuillez sélectionner une langue de soumission."
+
+msgid "submission.submit.privacyStatement"
+msgstr "Déclaration de confidentialité de la revue"
+
+msgid "author.submit.reorderInstructions"
+msgstr "Réordonner les auteurs-es pour qu'ils et elles paraissent dans l'ordre dans lequel ils et elles seront listés-es lors de la publication."
+
+msgid "author.submit.reorder"
+msgstr "Réordonner le nom de l'auteur-e"
+
+msgid "author.submit.selectPrincipalContact"
+msgstr "Personne-ressource principale pour la correspondance éditoriale."
+
+msgid "author.submit.addAuthor"
+msgstr "Ajouter un-e auteur-e"
+
+msgid "author.submit.deleteAuthor"
+msgstr "Supprimer un-e auteur-e"
+
+msgid "author.submit.submissionIndexingDescription"
+msgstr ""
+"Fournir les termes pour l'indexation de la soumission ; séparer les termes "
+"par un point-virgule (terme1 ; terme2 ; terme3)."
+
+msgid "author.submit.coverageInstructions"
+msgstr "Se réfère à un lieu géo-spatial, une couverture historique ou chronologique, et/ou à des caractéristiques d'un échantillon de recherche."
+
+msgid "author.submit.languageInstructions"
+msgstr ""
+"anglais=en ; français=fr ; espagnol=es. <a href=\"http ://www.loc.gov/"
+"standards/iso639-2/php/code_list.php\" target=\"_blank\">Codes "
+"supplémentaires</a>."
+
+msgid "author.submit.form.authorRequired"
+msgstr "Au moins un-e auteur-e est obligatoire."
+
+msgid "author.submit.form.authorRequiredFields"
+msgstr "Les prénom, nom de famille, et courriel de chaque auteur-e sont obligatoires."
+
+msgid "author.submit.form.titleRequired"
+msgstr "Veuillez saisir le titre de votre article."
+
+msgid "author.submit.form.abstractRequired"
+msgstr "Veuillez saisir le résumé de votre article."
+
+msgid "author.submit.form.wordCountAlert"
+msgstr "Vous avez dépassé la limite maximale de mots fixée pour les résumés dans cette section."
+
+msgid "author.submit.submissionFile"
+msgstr "Fichier de soumission"
+
+msgid "author.submit.uploadSubmissionFile"
+msgstr "Téléverser le fichier de soumission"
+
+msgid "author.submit.replaceSubmissionFile"
+msgstr "Remplacer le fichier de soumission"
+
+msgid "author.submit.noSubmissionFile"
+msgstr "Aucun fichier de soumission téléversé."
+
+msgid "author.submit.noSubmissionConfirm"
+msgstr "Êtes-vous certain-e de vouloir continuer sans téléverser un fichier de soumission ?"
+
+msgid "author.submit.supplementaryFilesInstructions"
+msgstr "Cette étape facultative permet l'ajout de fichiers supplémentaires à la soumission. Les fichiers, qui peuvent être de n'importe quel format, peuvent comprendre (a) des instruments de recherche, (b) des ensembles de données se conformant aux conditions de la révision déontologique de la recherche de l'étude, (c) des sources qui autrement ne seraient pas disponibles aux lecteurs, (d) des figures et tableaux qui ne peuvent être intégrés dans le texte en soi, ou d'autres documents qui ajoutent une contribution au travail."
+
+msgid "author.submit.supplementaryFiles.saveToUpload"
+msgstr "Cliquer sur « Enregistrer » pour téléverser le fichier (suite à quoi des fichiers supplémentaires pourront aussi être téléversés)."
+
+msgid "author.submit.forgottenSubmitSuppFile"
+msgstr "Êtes-vous certain-e de vouloir continuer sans téléverser le fichier supplémentaire que vous avez choisi ?"
+
+msgid "author.submit.noSupplementaryFiles"
+msgstr "Aucun fichier supplémentaire n'a été ajouté à cette soumission."
+
+msgid "author.submit.backToSupplementaryFiles"
+msgstr "Retour à « Fichiers supplémentaires »"
+
+msgid "author.submit.confirmDeleteSuppFile"
+msgstr "Êtes-vous certain-e de vouloir supprimer ce fichier supplémentaire ?"
+
+msgid "author.submit.uploadSuppFile"
+msgstr "Téléverser le fichier supplémentaire"
+
+msgid "author.submit.addSupplementaryFile"
+msgstr "Ajouter un fichier supplémentaire"
+
+msgid "author.submit.editSupplementaryFile"
+msgstr "Modifier un fichier supplémentaire"
+
+msgid "author.submit.supplementaryFileData"
+msgstr "Métadonnées du fichier supplémentaire"
+
+msgid "author.submit.supplementaryFileDataDescription"
+msgstr "Pour indexer ces documents supplémentaires, fournir les métadonnées suivantes pour chaque fichier supplémentaire téléversé."
+
+msgid "author.submit.supplementaryFileUpload"
+msgstr "Fichier supplémentaire"
+
+msgid "author.submit.suppFile.createrOrOwner"
+msgstr "Créateur-trice (ou propriétaire) du fichier"
+
+msgid "author.submit.suppFile.researchInstrument"
+msgstr "Instrument de recherche"
+
+msgid "author.submit.suppFile.researchMaterials"
+msgstr "Documents de recherche"
+
+msgid "author.submit.suppFile.researchResults"
+msgstr "Résultats de recherche"
+
+msgid "author.submit.suppFile.transcripts"
+msgstr "Transcriptions"
+
+msgid "author.submit.suppFile.dataAnalysis"
+msgstr "Analyse de données"
+
+msgid "author.submit.suppFile.dataSet"
+msgstr "Ensemble de données"
+
+msgid "author.submit.suppFile.sourceText"
+msgstr "Texte source"
+
+msgid "author.submit.suppFile.briefDescription"
+msgstr "Brève description"
+
+msgid "author.submit.suppFile.availableToPeers"
+msgstr "Présenter le fichier aux évaluateurs-trices (sans métadonnées), de façon à ne pas compromettre l'évaluation anonyme."
+
+msgid "author.submit.suppFile.publisherDescription"
+msgstr "Utiliser uniquement avec des documents officiellement publiés."
+
+msgid "author.submit.suppFile.dateDescription"
+msgstr "Date à laquelle les données ont été collectées ou à laquelle l'instrument a été créé."
+
+msgid "author.submit.suppFile.sourceDescription"
+msgstr "Nom de l'étude ou autre point d'origine."
+
+msgid "author.submit.suppFile.specifyOtherType"
+msgstr "Préciser tout autre type"
+
+msgid "author.submit.suppFile.noFile"
+msgstr "Aucun fichier téléversé."
+
+msgid "author.submit.suppFile.form.titleRequired"
+msgstr "Veuillez saisir le titre de ce fichier supplémentaire."
+
+msgid "author.submit.suppFile.form.subjectRequired"
+msgstr "Veuillez saisir un sujet."
+
+msgid "author.submit.suppFile.form.descriptionRequired"
+msgstr "Veuillez entrer une description."
+
+msgid "author.suppFile.suppFilePublicIdentificationExists"
+msgstr "L'identification publique du fichier supplémentaire existe déjà."
+
+msgid "author.suppFile.publicSuppFileIdentifier"
+msgstr "Identifiant public du fichier supplémentaire"
+
+msgid "author.submit.confirmationDescription"
+msgstr "Pour soumettre votre manuscrit à la publication {$journalTitle}, cliquer sur Terminer la soumission. Le personne-ressource principale de la soumission recevra un accusé de réception par courriel et sera en mesure de consulter l'avancement du processus éditorial de la soumission en se connectant au site Web de la revue. Merci de votre intérêt à publier dans {$journalTitle}."
+
+msgid "author.submit.noFiles"
+msgstr "Aucun fichier n'a été attaché à cette soumission."
+
+msgid "author.submit.filesSummary"
+msgstr "Sommaire du fichier"
+
+msgid "author.submit.finishSubmission"
+msgstr "Terminer la soumission"
+
+msgid "author.submit.submissionComplete"
+msgstr "Soumission terminée. Merci de l'intérêt que vous portez à la publication {$journalTitle}."
+
+msgid "author.article.uploadAuthorVersion"
+msgstr "Téléverser la version de l'auteur-e"
+
+msgid "author.article.copyeditedFile"
+msgstr "Fichier révisé"
+
+msgid "author.article.authorRevisedFile"
+msgstr "Fichier de l'auteur-e"
+
+msgid "author.submit.authorSubmitLoginMessage"
+msgstr "Un compte d'utilisateur-trice est obligatoire afin de soumettre à cette revue. Ceci permet aux rédacteurs-trices de faire le suivi de vos soumissions et d'entrer en contact avec vous lorsque le statut de votre soumission change, ou encore si des informations supplémentaires devaient vous être demandées."

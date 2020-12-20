@@ -1,0 +1,23 @@
+﻿# الخلاصة
+
+* [مقدمة](README)
+* [الملف الشخصي للمستخدم](user-profile)
+* [التأليف](authoring)
+* [التحكيم](reviewing)
+* [إدارة طلبات النشر](submissions)
+* [مجريات التحرير](editorial-workflow)
+   * [مرحلة تقديم طلب النشر](editorial-workflow/submission)
+   * [مراحل التحكيم](editorial-workflow/review)
+   * [التدقيق](editorial-workflow/copyediting)
+   * [الإنتاج](editorial-workflow/production)
+* [إدارة الأعداد](issue-management)
+* [المهام](tasks)
+* الإعدادات
+   * [إعدادات المجلة](settings/journal-settings)
+   * [إعدادات الموقع](settings/website-settings)
+   * [إعدادات المخطط الانسيابي](settings/workflow-settings)
+   * [إعدادات التوزيع](settings/distribution-settings)
+* [المستخدمون والأدوار](users-and-roles)
+* [الأدوات](tools)
+* [الإحصائيات](statistics)
+* [الإدارة](administration)

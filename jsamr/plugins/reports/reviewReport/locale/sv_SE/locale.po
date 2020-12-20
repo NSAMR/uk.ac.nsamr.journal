@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:13+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:13+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Rapport över granskningar"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Pluginet skapar en CSV-rapport som innehåller en lista över en tidskrifts granskningsuppdrag."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Omgång"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Bidragets titel"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "Bidragets ID"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Granskare"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Tilldelat den"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Meddelat den"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Bekräftat den"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Avslutad den"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Påminnelsedatum"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Rekommendation"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Kommentarer till bidraget"

@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2020-06-08 14:09+0000\n"
+"Last-Translator: Lucia Steele <lucia.steele@aboutscience.eu>\n"
+"Language-Team: Italian <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/it/>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Accedi alle opzione per il log"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Crea i file di log"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr ""
+"Attivando questa opzione il plugin creerà dei file di log degli accessi "
+"all'interno della directory dei files. Questi files saranno utilizzato per "
+"estrarre le statistiche d'uso. Se non vuoi creare ulteriori file di accesso, "
+"puoi lasciare questa opzione disabilitata e usare i log del server."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Regexp per elaborare i files di log"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "La regexp di default può elaborare i file access di apache nel formato 'combined' e anche i file generati dak plugin. Se il tuo access file di log è in un formato differente, devi inserire una regexp capace di eleborarlo e estrarre i valori attesi. Guarda nel codice la funzione UsageStatsLoader::_getDataFromLogEntry()  per maggiori informazioni."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Configurazioni del plugin statistiche salvate"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Opzione per la privacy"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Path del file per gestire l'anonimizzazione (salt)"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "Il file salt non è scrivibile."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "Per garantire la privacy del dato, devi specificare un file leggibile e scrivibile dal web che contenga un valore di salt generato in maniera casuale Questo file NON deve essere essere manipolata per garantire la privacy. Il salt è generato casualmente usando: la funzione mcrypt_create_iv, che richiede PHP mcrypt; o  openssl_random_pseudo_bytes, che richiede PHP openssl; o il file /dev/urandom che è presente solo sui sitemi *nix; o infine mt_rand, che non è sicura a livello criptografico. Dunque se stai usando un server Windows, per favore controlla di avere installato PHP mcrypt o di aveve openssl operativo con PHP. In questo modo il salt creato sarà sicuro a livello criptografico."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Attivando questa opzione il plugin rispetterà le legislazioni con maggiori richieste sulla privacy, ad esempio gli IP address saranno loggati sotto forma di hash, gli utenti verranno informati del tracciamento e ci sarà un'opzione di opt-oui. Attenzione: usando quest'opzione non sara possibile usare la georeferenziazione."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Attivare la privacy richiede un file di salt."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Attivare la privacy esclude la georeferenziazione 'Città' dal plugin."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Attivare la privacy esclude la georeferenziazione 'Regione' dal plugin."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Rispetta la privacy"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Informazioni statistiche opzionali"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Abilita o disabilità la raccolta delle seguenti informazioni opzionali. Questo influenza i report statistiche che puoi elaborare e ha un impatto sulla dimesione del DB. Attenzione: NON CAMBIARLA se non capisci tutte le conseguenze ad ogni livello del cambiamento."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "La colonna opzionale 'Città' richiede la colonna opzionale 'Regione'."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Archivi"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Attivando questa opzione i file di log verranno compressi con gzip, se lo hai configurato nel file config.inc.php. Se hai un sito ad alto traffico, è una buona idea attivare questa opzione, salverà dello spazio sul disco."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Comprimi gli archivi"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Opzioni per la visualizzazione delle statistiche"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Queste configurazioni saranno applicate alle statistiche su {$contextName}."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Visualizzara il grafico sulle proposte ai lettori"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Scegli il tipo di grafico per visualizzare le statistiche dei download"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Barre"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Linea"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Seleziona il massimo numero di dati da presentare nello stesso momento su un specifico asse X. Un valore troppo alto può generare grafici difficili da leggere. Di solito un valore tra 3 e 5 va bene."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Nome del  task per il carico delle statistiche d'uso"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Il file {$file} non può essere aperto ed è stato scartato."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "La linea numero {$lineNumber} del file {$file} non è una linea di log corretta ed è stata scartata."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "La linea numero {$lineNumber} del file {$file} contiene url non lavorabile."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Non si riesce ad elaborare i dati del file {$file}. Il file è stato riportato nella dir stage di nuovo."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Plugin per le statistiche non abilitato. I file di log non vengono elaborati."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "La directory {$directory} non è vuota. Questo indica che un processo precedente è fallito o che due processi sono partiti in parallelo. Il file verrà rilavorato in automatico se stai usando anche scheduledTasksAutoStage.xml, altrimenti devi spostare maualmente il file orfano dalla dir processing nella dir stage."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Statistiche d'uso"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Presenta le statistiche d'uso. Può usare il file access del server per estrarre le statistiche."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "Report PKP per le statistiche d'uso"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "Report di default della PKP sulle statistiche d'uso. E' conforme a COUNTER"
+
+msgid "plugins.reports.usageStats.optout.displayName"
+msgstr "Informazioni privacy per le statistiche d'uso"
+
+msgid "plugins.reports.usageStats.optout.description"
+msgstr "Informazioni privacy per le statistiche d'uso"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Informazioni sulle statistiche d'uso"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Registriamo statistiche d'uso in modo anonimo. Per favore leggi la <a href=\"{$privacyInfo}\">privacy</a> per i dettagli."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Hai configurato con successo l'opt-out dalla registrazione delle statistiche d'uso. Fino a quando vedrai questo messaggio, on verranno registrate statistiche sul tuo uso di questo sito. Clicca sul bottone qui sotto per annullare questa decisione.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Accetto"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Voglio essere escluso"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Se lo desideri, puoi disattivare la procedura di raccolta dei dati. "
+"Facendo clic sul pulsante di disattivazione di seguito, puoi decidere di non "
+"essere presente nelle statistiche. Quando si fa clic sul pulsante di "
+"disattivazione, sul tuo sistema viene creato un <em> cookie </ em> per "
+"memorizzare la tua decisione. Se le impostazioni sulla privacy del tuo "
+"browser comportano l'eliminazione automatica dei cookie, dovrai disattivarti "
+"nuovamente la volta successiva che accedi a questo sito web. Il cookie è "
+"valido solo per un browser. Se utilizzi un browser diverso, dovrai "
+"escluderti di nuovo. Nessuna informazione personale è memorizzata "
+"all'interno di questo cookie. Questo cookie è valido per un anno dopo il tuo "
+"ultimo accesso. </ p>\n"
+"<p>Tieni presente che i log generali del server non sono influenzati dalla "
+"tua decisione di non essere nelle statistiche d'uso. Si prega di fare "
+"riferimento alla nostra <a href=\"{$privacyStatementUrl}\"> informativa "
+"sulla privacy </a>.</ p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Statistiche PKP (conformi a COUNTER)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Somma tutti i downloads"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "I dati di download non sono ancora disponibili."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Gen Feb Mar Apr Mag Giu Lug Ago Set Ott Nov Dic"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Downloads"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "Ogni periodico può impostare i propri parametri nella pagina specifica del periodico medesimo."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Informazioni generali sulla Privacy</h3>\n"
+"\t\t<p>Per favore fai riferimento alla nostra dichiarqazione sulla <a href=\"{$privacyStatementUrl}\">privacy</a>.</p>\n"
+"\t\t<h3>Statistiche d'uso</h3>\n"
+"\t\t<p>Per analizzare l'uso e l'impatto di ogni periodico e dei suoi articoli, vengo registrati i log di accesso alla home, ai fascicoli, agli articoli, ai file. Prima di essere lavorati tutti i dati sono resi anonimi. Nessuna informazione personale è registrata. Gli IP vengo resi anonimi tramti hash (usando <em>SHA 256</em>) in unione con un salt di 64 bit che è generato casualmente e sovrascritto ogni giorno. Pertanto gli IP address non possono essere ricostruiti.</p>\n"
+"\t\t<p>Le seguenti informazioni vengono raccolte:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Tipo accesso (ad es. amministrativo)</li>\n"
+"\t\t<li>Data e orario richiesta URL</li>\n"
+"\t\t<li>URL richiesto</li>\n"
+"\t\t<li>Codice stato HTTP</li>\n"
+"\t\t<li>Browser</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>I dati sono raccolti solo per fare valutazioni. Gli IP non sono collegati agli user ID. E' tecnicamente impossibile collegare un set di dati con uno speficio IP.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr "Ogni redazione può personalizzare i valori di questa configurazione."
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Informazioni generali sulla Privacy</h3>\n"
+"\t\t<p>Per favore fai riferimento alla nostra dichiarqazione sulla <a href=\"{$privacyStatementUrl}\">privacy</a>.</p>\n"
+"\t\t<h3>Statistiche d'uso</h3>\n"
+"\t\t<p>Per analizzare l'uso e l'impatto di ogni pubblicazione, vengo registrati i log di accesso alla home, alle categoria, alle serie, ai singoli libri e ai file. Prima di essere lavorati tutti i dati sono resi anonimi. Nessuna informazione personale è registrata. Gli IP vengo resi anonimi tramti hash (usando <em>SHA 256</em>) in unione con un salt di 64 bit che è generato casualmente e sovrascritto ogni giorno. Pertanto gli IP address non possono essere ricostruiti.</p>\n"
+"\t\t<p>Le seguenti informazioni vengono raccolte:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Tipo accesso (ad es. amministrativo)</li>\n"
+"\t\t<li>Data e orario richiesta URL</li>\n"
+"\t\t<li>URL richiesto</li>\n"
+"\t\t<li>Codice stato HTTP</li>\n"
+"\t\t<li>Browser</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>I dati sono raccolti solo per fare valutazioni. Gli IP non sono collegati agli user ID. E' tecnicamente impossibile collegare un set di dati con uno speficio IP.</p>"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Informazioni sulla privacy per le statistiche di utilizzo"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Informazioni sulla privacy per le statistiche di utilizzo"

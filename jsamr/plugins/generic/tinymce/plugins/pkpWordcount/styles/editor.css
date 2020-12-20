@@ -1,0 +1,24 @@
+/**
+ * @file plugins/pkpWordcount/styles/editor.css
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @brief Additional CSS for TinyMCE PKP wordcount display
+ */
+
+/* Optional: Adjust the positioning of the wordcount text. */
+.mce-pkpwordcount {
+	margin: 2px 0 2px 2px;
+	padding: 8px;
+}
+
+/* Optional: Remove the html path code from the status bar. */
+.mce-path {
+	display: none !important;
+}
+
+.mce-maxReached {
+	color: red;
+}

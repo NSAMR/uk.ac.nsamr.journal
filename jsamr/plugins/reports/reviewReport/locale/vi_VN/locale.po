@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-11 18:40+0000\n"
+"Last-Translator: Tran Ngoc Trung <khuchatthienduong@gmail.com>\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/vi_VN/>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Bình luận về bài gửi"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Khuyến nghị"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Ngày quá hạn phản hồi"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Ngày quá hạn phản biện"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Ngày nhắc nhở"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Ngày hoàn thành"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Không được xem xét"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Ngày cảm ơn"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Ngày xác nhận"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Ngày thông báo"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Ngày giao"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Người phản biện"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID bài gửi"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Tiêu đề bài gửi"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Vòng"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Plugin này thực hiện báo cáo CSV chứa danh sách các phản biện được phân công "
+"cho một tạp chí."
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Báo cáo quá trình phản biện"

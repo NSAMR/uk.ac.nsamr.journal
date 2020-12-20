@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:28+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:28+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Модуль TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr "Вмикає візуальне редагування (WYSIWYG) в текстових полях з використанням редактора контента <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Налаштування"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Обрати тег"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Немає тегів, доступних для цього поля."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Ви можете вствити будь-який з наступних тегів:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Ім'я представника редакції (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Електронна пошта представника редакції (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Ім'я представника технічної підтримки (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Електронна пошта представника технічної підтримки (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Телефон представника технічної підтримки (\"{$value}\")"

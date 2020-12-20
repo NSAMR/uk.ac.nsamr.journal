@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2020-05-20 12:38+0000\n"
+"Last-Translator: Heike Riegler <heike.riegler@julius-kuehn.de>\n"
+"Language-Team: German <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Zugriffsprotokoll-Optionen"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Logdateien anlegen"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Das Aktivieren dieser Option lässt das Plugin Zugriffsprotokolldateien innerhalb des Dateienverzeichnisses anlegen. Diese Dateien sollten benutzt werden, um Daten zur Nutzungsstatistik zu extrahieren. Wenn Sie keine weiteren Zugriffsprotokolldateien erzeugen wollen, können Sie diese Option deaktiviert lassen und ihre eigenen Server-Logdateien benutzen."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Regex zum Parsen der Logdateien"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Der standardmäßig benutzte reguläre Ausdruck kann Apache-Logdateien im Combined-Format und außerdem die Logdateien des Plugins parsen. Wenn Ihre Zugriffsprotokolldateien in einem anderen Format sind, müssen Sie einen regulären Ausdruck einfügen, mit dem die Dateien geparst werden können und der die erwarteten Werte liefert. Vgl. UsageStatsLoader::_getDataFromLogEntry() für weitere Informationen."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Einstellungen des Zugriffsstatistik-Plugins gespeichert"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Datenschutz-Option"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Pfad zum Salt (für die Anonymisierung)"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "Die Salt-Datei ist nicht schreibbar."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "Um den Datenschutz zu gewährleisten, müssen Sie eine Datei angeben, die für den Webnutzer les- und schreibbar ist und die einen zufällig erzeugten Salt-Wert enthält. Diese Datei darf NICHT nicht im Backup gesichert werden, um den Datenschutz zu garantieren. Das Salt wird zufällig mittels einer der folgenden Methoden erzeugt: durch die Funktion mcrypt_create_iv, die PHP-mycrypt benötigt; die Funktion openssl_random_pseudo_bytes, die PHP-openssl benötigt; die Datei /dev/urandom, die nur in *nix-Systemen existiert, oder die Funktion function mt_rand, die nicht kryptografisch sicher ist. Deshalb sollten Sie, wenn Sie einen Windows-Server nutzen, sicherstellen, dass Sie in PHP entweder mcrypt oder openssl aktiviert haben, um einen kryptografisch sicheren Salt benutzen."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Aktivieren Sie diese Option, um eine Verson des Plugins zu benutzen, die Datenschutzregeln berücksichtigt, indem nur gehashte IP-Adressen protokolliert werden, Benutzer/innen über das Tracking informiert werden und eine Opt-Out-Möglichkeit für Nutzer/innen angeboten wird. Hinweis: Bei Nutzung dieser Option können Sie nicht die Geo-Funktionalitäten des Plugins benutzen."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Um die Datenschutz-Option zu aktivieren, wird eine Salt-Datei benötigt."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Die Datenschutz-Option zu aktivieren, schließt die Erhebung von Statistiken zu \"Stadt\" aus."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Die Datenschutz-Option zu aktivieren, schließt die Erhebung von Statistiken zu \"Region\" aus."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Datenschutz-Option aktivieren"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Optionale statistische Informationen"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Die Sammlung folgender optionaler Daten aktivieren oder deaktivieren.  Dies beeinflusst, welche Berichte Sie erhalten können und wie groß die Datenbank wird. Ändern Sie diese Einstellungen NICHT, wenn Sie nicht genau wissen, was Sie tun."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Die optionale Spalte \"Stadt\" erfordert die optionale Spalte \"Region\"."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Archive"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Aktivieren Sie diese Option, um archivierte Logdateien mit gzip zu komprimieren (Sie werden Einstellungen zu gzip in config.inc.php eintragen müssen.). Wenn Sie eine stark genutzte Website haben, ist die Aktivierung dieser Option anzuraten, damit Speicherplatz gespart wird."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Archive komprimieren"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Anzeigeoptionen für die Statistiken"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Diese Einstellungen wurden nur auf die Nutzungsstatistiken von {$contextName} angewendet."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Eine Statistik-Grafik für die Leser/innen anzeigen"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Wählen Sie die Art des Diagramms, um die Download-Statistiken anzuzeigen."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Balkengrafik"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Liniengrafik"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Geben Sie die maximale Anzahl von Datenpunkten an, die gleichzeitig an einer X-Achsen-Position angezeigt werden sollen. Ein höherer Wert kann schwer verständliche Diagramme verursachen. Werte zwischen 3 und 5 sollten sicher sein."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Task zum Laden der Nutzungsstatistik-Datei"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Die Datei {$file} konnte nicht geöffnet werden und wurde zurückgewiesen."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Die Zeile {$lineNumber} aus der Datei {$file} stellt keinen gültigen Logeintrag dar, und die Datei wurde zurückgewiesen."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "Die Zeile {$lineNumber} aus der Datei {$file} enthält eine Adresse, aus der das System nicht den Basis-URL entfernen kann."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Konnte keine extrahierten Daten aus Datei {$file} laden. Die Datei wurde entfernt, um sie erneut zu bearbeiten."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Das Nutzungsstatistik-Plugin ist deaktiviert. Es wurden keine Logdateien verarbeitet."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Das Verzeichnis {$directory} ist nicht leer. Dies kann auf einen zuvor gescheiterten oder einen momentan laufenden Prozess hinweisen. Diese Datei wird automatisch erneut verarbeitet, falls Sie auch scheduledTasksAutoStage.xml benutzen; ansonsten werden Sie manuell alle verwaisten Dateien aus dem Verarbeitungsverzeichnis zurück in das Bereitstellungsverzeichnis verschieben müssen."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Nutzungsstatistik"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Zeigt Nutzungsstatistik zu Objekten an. Kann Server-Logdateien benutzen, um Statistiken zu extrahieren."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "Nutzungsstatistik-Bericht"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "Standardbericht zur Nutzungsstatistik (COUNTER-fähig)"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Datenschutz-Informationen zur Nutzungsstatistik"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Datenschutz-Informationen zur Nutzungsstatistik"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Nutzungsstatistik-Informationen"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Wir führen eine anonymisierte Nutzungsstatistik. Bitte lesen Sie die <a href=\"{$privacyInfo}\">Datenschutz-Informationen</a>, um mehr zu erfahren."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Sie haben der Nutzung Ihrer Daten für die Nutzungsstatistik erfolgreich widersprochen. Solange Sie diese Nachricht sehen, werden keine statistischen Daten aus Ihrer Nutzung dieser Seite gewonnen. Klicken Sie den Knopf unten, um Ihre Entscheidung zurückzunehmen.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Opt In (Einwilligen)"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Opt Out (Widersprechen)"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Sollten Sie den Wunsch haben, dass Ihre anonymisierten Daten nicht gespeichert werden, bieten wir Ihnen die Möglichkeit, die Teilnahme am Auswertungsprozess zu unterbinden. Durch einen Klick auf den unten stehenden Opt-out-Button wird ein sog. <em>Cookie</em> auf Ihrem System erstellt, das Ihre Entscheidung dokumentiert und speichert. Sollten die Sicherheits- oder Privatsphären-Einstellungen Ihres Browser Cookies automatisch nach Beendigung löschen, müssen Sie beim nächsten Zugriff auf diese Seite erneut dem Auswertungsprozess widersprechen. Das Cookie ist jeweils nur für einen Browser gültig. Sollten Sie unterschiedliche Browser benutzen, so müssen Sie für jeden Browser Ihren Widerspruch dokumentieren und auf den unten stehenden Button klicken. Innerhalb des Cookies werden keinerlei personenbezogene Daten gespeichert, sondern lediglich Ihr Widerspruch dokumentiert. Dieses Cookie wird bei jedem Zugriff auf dieses Journal automatisch um ein Jahr verlängert.</p>\n"
+"\t\t<p>Bitte berücksichtigen Sie, dass die allgemeinen Server-Logs von Ihrer Entscheidung unberührt bleiben, am detaillierten Evaluationsprozess nicht teilzunehmen. Berücksichtigen Sie daher auch unsere <a href=\"{$privacyStatementUrl}\">allgemeinen Datenschutzhinweise</a>.</p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Nutzungsstatistik (COUNTER-fähig)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Summe aller Downloads"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Keine Nutzungsdaten vorhanden."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Jan Feb Mär Apr Mai Jun Jul Aug Sep Okt Nov Dez"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Downloads"
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Allgemeine Datenschutz-Hinweise</h3>\n"
+"\t\t<p>Unsere allgemeinen Datenschutz-Hinweise finden Sie <a href=\"{$privacyStatementUrl}\">hier</a>.</p>\n"
+"\t\t<h3>Nutzungsstatistik</h3>\n"
+"\t\t<p>Zum Zwecke der Analyse von Nutzung und Reichweite unseres Journals sowie der hier publizierten Artikel dokumentieren und speichern wir die Zugriffe auf die Hauptseite des Journals, auf Ausgaben, Artikel, Fahnen und zusätzlichen Dateien. Dabei werden alle Informationen anonymisiert. IP-Adressen werden mittels eines Hash-Algorithmus (<em>SHA 256</em>) in Kombination mit einem <em>sicheren 64-Zeichen Salt</em> anonymisiert. Der Salt wird <em>automatisch zufallsgeneriert und täglich überschrieben.</em> Auf diese Weise können IP-Adressen nachträglich nicht mehr rekonstruiert werden.</p>\n"
+"\t\t<p>Über die anonymisierten IP-Adressen hinaus werden folgende Daten erhoben:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Zugriffsart (z.B. administrative Zugriffe)</li>\n"
+"\t\t<li>Zugriffszeit</li>\n"
+"\t\t<li>aufgerufene URL</li>\n"
+"\t\t<li>HTTP-Status-Code</li>\n"
+"\t\t<li>Browser</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Die gesammelten Informationen werden nur verwendet, um die Nutzung der Inhalte statistisch auszuwerten. Es findet keine Zuordnung von IP-Adressen zu Benutzer-IDs statt. Es ist technisch unmöglich, nachträglich einen spezifischen Datensatz zu einer spezifischen IP-Adresse nachzuverfolgen.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "Diese Einstellungen lassen sich für jede Zeitschrift bei deren Einstellungen für Plugins verändern."
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Allgemeine Datenschutzinformationen</h3>\n"
+"\t\t<p>Bitte beachten Sie unsere <a href=\"{$privacyStatementUrl}\">Datenschutzerklärung</a>.</p>\n"
+"\t\t<h3>Nutzungsstatistiken</h3>\n"
+"\t\t<p>Um Nutzung und Einfluss unserer Publikationen analysieren zu können, protokollieren wir Zugriffe auf die Homepage, Kategorien, Reihen, Bücher und Dateien. Während dieses Vorgangs werden alle Daten anonymisiert. Es werden keine personenbezogenen Daten protokolliert. IP-Adressen werden anonymisiert, in dem sie gehasht werden (mit <em>SHA 256</em>) und durch einen <em>sicheren 64 Zeichen langes Salt</em>, das automatisch <em>zufällig generiert und täglich überschrieben</em> wird. Daher können IP-Adressen nicht rekonstruiert werden.</p>\n"
+"\t\t<p>Die folgenden Informationen werden zusammen mit den anonymisierten IP-Adressen gespeichert:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Art des Zugriffs (z.B. administrativ)</li>\n"
+"\t\t<li>Zeitpunkt des Zugriffs</li>\n"
+"\t\t<li>Angeforderte URL</li>\n"
+"\t\t<li>HTTP status code</li>\n"
+"\t\t<li>Browser</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Die gesammelten Daten werden ausschließlich zu Auswertungszwecken genutzt. Es findet keine Zuordnung von IP-Adressen zu Nutzer-Accounts statt. Es ist nicht möglich, einen bestimmten Datensatz einer bestimmten IP-Adresse zuzuordnen.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr ""
+"Jeder Verlag kann diese Einstellungen überschreiben mit der Plugins Seite "
+"des Verlages."

@@ -1,0 +1,18 @@
+# Sumário
+
+* [Introdução](README.md)
+* [Perfil de Utilizador](user-profile.md)
+* [Autoria](authoring.md)
+* [Revisão](reviewing.md)
+* [Gerir Submissões](submissions.md)
+* [Processo Editorial](editorial-workflow.md)
+   * [Etapa de Submissão](editorial-workflow/submission.md)
+   * [Etapas de Revisão](editorial-workflow/review.md)
+   * [Edição de Texto](editorial-workflow/copyediting.md)
+   * [Produção](editorial-workflow/production.md)
+* [Gestão de Números](issue-management.md)
+* [Tarefas](tasks.md)
+* [Configurações](settings.md)
+* [Utilizadores e Papéis](users-and-roles.md)
+* [Ferramentas](tools.md)
+* [Administração](administration.md)

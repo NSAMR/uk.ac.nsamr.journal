@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:17+00:00\n"
+"PO-Revision-Date: 2020-10-20 22:50+0000\n"
+"Last-Translator: Hans Spijker <hans.spijker@huygens.knaw.nl>\n"
+"Language-Team: Dutch <http://translate.pkp.sfu.ca/projects/"
+"orcid-profile-plugin/orcid-profile-plugin/nl/>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "ORCID profiel plugin"
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "Maakt het mogelijk om gegevens van ORCID gebruikersprofielen te importeren."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr "U kan dit formulier vooraf laten invullen met gegevens van een ORCID gebruikersprofiel. Vul het e-mailadres of ORCID ID van het ORCID profiel in, en klik dan op \"Indienen\"."
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "Er konden geen ORCID gegevens worden gevonden."
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "E-mailadres of ORCID ID:"
+
+msgid "plugins.generic.orcidProfile.manager.settings.title"
+msgstr "ORCID API instellingen"
+
+msgid "plugins.generic.orcidProfile.manager.settings.hidden"
+msgstr "verborgen"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr "Stel de ORCID API in voor het importeren van gegevens van ORCID gebruikersprofielen in het gebruikersprofiel."
+
+msgid "plugins.generic.orcidProfile.manager.settings.description.globallyconfigured"
+msgstr "De ORCID API is globaal geconfigureerd. Volgende aanmeldingsgegevens werden bewaard."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "Publiek"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Publieke sandbox"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "Lid"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "Sandbox voor leden"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "Client ID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "Client sleutel"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidScope"
+msgstr "Bereik van de toegang tot uw profiel"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "E-mail instellingen"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logSectionTitle"
+msgstr "Logboek van ORCID aanvragen"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.help"
+msgstr "Selecteer welke gegevens worden gelogd."
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.error"
+msgstr "Fouten"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "Alle"
+
+msgid "plugins.generic.orcidProfile.author.accessDenied"
+msgstr "ORCID toegang was geweigerd"
+
+msgid "plugins.generic.orcidProfile.author.accessTokenStored"
+msgstr "Toegang tot ORCID was toegestaan met bereik {$orcidAccessScope}, geldig tot"
+
+msgid "plugins.generic.orcidProfile.author.requestAuthorization"
+msgstr "Verstuur een e-mail aan de bijdrager om ORCID-authorisatie aan te vragen."
+
+msgid "plugins.generic.orcidProfile.author.deleteORCID"
+msgstr "Verwijder ORCID ID en toegangscode!"
+
+msgid "plugins.generic.orcidProfile.author.orcidEmptyNotice"
+msgstr "Zie hieronder voor de aanvraag van een geauthenticeerd ORCID ID."
+
+msgid "plugins.generic.orcidProfile.author.unauthenticated"
+msgstr "ORCID ID is niet geauthenticeerd! Vraag authenticatie aan de bijdrager."
+
+msgid "plugins.generic.orcidProfile.verify.title"
+msgstr "ORCID authorisatie"
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success"
+msgstr "De inzending werd toegevoegd bij uw ORCID profiel."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure"
+msgstr "De inzending kon niet worden toegevoegd aan uw ORCID profiel."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished"
+msgstr "De inzending zal bij publicatie worden toegevoegd aan uw ORCID profiel."
+
+msgid "plugins.generic.orcidProfile.verify.success"
+msgstr "Uw ORCID ID is geverifieerd en met succes gelinkt aan de inzending."
+
+msgid "plugins.generic.orcidProfile.verify.failure"
+msgstr "Uw ORCID ID kon niet worden geverifieerd. De link is niet langer geldig."
+
+msgid "plugins.generic.orcidProfile.verify.duplicateOrcid"
+msgstr "Er is al een ORCID ID opgeslagen voor deze inzending."
+
+msgid "plugins.generic.orcidProfile.verify.denied"
+msgstr "U heeft toegang tot uw ORCID profiel geweigerd."
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "OJS kon niet communiceren met de ORCID service. Contacteer de tijdschriftbeheerder met uw naam, ORCID ID en gegevens over uw inzending."
+
+msgid "plugins.generic.orcidProfile.failure.contact"
+msgstr "Contacteer de tijdschriftbeheerder met uw naam, ORCID ID en gegevens over uw inzending."
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "Maak of koppel uw ORCID ID"
+
+msgid "plugins.generic.orcidProfile.authorise"
+msgstr "Authoriseer en verbind uw ORCID ID"
+
+msgid "plugins.generic.orcidProfile.about.title"
+msgstr "Wat is ORCID?"
+
+msgid "plugins.generic.orcidProfile.about.orcidExplanation"
+msgstr "ORCID is een onafhankelijke niet-commerciële organisatie die een vaste identificatiecode -een ORCID ID- toekent die u onderscheidt van andere onderzoekers en een mechanisme voorziet om uw onderzoekspublicaties en activiteiten met uw ID te verbinden. ORCID is geïntegreerd in vele systemen die worden gebruikt door uitgevers, instellingen en andere onderzoeksgerelateerde diensten. Meer informatie op <a href=\"https://orcid.org\">orcid.org</a>."
+
+msgid "plugins.generic.orcidProfile.about.howAndWhy.title"
+msgstr "Hoe en waarom verzamelen we ORCID ID's?"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyPublicAPI"
+msgstr ""
+"Dit tijdschrift verzamelt uw ORCID iD, zodat wij en de bredere gemeenschap "
+"erop kunnen vertrouwen dat u correct geïdentificeerd en verbonden bent met "
+"uw publicatie(s). Dit zorgt ervoor dat u en al uw publicaties gedurende uw "
+"hele carrière aan elkaar verbonden blijven. <br>\n"
+"\tWanneer u op de knop  “Autoriseren” in de ORCID-pop-up klikt, vragen we u "
+"om uw iD te delen met behulp van een geauthenticeerd proces – ofwel door een "
+"ORCID iD te registreren of, als u er al een heeft, door in te loggen op uw "
+"ORCID-account en ons vervolgens toestemming te geven om uw ORCID iD op te "
+"vragen. We doen dit om ervoor te zorgen dat u correct wordt geïdentificeerd "
+"en veilig verbinding maakt met uw ORCID iD.<br>\n"
+"\tLees meer op <a href=\"https://orcid.org/blog/2017/02/20/whats-so-special-"
+"about-signing\">What’s so special about signing in.</a><br>\n"
+"\tDit tijdschrift verzamelt en toont geverifieerde ID's van auteurs en co-"
+"auteurs op de OJS-profiel- en artikelpagina. Bovendien worden metagegevens "
+"van artikelen automatisch naar uw ORCID-record verstuurd, zodat wij u kunnen "
+"helpen uw publicatielijst up-to-date te houden met vertrouwde informatie. "
+"Lees meer op <a href=\"https://orcid.org/blog/2017/08/10/six-ways-make-your-"
+"orcid-id-work-you\">Six ways to make your ORCID iD work for you!</a><br>\n"
+"Dit tijdschrift verzamelt en toont geverifieerde ID's van auteurs en "
+"coauteurs op de OJS-profiel- en artikelpagina."
+
+msgid "plugins.generic.orcidProfile.about.display.title"
+msgstr "Waar worden ORCID ID's getoond?"
+
+msgid "plugins.generic.orcidProfile.about.display"
+msgstr ""
+"Om aan te geven dat u uw ID heeft gebruikt en dat dit geauthenticeerd is, wordt het ORCID ID icoon <img src=\"https://orcid.org/sites/default/files/images/orcid_16x16(1).gif\" alt=\"iD icon\" width=\"16\" height=\"16\" border=\"0\"/> getoond naast uw naam bij de weergave van uw inzending en op uw publieke gebruikersprofiel.<br/>\n"
+"\t\tMeer informatie op <a href=\"https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed\">How should an ORCID iD be displayed.</a>"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyMemberAPI"
+msgstr ""
+"Dit tijdschrift verzamelt uw ORCID iD, zodat wij en de bredere gemeenschap "
+"erop kunnen vertrouwen dat u correct geïdentificeerd en verbonden bent met "
+"uw publicatie(s). Dit zorgt ervoor dat u en al uw publicaties gedurende uw "
+"hele carrière aan elkaar verbonden blijven. <br>\n"
+"\tWanneer u op de knop  “Autoriseren” in de ORCID-pop-up klikt, vragen we u "
+"om uw iD te delen met behulp van een geauthenticeerd proces – ofwel door een "
+"ORCID iD te registreren of, als u er al een heeft, door in te loggen op uw "
+"ORCID-account en ons vervolgens toestemming te geven om uw ORCID iD op te "
+"vragen. We doen dit om ervoor te zorgen dat u correct wordt geïdentificeerd "
+"en veilig verbinding maakt met uw ORCID iD.<br>\n"
+"\tLees meer op <a href=\"https://orcid.org/blog/2017/02/20/whats-so-special-"
+"about-signing\">What’s so special about signing in.</a><br>\n"
+"\tDit tijdschrift verzamelt en toont geverifieerde ID's van auteurs en co-"
+"auteurs op de OJS-profiel- en artikelpagina. Bovendien worden metagegevens "
+"van artikelen automatisch naar uw ORCID-record verstuurd, zodat wij u kunnen "
+"helpen uw publicatielijst up-to-date te houden met vertrouwde informatie. "
+"Lees meer op <a href=\"https://orcid.org/blog/2017/08/10/six-ways-make-your-"
+"orcid-id-work-you\">Six ways to make your ORCID iD work for you!</a>\n"
+
+msgid "plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication"
+msgstr ""
+"Stuur een e-mail om een ORCID-autorisatie van auteurs aan te vragen wanneer "
+"een artikel is geaccepteerd, dat wil zeggen, wanneer het artikel zich in de "
+"fase van eindredactie bevindt"

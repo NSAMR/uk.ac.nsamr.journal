@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:08+00:00\n"
+"PO-Revision-Date: 2020-05-06 09:38+0000\n"
+"Last-Translator: Sönmez Çelik <snmzclk@gmail.com>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/plugins/"
+"google-analytics-plugin/tr/>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analitk Eklentisi"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Google web sayfası trafik analizi uygulaması için ADS ile Google Analitik'i entegre edin. Bu uygulama için bir Google Analitik hesabı gerekir. Daha fazla bilgi için lütfen <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analitik</a> sitesine bakınız."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Ayarlar"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Google Analitik Ayarları"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr ""
+"<p>Bu eklenti etkinleştirildiğinde Google Analytics bu dergi için kullanım "
+"ve trafik analizi toplar ve bu derginin web sitesi için kullanılabilir. Bu "
+"eklenti bir Google Analytics hesabının kurulu olmasını gerektirdiğini "
+"unutmayın. Daha fazla bilgi için <a href=\"http://www.google.com/analytics/\""
+" title=\"Google Analytics site\">Google Analitik</a> sitesine bakınız.</p><p>"
+" Google Analitik 24 saat kadar istatistikleri toplayıp ve raporladığını "
+"lütfen unutmayın. Bu süreçte, 'Durumu Kontrol Et' fonksiyonu doğru bir dergi "
+"için gerekli izleme kodu tespit edilip edilmediğini rapor etmeyebilir.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Hesap Numarası"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "Google Analytics içinde, siteniz için izleme kodunu görüntülemek için 'Durumu Kontrol Et' üzerine tıklayın. Eski izleme kodu için, hesap numarası olarak izleme kodu içinde görüntülenir: _uacct = \"# # #\". Yeni izleme kodu için, hesap numarası olarak izleme kodu içinde görüntülenir: var pageTracker = _gat._getTracker (\"# # #\"). # # # Karşılık metni girin."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Lütfen bir hesap numarası giriniz."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Kodu izle"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Kullanmak için lütfen bir izleme kodu seçiniz."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Eski izleme kodu (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Yeni izleme kodu (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Google Analitik hesap numarası"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Google Analytics kullanarak yayımlanmış makale okuyucusunu izlemek için, buraya bir hesap numarası girin (Örneğin; UA-xxxxxx-x) ."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Gönderi yazarı için girilen bir veya birden çok Google Analitik hesap numarası geçerli değil."

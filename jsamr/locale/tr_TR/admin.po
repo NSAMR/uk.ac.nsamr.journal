@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:35+00:00\n"
+"PO-Revision-Date: 2020-06-19 20:39+0000\n"
+"Last-Translator: Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/ojs/admin/tr_TR/"
+">\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "admin.hostedContexts"
+msgstr "Yayınlanan Dergiler"
+
+msgid "admin.settings.redirect"
+msgstr "Dergi Yönlendirmesi"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Siteye yapılan girişler doğrudan derginin ana sayfasına yönlendirilir. OJS "
+"sadece üzerinde tek bir dergi yayınlanıyorsa bu seçenek kullanışlıdır."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "Bu dil, site ve yayınlanan dergiler için varsayılan dil olacaktır."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Sitenin destekleyeceği tüm dilleri seçiniz. Seçilen diller sitede yayınlanan "
+"tüm dergiler için kullanılabilir olacak ve özel dergi sayfaları dışında, "
+"seçtiğiniz dillerden oluşan bir dil seçme aracı tüm sayfalarda okuyucuların "
+"hizmetine sunulacaktır (dergiye özgü sayfalarda devre dışı bırakılabilir). "
+"Eğer birden çok dil seçilmemiş ise, dil seçim aracı gösterilmeyecek ve "
+"dergiler için genişletilmiş dil olanakları çalışmayacaktır."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "İşaretlenmiş diller tamamlanmamış olabilir."
+
+msgid "admin.languages.confirmUninstall"
+msgstr "Bu dili kulanımdan kaldırmak istediğinizden emin misiniz? Dil kaldırılınca bu dili kullanan dergilerde sorun olabilir."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Sistemin destekleyeceği ek bir bir dil seçin. Sitedeki dergiler kullanmaya "
+"başlamadan önce, diller sisteme yüklenmelidir. Yeni dil eklenmesi konusunda "
+"OJS yardım dökümanlarında daha fazla bilgi bulabilirsiniz."
+
+msgid "admin.languages.downloadFailed"
+msgstr "Dil indirme başarısız. Hata mesaj(lar)ı aşağıda belirtilmiştir."
+
+msgid "admin.languages.localeInstalled"
+msgstr "\"{$locale}\" dili yüklendi."
+
+msgid "admin.languages.download"
+msgstr "Dil İndir"
+
+msgid "admin.languages.download.cannotOpen"
+msgstr "PKP web sitesinden dil tanımlayıcısı açılamıyor."
+
+msgid "admin.languages.download.cannotModifyRegistry"
+msgstr "Dil kayıt dosyasına \"registry/locales.xml\"  yeni dil eklenemiyor."
+
+msgid "admin.auth.ojs"
+msgstr "OJS Kullanıcı Veri Tabanı"
+
+msgid "admin.auth.enableSyncProfiles"
+msgstr ""
+"Kullanıcı profil eşitlemesini etkinleştir (eğer yetkilendirme eklentisi "
+"destekliyor ise). Kullanıcı giriş yaptığında profil bilgileri diğer "
+"sistemden alınarak otomatik olarak güncellenecek, OJS içinde yapılan profil "
+"değişiklikleri (şifre değişikliği dahil) otomatik şekilde diğer kaynak ile "
+"eşitlenecektir. Bu seçenek etkinleştirilmediğinde kullanıcı bilgileri OJS'de "
+"diğer sistemdeki profil bilgilerinden ayrı şekilde tutulur."
+
+msgid "admin.auth.enableSyncPasswords"
+msgstr ""
+"Kullanıcı şifre değiştirmeyi etkinleştir (eğer yetkilendirme eklentisi "
+"destekliyor ise). Bu seçeneğin etkinleştirmesi kullanıcıların OJS içinde "
+"şifre değiştirebilmelerini ve OJS'nin \"şifre hatırlatma\" özelliğini "
+"kullanabilmelerini sağlar. Bu işlev etkinleştirilmedeğinde, kullanıcılar bu "
+"yetkilendirme kaynağı için bu özelliği kullanamazlar."
+
+msgid "admin.auth.enableCreateUsers"
+msgstr ""
+"Kullanıcı oluşturmayı etkinleştir (eğer yetkilendirme eklentisi destekliyor "
+"ise). OJS içinde oluşturulan yeni kullanıcılar, diğer kaynakta "
+"bulunmuyorlarsa, otomatik olarak diğer kaynağa da ekleneceklerdir. Ek "
+"olarak, eğer bu yetkilendirme kaynağı varsayılan kaynak ise, uzak "
+"yetkilendirme kaynağında oluşturulan kullanıcılar OJS kullanıcı veri "
+"tabanına da eklenir."
+
+msgid "admin.systemVersion"
+msgstr "OJS Sürümü"
+
+msgid "admin.systemConfiguration"
+msgstr "OJS Yapılandırması"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "<tt>config.inc.php</tt> dosyasında yer alan OJS yapılandırma ayarları."
+
+msgid "admin.journals.createInstructions"
+msgstr ""
+"Otomatik olarak bu derginin yöneticisi olarak kaydedileceksiniz. Yeni bir "
+"dergi oluşturduktan sonra, derginin başlangıç ayarlarını tamamlamak üzere bu "
+"derginin ayar sayfasına yönlendirileceksiniz."
+
+msgid "admin.journals.journalSettings"
+msgstr "Dergi Ayarları"
+
+msgid "admin.journals.noneCreated"
+msgstr "Henüz bir dergi oluşturulmadı."
+
+msgid "admin.contexts.create"
+msgstr "Dergi Oluştur"
+
+msgid "admin.journals.urlWillBe"
+msgstr ""
+"Bu, dergiyi tanımlayan kısa bir kelime ya da kısaltma olmalıdır. Derginin "
+"URL adresi {$sampleUrl} şeklinde olacaktır."
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "Bir başlık girilmesi zorunludur."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Bir yol girilmesi zorunludur."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"Yol, yalnızca harf, rakam ve alt çizgi (_) ile tire (-) karakterlerini "
+"içerebilir. Başında ve sonunda yalnızca harf veya rakam olabilir."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "Eklediğiniz yol bir başka dergi tarafından kullanılmaktadır."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Bu dergiyi sitede herkese açık şekilde görülebilir yap"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Dergi açıklaması"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr "Varolan dergi yolu veya oluşturulacak yol (Ör., \"ojs\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Abonelikleri içe aktar"
+
+msgid "admin.journals.transcode"
+msgstr "Makale üst verisini ISO8859-1'den dönüştür"
+
+msgid "admin.journals.redirect"
+msgstr ""
+"OJS 1 URL adreslerinin OJS 2 URL adresleri ile eşleşmesi için kod oluştur"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "Veri alma yolu zorunludur."
+
+msgid "admin.journals.importErrors"
+msgstr "İçe aktarma işlemi başarısız oldu"
+
+msgid "admin.mergeUsers"
+msgstr "Kullanıcıları Birleştir"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "Kullanıcı Birleştir"
+
+msgid "admin.mergeUsers.into.description"
+msgstr ""
+"Önceki kullanıcının yazarlıkları, editörlük atamaları vb. özelliklerin "
+"ilişkilendirileceği bir kullanıcı seçin."
+
+msgid "admin.mergeUsers.from.description"
+msgstr ""
+"Başka bir kullanıcı hesabıyla birleştirmek için bir kullanıcı (veya "
+"kullanıcılar) seçin (ör. bir kişinin iki kullanıcı hesabı varsa). İlk "
+"seçilen kullanıcı(lar) silinecek ve gönderiler, atamalar vb. özellikler "
+"ikinci seçilen kullanıcı hesabına aktarılacaktır."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Tüm Yetkilendirilmiş Kullanıcılar"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Seçilen {$oldAccountCount} isimli kullanıcı hesabını (hesaplarını), \""
+"{$newUsername}\" isimli kullanıcı hesabında birleştirmek istediğinizden emin "
+"misiniz? Seçilen {$oldAccountCount} hesap(lar) kaldırılacak ve daha sonra "
+"kullanılamayacaktır. Bu işlem geri alınamaz."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Yetkilendirilmiş kullanıcı bulunmuyor."
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Değerlendirme Hatırlatıcısı"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Açık Erişim Bildirimi"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Abonelik Sona Erme Hatırlatıcısı"
+
+msgid "admin.contexts.form.edit.success"
+msgstr "{$name} başarıyla düzeltildi."
+
+msgid "admin.contexts.form.create.success"
+msgstr "{$name} başarıyla oluşturuldu."
+
+msgid "admin.languages.downloadUnavailable"
+msgstr ""
+"<p>Şu anda PKP (Public Knowledge Project) sunucularından dil paketi "
+"indirilemiyor. Buna aşağıdaki sorunlardan birisi neden olmuş olabilir:</p>\n"
+"\t<ul>\n"
+"\t\t<li>Sunucunuzda GNU \"tar\" yardımcı programına sahip değil veya "
+"çalıştırılmasına izin verilmiyor.</li>\n"
+"\t\t<li>OJS, yerel dil kayıt dosyasını \"registry/locales.xml\" "
+"değiştiremiyor.</li>\n"
+"\t</ul>\n"
+"<p>Dil paketi <a href=\"http://pkp.sfu.ca\">PKP web sitesi</a> üzerinden "
+"manuel olarak indirilebilir.</p>"
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Bu dili devre dışı bırakmak istediğinizden emin misiniz? Bu, yayınlanan "
+"dergiler arasında şu anda bu dili kullananları etkileyebilir."
+
+msgid "admin.settings.defaultMetricDescription"
+msgstr ""
+"\n"
+"\t\tOJS kurulumunuz birden fazla kullanım istatistiği kaydedecek şekilde "
+"yapılandırıldı. Kullanım istatistikleri birden fazla şekilde görüntülenecek. "
+"Bazı durumlarda tek bir kullanım istatistiği kullanılması gereklidir. ör. en "
+"çok kullanılan makalelerin sıralı bir listesini görüntülemek veya, arama "
+"sonuçlarını derecelendirmek için. Lütfen yapılandırılmış metriklerden birini "
+"varsayılan olarak seçin.\n"
+"\t"
+
+msgid "admin.settings.info.success"
+msgstr "Site bilgisi başarılı şekilde güncellendi."
+
+msgid "admin.settings.config.success"
+msgstr "Site ayarları başarılı şekilde güncellendi."
+
+msgid "admin.settings.appearance.success"
+msgstr "Site görünüm ayarları başarılı şekilde güncellendi."

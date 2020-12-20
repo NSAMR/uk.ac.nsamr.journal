@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:13+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:13+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Review rapport"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Deze plugin maakt een komma-gescheiden rapport met een lijst reviewtaken voor een tijdschrift."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Ronde"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Titel van de inzending"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID van de inzending"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Reviewer"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Datum toekenning"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Datum bericht"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Datum bevestiging"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Datum toewijzing"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Niet in overweging genomen"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Datum gereed"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Datum herinnering"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Aantal dagen na uiterste reviewdatum"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Aantal dagen na uiterste antwoorddatum"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Aanbeveling"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Opmerkingen bij de inzending"

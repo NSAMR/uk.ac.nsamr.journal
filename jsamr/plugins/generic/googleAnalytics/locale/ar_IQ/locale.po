@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:05+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:05+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "إضافة تحليلات Google"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "يكامل نظام المجلات المفتوحة مع تحليلات Google، وتطبيق تحليل حركة المرور للمواقع من Google. يتطلب الأمر قيامك مسبقاً بإعداد حساب تحليل من Google. لطفاً، أنظر <a href=\"http://www.google.com/analytics/\" title=\"موقع تحليلات Google\">موقع تحليلات Google</a> للمزيد من المعلومات."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>مع تمكين هذه الإضافة، تحليلات Google ستستعمل لتجميع وتحليل بيانات الاستعمال وحركة المرور لموقع المجلة. يتطلب الأمر قيامك مسبقاً بإعداد حساب تحليل من Google. لطفاً، أنظر <a href=\"http://www.google.com/analytics/\" title=\"موقع تحليلات Google\">موقع تحليلات Google</a> للمزيد من المعلومات.</p><p>لطفاً، لاحظ أن تحليلات  Google قد تتطلب حتى 24 ساعة قبل أن يتم تجميع الإحصائيات مع أجل التهيئة. خلال هذه الفترة، فإن وظيفة 'تدقيق الحالة' قد لا تبرك على وجه الدقة فيما لو كانت قد اكتشفت رمز التعقب المطلوب للمجلة.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "رقم الحساب"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "لطفاً، أدخل رقم الحساب."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "رقم حساب تحليلات Google"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "لتعقب قراءات المقالات المنشورة باستعمال تحليلات Google، أدخل رقم الحساب هنا (مثلاً: UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "واحد أو أكثر من أرقام حسابات تحليلات Google المدخلة هنا غير صحيحة."

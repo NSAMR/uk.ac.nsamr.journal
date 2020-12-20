@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:56-08:00\n"
+"PO-Revision-Date: 2020-02-16 13:35+0000\n"
+"Last-Translator: Primož Svetek <primoz.svetek@gmail.com>\n"
+"Language-Team: Slovenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/sl/>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Nastavitve dostopa do dnevnika"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Ustvari datoteke za dnevnike"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Aktiviranje te opcije bo povzročilo, da bo vtičnik ustvaril datoteke za dnevnike znotraj mape \"files\". Te datoteke se uporabljajo za statistične podatke o uporabi. Če ne želite ustvariti dodatnih datotek za dnevnike dostopov, lahko pustite opcijo izklopljeno in uporabljate podatke stražnika."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Regularni izraz za razčlenitev datotek z dnevniki"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Privzeti regularni izraz lahko razčleni apache datoteke z dnevniki v kombinirani obliki in tudi datoteke dnevnikov vtičnika. Če so podatki v vaših datotekah z dnevniki v drugačni obliki, boste morali vnesti pravilen regularen izraz, ki bo podatke pravilno razčlenil in pripravil pričakovane vrednosti. Za več informacij poglejte UsageStatsLoader::_getDataFromLogEntry()."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Nastavitve vtičnika za statistiek uporabe so shranjene"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Možnost zasebnosti podatkov"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Pot do datoteke s semenom za anonimizacijo"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "V datoteko s semenom ni mogoče pisati."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "Za zagotovitev zasebnosti podatkov, morate navesti datoteko, ki jo bo  spletni uporabnik lahko bral in pisal vanjo, in bo vsebovala naključno generirano vrednost za seme. Zaradi zagotavljanja zasebnosti podatkov ne smete narediti varnostnih kopij te datoteke. Vrednost za seme je naključno generirana z uporabo: funkcije mcrypt_create_iv, ki potrebuje PHP mcrypt; funkcijo openssl_random_pseudo_bytes, ki potrebuje PHP openssl; datoteke /dev/urandom, ki deluje le na *nix sistemih; ali funkcija mt_rand, ki ni kriptografsko varna. To pomeni, da morate na sistemih Windows ali namestiti the PHP mcrypt ali omogočiti openssl, če želite zagotoviti kriptografsko zaščito."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "To opcijo aktivirajte, če želite uporabiti verzijo vtičnika, ki spoštuje zakonodajo o zasebnosti, npr. beleženje \"hashed\" IP naslovov, opozarja uporabnike o tem beleženju in omogoča, da uporabnik odstopi od teh zahtev. Opozorilo: če uporabljate to opcijo, potem ne boste mogli uporabljati geografskih funkcionalnosti vtičnika."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Vključitev zagotavljanja zasebnosti podatkov zahteva datoteko s semenom za kriptografijo."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Vključitev zagotavljanja zasebnosti podatkov izključuje možnost Mesta kot opcijsko statistiko."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Vključitev zagotavljanja zasebnosti podatkov izključuje možnost Regije kot opcijsko statistiko."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Upoštevaj zasebnost podatkov"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Opcijska statistična informacija"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Vključi ali izključi zbiranje spodnjih opcijskih podatkov.To bo vplivalo na možnosti statističnih poročil, ki jih boste lahko dobili in bo vplivalo na velikost baze podatkov. NE SPREMINJAJTE, razen, če v celoti ne razumete, kaj počnete."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Opcijski stolpec \"Mesto\" zahteva opcijski stolped \"Regija\"."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Arhivi"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Vključite to opcijo, da stisnete arhivirane datoteke dnevnikov z uporabo orodja gzip tool (znotraj datoteke config.inc.php morate skonfigurirati vrednsot gzip). Opcijo je smiselno vključiti, če imate velik promet na spletišču, ker boste na ta način prihranili nekaj prostora na disku."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Stisni arhive"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Nastavitve za prikaz statistik"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Te nastavitve bodo uporabljene za statistike uporabe le pri reviji {$contextName}."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Prikaži bralcu grafikon statistik prispevka"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Izberite tip grafikona za prikaz statistik prenosa"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Stolpec"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Črta"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Določite največje število podatkov, ki se bodo hkrati prikazali na določeni točki x-osi. Velika vrednsot lahko povzroči težko berljiv grafikon Običajno je vrednost med 3 in 5."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Opravilo nalagalnika datoteke s statistikami"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Zavrnjeno, datoteke {$file} ni bilo možno odpreti."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Vrstica številka {$lineNumber} v datoteki {$file} ni veljaven dnevniški zapis in je bila zavrnjena."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "tica številka {$lineNumber} v datoteki {$file} vsebuje URL, iz katerega sistem ne more odstraniti osnovni URL."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Podatkov iz datoteke {$file} ni bilo mogoče naložiti. Datoteka je bila ponovno postavljena v vrsto."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Vtičnik za statistike uporabe je onemogočen. Nobena dnevniška datoteka ni bila obdelana."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Mapa {$directory} ni prazna. To lahko pomeni, da je prišlo pred tem do napake pri predhodnem ali vzporednem procesu. Ta datoteka bo avtomatsko ponovno obdelana, če uporabljate tudi scheduledTasksAutoStage.xml, v nasprotnem boste morali ročno prestaviti neobdelane datoteke v mapo z datotekami za obdelati."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Statistike uporabe"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Prikaže statistike uporabe. Lahko uporabi strežniške datoteke z dnevniki uporabe, da pridobi podatke."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "PKP poročilo statistik uporabe"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "PKP privzeto poročilo statistik uporabe (COUNTER ready)"
+
+msgid "plugins.reports.usageStats.optout.displayName"
+msgstr "Informacije o zasebnosti podatkov za statistike uporabe"
+
+msgid "plugins.reports.usageStats.optout.description"
+msgstr "Informacije o zasebnosti podatkov za statistike uporabe"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Informacije o statistikah uporabe"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Shranjujemo anonimizirane podatke o uporabi. Prosimo preberite <a href=\"{$privacyInfo}\">informacije o zasebnosti podatkov</a> za več."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>uspešno ste se odjavili od zbiranja podatkov o uporabi. Dokler boste videli to sporočilo, se ne bo beležila nobena vaša uporaba tega spletišča. Kliknite spodnji gumb, da spremenite odločitev.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Prijava"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Odjava"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Če želite se lahko odjavite od zbiranja podatkov. S klikom na gumb Odjava spodaj, boste preprečili zbiranje statističnih podatkov o vaši aktivnosti. S klikom na gumb Odjavi se bo ustvaril <em>piškotek</em>, ki bo shranil vašo odločitev. Če imate nastavitve zasebnosti v brskalniku tako nastavljene, se lahko piškotek avtomatično odstrani in se boste morali ponovno odjaviti ob naslednjem vstopu na to spletišče. Piškotek je veljaven le znotraj enega brskalnika. Če uporabljate več brskalnikov, se boste morali ponovno odjaviti. Piškotek ne vsebuje nobenih osebnih informacij in je veljaven eno leto od vaše zadnje odjave.</p>\n"
+"\t\t<p>Prosimo, da upoštevate, da vas ta odjava ne odjavlja od zbiranja podatkov spletnega strežnika. Prosimo, poglejte našo splošno <a href=\"{$privacyStatementUrl}\">izjavo o zasebnosti podatkov</a>.</p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Public Knowledge Project statistike (COUNTER)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Seštej vse prenose datotek"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Podatki o prenosih še niso na voljo."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Jan Feb Mar Apr Maj Jun Jul Avg Sep Okt Nov Dec"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Prenosi"
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Splošni podatki o zasebnosti</h3> <p>Oglejte si našo splošno <a href=\"{$privacyStatementUrl}\">izjavo o zasebnosti</a>.</p> <h3>Statistika uporabe</h3> <p>Za analizo uporabe in vpliva naših publikacij zbiramo in beležimo dostop do domače strani, kategorij, zbirk, knjig in datotek. Vsi podatki so anonimizirani. Ne beležimo osebnih podatkov. Za anonimiziranje so naslovi IP zgoščeni (z uporabo <em>SHA 256</em>) s kombinacijo <em>64 znakov dolge varne soli</em>, ki so samodejno <em>naključno ustvarjeni in povoženi vsak dan</em>. Naslovi IP tako ne morejo biti znova ustvarjeni</p> <p>Poleg anonimiziranih naslovov IP zbiramo naslednje podatke:</p> <ul> <li>Vrsta dostopa (tj. administrativna)</li> <li>Čas zahteve</li> <li>Zahtevan URL</li> <li>Statusna koda HTTP</li> <li>Brskalnik</li> </ul> <p>Zbrane podatke se uporablja le za namene ocenjevanja. Naslovov IP se nikoli ne preslika na ID uporabnika. Tehnično ni mogoče povezati določenega niza podatkov z določenim naslovom IP.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr ""
+"Te nastavitve lahko vsaka posamezna revija prenastavi v vtičniku posamezne "
+"revije."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Splošne informacije o zasebnosti</h3>\n"
+"\t\t<p>Prosimo poglejte splošno <a href=\"{$privacyStatementUrl}\">izjavo o "
+"zasebnosti</a>.</p>\n"
+"\t\t<h3>Statistike uporabe</h3>\n"
+"\t\t<p>Za analizo uporabe in vpliva naših publikacij zbiramo in beležimo "
+"dostop do domače strani, kategorij, zbirk, knjig in datotek. Vsi podatki so "
+"anonimizirani. Ne beležimo osebnih podatkov. Za anonimiziranje so naslovi IP "
+"zgoščeni (z uporabo <em>SHA 256</em>) s kombinacijo <em>64 znakov dolge "
+"varne soli</em>, ki so samodejno <em>naključno ustvarjeni in povoženi vsak "
+"dan</em>. Naslovi IP tako ne morejo biti znova ustvarjeni</p> \n"
+"<p>Poleg anonimiziranih naslovov IP zbiramo naslednje podatke:</p>\n"
+" <ul>\n"
+" <li>Tip dostopa (tj. administrativen)</li>\n"
+" <li>Čas zahteve</li>\n"
+" <li>Zahtevan URL</li>\n"
+" <li>Statusna koda HTTP</li>\n"
+" <li>Brskalnik</li> \n"
+"</ul> \n"
+"<p>Zbrane podatke se uporablja le za namene ocenjevanja. Naslovov IP se "
+"nikoli ne preslika na ID uporabnika. Tehnično ni mogoče povezati določenega "
+"niza podatkov z določenim naslovom IP.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr ""
+"Vsaka revija posebej lahko te nastavitve posebej nastavi na strani vtičnika "
+"revije."
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Varovanje zasebnosti pri statistikah uporabe"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Varovanje podatkov pri statistikah uporabe"

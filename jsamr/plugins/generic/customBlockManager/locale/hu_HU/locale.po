@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13T21:07:39+00:00\n"
+"PO-Revision-Date: 2020-02-21 13:36+0000\n"
+"Last-Translator: Gabor Klinger <ojshelp@konyvtar.mta.hu>\n"
+"Language-Team: Hungarian <http://translate.pkp.sfu.ca/projects/plugins/"
+"custom-block-manager-plugin/hu/>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Egyéni blokkkezelő"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Egyéni blokkok kezelése"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Ez a bővítmény lehetővé teszi az egyéni oldalsáv blokkainak kezelését (hozzáadás, szerkesztés és törlés)."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Egyéni blokkok"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Blokknév"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Blokk hozzáadás"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Nincsenek egyedi blokkok."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Tartalom"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Egyéni blokk)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Ez egy felhasználó által generált blokk."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Egyéni blokknév kötelező."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Az egyéni blokknév csak betűket, számokat és kötőjeleket/alulhúzásokat tartalmazhat."

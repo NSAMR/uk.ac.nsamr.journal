@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:00+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Özelleştirilmiş Blok Yöneticisi"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "This Plugin lets you manage custom sidebar blocks.  You can edit the blocks in the settings of each plugin that you create here."
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Blok Adı"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Blok ekle"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "İçerik"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Özelleştirilmiş Blok Eklentisi)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Bu üye tarafından oluşturulmuş bir bloktur."
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Özel Blokları Yönet"
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Özel Bloklar"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Özel blok oluşturulmadı."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Özel blok adı gerekli."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Özel blok adı sadece harf, sayı ve kısa çizgi / alt çizgi içermelidir."

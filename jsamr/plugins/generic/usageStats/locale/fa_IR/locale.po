@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2019-11-28T15:19:55-08:00\n"
+"Language: \n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "تنظیمات گزارشات دسترسی"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "ایجاد فایل گزارش"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "فعال سازی این گزینه باعث می شود تا افزونه در داخل پوشه فایلها، فایلهای گزارشات دسترسی را ایجاد نماید . این فایل ها باید برای استخراج داده های آماری استفاده شوند. اگر نمیخواهید فایلهای گزارشات دسترسی ایجاد کنید، میتوانید این گزینه را غیرفعال کنید و از گزارشات دسترسی ایجاد شده توسط سرور خودتان، استفاده کنید."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "پردازش عبارت منظم فایلهای گزارشات"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "عبارت منظم پیش فرض مورد استفاده می تواند گزارشات دسترسی آپاچی و همچنین فایلهای گزارشات افزونه تجزیه و تحلیل کند. اگر فایلهای گزارشات دسترسی به سیستم شما در فرمت های مختلفی باشند، شما مجبور خواهید بود یک عبارت منظم را که بتواند آنها را تجزیه و تحلیل کند و مقادیر مورد انتظار را وارد کند، وارد کنید. برای اطلاعات بیشتر به UsageStatsLoader::_getDataFromLogEntry() مراجعه کنید."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "تغییرات افزونه آمار کارکرد ذخیره شد."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "تنظیمات حفظ حریم خصوصی"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "مسیر فایل برای Salt ناشناس"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "فایل Salt قابل نوشتن نیست"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "برای اطمینان از حفط حریم خصوصی، باید یک فایل قابل خواندن و نوشتن برای نگه داری مقدار تصادفی salt، مشخص شود. برای اطمینان از حفاظت از حریم خصوصی، از این فایل نباید نسخه پشتیبانی تهیه شود. مقدار salt به طور تصادفی تولید می شود: یا با استفاده از تابع mcrypt_create_iv، که نیاز به PHP mcrypt؛ توابع openssl_random_pseudo_bytes، که نیاز به PHP openssl؛ فایل /dev/urandom، که تنها در سیستم * nix کار می کند، دارد. یا تابع mt_rand، که از لحاظ رمزنگاری امن نیست. بنابراین، اگر شما از یک سرور ویندوز استفاده می کنید، لطفا اطمینان حاصل کنید که  mcrypt و openssl را فعال کرده اید تا از مقدار salt تولید شده توسط روش اول رمزنگاری استفاده کنید."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "در صورت فعال سازی این گزینه حفظ حریم خصوصی در افزونه در نظر گرفته می شودک به این معنی که  آدرس های IP کدگذاری می شوند و به کاربران در مورد ردیابی و فراهم کردن گزینه اختیاری اطلاع رسانی می شود. توجه: هنگام استفاده از این گزینه نمی توانید از ویژگی های جغرافیایی افزونه استفاده کنید."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "فعال کردن حفظ حریم خصوصی نیازمند یک فایل salt است."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "فعال کردن حفظ حریم خصوصی، اطلاعات \"شهر ها\" را به عنوان یک آمار اختیاری حذف می کند."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "فعال کردن حفظ حریم خصوصی ، اطلاعات \"ناحیه ها\" را به عنوان یک آمار اختیاری حذف می کند."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "در نظر گرفتن حفظ حریم خصوصی"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "اطلاعات آماری اختیاری"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "مجموعه ای از اطلاعات اختیاری زیر را فعال یا غیرفعال کنید. که بر روی گزارش های آمار و همچنین بر روی اندازه پایگاه داده اثر می گذارد. در این گزینه ها تغییری اعمال نکنید مگر اینکه کاملا از آنچه انجام می دهید درک درستی دارید."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "ستون اختیاری \"شهر\" به ستون اختیاری \"منطقه\" نیاز دارد."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "آرشیو"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "برای فشرده سازی فایل های آرشیو با استفاده از ابزار gzip این گزینه را فعال کنید (شما باید تنظیمات gzip را در داخل config.inc.php پیکربندی کنید). اگر شما سایتی با ترافیک بالا دارید، فعال کردن این گزینه ایده خوبی است، تا در فضای ذخیره سازی صرفه جویی کنید."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "فشرده سازی آرشیو"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "تنظیمات نمایش آمار"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "این تنظیمات فقط بر روی اطلاعات آماری کارکرد {$contextName} اعمال می‌شود."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "نمایش نمودار آمار ارسال برای خواننده"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "نوع نمودار را برای نمایش آمار دانلود انتخاب کنید"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "بار"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "خط"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "حداکثر تعداد داده ها را برای یک نقطه خاص برای محور x مشخص کنید. مقادیر بالاتر می تواند نمودارهایی تولید کند که درک آنها سختتر است.مقداری بین 3 تا 5 مناسب استاست."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "وظیفه بارگزار فایل آمار کارکرد"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "فایل {$file} نمیتواند باز شود و نادیده گرفته می شود."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "خط  {$lineNumber} از فایل {$file} معتبر نبوده نیست و این فایل نادیده گرفته میشود."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "خط {$lineNumber} از فایل {$file} حاوی نشانی اینترنتی است که سیستم نمیتواند آدرس پایه را از آن حذف کند."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "داده های استخراج شده از فایل {$file} قابل بارگزاری نیست. فایل دوباره به مرحله منتقل شد."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "افزونه آمار کارکرد غیرفعال است. هیچ فایل گزارشی پردازش نشده است."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "پوشه {$directory}  خالی نیست. که میتواند ناشی از یک خطا در پردازشهای پیشین یا پردازشهای در حال اجرا باشد. این فایل به صورت خودکار پردازش می شود اگر شما همچنین از scheduledTasksAutoStage.xml استفاده می کنید، در غیر این صورت شما باید تمامی فایل موجود در مسیر پردازش را به صورت دستی به مسیر مرحله انتقال دهید."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "آمار کارکرد"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "آمار کارکرد داده های موجود. می توانید از فایل های گزارشات دسترسی سرور برای استخراج آمار استفاده کنید."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "گزارش آمار کارکرد سامانه"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "گزارش پیشفرض آمار کارکرد سامانه"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "اطلاعات حریم خصوصی آمار کارکرد"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "اطلاعات حریم خصوصی آمار کارکرد"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "اطلاعات آمار کارکرد"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "در این سامانه اطلاعات کارکرد افراد ناشناس نیز ثبت می شود. برای اطلاعات بیشتر <a href=\"{$privacyInfo}\">بیانیه حریم خصوصی</a> را مطالعه کنید."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr "<p> شما از فرایند جمع‌آوری اطلاعات آماری میزان کارکرد کنار گذاشته شدید. و به این معنی است که از عملکرد شما در سامانه هیچ اطلاعات آماری استخراج نمی‌شود.در صورت نیاز به تغییر تصمیم می‌توانید بر روی دکمه زیر کلیک کنید. </p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "انتخاب کردن"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "رد کردن"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr "<p>اگر مایل باشید می‌توانید فرایند جمع‌آوریجمع‌آوری داده‌ها را کنار بگذارید. با کلیک کردن بر روی دکمه opt-out در زیر، شما می‌توانید به طور فعال در مورد شرکت در تجزیه و تحلیل آماری تصمیم‌گیری کنید. پس از کلیک کردن بر روی این دکمه، یک <em>کوکی</em> در سیستم شما ایجاد می‌شود تا این تصمیم را ذخیره کند. اگر تنظیمات حریم خصوصی مرورگر شما به صورت خودکار کوکی‌ها را حذف می‌کند، مجدداً در دفعات آتی مراجعه به این سایت دوباره باید opt-out را انتخاب کنید. کوکی فقط برای یک مرورگر معتبر است. اگر از یک مرورگر دیگر استفاده کنید، مجبورید دوباره opt-out را انتخاب کنید. هیچ اطلاعات فردی در این کوکی ذخیره نمی‌شود. این کوکی به مدت یک سال از آخرین دسترسی شما به سایت معتبر خواهد بود. </p> <p>لطفاً توجه داشته باشید که این تصمیم شما در روند گزارش‌گیریگزارش‌گیری سرور تأثیری نخواهد داشت. برای اطلاعات بیشتر در این زمینه لطفاً به <<a href=\"{$privacyStatementUrl}\"> بیانیه حریم خصوصی </a> مراجعه کنید. </p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "OJS/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "آمار سامانه پروژه دانش عمومی"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "دانلود تمامی فایلها"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "هنوز داده ای برای دانلود در دسترس نمی باشد"
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "فروردین اردیبهشت خرداد تیر مرداد شهریور مهر آبان آذر دی بهمن اسفند"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "دانلود"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "در مورد هر مجله‌ای این تنظیمات می‌تواند با استفاده از صفحه افزونه‌های آن مجله بازنویسی شود."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr "<h3>اطلاعات حریم خصوصی عمومی</h3> <p>برای اطلاعات بیشتر در این زمینه لطفاً به <<a href=\"{$privacyStatementUrl}\"> بیانیه حریم خصوصی </a> مراجعه کنید. </p> <h3>آمار کارکرد</h3> <p> به منظور توانایی تجزیه و تحلیل کارایی و میزان ارزش مجله و مقالات منتشر شده، اطلاعات مربوط به میزان دسترسی به صفحه اصلی مجله‌ها، شماره‌ها، مقالات، نسخه‌های چاپی و فایل‌های مکمل ذخیره می‌شود. در این فرآیند تمام داده‌ها به صورت ناشناس هستند و هیچ اطلاعات شخصی را شامل نمی‌شوند. آدرس‌های IP با استفاده از <em>روش SHA </em>و با استفاده از یک <em>کلید کاملاً تصادفی </em>کدگذاری می‌شوند، که در نتیجه آدرس‌های IP قابل بازیابی نخواهند بود تا از ناشناس ماندن آن‌ها اطمینان حاصل شود. </p> <p>  در کنار آدرس IP اطلاعات زیر نیز به روش مشابه کدگذاری می‌شود: </p> <ul> <li>نوع دسترسی</li> <li>زمان درخواست</li> <li> نشانی اینترنتی درخواست شده</li> <li>کد وضعیت HTTP</li> <li>مرورگر</li> </ul> <p> داده‌های جمع‌آوریجمع‌آوری شده تنها برای اهداف ارزیابی استفاده می‌شود. هیچ آدرس IP به شناسه‌های کاربری ارتباط داده نمی‌شود.از نظر فنی غیرممکن است که یک مجموعه خاص از اطلاعات از طریق یک آدرس IP خاص ردیابی شود. </p>"

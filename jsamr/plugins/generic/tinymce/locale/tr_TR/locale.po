@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:28+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:28+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE Eklentisi"
+
+msgid "plugins.generic.tinymce.description"
+msgstr "Bu eklenti OMP yazı alanlarının <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Ayarlar"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Etiket Seç"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Bu alan için etiket yok."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Aşağıdaki etiketlerden herhangi birini ekleyebilirsiniz:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Temel İletişim Adı (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Temel İletişim e-Postası (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Destek İletişim Adı (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Destek İletişim e-Postası (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Destek İletişim Telefonu (\"{$value}\")"

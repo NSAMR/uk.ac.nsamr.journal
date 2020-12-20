@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:12+00:00\n"
+"PO-Revision-Date: 2020-10-14 12:50+0000\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
+"Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/fi_FI/>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Arvioinnit-raportti"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Tällä lisäosalla voi luoda CSV-muotoisen raportin, joka sisältää tiedot "
+"julkaisun arviointipyynnöistä."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Kierros"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Otsikko"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "Käsikirjoituksen ID"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Arvioija"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Osoitettu"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Ilmoitettu"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Vahvistettu"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Valmis"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Muistutettu"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Suositus"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Kommentit"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Vastaus myöhässä (päiviä)"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Arvio myöhässä (päiviä)"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Käsittelemätön"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Vastaanotettu (pvm.)"

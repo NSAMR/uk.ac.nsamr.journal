@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:25+00:00\n"
+"PO-Revision-Date: 2020-02-08 03:34+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/da/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE Plug-in"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Denne plugin aktiverer WYSIWYG redigering af tekstfelter ved hjælp af <a "
+"href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a> "
+"tekstbehandleren."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Indstillinger"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Vælg tag"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Intet tag er til rådighed for dette felt."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Du kan indsætte en af følgende tags:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Primær kontaktnavn (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Primær kontakt-e-mail (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Support-kontaktnavn (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Support-kontakt-e-mail (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Support-kontakttelefon (\"{$value}\")"

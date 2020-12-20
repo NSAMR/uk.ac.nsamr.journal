@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2019-11-28T15:19:55-08:00\n"
+"Language: \n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Опции журнали за достъп"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Създаване на файлове журнали"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Активирането на тази опция ще накара добавката да създава файлове с журнали за достъпа в директорията за файлове. Тези файлове може да бъдат използвани за извличане на статистика за поосещаването. Ако не искате да се създават файлове журнали може да оставите тази опция неактивна и да използвате файловете журнали на сървъра."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Регулярен израз за анализ на файлове"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Регулярният израз по подразбиране се изпозва за преработване на файловете журнали от apache в комбиниран формат и също и файловете журнали на добавката. Ако вашите файлове журнали за достъп са в друг формат, ще трябва да въведете регулярен израз, който може да ги преработи и върне очакваните стойности. Вижте UsageStatsLoader::_getDataFromLogEntry() за повече информация."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Настройките на добавката за статистика на използването бяха съхранени"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Опция за поверителност на данните"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Път до файла с ключ за анонимизиране"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "Файлът с ключа не е записваем."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "За да подсигурите поверителност на данните, трябва да осигурите файл който може да се чете и записва от интернет потребител за съхраняване на случайно генерирания ключ. От този файл НЕ трябва да се прави резервно копие, за да се осигури поверителност. Случайният ключ се генерира или чрез използване на: функция mcrypt_create_iv, която изисква PHP добавка mcrypt; функция openssl_random_pseudo_bytes, която изисква PHP добавка openssl; файлът /dev/urandom, който работи само на системи *nix; или функцията mt_rand, която не е криптографски сигурна. Така че, ако използвате сървър на Windows, моля осигурете че сте инсталирали и активирали PHP добавки mcrypt или openssl за да имате криптографски сигурен ключ."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Активирайте тази опция за да използвате версия на добавка, която зачита законите за защита на данните, т.е. запазва IP адресите в шифриран вид, информира потребителите за проследяването и осигурава възможност за отказване при тяхно желание. Бележка: когато използвате тази опция няма да можете да използвате функцията за геолокация на добавката."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Активирането на поверителността изисква файл за ключ."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Активирането на поверителността изключва Град като възможна статистика."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Активирането на поверителността изключва Регион като възможна статистика."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Спазване поверителност на данните"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Възможна статистическа информация"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Разрешете или забранете събирането на следната възможна информация. Това ще се отрази на възможните статистически отчети, които можете да извлечете, също ще се отрази на размера на базата данни. НЕ ПРОМЕНЯЙТЕ освен ако напълно разбирате какво правите."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Колоната по избор \"Град\" изисква колона по избор \"Регион\"."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Архиви"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Активирайте тази опция за да се компресират файловете журнали чрез инструмента gzip (трябва да конфигурирате настройките за gzip във файл config.inc.php). Ако имате сайт с висок трафик е добра идея да активирате това, за да спестите дисково пространство."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Компресиране на архиви"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Опции за показване на статистика"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Тези настройки ще бъдат приложени само за статистиката за използване на {$contextName}."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Показване на читателите на диаграма за статистиката на предлагане на работи"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Изберете тип на диаграмата за показване статистиката за теглене"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Стълбове"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Линия"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Определете максималният брой данни, които да се покажат едновременно за всяка точка от оста x. При голям брой се създават трудни за разчитане диаграми. Нещо между 3 и 5 е добре."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Статистика за ползване на задача за зареждане на файлове"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Файл {$file} не можа да се отвори и беше отхвърлен."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Редът с номер {$lineNumber} от файл {$file} не е валиден запис за журнал и файлът е отхвърлен."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "Редът с номер {$lineNumber} от файл {$file} съдържа URL, от който системата не може да премахне базовия URL."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Не можаха да се заредят данните извлечени от файл {$file}. Файлът е преместен отново в етап."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Добавката за статистика на използването не е активирана. Файлове журнали не са обработени."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Директория {$directory} не е празна. Това може да означава процес, кото е пропаднал преди, или конкурентно изпалняван процес. Този файл автоматично ще бъде обработен отново ако Вие също така използвате файл scheduledTasksAutoStage.xml, иначе трябва ръчно да преместите всеки изостанал файл от директонията за обработка в директорията на етапа."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Статистика за използването"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Представяне на статистика за използването на обекти данни. Може да се използват журналите за достъп на сървъра за извличане на статистика."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "Отчет на PKP за статистика на използването"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "Отчет на PKP по подразбиране за статистика на използването (COUNTER ready)"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Поверителна информация в статистиката за използването"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Поверителна информация в статистиката за използването"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Информация в статистиката за използването"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Ние запазваме анонимна информация за статистика за използването. Моля прочетете <a href=\"{$privacyInfo}\">privacy information</a> за подробности."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Вие успешно отказахте събирането на статистика за използването. Докато виждате това съобщение статистика за Вашето ползване на сайта няма да бъде събирана. Щракнете бутона отдолу, за да промените своето решение.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Приемане"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Отказване"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Ако искате можете да откажете събирането на информация. С щракване на бутона за отказване по-долу Вие решавате да не участвате в статистичаския анализ. Когато щракнете бутон за приемане ще бъде създадена \"<em>бисквитка</em>\" във Вашето устройство, съхраняваща Вашето решение. Ако настройките за поверителност във Вашето устройство задават бисквитките да се изтриват автоматично ще трябва да заявите приемане отново при следващо посещаване на сайта. Бисквитките се отнасят за един браузър. Ако използвате друг браузър трябва да заявите приемане отново. В бисквитката не се съхранява никаква лична информация. Бисквитката е валидна една година от последното посещаване.</p>\n"
+"\t\t<p>Моля, забележете, че вашето решение да откажете не влияе на сървъра да запазва информация във файлове журнали. Моля, прегледайте <a href=\"{$privacyStatementUrl}\">Обработка на лични данни</a>.</p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Статистика от Public Knowledge Project (COUNTER ready)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Сумиране на всички тегления"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Данни за теглене още не са налични."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "яну фев мар апр май юни юли авг сеп окт ное дек"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Изтегляния"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "Всеки журнал може да предефинира тази настройка от страницата на добавката на журнала."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Главна информация за обработка на лични данни</h3>\n"
+"\t\t<p>Моля, прегледайте нашата обща политика за <a href=\"{$privacyStatementUrl}\">Обработка на лични данни</a>.</p>\n"
+"\t\t<h3>Статистика за използването</h3>\n"
+"\t\t<p>За да можем да анализираме използването и влиянието на нашето списание и публикуваните в него статии, ние сабираме и запазваме във файлове журнали посещенията на началната страница на списанието, броевете, статиите, галериите и допълнителните файлове. В процеса всички данни се анонимизират. Лична информация не се запазва в журнали. IP адресите се анонимизират чрез шифриране (с използване на <em>SHA 256</em>) в комбинация със <em>сигурен 64 символен ключ</em>, който автоматично се генерира <em>случайно и наново всеки ден</em>.  Така IP адресите не могат да бъдат реконструирани.</p>\n"
+"\t\t<p>Заедно с анонимизиранети IP адреси се събира и следната информация:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Вид достъп (например: администраторски)</li>\n"
+"\t\t<li>Време на заявяване</li>\n"
+"\t\t<li>Заявен URL</li>\n"
+"\t\t<li>Код на HTTP статуса</li>\n"
+"\t\t<li>Браузър</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Събраната информация се използва само с цел оценяване. IP адресите не се съединяват с идентификаторите на потребителите. Технически е невъзможно да се проследи конкретен набор от данни с конкретен IP адрес.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr "Всяка печатница може да предефинира тази настройка от страницата на добавката на печатницата."
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Главна информация за обработка на лични данни</h3>\n"
+"\t\t<p>Моля, прегледайте нашата обща политика за <a href=\"{$privacyStatementUrl}\">Обработка на лични данни</a>.</p>\n"
+"\t\t<h3>Статистика за използването</h3>\n"
+"\t\t<p>За да можем да анализираме използването и влиянието на нашите публикации, ние сабираме и запазваме във файлове журнали посещенията на началната страница на списанието, броевете, статиите, галериите и допълнителните файлове. В процеса всички данни се анонимизират. Лична информация не се запазва в журнали. IP адресите се анонимизират чрез шифриране (с използване на <em>SHA 256</em>) в комбинация със <em>сигурен 64 символен ключ</em>, който автоматично се генерира <em>случайно и наново всеки ден</em>.  Така IP адресите не могат да бъдат реконструирани.</p>\n"
+"\t\t<p>Заедно с анонимизиранети IP адреси се събира и следната информация:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Вид достъп (например: администраторски)</li>\n"
+"\t\t<li>Време на заявяване</li>\n"
+"\t\t<li>Заявен URL</li>\n"
+"\t\t<li>Код на HTTP статуса</li>\n"
+"\t\t<li>Браузър</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Събраната информация се използва само с цел оценяване. IP адресите не се съединяват с идентификаторите на потребителите. Технически е невъзможно да се проследи конкретен набор от данни с конкретен IP адрес.</p>"

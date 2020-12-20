@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:17+00:00\n"
+"PO-Revision-Date: 2020-02-13 14:35+0000\n"
+"Last-Translator: Viveka Svensson <viveka.svensson@lnu.se>\n"
+"Language-Team: Swedish <http://translate.pkp.sfu.ca/projects/plugins/"
+"orcid-profile-plugin/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "Plugin för ORCID-profil"
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "Gör det möjligt att importera användarprofilsinformation från ORCID."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr "Du kan fylla i det här formuläret genom att hämta information från en ORCID-profil. Ange e-postadress eller ORCID iD som är kopplat till ORCID-profilen och klicka sedan på \"Skicka\"."
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "Hittade inga data i ORCID."
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "E-postadress eller ORCID-iD:"
+
+msgid "plugins.generic.orcidProfile.manager.orcidProfileSettings"
+msgstr "Inställningar för ORCID-profil"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr "Konfigurera ORCID-API:t för att hämta profilinformation från ORCID till användarprofilen."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "Public"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Public Sandbox"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "Member"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "Member Sandbox"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "Client ID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "Client Secret"
+
+msgid "plugins.generic.orcidProfile.author.submission"
+msgstr "ORCID för bidrag"
+
+msgid "plugins.generic.orcidProfile.author.submission.success"
+msgstr "Ditt bidrag har kopplats till ditt ORCID-iD."
+
+msgid "plugins.generic.orcidProfile.author.submission.failure"
+msgstr "Ditt bidrag kunde inte kopplas till ditt ORCID-iD. Kontakta tidskriftansvarig med ditt namn, ORCID-iD och andra detaljer om ditt bidrag."
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "OJS kunde inte kommunicera med ORCID-tjänsten. Kontakta tidskriftansvarig med ditt namn, ORCID-iD, och andra detaljer om ditt bidrag."
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "Skapa eller koppla ditt ORCID-iD"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "Alla"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "E-postinställningar"

@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-15T14:05:03-07:00\n"
+"PO-Revision-Date: 2020-01-31 17:46+0000\n"
+"Last-Translator: Marie-Hélène Vézina [UdeMontréal] <marie-"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/ojs/"
+"default/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+# localization file for fr_CA. Last revision 2019-10-22T10:45:04 by Marie-Hélène Vézina, Bibliothèques, Université de Montréal.
+msgid "section.default.title"
+msgstr "Articles"
+
+msgid "section.default.abbrev"
+msgstr "ART"
+
+msgid "section.default.policy"
+msgstr "Politique par défaut de la rubrique"
+
+msgid "default.genres.article"
+msgstr "Texte de l'article"
+
+msgid "default.contextSettings.checklist.notPreviouslyPublished"
+msgstr "La soumission n'a pas déjà été publiée et n'est pas considérée actuellement par une autre revue. Si ce n'est pas le cas, fournir une explication dans le champ « Commentaires au,à la rédacteur-trice »."
+
+msgid "default.contextSettings.checklist.fileFormat"
+msgstr "Le fichier de la soumission est dans un des formats de fichier suivants : OpenOffice, Microsoft Word, RTF ou WordPerfect."
+
+msgid "default.contextSettings.checklist.addressesLinked"
+msgstr "Lorsque possible, les URL des références ont été fournies."
+
+msgid "default.contextSettings.checklist.submissionAppearance"
+msgstr "Le texte est à simple interligne, utilise une police de 12 points, emploie l'italique plutôt que le souligné (sauf pour les adresses URL) et place toutes les illustrations, figures et tableaux aux endroits appropriés dans le texte plutôt qu'à la fin."
+
+msgid "default.contextSettings.checklist.bibliographicRequirements"
+msgstr "Le texte se conforme aux exigences stylistiques et bibliographiques décrites dans les  <a href=\"{$indexUrl}{$contextPath}/about/submissions#authorGuidelines\">Directives aux auteurs</a>, qui se trouvent dans la section « À propos de la revue »."
+
+msgid "default.contextSettings.privacyStatement"
+msgstr "<p>Les noms et courriels saisis dans le site de cette revue seront utilisés exclusivement aux fins indiquées par cette revue et ne serviront à aucune autre fin, ni à toute autre partie.</p>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr "Cette revue fournit le libre accès immédiat à son contenu se basant sur le principe que rendre la recherche disponible au public gratuitement facilite un plus grand échange du savoir, à l'échelle de la planète."
+
+msgid "default.contextSettings.forReaders"
+msgstr "Nous invitons les lecteurs-trices à s'inscrire pour recevoir les avis de publication de cette revue. Utiliser le lien <a href=\"{$indexUrl}{$contextPath}/user/register\">S'inscrire</a> en haut de la page d'accueil de la revue. Cette inscription permettra au,à la lecteur-trice de recevoir par courriel le sommaire de chaque nouveau numéro de la revue. Cette liste permet aussi à la revue de revendiquer un certain niveau de soutien ou de lectorat. Voir la <a href=\"{$indexUrl}{$contextPath}/about/submissions#privacyStatement\">Déclaration de confidentialité</a> de la revue qui certifie aux lecteurs-trices que leur nom et leur courriel ne seront pas utilisés à d'autres fins."
+
+msgid "default.contextSettings.forAuthors"
+msgstr ""
+"Intéressé-e à soumettre à cette revue ? Nous vous recommandons de consulter "
+"les politiques de rubrique de la revue à la page <a href=\""
+"{$indexUrl}{$contextPath}/about\">À propos de la revue</a> ainsi que les <a "
+"href=\"{$indexUrl}{$contextPath}/about/submissions#authorGuidelines\">"
+"Directives aux auteurs</a>. Les auteurs-es doivent <a href=\""
+"{$indexUrl}{$contextPath}/user/register\">s'inscrire</a> auprès de la revue "
+"avant de présenter une soumission, ou s'ils et elles sont déjà inscrits-es, "
+"simplement <a href=\"{$indexUrl}{$contextPath}/login\">ouvrir une "
+"session</a> et accéder au tableau de bord pour commencer les 5 étapes du "
+"processus."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr "Nous incitons les bibliothécaires à lister cette revue dans leur fonds de revues numériques. Aussi, il peut être pertinent de mentionner que ce système de publication en libre accès est conçu pour être hébergé par les bibliothèques de recherche pour que les membres de leurs facultés l'utilisent avec les revues dans lesquelles ils sont impliqués (voir <a href=\"http://pkp.sfu.ca/ojs\">Open Journal Systems</a>)."
+
+msgid "default.contextSettings.lockssLicense"
+msgstr "Cette revue utilise le système LOCKSS pour créer un système de distribution des archives parmi les bibliothèques participantes et afin de permettre à ces bibliothèques de créer des archives permanentes pour fins de préservation et de restauration. <a href=\"http://lockss.org/\">En apprendre davantage...</a>"
+
+msgid "default.contextSettings.clockssLicense"
+msgstr "Cette revue utilise le système CLOCKSS pour créer un système d'archivage distribué parmi les bibliothèques participantes et permet à ces bibliothèques de créer des archives permanentes de la revue à des fins de conservation et de reconstitution. <a href=\"http://clockss.org/\">En apprendre davantage... </a>"
+
+msgid "default.groups.name.manager"
+msgstr "Directeur-trice de la revue"
+
+msgid "default.groups.plural.manager"
+msgstr "Directeurs-trices de la revue"
+
+msgid "default.groups.abbrev.manager"
+msgstr "DIR"
+
+msgid "default.groups.name.editor"
+msgstr "Rédacteur-trice"
+
+msgid "default.groups.plural.editor"
+msgstr "Rédacteurs-trices"
+
+msgid "default.groups.abbrev.editor"
+msgstr "RÉD"
+
+msgid "default.groups.name.guestEditor"
+msgstr "Rédacteur-trice invité-e"
+
+msgid "default.groups.plural.guestEditor"
+msgstr "Rédacteurs-trices invités-es"
+
+msgid "default.groups.abbrev.guestEditor"
+msgstr "RÉDINV"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "Rédacteur-trice de rubrique"
+
+msgid "default.groups.plural.sectionEditor"
+msgstr "Rédacteurs-trices de rubrique"
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr "RÉDRUB"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "Responsable des abonnements"
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr "Responsables des abonnements"
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr "RespAB"
+
+msgid "default.genres.researchInstrument"
+msgstr "Instruments de recherche"
+
+msgid "default.genres.researchMaterials"
+msgstr "Documents de recherche"
+
+msgid "default.genres.researchResults"
+msgstr "Résultats de recherche"
+
+msgid "default.genres.transcripts"
+msgstr "Transcriptions"
+
+msgid "default.genres.dataAnalysis"
+msgstr "Analyse de données"
+
+msgid "default.genres.dataSet"
+msgstr "Ensemble de données"
+
+msgid "default.genres.sourceTexts"
+msgstr "Textes source"
+
+msgid "default.groups.name.externalReviewer"
+msgstr "Évaluateur-trice"
+
+msgid "default.groups.plural.externalReviewer"
+msgstr "Évaluateurs-trices"
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr "ÉVAL"
+
+msgid "default.contextSettings.emailSignature"
+msgstr ""
+"<br/>\n"
+"________________________________________________________________________<br/>\n"
+"<a href=\"{$ldelim}$contextUrl{$rdelim}\">{$ldelim}$contextName{$rdelim}</a>"

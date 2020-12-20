@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:04:59+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:04:59+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Upravljalec uporabniških blokov"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Upravljaj uporabniške bloke"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Vtičnik omogoča, da upravljate (dodate, spreminjate in brišete) uporabniške bloke na stranskem meniju."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Uporabniški bloki"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Ime bloka"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Dodaj blok"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Ni nobenega uporabniškega bloka."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Vsebina"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Uporabniški blok)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "To blok, ki ga je ustvaril uporabnik."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Ime bloka je obvezno."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Ime bloka lahko vsebuje le črke, številke in pomišljaj/podčrtaj."

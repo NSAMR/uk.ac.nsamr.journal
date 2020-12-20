@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:11+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:11+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Αναφορά αξιολογήσεων"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Αυτό το Πρόσθετο δημιουργεί μια αναφορά σε μορφή CSV που περιλαμβάνει μια λίστα με τις αναθέσεις για αξιολόγηση για ένα περιοδικό."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Γύρος"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Τίτλος υποβολής"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID υποβολής"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Αξιολογητής"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Ημερομηνία ανάθεσης"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Ημερομηνία ειδοποίησης"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Ημερομηνία επιβεβαίωσης"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Ημερομηνία παραλαβής"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Unconsidered"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Ημερονημία ολοκλήρωσης"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Ημερομηνία υπενθύμισης"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Έλεγχος ημερών καθυστέρησης"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Απάντηση ημερών καθυστέρησης"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Σύστηαση"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Σχόλια στην υποβολή"

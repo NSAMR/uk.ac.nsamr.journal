@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:07+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:07+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analyticsプラグイン"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "OJSにGoogle Analyticsを組み込みます。Google Analyticsとは、Googleが提供するWebサイトのトラフィック分析アプリケーションです。利用するには、Google Analyticsのアカウントが必要です。詳細については、<a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics サイト</a>を参照してください。"
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "設定"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Google Analyticsの設定"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>このプラグインを有効化することにより、Google Analyticsを使ってこの雑誌のWebサイトの利用やトラフィックのデータを収集・分析することができます。このプラグインを使用するには、Google Analyticsのアカウントが必要なことに注意してください。詳細については、<a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics サイト</a>を参照してください。</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "アカウント番号"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "アカウント番号は以下の手順で確認できます。Google Analyticsの[Analytics 設定] ページで、該当するプロファイルの横にある [編集] リンクをクリックし、表の右上にある [ステータスを確認] を選択します。アカウント番号はトラッキングコード内に _uacct = \"###\" という形で表示されています。###に該当するテキストを入力してください。"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "アカウント番号を入力してください。"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "新しいトラッキングコード (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "トラッキングコード"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "使用するトラッキングコードを選択してください。"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "以前のトラッキングコード (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Google Analytics アカウント番号"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Google Analytics を使用して公開中の論文のアクセス状況をトラックするために，ここにアカウント番号 (例. UA-xxxxxx-x) を入力してください。"
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "投稿者が入力したGoogle Analytics アカウント番号が不正です。"

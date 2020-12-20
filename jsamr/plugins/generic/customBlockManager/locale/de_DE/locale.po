@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:04:57+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:04:57+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Verwaltung benutzerdefinierter Blöcke"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Benutzerdefinierte Blöcke verwalten"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Dieses Plugin erlaubt Ihnen, benutzerdefinierte Blöcke in der Sidebar zu verwalten (anzulegen, zu bearbeiten und zu löschen)."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Benutzerdefinierte Blöcke"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Name des Blocks"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Block hinzufügen"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Es wurden bisher keine benutzerdefinierten Blöcke angelegt.."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Inhalt"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Benutzerdefinierter Block)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Dies ist ein selbst angelegter Block."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Der Name des benutzerdefinierten Blocks wird benötigt."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Der Name des benutzerdefinierten Blocks darf nur Buchstaben, Ziffern und Bindestriche/Unterstriche enthalten."

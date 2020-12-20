@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:04:57+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:04:57+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "مدير الكتل المخصصة"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "إدارة الكتل المخصصة"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "هذه الإضافة تتيح لك إدارة الكتل المخصصة الجانبية. بإمكانك تعديل الكتل عبر إعدادات الإضافات المعنية والتي تقوم بإنشائها هنا."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "الكتل المخصصة"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "اسم الكتلة"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "إضافة كتلة"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "لم يتم إنشاء أي كتلة مخصصة بعد."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "المحتوى"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(إضافة الكتلة المخصصة)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "هذه كتلة مولدة من قبل المستخدم."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "اسم الكتلة المخصصة مطلوب حتماً."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "اسم الكتلة المخصصة يجب أن يقتصر على الحروف والأرقام وعلامة الطرح والخط التحتاني."

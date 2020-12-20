@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2020-10-14 11:40+0000\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
+"Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/fi_FI/>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Kävijälokin valinnat"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Luo lokitiedostoja"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Tämän toiminnon aktivointi aloittaa kävijälokitiedostojen tallennuksen. Lokitiedostoja käytetään kävijätilastojen muodostamiseen."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Lokitiedostojen läpikäyntiin käytettävä regex-käsky"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Oletuksena annettua regex-käskyä voi käyttää Apachen lokitiedostojen sekä järjestelmän tallentamien lokitiedostojen läpikäyntiin. Jos käyttämäsi lokitiedostot ovat eri muodossa, sinun pitää antaa tähän toimiva regex-käsky. Lisätietoja: UsageStatsLoader::_getDataFromLogEntry()."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Kävijätilastolisäosan asetukset tallennettu"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Tietosuojavalinta"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Tiedostopolku anonymisoivalle salt-tiedostolle"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "Salt-tiedostoon ei voi kirjoittaa."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "Tietosuojan varmistamiseksi, sinun pitää antaa kirjoitettava ja luettava tiedosto, johon tallennetaan salt-arvo. Tätä tiedostoa ei saa varokopioida. Salt luodaan jollain seuraavista funktioista: mcrypt_create_iv, vaatii PHP mcrypt; openssl_random_pseudo_bytes, vaatii PHP openssl; /dev/urandom, toimii vain *nix järjestelmissä; function mt_rand, joka ei ole täysin turvallinen. Windows-palvelimilla varmista, että olet asentanut joko PHP mcrypt-laajennuksen tai openssl-laajennuksen."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Aktivoi tämä valinta, jos haluat lisäosan täyttävän tarkasti yksityisyyteen liittyvät lainsäädännöt. Tämä tarkoittaa sitä, että IP-osoitteet tallennetaan suojatussa muodossa ja lisäosa ilmoittaa jokaiselle käyttäjälle tilastoinnista ja tarjoaa mahdollisuuden jäädä tilastoinnin ulkopuolelle. Valinta lopettaa myös kävijöiden maantieteellisen luokittelun."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Tietosuojan aktivointi vaatii salt-tiedoston."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Tietosuojan aktivointi poistaa kaupunkitiedot tilastoista."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Tietosuojan aktivointi poistaa aluetiedot tilastoista."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Noudata tietosuojaa"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Valinnaisia tilastointitietoja"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Ota käyttöön seuraavat valinnaiset tilastointitiedot. Tämä vaikuttaa käytössä oleviin tilastoraportteihin sekä tietokannan kokoon. ÄLÄ MUUTA ASETUKSIA mikäli et ole varma mitä olet tekemässä."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Valinnainen kaupunkitieto vaatii valinnaisen aluetiedon."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Arkistot"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Aktivoi tämä valinta lokitiedostojen tiivistämiseksi gzip-työkalulla (gzip-asetus pitää olla määriteltynä config.inc.php-tiedostossa). Mikäli sivustollasi on paljon kävijöitä, valinta kannattaa aktivoida levytilan säästämiseksi."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Pakkaa arkistot"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Tilaston näyttövalinnat"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Näytä kävijätilastot lukijoille"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Valitse käytettävä kuvaajatyyppi kävijätilastojen näyttämiseen"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Pylväs"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Viiva"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Määritä suurin x-akselilla näytettävä tietomäärä. Suuri arvo voi tuottaa vaikeasti ymmärrettäviä kuvaajia. Sopiva arvo on 3 ja 5 välillä."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Kävijätilastotiedostojen ajoitettu tehtävä"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Tiedostoa {$file} ei voitu avata ja se hylättiin."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Rivinumero {$lineNumber} tiedostossa {$file} ei ole validi lokimerkintä ja tiedosto hylättiin."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "Rivinumero {$lineNumber} tiedostossa {$file} sisältää url-osoitteen, josta järjestelmä ei pysty erottamaan juuriosoitetta."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Tiedostosta {$file} haettua dataa ei voitu ladata. Tiedosto siirrettiin takaisin stage-kansioon."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Kävijätilastolisäosa on pois päältä. Lokitiedostoja ei käsitelty."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Hakemisto {$directory} ei ole tyhjä. Tämä saattaa johtua aiemmasta epäonnistuneesta käsittelystä tai parhaillaan meneillään olevasta toisesta käsittelystä. Tämä tiedosto käsitellään automaattisesti uudelleen, jos käytät scheduledTasksAutoStage.xml-tiedostoa. Muussa tapauksessa sinun pitää siirtää manuaalisesti jäljelle jääneet tiedostot processing-hakemistossa olevat tiedostot takaisin stage-hakemistoon."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Kävijätilastot"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Esitä dataobjektien kävijätilastoja. Lisäosa voi käyttää kävijälokitiedostoja tietojen hakemiseen."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "PKP kävijätilastoraportti"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "PKP oletuskävijätilastoraportti (COUNTER-yhteensopiva)"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Kävijätilastojen tietosuoja"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Kävijätilastojen tietosuoja"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Tietoja kävijätilastoinnista"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Tallennamme anonyymejä kävijätietoja. Ole hyvä ja lue <a href=\"{$privacyInfo}\">tietosuojasta</a>."
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Public Knowledge Project tilastointi (COUNTER-yhteensopiva)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Laske yhteen kaikki tiedostojen lataukset"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Lataustietoja ei ole vielä saatavilla."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Tam Hel Maa Huh Tou Kes Hei Elo Syy Lok Mar Jou"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Lataukset"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr ""
+"Nämä asetukset voi ohittaa lisäosien hallinnointiin tarkoitetulta sivulta "
+"käsin."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Yksityisyyden suoja</h3>\n"
+"\t\t<p>Tutustu julkaisun <a href=\"{$privacyStatementUrl}\""
+">tietosuojalausekkeeseen</a>.</p>\n"
+"\t\t<h3>Kävijätilastot</h3>\n"
+"\t\t<p>Jotta voimme analysoida julkaisun käyttöä ja vaikutusta, keräämme "
+"kävijätilastoja julkaisun etusivuun, numeroihin, artikkeleihin sekä "
+"julkaistuihin tiedostoihin liittyen. Kaikki data anonymisoidaan. "
+"Henkilötietoja ei tallenneta. IP-osoitteet anonymisoidaan ja salataan (<em>"
+"SHA 256</em>) yhdessä 64 merkkisen <em>suolan</em> kanssa, joka luodaan "
+"automaattisesti uudelleen päivittäin. IP-osoitteita ei voi siis jälkikäteen "
+"selvittää.</p>\n"
+"\t\t<p>Seuraavat tiedot kerätään yhdessä anonymisoidun IP-osoitteen "
+"kanssa:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Käynnin tyyppi</li>\n"
+"\t\t<li>Aika</li>\n"
+"\t\t<li>Pyydetty URL</li>\n"
+"\t\t<li>HTTP-statuskoodi</li>\n"
+"\t\t<li>Selain</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Kerättyjä tietoja käytetään ainoastaan arviointitarkoituksiin. IP-"
+"osoitteita ei liitetä käyttäjätileihin.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr ""
+"Nämä asetukset voi ohittaa lisäosien hallinnointiin tarkoitetulta sivulta "
+"käsin."
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Osallistu"
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Yksityisyyden suoja</h3>\n"
+"\t\t<p>Tutustu <a href=\"{$privacyStatementUrl}\""
+">tietosuojalausekkeeseen</a>.</p>\n"
+"\t\t<h3>Kävijätilastot</h3>\n"
+"\t\t<p>Jotta voimme analysoida julkaistun version käyttöä ja vaikutusta, "
+"keräämme kävijätilastoja etusivuun, luokkiin, sarjoihin, sekä julkaistuihin "
+"version tiedostoihin liittyen. Kaikki data anonymisoidaan. Henkilötietoja ei "
+"tallenneta. IP-osoitteet anonymisoidaan ja salataan (<em>SHA 256</em>) "
+"yhdessä 64 merkkisen <em>suolan</em> kanssa, joka <em>luodaan ja uudistetaan "
+"automaattisesti uudelleen päivittäin</em>. IP-osoitteita ei voi siis "
+"jälkikäteen selvittää.</p>\n"
+"\t\t<p>Seuraavat tiedot kerätään yhdessä anonymisoidun IP-osoitteen "
+"kanssa:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Käynnin tyyppi</li>\n"
+"\t\t<li>Aika</li>\n"
+"\t\t<li>Pyydetty URL</li>\n"
+"\t\t<li>HTTP-statuskoodi</li>\n"
+"\t\t<li>Selain</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Kerättyjä tietoja käytetään ainoastaan arviointitarkoituksiin. IP-"
+"osoitteita ei liitetä käyttäjätileihin.</p>"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Halutessasi voit jäädä pois käyttötilastojen keruusta. Painamalla "
+"alapuolella olevaa Jää pois -nappia voit  vaikuttaa tilastotutkimukseen "
+"osallistumiseesi. Jää pois -napin painalluksen seurauksena <em>eväste</em>, "
+"johon päätöksesi kirjataan, tallennetaan laitteellesi. Mikäli selaimesi "
+"yksityisyysasetukset automaattisesti poistavat tallennetut evästeet, tulee "
+"sinun toistaa toimenpide seuraavalla käyttökerralla. Eväste toimii vain "
+"yhdessä selaimessa, toisella selaimella on tehtävä samat toimenpiteet. "
+"Henkilökohtaisia tietoja ei tallenneta evästeeseen. Tämä eväste on voimassa "
+"vuoden ajan käyttökerrasta.</p>\n"
+"\t\t<p>Huomaa, että päätöksesi jäädä pois tilastotietojen keruusta ei "
+"vaikuta palvelimen yleisiin lokitiedostoihin. Tutustu <a href=\""
+"{$privacyStatementUrl}\">tietosuojaselosteeseemme</a>.</p>"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Jää pois"
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Poistuit onnistuneesti käyttötilastoista. Tämä viesti ilmoittaa, että "
+"käyttötilastotietoja sinusta ei kerätä tällä sivustolla. Alla olevalla "
+"näppäimellä voit perua toiminnon.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Nämä asetukset vaikuttavat vain  {$contextName} -käyttötilastoon."

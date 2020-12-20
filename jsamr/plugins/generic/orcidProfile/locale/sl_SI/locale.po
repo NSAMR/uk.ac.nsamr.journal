@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:17+00:00\n"
+"PO-Revision-Date: 2020-01-28 07:35+0000\n"
+"Last-Translator: Primož Svetek <primoz.svetek@gmail.com>\n"
+"Language-Team: Slovenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"orcid-profile-plugin/sl/>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "Vtičnik za ORCID profil"
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "Omogoča uvoz uporabniških podatkov iz ORCID."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr "Obrazec lahko pednapolnite s podatki iz ORCID profila. Vnesite email naslvo ali ORCID iD, ki pripada ORCID profilu, in kliknite \"Pošlji\"."
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "Iz ORCID ni bilo mogoče najti nobenih podatkov."
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "Email naslov ali ORCID iD:"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr "Nastavite ORCID API za uporabo pri zajemanju podatkov iz ORCID profilov za uporabniške profile."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "Javno"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Javni peskovnik"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "Član"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "Članski peskovnik"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "ID klienta"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "Secret klienta"
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "OJS ni mogel komunicirati z ORCID servisom. Za pomoč kontaktirajte vašeka upravljalca revije skupaj z vašim imenom, ORCID iD-jem in podatki o vašem prispevku."
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "Ustvari ali poveži vaš ORCID iD"
+
+msgid "plugins.generic.orcidProfile.manager.settings.title"
+msgstr "Nastavitve za ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.hidden"
+msgstr "skrito"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description.globallyconfigured"
+msgstr "ORCID API je bil nastavljen globalno na strežniku. Nastavljene so bile naslednje nastavitve."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidScope"
+msgstr "Področje dostopnosti profila"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "Email nastavitve"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logSectionTitle"
+msgstr "ORCID dnevnik zahtevkov"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.help"
+msgstr "Določite količino zapisov v dnevnik vtičnika"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.error"
+msgstr "Napake"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "Vse"
+
+msgid "plugins.generic.orcidProfile.author.accessDenied"
+msgstr "ORCID dostop je bil zavrnjen"
+
+msgid "plugins.generic.orcidProfile.author.accessTokenStored"
+msgstr "Dostop do ORCID zapisa z dostopnostjo  {$orcidAccessScope} je bil odobren z veljavnostjo do"
+
+msgid "plugins.generic.orcidProfile.author.requestAuthorization"
+msgstr "Pošlji email s prošnjo za ORCID avtorizacijo s strani sodelujočega"
+
+msgid "plugins.generic.orcidProfile.author.deleteORCID"
+msgstr "Zbirši ORCID iD in žeton za dostop!"
+
+msgid "plugins.generic.orcidProfile.author.orcidEmptyNotice"
+msgstr "Glej spodaj za zahtevo po avtenticiranem ORCID iD"
+
+msgid "plugins.generic.orcidProfile.author.unauthenticated"
+msgstr "ORCID iD ni avtenticiran! Prosimo zahtevajte avtentikacijo od sodelavca."
+
+msgid "plugins.generic.orcidProfile.verify.title"
+msgstr "ORCID avtorizacija"
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success"
+msgstr "Prispevek še ni bil dodan k vašemu ORCID zapisu."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure"
+msgstr "Prispevka ni bilo mogoče dodati k vašemu ORCID zapisu."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished"
+msgstr "Prispevek bo dodan k vašemu ORCID zapisu ob izdaji številke revije."
+
+msgid "plugins.generic.orcidProfile.verify.success"
+msgstr "Vaš ORCID iD je bil preverjen in uspešno povezan s prispevkom."
+
+msgid "plugins.generic.orcidProfile.verify.failure"
+msgstr "Vašega ORCID iDja ni bilo mogoče preveriti. Povezava ni več veljavna."
+
+msgid "plugins.generic.orcidProfile.verify.duplicateOrcid"
+msgstr "ORCID iD je bil že shranjen za ta prispevek."
+
+msgid "plugins.generic.orcidProfile.verify.denied"
+msgstr "Zavrnili ste dostop do vašega ORCID zapisa."
+
+msgid "plugins.generic.orcidProfile.failure.contact"
+msgstr "Prosimo kontaktirajte vašega upravljalca revije skupaj z vašim imenom, ORCID iD-jem in podatki o vašem prispevku."
+
+msgid "plugins.generic.orcidProfile.authorise"
+msgstr "Avtoriziraj in poveži vaš ORCID iD"
+
+msgid "plugins.generic.orcidProfile.about.title"
+msgstr "Kaj je ORCID?"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyPublicAPI"
+msgstr ""
+"Revija zbira vaš ORCID iD, da lahko povežemo prispevke in članke z vašimi ORCID podatki.\n"
+"\n"
+"Ko kliknete gumb \"Avtoriziraj\" v ORCID pojavnem oknu, vas bom prosili, da delite z nami vaš iD z uporabo avtoriziranega procesa: ali s <a href=\"https://support.orcid.org/hc/en-us/articles/360006897454\">kreiranjem novega ORCID računa</a> ali, če ORCID račun že imate, <a href=\"https://support.orcid.org/hc/en-us/categories/360000661673\">z vpisom v vaš ORCID račun</a> in dovoljenjem dostopa do vašega ORCID iD. To je potrebno zaradi zagotavljanja vaše avtentičnosti in varne povezave z vašim ORCID id.<br>\n"
+"    Več na <a href=\"https://orcid.org/blog/2017/02/20/whats-so-special-about-signing\">What’s so special about signing in.</a>"
+
+msgid "plugins.generic.orcidProfile.about.orcidExplanation"
+msgstr "ORCID je neodvisna in nepridobitna organizacija, ki zagotavlja trajni identifikator, ORCID iD, za vašo enolično identifikacijo in mehanizem za povezavo med vašimi raziskovalnimi aktivnostmi in rezultati ter vašim ORCID iDjem. ORCID je integriran v veliko sistemov, ki jih uporabljajo založniki, sponzorji, institucije in ostalimi sistemi povezanimi z raziskovanjem. Več na <a href=\"https://orcid.org\">orcid.org</a>."
+
+msgid "plugins.generic.orcidProfile.about.howAndWhy.title"
+msgstr "Kako in zakaj shranjujemo ORCID iDje?"
+
+msgid "plugins.generic.orcidProfile.about.display.title"
+msgstr "Kje so ORCID iDji prikazani?"
+
+msgid "plugins.generic.orcidProfile.about.display"
+msgstr ""
+"Kot potrditev vaše uporabe vašega ORCID iDja in njegtovo avtorizacijo se prkazuje ORCID id ikona <img src=\"https://orcid.org/sites/default/files/images/orcid_16x16(1).gif\" alt=\"iD icon\" width=\"16\" height=\"16\" border=\"0\"> poleg vašega imena na strani članka in na vašem javnem profilu.<br>\n"
+"        Več na <a href=\"https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed\">How should an ORCID iD be displayed.</a>"
+
+msgid "plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication"
+msgstr ""
+"Pošlji email z zahtevo za ORCID avtorizacijo od vseh avtorjev, ko je članek "
+"sprejet (gre v fazo lektoriranje)"

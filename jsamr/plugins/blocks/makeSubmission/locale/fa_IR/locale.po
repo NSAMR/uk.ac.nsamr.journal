@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-25 16:49+0000\n"
+"Last-Translator: Hamid Sadeghieh <sadeghieh@gmail.com>\n"
+"Language-Team: Persian <http://translate.pkp.sfu.ca/projects/plugins/"
+"makeSubmission/fa_IR/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.block.makeSubmission.displayName"
+msgstr "بلوک «ارسال مقاله»"
+
+msgid "plugins.block.makeSubmission.description"
+msgstr "این افزونه یک بلوک حاشیه‌ای با پیوند «ارسال مقاله» ایجاد می‌کند."
+
+msgid "plugins.block.makeSubmission.linkLabel"
+msgstr "ارسال مقاله"

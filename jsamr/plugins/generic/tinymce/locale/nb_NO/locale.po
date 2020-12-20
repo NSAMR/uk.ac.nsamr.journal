@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-20T15:57:55+00:00\n"
+"PO-Revision-Date: 2020-10-19 15:42+0000\n"
+"Last-Translator: Eirik Hanssen <eirikh@oslomet.no>\n"
+"Language-Team: Norwegian Bokmål <http://translate.pkp.sfu.ca/projects/"
+"plugins/tinymce-plugin/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Dette programtillegget gjør at du får se på skjermen din hvordan innholdet "
+"vil se ut for leserne, ved hjelp av editoren  <a href=\"https://www.tinymce."
+"com\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Innstillinger"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Velg tagg"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Ingen tagger er tilgjengelige for dette feltet."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Du kan legge inn disse taggene:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Navn på kontaktperson ({$value})"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Kontaktpersonens e-postadresse ({$value})"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Navn på teknisk kontaktperson ({$value})"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Den tekniske kontaktpersonens e-postadresse  ({$value})"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Den tekniske kontaktpersonens telefonnummer ({$value})"

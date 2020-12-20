@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:04:58+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:04:58+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Διαχείριση Προσαρμοσμένων Δομικών Στοιχείων (Custom blocks)"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Διαχείριση Προσαρμοσμένων Δομικών Στοιχείων"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Αυτό το πρόσθετο σας επιτρέπει να διαχειρίζεστε (προσθήκη, επεξεργασία και διαγραφή) τα προσαρμοσμένα δομικά στοιχεία."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Προσαρμοσμένα Δομικά Στοιχεία"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Ονομασία δομικού στοιχείου"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Προσθήκη δομικού στοιχείου"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Δεν έχουν δημιουργηθεί Προσαρμοσμένα Δομικά Στοιχεία."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Περιεχόμενο"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Πρόσθετο Προσαρμοσμένων Δομικών Στοιχείων)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Αυτό είναι δομικό στοιχείο δημιουργημένο από Χρήστη."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Το όνομα του δομικού στοιχείου είναι απαραίτητο."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Το όνομα του δομικού στοιχείου πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς και παύλες/κάτω παύλες."

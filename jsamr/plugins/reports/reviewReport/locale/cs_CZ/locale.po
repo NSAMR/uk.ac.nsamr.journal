@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:11+00:00\n"
+"PO-Revision-Date: 2020-06-04 23:39+0000\n"
+"Last-Translator: Jiří Dlouhý <jiri.dlouhy@czp.cuni.cz>\n"
+"Language-Team: Czech <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Report recenzí"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Tento plugin zavádí CSV report obsahující seznam recenzních úkolů zpracovaných pro časopis."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Kolo"
+
+msgid "plugins.reports.reviews.reviewerId"
+msgstr "ID recenzenta"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Recenzent"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Datum přidělení"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Datum oznámení"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Datum odsouhlasení"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Datum dokončení"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Datum připomenutí"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Komentáře k příspěvku"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Doporučení"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Počet dní zpoždění odpovědi"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Počet dnů zpoždění recenze"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Bez posouzení"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Datum potvrzení"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID příspěvku"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Název příspěvku"

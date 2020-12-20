@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:07+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:07+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analytics Plugin"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Integreer OJS met Google Analytics, Het website-gebruik analyse programma van Google. Vereist dat u al een Google Analytics account hebt. Zie <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics site</a> voor meer informatie."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Door deze plugin in te schakelen kan Google Analytics gebruikt worden voor het verzamelen en analyseren van het gebruik van de website van dit tijdschrift. Deze plugin vereist dat u al een Google Analytics account hebt ingericht. Zie <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google Analytics site</a> voor meer informatie.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Accountnummer"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Voer een accountnummer in."
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Google Analytics account-nummer"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Geef een Google Analytics account-nummer om de lezers van gepubliceerde artikels te volgen met Google Analytics (bv. UA-xxxxxx-x)"
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Een of meer van de Google Analytics account-nummers van de auteurs van deze inzending zijn niet geldig."

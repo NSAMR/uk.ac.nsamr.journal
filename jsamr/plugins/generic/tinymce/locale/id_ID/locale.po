@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-08 04:14+0000\n"
+"Last-Translator: Ramli Baharuddin <ramli.baharuddin@relawanjurnal.id>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/id/>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Nama Narahubung Utama (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Kamu bisa menambahkan tag berikut:"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Tidak ada tag untuk field ini."
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Pilih Tag"
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Pengaturan"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Plugin ini mengaktifkan area pengeditan WYSIWYG menggunakan penyunting "
+"konten <a href=\"https://www.tiny.cloud/\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Plugin TinyMCE"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Nomor Narahubung Pendukung (\"{$value\"})"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Surel Narahubung Pendukung (\"{$value\"})"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Nama Narahubung Pendukung (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Surel Narahubung Utama (\"{$value}\")"

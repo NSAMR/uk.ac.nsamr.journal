@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:05+00:00\n"
+"PO-Revision-Date: 2020-05-01 14:38+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/"
+"google-analytics-plugin/ca/>\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Mòdul Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr ""
+"Integra OJS amb Google Analytics, una aplicació de Google per a l'anàlisi "
+"del trànsit de llocs web. Cal que disposeu d'un compte del Google Analytics. "
+"Per a obtenir més informació, vegeu el <a href=\"http://www.google.com/"
+"analytics/\" title=\"lloc web del Google Analytics\">lloc web del Google "
+"Analytics</a>."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Configuració"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Configuració del Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr ""
+"<p>Si activeu aquest controlador podreu utilitzar el Google Analytics per "
+"recopilar i analitzar dades relatives a l'ús i el trànsit d'aquesta revista. "
+"Tingueu en compte que aquest mòdul requereix que hagueu configurat "
+"prèviament un compte de Google Analytics. Consulteu el lloc web de <a href=\""
+"http://www.google.com/analytics/\" title=\"Google Analytics site\">Google "
+"Analytics</a> per obtenir més informació.</p><p> Google Analytics pot "
+"necessitar fins a 24 hores abans que les estadístiques comencin a recopilar-"
+"se i registrar-se. Durant aquest període, la funció 'Comprovar estat' potser "
+"no funcionarà de manera precisa si ha detectat el codi de seguiment "
+"sol·licitat.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Número de compte"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "Dins el Google Analytics, feu clic a Check Status per a visualitzar el codi de seguiment del lloc web. El número de compte es mostra en el codi de seguiment: _uacct = \"###\". Introduïu el text que correspon a ###."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Introduïu un número de compte."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Codi de seguiment"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Trieu el codi de seguiment que vulgueu utilitzar."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Codi de seguiment heretat (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Codi de seguiment nou (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Identificador de  Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr ""
+"Un o més números de compte de Google Analytics introduïts per a trameses d'"
+"autors/es no són vàlids."
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr ""
+"Per fer el seguiment del nombre de lectors dels articles publicats "
+"mitjançant Google Analytics, introduïu aquí un número de compte (p. ex.: UA-"
+"xxxxxx-x)."

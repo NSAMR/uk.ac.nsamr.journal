@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2020-08-25 19:48+0000\n"
+"Last-Translator: Manuel Garcia <usuariodemanuel@gmail.com>\n"
+"Language-Team: Spanish <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Opciones de registro de acceso"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Crear archivos de registro"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr ""
+"Al activar esta opción, el módulo creará archivos de registro de acceso "
+"dentro del directorio de archivos. Estos archivos deben usarse para extraer "
+"datos de estadísticas de uso. Si no desea crear más archivos de registro de "
+"acceso  puede dejar esta opción deshabilitada y usar sus propios archivos de "
+"registro de acceso del servidor."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Analizar expresiones regulares de los archivos de registro"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr ""
+"La expresión regular utilizada por defecto puede analizar archivos de "
+"registro acceso apache en formato combinado, así como los archivos de "
+"registro del módulo. Si sus archivos de registro de acceso están en un "
+"formato diferente, deberá introducir una expresión regular capaz de "
+"analizarlos y proporcionar los valores esperados. Consulte "
+"UsageStatsLoader::_getDataFromLogEntry() para obtener más información."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Configuración del módulo de estadísticas de uso guardada"
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Tarea de carga de archivo de estadísticas de uso"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "El archivo {$file} no pudo abrirse y fue rechazado."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "El número de línea {$lineNumber} del archivo {$file} no es una entrada de registro válida y el archivo fue rechazado."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr ""
+"El número de línea {$lineNumber} del archivo {$file} contiene una URL que el "
+"sistema no puede eliminar de la URL base."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr ""
+"No se pueden cargar los datos extraídos del archivo {$file}. El archivo se "
+"trasladó de nuevo a la fase."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "El módulo de estadísticas de uso está deshabilitado. No se procesó ningún archivo de registro."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Estadísticas de uso"
+
+msgid "plugins.generic.usageStats.description"
+msgstr ""
+"Presentar estadísticas de uso de objetos de datos. Puede utilizar archivos "
+"de registro de acceso del servidor para extraer las estadísticas."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "Informe de estadísticas de uso de PKP"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr ""
+"Informe de estadísticas de uso por defecto de PKP (compatibles con COUNTER)"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Estadísticas de PKP (compatibles con COUNTER)"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Opciones de privacidad de datos"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr ""
+"La activación de la privacidad de datos excluye \"Ciudad\" como una "
+"estadística opcional."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr ""
+"La activación de la privacidad de datos excluye \"Región\" como una "
+"estadística opcional."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Respetar la privacidad de datos"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Información estadística opcional"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Activar o desactivar la recolección de la siguiente información opcional. Esto influirá en los posibles informes estadísticos que obtenga y también tendrá impacto en el tamaño de la base de datos. NO HAGA CAMBIOS a menos que sepa lo que está haciendo."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "La columna opcional \"Ciudad\" requiere la columna opcional \"Región\"."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Archivos"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Active esta opción para comprimir archivos de registro almacenados mediante la herramienta gzip (tendrá que configurar los ajustes de gzip en config.inc.php). Si tiene un sitio con un tráfico muy elevado puede ser buena idea activarla para ahorrar un espacio en disco extra."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Comprimir archivos"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Opciones de visualización de estadísticas"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Estos ajustes solo se aplicarán a las estadísticas de uso en {$contextName}."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Mostrar el gráfico de estadísticas de envío para lectura"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Elija el tipo de gráfico para mostrar las estadísticas de descarga"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Barra"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Línea"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Defina el número máximo de datos que se presentan al mismo tiempo para un punto específico del eje X. Entre 3 y 5 está bien, un valor mayor podría generar gráficos díficiles de comprender."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "El directorio {$directory} no está vacío. Esto podría señalar un proceso erróneo previo o un proceso ejecutándose simultáneamente. Este archivo se reprocesará automáticamente si también está usando  scheduledTasksAutoStage.xml, en caso contrario deberá mover manualmente cualquier archivo huérfano del directorio de proceso al directorio principal."
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Información de privacidad de las estadísticas de uso"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Información de privacidad de las estadísticas de uso"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Información de las estadísticas de uso"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr ""
+"Registramos estadísticas de uso anónimas. Consulte la <a href=\""
+"{$privacyInfo}\">información de privacidad</a> para obtener más detalles."
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Incluirse"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Excluirse"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Sumar todas las descargas de archivos"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Los datos de descargas todavía no están disponibles."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Ene Feb Mar Abr May Jun Jul Ago Sep Oct Nov Dic"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Descargas"
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Ha inhabilitado correctamente la recopilación de estadísticas de uso. "
+"Mientras vea este mensaje, no se recopilarán estadísticas de su uso de este "
+"sitio. Haga clic en el botón de abajo para revertir su decisión.</p>"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Si lo desea puede excluirse del proceso de recopilación de datos. "
+"Haciendo clic en el botón excluirse que hay a continuación puede decidir "
+"activamente no participar en el análisis estadístico. Al hacerlo se creará "
+"una <em>cookie</em> en el sistema para recordar su decisión. Si los ajustes "
+"de privacidad de su navegador hacen que las cookies se eliminen "
+"automáticamente, deberá volver a seleccionar la opción de excluirse la "
+"próxima vez que acceda al sitio web. Esta cookie solo es válida para este "
+"navegador. Si utiliza otros navegadores  deberá repetir este proceso. Esta "
+"cookie no almacena ningún tipo de información personal y es válida durante "
+"un año desde el último acceso.</p>\n"
+"\t\t<p>Tenga en cuenta que los registros generales del servidor no quedan "
+"afectados por la decisión de excluirse del proceso de evaluación detallada. "
+"Consulte nuestra <a href=\"{$privacyStatementUrl}\">declaración de "
+"privacidad</a> general.</p>"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Ruta de archivo para anonimizar el \"salt\""
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "El archivo \"salt\" no es editable."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr ""
+"Active esta opción para usar una versión del módulo que respete las "
+"legislaciones de privacidad, es decir, que registre las direcciones IP con "
+"función hash, que informe a los usuarios/as acerca del seguimiento y que les "
+"proporcione una opción de desistimiento. Nota: cuando use esta opción no "
+"podrá utilizar las características geográficas del módulo."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "La activación de la privacidad de datos requiere un archivo \"salt\"."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "Para asegurar la privacidad de los datos debe especificar un archivo que el usuario/a web pueda leer y editar y que contenga un valor \"salt\" generado aleatoriamente. NO se debe hacer copia de seguridad del archivo para garantizar la protección de privacidad. El archivo \"salt\" se genera aleatoriamente utilizando la función mcrypt_create_iv, que requiere PHP mcrypt; la función openssl_random_pseudo_bytes, que requiere PHP openssl; el archivo /dev/urandom, que solo funciona en sistemas *nix; o la función mt_rand, que no es criptográficamente segura. Por lo tanto, si utiliza un servidor Windows asegúrese de que tiene instalado PHP mcrypt o activado openssl para conseguir la generación de un archivo \"salt\" criptográficamente seguro."
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Información de privacidad general</h3>\n"
+"\t\t<p>Consulte nuestra <a href=\"{$privacyStatementUrl}\">declaración de "
+"privacidad general</a>.</p>\n"
+"\t\t<h3>Estadísticas de uso</h3>\n"
+"\t\t<p>Para poder analizar el uso e impacto de nuestras publicaciones, "
+"recopilamos y registramos el acceso a la página de inicio, a las categorías, "
+"a las series, a los libros y a los archivos. En este proceso todos los datos "
+"son anonimizados. No se registra ninguna información personal. Las "
+"direcciones IP son anonimizadas mediante encriptación (utilizando <em>SHA "
+"256</em>) en combinación con un <em>salt de 64 caracteres de seguridad</em> "
+"que <em>se generan aleatoriamente y se anulan cada día</em> automáticamente. "
+"Por lo tanto, las direcciones IP no pueden ser reconstruidas.</p>\n"
+"\t\t<p>Se recopila la siguiente información junto con las direcciones IP "
+"anonimizadas:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Tipo de acceso (p. ej. administrador/a)</li>\n"
+"\t\t<li>Hora de la solicitud</li>\n"
+"\t\t<li>URL solicitada</li>\n"
+"\t\t<li>Código de estado HTTP</li>\n"
+"\t\t<li>Navegador</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Los datos recopilados solo se utilizan con fines de evaluación. "
+"Ninguna dirección IP es mapeada hacia la ID de usuario/a. Es técnicamente "
+"imposible rastrear un conjunto de datos específico hasta una dirección IP "
+"específica.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr ""
+"Cada editorial puede anular estos ajustes desde la página de módulos de la "
+"editorial."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Información de privacidad general</h3>\n"
+"\t\t<p>Consulte nuestra <a href=\"{$privacyStatementUrl}\">declaración de "
+"privacidad general</a>.</p>\n"
+"\t\t<h3>Estadísticas de uso</h3>\n"
+"\t\t<p>Para poder analizar el uso e impacto de su revista y de los artículos "
+"publicados, recopilamos y registramos el acceso a la página de inicio de la "
+"revista, a los números publicados, a los artículos, a las galeradas y a los "
+"archivos complementarios. En este proceso todos los datos son anonimizados. "
+"No se registra ninguna información personal. Las direcciones IP son "
+"anonimizadas mediante encriptación (utilizando <em>SHA 256</em>) en "
+"combinación con un <em>salt de 64 caracteres de seguridad</em> que <em>se "
+"generan aleatoriamente y se anulan cada día</em> automáticamente. Por lo "
+"tanto, las direcciones IP no pueden ser reconstruidas.</p>\n"
+"\t\t<p>Se recopila la siguiente información junto con las direcciones IP "
+"anonimizadas:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Tipo de acceso (p. ej. administrador/a)</li>\n"
+"\t\t<li>Hora de la solicitud</li>\n"
+"\t\t<li>URL solicitada</li>\n"
+"\t\t<li>Código de estado HTTP</li>\n"
+"\t\t<li>Navegador</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Los datos recopilados solo se utilizan con fines de evaluación. "
+"Ninguna dirección IP es mapeada hacia la ID de usuario/a. Es técnicamente "
+"imposible rastrear un conjunto de datos específico hasta una dirección IP "
+"específica.</p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr ""
+"Cada revista puede anular estos ajustes desde la página de módulos de la "
+"revista."

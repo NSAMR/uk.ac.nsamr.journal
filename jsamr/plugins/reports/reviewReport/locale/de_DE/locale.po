@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:11+00:00\n"
+"PO-Revision-Date: 2020-05-20 12:38+0000\n"
+"Last-Translator: Heike Riegler <heike.riegler@julius-kuehn.de>\n"
+"Language-Team: German <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Begutachtungs-Bericht"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Dieses Plugin implementiert einen CSV-Bericht, der eine Liste von Begutachtungsanweisungen für eine Zeitschrift enthält."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Durchgang"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Titel der Einreichung"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID der Einreichung"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Gutachter/in"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Auftragsdatum"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Benachrichtigungsdatum"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Bestätigungsdatum"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Fertigstellungsdatum"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Erinnerungsdatum"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Empfehlung"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Kommentare zur Einreichung"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Überfälligkeit der Antwort in Tagen"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Überfälligkeit des Reviews in Tagen"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "nicht berücksichtigt"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Datum der Bestätigung"

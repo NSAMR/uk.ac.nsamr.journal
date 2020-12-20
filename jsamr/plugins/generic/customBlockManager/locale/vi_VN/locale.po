@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-11 17:40+0000\n"
+"Last-Translator: Tran Ngoc Trung <khuchatthienduong@gmail.com>\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/plugins/"
+"custom-block-manager-plugin/vi_VN/>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr ""
+"Tên khối tùy chỉnh chỉ chứa các chữ cái, số và dấu gạch nối/dấu gạch dưới."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Tên khối tùy chỉnh là bắt buộc."
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Đây là một khối do người dùng tạo ra."
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Khối tùy chỉnh)"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Nội dung"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Không có khối tùy chỉnh được tạo."
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Thêm khối"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Tên khối"
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Khối tùy chỉnh"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr ""
+"Plugin này cho phép bạn quản lý (thêm, chỉnh sửa và xóa) các khối thanh bên "
+"tùy chỉnh."
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Quản lý khối tùy chỉnh"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Trình quản lý khối tùy chỉnh"

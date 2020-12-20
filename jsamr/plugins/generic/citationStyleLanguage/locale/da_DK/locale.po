@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T13:44:50+00:00\n"
+"PO-Revision-Date: 2020-02-08 01:58+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/"
+"citation-style-language-plugin/da/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.citationStyleLanguage.displayName"
+msgstr "Citation Style Language"
+
+msgid "plugins.generic.citationStyleLanguage.description"
+msgstr "Tillad læsere at få en offentliggjort artikels citationer i et af flere formater understøttet af Citation Style Language."
+
+msgid "plugins.generic.citationStyleLanguage.style.acm-sig-proceedings"
+msgstr "ACM"
+
+msgid "plugins.generic.citationStyleLanguage.style.acs-nano"
+msgstr "ACS"
+
+msgid "plugins.generic.citationStyleLanguage.style.apa"
+msgstr "APA"
+
+msgid "plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas"
+msgstr "ABNT"
+
+msgid "plugins.generic.citationStyleLanguage.style.chicago-author-date"
+msgstr "Chicago"
+
+msgid "plugins.generic.citationStyleLanguage.style.harvard-cite-them-right"
+msgstr "Harvard"
+
+msgid "plugins.generic.citationStyleLanguage.style.ieee"
+msgstr "IEEE"
+
+msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
+msgstr "MLA"
+
+msgid "plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography"
+msgstr "Turabian"
+
+msgid "plugins.generic.citationStyleLanguage.style.vancouver"
+msgstr "Vancouver"
+
+msgid "plugins.generic.citationStyleLanguage.download.bibtex"
+msgstr "BibTeX"
+
+msgid "plugins.generic.citationStyleLanguage.download.ris"
+msgstr "Endnote/Zotero/Mendeley (RIS)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Formater, der kan downloades"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr ""
+"Vælg hvilke af de formater, der kan downloades, du ønsker at tilbyde dine "
+"læsere. Formater, der kan downloades, bruges typisk til at importere til "
+"tredjeparts referencehåndteringsprogrammer såsom EndNote eller Zotero."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Øvrige citationsformater"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Vælg hvilke øvrige formater du ønsker at tilbyde dine læsere."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Primært citationsformat"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr ""
+"Vælg hvilket citationsformat, du ønsker at vise som standard på din artikels "
+"landing page."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr ""
+"Nogle citationsformater ønsker, at man angiver udgiverens geografiske "
+"placering, såsom \"London, U.K.\"."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Udgivers lokation"

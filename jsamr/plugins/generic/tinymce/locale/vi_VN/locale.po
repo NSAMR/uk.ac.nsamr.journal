@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:28+00:00\n"
+"PO-Revision-Date: 2020-04-27 23:56+0000\n"
+"Last-Translator: Tran Ngoc Trung <khuchatthienduong@gmail.com>\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/vi/>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Plugin TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Plugin này cho phép chỉnh sửa WYSIWYG của các vùng văn bản bằng cách sử dụng "
+"<a href=\"https://www.tiny.cloud/\" target=\"_blank\">TinyMCE</a> biên tập "
+"nội dung."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Cài đặt"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Số điện thoại người hỗ trợ (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Email người hỗ trợ (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Tên người hỗ trợ (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Tên người liên hệ chính (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Email người liên hệ chính (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Bạn có thể chèn bất kỳ thẻ nào sau đây:"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Không có thẻ có sẵn cho lĩnh vực này."
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Chọn thẻ"

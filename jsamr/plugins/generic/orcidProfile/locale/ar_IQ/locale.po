@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:16+00:00\n"
+"PO-Revision-Date: 2020-08-19 16:48+0000\n"
+"Last-Translator: M. Ali <vorteem@gmail.com>\n"
+"Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/"
+"orcid-profile-plugin/orcid-profile-plugin/ar_IQ/>\n"
+"Language: ar_IQ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "إضافة الملف التعريفي ORCID"
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "تسمح باستيراد بيانات الملف الشخصي للمستخدم من ORCID."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr "بإمكانك توطين هذا النموذج ببيانات من ملف تعريفي مسجل في ORCID. أدخل عنوان البريد الالكتروني أو معرف ORCID المتعلق بالملف الشخصي في ORCID ثم أنقر \"تقديم\"."
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "تعذر العثور على أي بيانات من ORCID."
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "البريد الالكتروني أو معرف ORCID:"
+
+msgid "plugins.generic.orcidProfile.manager.settings.title"
+msgstr "إعدادات واجهة برمجة التطبيق لـ ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.hidden"
+msgstr "مخفي"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr "لطفاً، قم بتهيئة API الخاصة بـ ORCID لاستعمالها في سحب البيانات الشخصية من قاعدة بيانات ORCID إلى الملف الشخصي للمستخدم وتحديث السجلات المرتبطة بـ ORCID مع المنشورات الجديدة (هذا لأعضاء ORCID حصراً)."
+
+msgid "plugins.generic.orcidProfile.manager.settings.description.globallyconfigured"
+msgstr "إن واجهة برمجة التطبيق لـ ORCID قد تمت تهيئتها على مستوى النظام من قبل المضيف. بيانات الدخول الآتية قد تم حفظها."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "عام"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "صلاحيات عامة"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "عضو"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "صلاحيات عضو"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "الرمز التعريفي للعميل"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "الرقم السري للعميل"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidScope"
+msgstr "مدى صلاحيات الحساب"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "إعدادات البريد الالكتروني"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logSectionTitle"
+msgstr "سجل وقوعات مطالبات ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.help"
+msgstr "إختر حجم مخرجات سجل الوقوعات الذي تحتفظ به هذه الإضافة"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.error"
+msgstr "أخطاء"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "الكل"
+
+msgid "plugins.generic.orcidProfile.author.accessDenied"
+msgstr "تم رفض الوصول من قبل ORCID عند"
+
+msgid "plugins.generic.orcidProfile.author.accessTokenStored"
+msgstr "تم السماح بالوصول إلى سجل ORCID بمدى {$orcidAccessScope}، وهو متاح حتى"
+
+msgid "plugins.generic.orcidProfile.author.requestAuthorization"
+msgstr "إبعث رسالة للمطالبة بتفويض من المساهمين في العمل في ORCID"
+
+msgid "plugins.generic.orcidProfile.author.deleteORCID"
+msgstr "حذف معرف ORCID ورمز الوصول!"
+
+msgid "plugins.generic.orcidProfile.author.orcidEmptyNotice"
+msgstr "أنظر أدناه للمطالبة برمز تفويض أصلي من ORCID"
+
+msgid "plugins.generic.orcidProfile.author.unauthenticated"
+msgstr "رمز ORCID غير مفوض! لطفاً، إلتمس التفويض من المساهم."
+
+msgid "plugins.generic.orcidProfile.verify.title"
+msgstr "تفويض ORCID"
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success"
+msgstr "طلب التقديم قد تمت إضافته إلى حسابك في ORCID."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure"
+msgstr "تعذرت إضافة طلب التقديم إلى حسابك في ORCID."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished"
+msgstr "طلب التقديم ستتم إضافته إلى حسابك في ORCID خلال عملية النشر."
+
+msgid "plugins.generic.orcidProfile.verify.success"
+msgstr "تم التحقق من رمزك في ORCID وربطه مع طلب تقديمك بنجاح."
+
+msgid "plugins.generic.orcidProfile.verify.failure"
+msgstr "تعذر التحقق من رمزك في ORCID. الرابط لم يعد صحيحاً."
+
+msgid "plugins.generic.orcidProfile.verify.duplicateOrcid"
+msgstr "لقد تم سابقاً حفظ رمز ORCID لطلب التقديم هذا."
+
+msgid "plugins.generic.orcidProfile.verify.denied"
+msgstr "لقد قمت بمنع الوصول إلى حسابك في ORCID."
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "رابط تفويض ORCID قد سبق استعماله أو هو غير صحيح."
+
+msgid "plugins.generic.orcidProfile.failure.contact"
+msgstr "لطفاً، اتصل برئيس التحرير وأبلغه اسمك، رمزك في ORCID، وتفاصيل طلب تقديمك."
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "إنشئ رمزك التعريفي في ORCID أو أربطه"
+
+msgid "plugins.generic.orcidProfile.authorise"
+msgstr "تفويض وربط رمزك في ORCID"
+
+msgid "plugins.generic.orcidProfile.about.title"
+msgstr "ما هو ORCID?"
+
+msgid "plugins.generic.orcidProfile.about.orcidExplanation"
+msgstr "إن ORCID هي منظمة مستقلة غير ربحية تقدم معرفاً دائمياً يسمى – رمز ORCID – يعمل على تمييزك من بين غيرك من الباحثين مع آلية لربط مخرجات أبحاثك ونشاطاتك مع هذا الرمز. إن ORCID متكامل مع العديد من الأنظمة المستعملة من قبل الناشرين، الممولين، المؤسسات، وغيرها من الخدمات ذات الصلة بالأبحاث. لمعرفة المزيد <a href=\"https://orcid.org\">orcid.org</a>."
+
+msgid "plugins.generic.orcidProfile.about.howAndWhy.title"
+msgstr "لماذا وكيف نقوم بجمع رموز ORCID ؟"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyPublicAPI"
+msgstr ""
+"هذه المجلة تقوم بالحصول على رمزك في ORCID من أجل أن [نضيف غرضاً للتمييز ما بين API الأعضاء و API العامة].\n"
+"\tعندما تنقر على زر “التفويض” في الواجهة المنبثقة لـ ORCID، سنطالبك بمشاركة رمزك عبر عملية التفويض: إما عبر <a href=\"https://support.orcid.org/hc/en-us/articles/360006897454\">التسجيل للحصول على رمز ORCID</a> أو، إذا كان لديك مسبقاً هذا الرمز، <a href=\"https://support.orcid.org/hc/en-us/categories/360000661673\">تسجيل الدخول إلى حسابك في ORCID</a>، ومن ثم منحنا صلاحية الحصول على رمزك. نحن نقوم بهذا للتأكد من كونك معرَّف وتتصل بشكل آمن مع حسابك في ORCID.<br>\n"
+"\tتعرف على المزيد في <a href=\"https://orcid.org/blog/2017/02/20/whats-so-special-about-signing\">ما هو المميز بشأن تسجيل الدخول؟.</a>"
+
+msgid "plugins.generic.orcidProfile.about.display.title"
+msgstr "أين يتم عرض رموز ORCID ؟"
+
+msgid "plugins.generic.orcidProfile.about.display"
+msgstr ""
+"للتعرف على أنك قمت مسبقاً باستعمال رمزك وأنه مفوض من قبلك، نقوم بعرض إيقونة رمز ORCID <img src=\"https://orcid.org/sites/default/files/images/orcid_16x16(1).gif\" alt=\"إيقونة الرمز\" width=\"16\" height=\"16\" border=\"0\"> بجوار اسمك على صفحة المقالة الخاصة بطلب تقديمك وعلى صفحة حسابك الشخصي.<br>\n"
+"\tتعرف على المزيد في <a href=\"https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed\">كيف يجب عرض رمز ORCID.</a>"
+
+msgid "plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication"
+msgstr ""
+"أرسل رسالة الكترونية ملتمساً تفويض ORCID من المؤلفين عند قبول المقالة. أي "
+"عند الإرسال لمرحلة التدقيق"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyMemberAPI"
+msgstr ""
+"هذه المجلة تجمع مُعرَّف ORCID iD الخاص بك لكي نكون نحن وغيرنا على ثقة بأنك "
+"مُعرَّف بشكل صحيح ومتصل بمنشوراتك. هذا سيضمن صلتك الكاملة بأعمالك على امتداد "
+"حياتك المهنية.<br>\n"
+"\tعندما تنقر زر “التفويض” في النافذة المنبثقة من ORCID، سنلتمس منك مشاركة "
+"مُعرَّفك iD باستعمال عملية مصادقة—إما عبر تسجيل حساب في ORCID، أو، إن كان "
+"لديك حساب سلفاً، عبر تسجيل الدخول إلى حسابك في ORCID، ثم منحنا صلاحية الوصول "
+"إلى مُعرَّفك ORCID iD. نحن نقوم بذلك للتأكد من أنك مُعرَّف بشكل صحيح ومتصل "
+"بشكل آمن بهذا الحساب.<br>\n"
+"\tتعلم المزيد في <a href=\"https://orcid.org/blog/2017/02/20/whats-so-"
+"special-about-signing\">ما الذي يجعل تسجيل الدخول مميزاً.</a><br>\n"
+"\tهذه المجلة ستجمع مُعرَّفات المؤلفين المفوضين ومساعديهم وستعرضها في صفحات "
+"الملفات الشخصية لهم وكذلك في صفحة المقالة. فضلاً عن ذلك، البيانات الوصفية "
+"للمقالة ستوضع لك تلقائياً ضمن حسابك في ORCID، مما يمكننا من الحفاظ على حسابك "
+"محدثاً بمعلومات موثوقة. لمعرفة المزيد <a href=\"https://orcid.org/blog/2017/"
+"08/10/six-ways-make-your-orcid-id-work-you\">ستة طرق لجعل ORCID iD الخاص بك "
+"يعمل لحسابك!</a>\n"

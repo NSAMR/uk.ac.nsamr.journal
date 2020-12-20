@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:06+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Google Analytics dodatak"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Ovaj dodatak integrira OJS sa Google Analytics,  aplikacijom za analizu web prometa. Ovo od vas zahtijeva da imate već postavljen Google Analytics korisnički račun. Za više informacija pogledajte <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics stranice\">Google Analytics stranice</a>."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Postavke"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Google Analytics postavke"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Kad je ovaj dodatak aktiviran, moguće je koristiti Google Analytics za prikupljanje i analizu podataka o prometu i korištenju ovog časopisa. Za upotrebu ovog dodatka trebate imati već postavljen Google Analytics korisnički račun. Za više informacija molimo pogledajte <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics stranice\">Google Analytics stranice</a>.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Broj računa"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "Unutar Google Analytics aplikacije odaberite <I>Check Status </I>kako biste vidjeli kod za praćenje (<I>tracking code</I>) vaše stranice. Broj korisničkog računa prikazan je unutar koda za praćenje: _uacct = \"###\". Enter the text that corresponds to ###."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Molimo unesite broj računa."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Kod za praćenje"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Molimo odaberite kod za praćenje koji ćete koristiti."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Naslijeđen kod za praćenje (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Novi kod za praćenje (ga.js)"

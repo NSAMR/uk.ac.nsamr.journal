@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:06:12+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:06:12+00:00\n"
+"Language: \n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Отчет за рецензии"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Тази добавка предоставя отчет в CSV формат, съдържащ списък на назначените рецензии за списание."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Закръглено"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Заглавие на работата"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "Идентификатор на работата"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Дата на задаване"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Дата на уведомяване"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Дата на потвърждаване"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Дата на препотвърждаване"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Пренебрегната"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Дата на завършване"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Дата на напомняне"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Дни просрочване на рецензия"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Дни просрочване на отговора"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Препоръки"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Коментари за предложената работа"

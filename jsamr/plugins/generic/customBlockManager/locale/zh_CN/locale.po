@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:00+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "自定义区块管理(Custom Block Manager)"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "本插件允许在边栏增加区块，和对边栏区块的重新排序。(This plugin lets you create addition sidebar blocks.  Once they are created, you can edit their content and rearrange them within the sidebars.)"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "区块名称(Block Name)"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "添加(Add Block)"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "内容(Content)"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(自定义块插件)(Custom Block Plugin)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "这是一个用户生成的区块。(This is a user-generated block.)"

@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:04:59+00:00\n"
+"PO-Revision-Date: 2020-06-06 02:31+0000\n"
+"Last-Translator: Diego José Macêdo <diegojmacedo@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <http://translate.pkp.sfu.ca/projects/"
+"plugins/custom-block-manager-plugin/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Administração de blocos personalizados"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Nome do bloco"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Incluir bloco"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Conteúdo"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Plugin de bloco personalizado)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Bloco produzido pelo usuário."
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Gerenciar Blocos Personalizados"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr ""
+"Este plugin permite gerenciar (adicionar, editar e excluir) blocos laterais "
+"personalizados."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Blocos Personalizados"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Não há blocos personalizados criados."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "O nome do bloco personalizado é necessário."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "O nome do bloco personalizado deve conter apenas letras, números e hífens / sublinhados."

@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:26+00:00\n"
+"PO-Revision-Date: 2020-01-14 22:35+0000\n"
+"Last-Translator: Marie-Hélène Vézina [UdeMontréal] <marie-"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/plugins/"
+"tinymce-plugin/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Plugiciel TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr "Ce plugiciel permet l'édition tel écran - tel écrit de zones de textes de l'OMP, en utilisant l'éditeur de contenu <a href=\"https://www.tinymce.com\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Paramètres"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Sélectionner une étiquette"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Aucune étiquette n'est disponible pour ce champ."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Vous pouvez insérer n'importe laquelle des étiquettes suivantes :"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Nom du contact principal (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Courriel du contact principal (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Nom du contact de support (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Courriel du contact de support (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Téléphone du contact de support (\"{$value}\")"

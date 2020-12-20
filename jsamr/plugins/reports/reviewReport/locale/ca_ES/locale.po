@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-01 12:38+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/ca/>\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Comentaris de la tramesa"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Recomanació"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Dies de venciment de la resposta"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Dies de venciment de la revisió"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Data recordatori"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Data completada"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Sense considerar"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Data confirmada"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Data confirmada"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Data notificada"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Data assignada"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Revisor/a"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "Identificador de la tramesa"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Títol de la tramesa"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Ronda"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Aquest mòdul implementa un informe en format CSV que conté una llista "
+"d'assignacions de revisió per revista."
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Informe de revisió"

@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:04:58+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:04:58+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Потребителски блокове"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Управляване на потребителски блокове"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Тази добавка Ви позволява да управлявате (добавяте, редактирате и изтриване) на потребителски блокове за страничната лента."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Потребителски блокове"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Име на блок"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Добавяне на блок"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "Не са създадени потребителски блокове."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Съдържание"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Потребителски блок)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Това е егенериран от потребителя блок."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Изисква се име за потребителския блок."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "Името на потребителския блок трябва да съдърожа само букви, цифри и долно тире."

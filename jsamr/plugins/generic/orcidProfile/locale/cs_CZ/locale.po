@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:16+00:00\n"
+"PO-Revision-Date: 2020-08-18 06:48+0000\n"
+"Last-Translator: Jiří Dlouhý <jiri.dlouhy@czp.cuni.cz>\n"
+"Language-Team: Czech <http://translate.pkp.sfu.ca/projects/"
+"orcid-profile-plugin/orcid-profile-plugin/cs_CZ/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.orcidProfile.displayName"
+msgstr "Plugin pro profil ORCID"
+
+msgid "plugins.generic.orcidProfile.description"
+msgstr "Umožňuje import informací o uživatelských profilech z ORCID."
+
+msgid "plugins.generic.orcidProfile.instructions"
+msgstr "Tento formulář můžete předvyplnit informacemi z profilu ORCID. Zadejte emailovou adresu nebo ORCID iD přidruženou k profilu ORCID a klikněte na tlačítko Odeslat."
+
+msgid "plugins.generic.orcidProfile.noData"
+msgstr "Nelze získat z ORCID žádná data."
+
+msgid "plugins.generic.orcidProfile.emailOrOrcid"
+msgstr "Emailová adresa nebo ORCID iD:"
+
+msgid "plugins.generic.orcidProfile.manager.orcidProfileSettings"
+msgstr "Nastavení profilu ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description"
+msgstr "Nakonfigurujte rozhraní ORCID API pro použití při stahování informací z profilu ORCID do profilu uživatele."
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath"
+msgstr "ORCID API"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public"
+msgstr "Veřejný"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox"
+msgstr "Veřejné pískoviště"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member"
+msgstr "Člen"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox"
+msgstr "Členské pískoviště"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientId"
+msgstr "ID klienta:"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidClientSecret"
+msgstr "\"Client Secret\" (tajemství klienta)"
+
+msgid "plugins.generic.orcidProfile.author.submission"
+msgstr "ORCID příspěvku"
+
+msgid "plugins.generic.orcidProfile.author.submission.success"
+msgstr "Váš příspěvek byl úspěšně přidružen k vaší ORDID iD."
+
+msgid "plugins.generic.orcidProfile.author.submission.failure"
+msgstr "Váš příspěvek nemohl být úspěšně přidružen k vašemu ORDID iD. Obraťte se na správce časopisu se svým jménem, ORCID ID a podrobnostmi o vašem příspěvku."
+
+msgid "plugins.generic.orcidProfile.authFailure"
+msgstr "Systém OJS nebyl schopen komunikovat se službou ORCID. Obraťte se na správce časopisu se svým jménem, ORCID iD a podrobnostmi o vašem příspěvku."
+
+msgid "plugins.generic.orcidProfile.fieldset"
+msgstr "ORCID"
+
+msgid "plugins.generic.orcidProfile.connect"
+msgstr "Vytvořte či připojte vaše ORCID iD"
+
+msgid "plugins.generic.orcidProfile.manager.settings.hidden"
+msgstr "skryté"
+
+msgid "plugins.generic.orcidProfile.manager.settings.title"
+msgstr "Nastavení ORCID API"
+
+msgid "plugins.generic.orcidProfile.about.display"
+msgstr ""
+"Abychom potvrdili, že jste použili svůj iD a že byl ověřen, zobrazujeme "
+"ikonu ORCID iD <img src = \"https://orcid.org/sites/default/files/images/"
+"orcid_16x16(1).gif\" alt=\"ikona iD\" width=\"16\" height=\"16\" border=\"0\""
+">vedle vašeho jména na stránce článku vašeho příspěvku a ve vašem veřejném "
+"uživatelském profilu. <br>\n"
+"Další informace naleznete v <a href=\"https://orcid.org/blog/2013/02/22/how-"
+"should-orcid-id-be-displayed\">Jak by se měl zobrazit ORCID iD.</a>"
+
+msgid "plugins.generic.orcidProfile.about.display.title"
+msgstr "Kde jsou zobrazeny ORCID iD?"
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyPublicAPI"
+msgstr ""
+"Tento časopis shromažďuje vaše ORCID iD, abychom si my i širší komunita byli "
+"jisti tím, že jste správně identifikován(a) jako autor vaší publikace/vašich "
+"publikací. To zajistí, aby byla plná kolekce vašich výstupů propojena s vámi "
+"po celou dobu vaší kariéry..<br>\n"
+"Když v rozbalovací nabídce ORCID kliknete na tlačítko „Autorizovat“, "
+"požádáme vás o sdílení vašeho iD pomocí autentifikačního procesu: buď <a "
+"href = \"https://support.orcid.org/hc/en-us/articles/360006897454\">"
+"registrací v systému ORCID iD</a> nebo, pokud již ORCID iD máte, <a href=\""
+"https://support.orcid.org/hc/en-us/categories/360000661673\">k přihlášení "
+"svůj účet ORCID</a>, udělením oprávnění získat váš ORCID iD. Děláme to "
+"proto, abychom zajistili správnou identifikaci a bezpečné připojení vašeho "
+"ORCID iD. <br>\n"
+"Další informace naleznete na následujícím odkazu ORCID <a href=\""
+"https://orcid.org/blog/2017/02/20/whats-so-special-about-signing\">What’s so "
+"special about signing in.</a><br>\n"
+"Tento časopis bude shromažďovat a zobrazovat iD autentifikovaných autorů a "
+"spoluautorů v OJS profilu a na stránce článku."
+
+msgid "plugins.generic.orcidProfile.about.howAndWhy.title"
+msgstr "Jak a proč shromažďujeme ORCID iD?"
+
+msgid "plugins.generic.orcidProfile.about.orcidExplanation"
+msgstr ""
+"ORCID je nezávislá nezisková organizace, která poskytuje trvalý "
+"identifikátor - ORCID iD -, který vás odlišuje od ostatních vědců a "
+"mechanismus pro propojení výstupů a činností z výzkumu s vaším iD. ORCID je "
+"integrován do mnoha systémů používaných vydavateli, investory, institucemi a "
+"dalšími službami souvisejícími s výzkumem. Další informace naleznete na "
+"adrese <a href=\"https://orcid.org\">orcid.org</a>."
+
+msgid "plugins.generic.orcidProfile.about.title"
+msgstr "Co je ORCID?"
+
+msgid "plugins.generic.orcidProfile.authorise"
+msgstr "Autorizujte a připojte svůj ORCID iD"
+
+msgid "plugins.generic.orcidProfile.failure.contact"
+msgstr ""
+"Obraťte se na manažera časopisu se svým jménem, ORCID iD a podrobnostmi o "
+"vašem příspěvku."
+
+msgid "plugins.generic.orcidProfile.verify.denied"
+msgstr "Odepřeli jste přístup k vašemu záznamu ORCID."
+
+msgid "plugins.generic.orcidProfile.verify.duplicateOrcid"
+msgstr "Pro tento příspěvek již bylo ORCID iD uloženo."
+
+msgid "plugins.generic.orcidProfile.verify.failure"
+msgstr "Vaše ORCID iD se nepodařilo ověřit. Odkaz již není platný."
+
+msgid "plugins.generic.orcidProfile.verify.success"
+msgstr "Vaše ORCID iD bylo ověřeno a úspěšně spojeno s odesláním."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished"
+msgstr "Při publikování bude odesláno do vašeho záznamu ORCID."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure"
+msgstr "Odeslání nebylo možné přidat do vašeho záznamu ORCID."
+
+msgid "plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success"
+msgstr "Odeslání bylo přidáno do vašeho záznamu ORCID."
+
+msgid "plugins.generic.orcidProfile.verify.title"
+msgstr "Autorizace ORCID"
+
+msgid "plugins.generic.orcidProfile.author.unauthenticated"
+msgstr "ORCID iD není ověřen! Požádejte o ověření od přispěvatele."
+
+msgid "plugins.generic.orcidProfile.author.orcidEmptyNotice"
+msgstr "Níže naleznete žádost o autentizovaný ORCID iD"
+
+msgid "plugins.generic.orcidProfile.author.deleteORCID"
+msgstr "Odstraňte ORCID iD a přístupový token!"
+
+msgid "plugins.generic.orcidProfile.author.requestAuthorization"
+msgstr "Pošlete e-mail a požádejte o autorizaci ORCID od přispěvatele"
+
+msgid "plugins.generic.orcidProfile.author.accessTokenStored"
+msgstr "Přístup k záznamu ORCID s rozsahem {$orcidAccessScope}, platný do"
+
+msgid "plugins.generic.orcidProfile.author.accessDenied"
+msgstr "Přístup ORCID byl odepřen na"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.all"
+msgstr "Vše"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.error"
+msgstr "Chyby"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logLevel.help"
+msgstr "Vyberte množství protokolovaného výstupu zapsaného pluginem"
+
+msgid "plugins.generic.orcidProfile.manager.settings.logSectionTitle"
+msgstr "Protokol požadavků ORCID"
+
+msgid "plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication"
+msgstr ""
+"Pošlete e-mail a požádejte autory o autorizaci ORCID, pokud je článek "
+"přijat, tj. odeslán k editaci"
+
+msgid "plugins.generic.orcidProfile.manager.settings.mailSectionTitle"
+msgstr "Nastavení e-mailu"
+
+msgid "plugins.generic.orcidProfile.manager.settings.orcidScope"
+msgstr "Rozsah přístupu k profilu"
+
+msgid "plugins.generic.orcidProfile.manager.settings.description.globallyconfigured"
+msgstr ""
+"ORCID API bylo nakonfigurováno hostitelem globálně. Následující pověření "
+"byla uložena."
+
+msgid "plugins.generic.orcidProfile.about.howAndWhyMemberAPI"
+msgstr ""
+"Tento časopis shromažďuje vaše ORCID iD, abychom si my i širší komunita byli "
+"jisti tím, že jste správně identifikován(a) jako autor vaší publikace/vašich "
+"publikací. To zajistí, aby byla plná kolekce vašich výstupů propojena s vámi "
+"po celou dobu vaší kariéry..<br>\n"
+"\tPokud kliknete na tlačítko „Autorizovat“ ve vyskakovacím okně ORCID, "
+"budete požádáni o sdílení vašeho iD pomocí autorizačního procesu – buď "
+"registrací u ORCID iD, nebo, pokud již ORCID iD máte, přihlášením k vašemu "
+"ORCID účtu – to nám zajistí povolení použít vaše ORCID iD. To potřebujeme, "
+"abychom zajistili, že jste správně identifikováni a propojeni s vaším ORCID "
+"iD.<br>\n"
+"\tVíce najdete na stránkách ORCID <a href=\"https://orcid.org/blog/2017/02/"
+"20/whats-so-special-about-signing\">What’s so special about signing "
+"in.</a><br>\n"
+"\tTento časopis bude shromažďovat a zobrazovat iD autentifikovaných autorů a "
+"spoluautorů v OJS profilu a na stránce článku. Navíc, metadata článku budou "
+"automaticky přidány do vašeho záznamu ORCID – tím vám pomůžeme zachovat "
+"tento záznam aktuální a ověřený. Více najdete na následujícím odkazu <a href="
+"\"https://orcid.org/blog/2017/08/10/six-ways-make-your-orcid-id-work-you\">"
+"Six ways to make your ORCID iD work for you!</a>\n"

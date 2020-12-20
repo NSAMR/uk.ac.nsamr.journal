@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:07+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:07+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "Modul pentru Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "Integrează OJS cu Google Analytics, siteul Google pentru aplicaţia pentru analizarea traficului pe site. Acesta necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">siteul Google Analytics</a> pentru mai multe informaţii."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "Setări"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "Setări Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>Având acest modul activat, se poate utiliza Google Analytics pentru a colecta şi analiza modul de utilizare şi traficul pe site pentru această revistă. Trebuie spus că acest modul necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">siteul Google Analytics</a> pentru mai multe informaţii.</p><p>trebuie notat faptul că Google Analytics are nevoie de aproape 24 de ore până când datele statistice sunt colectate şi raportate. În timpul acestei perioade, funcţia 'Verifică starea' e posibil să nu raporteze corect dacă a detectat codul de urmărire necesar pentru revistă.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Numărul contului"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "În cadrul Google Analytics, apasă pe 'Verifică starea' pentru a vedea codul de urmărire pentru site. În cazul fragmentelor de cod mai vechi, numărul contului în cadrul codului de urmărire este afişat astfel: _uacct = \"###\". Pentru noile coduri de urmărire, numărul contului este afişat în cadrul codului de urmărire precum: var pageTracker = _gat._getTracker(\"###\"). Introdu textul care corespunde lui ###."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "Introdu un număr de cont."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "Cod de urmărire"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "Selectează un cod de urmărire pentru a fi folosit."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "Cod de urmărire vechi (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "Cod de urmărire nou (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "Numărul contului Google Analytics"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr "Pentur a urmări articolele folosind Google Analytics introdu aici numărul contului (ex, UA-xxxxxx-x)."
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "Unul sau mai multe numere de cont pentru Google Analytics sunt nevalide."

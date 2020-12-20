@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28T15:19:55-08:00\n"
+"PO-Revision-Date: 2020-02-16 13:35+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/"
+"usage-statistics-plugin/da/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.usageStats.settings.logging"
+msgstr "Adgangslog-muligheder"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles"
+msgstr "Opret logfiler"
+
+msgid "plugins.generic.usageStats.settings.createLogFiles.description"
+msgstr "Aktivering af denne indstilling gør, at plug-in'en opretter adgangs-logfiler inde i filkatalogen. Disse filer skal bruges til at udtrække brugerstatistikkdataene. Hvis du ikke vil oprette flere adgangslogfiler, kan du lade denne mulighed være deaktiveret og bruge dine egne log-adgangsfiler."
+
+msgid "plugins.generic.usageStats.settings.logParseRegex"
+msgstr "Analyser regex-logfiler"
+
+msgid "plugins.generic.usageStats.settings.logParseRegex.description"
+msgstr "Den anvendte standard-regex kan analysere apache adgangs-logfiler i kombineret format og også plug-ins logfiler. Hvis dine adgangs-logfiler er i et andet format, skal du indsætte en regex, der er i stand til at analysere dem og give de forventede værdier. Se UsageStatsLoader :: _ getDataFromLogEntry () for yderligere information."
+
+msgid "plugins.generic.usageStats.settings.saved"
+msgstr "Indstillinger for brugsstatistik-plugin'en gemt"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption"
+msgstr "Indstillinger for beskyttelse af personlige oplysninger"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath"
+msgstr "Filsti til den anonymiserede salt-fil"
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid"
+msgstr "Salt-filen er ikke skrivbar."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requirements"
+msgstr "For at sikre datasikkerheden må du angive en fil, der både er læs- og skrivbar for brugeren, så den kan  indeholde en tilfældigt genereret salt-værdi. For at sikre beskyttelse af personlige oplysninger må denne fil  IKKE sikkerhedskopieres. Saltet genereres tilfældigt enten ved hjælp af: funktionen mcrypt_create_iv, som kræver PHP mcrypt; funktionen openssl_random_pseudo_bytes, som kræver PHP openssl; filen /dev/urandom, som kun fungerer på *nix-systemer; eller funktionen mt_rand, som ikke er kryptografisk sikker. Hvis du bruger en Windows-server, skal du derfor sørge for at installere enten PHP mcrypt eller openssl aktiveret for at få et kryptografisk sikkert genereret salt."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.description"
+msgstr "Aktivér denne mulighed for at bruge en plug-in-version, der overholder lovgivningen om beskyttelse af personlige oplysninger, dvs. logge hashet IP-adresser, informere brugerne om sporing og give mulighed for at fravælge brugere. Bemærk: Når du bruger denne indstilling, vil du ikke kunne bruge geo-funktionerne i plugin'en."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt"
+msgstr "Aktivering af datasikkerhed kræver en salt-fil."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity"
+msgstr "Aktivering af datasikkerhed udelukker By som statistisk valgmulighed."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion"
+msgstr "Aktivering af datasikkerhed udelukker Region som statistisk valgmulighed."
+
+msgid "plugins.generic.usageStats.settings.dataPrivacyCheckbox"
+msgstr "Respekter datasikkerhed"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns"
+msgstr "Valgfrie statistiske oplysninger"
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.description"
+msgstr "Aktiver eller deaktiver samlingen af følgende valgfrie oplysninger. Dette vil påvirke de mulige statistikrapporter, du kan hente, og vil også have indflydelse på databasestørrelsen. SKIFT IKKE, medmindre du fuldt ud forstår, hvad du foretager dig."
+
+msgid "plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion"
+msgstr "Den valgfrie kolonne \"By\" kræver den valgfrie kolonne \"Region\"."
+
+msgid "plugins.generic.usageStats.settings.archives"
+msgstr "Arkiver"
+
+msgid "plugins.generic.usageStats.settings.compressArchives.description"
+msgstr "Aktiver denne mulighed for at komprimere arkiverede logfiler ved hjælp af gzip-værktøjet (du skal konfigurere gzip-indstillingen inde i config.inc.php). Hvis du har et meget velbesøgt websted, er det en god ide at aktivere dette, så du kan spare lidt ekstra diskplads."
+
+msgid "plugins.generic.usageStats.settings.compressArchives"
+msgstr "Komprimer arkiver"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions"
+msgstr "Statistiske fremvisningsindstillinger"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.contextWide"
+msgstr "Disse indstillinger vil kun blive anvendt på brugsstatistikker på {$contextName}."
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.display"
+msgstr "Fremvis diagram over indsendelsesstatistik for læseren"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType"
+msgstr "Vælg den diagramtype, der skal vise download-statistikken"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar"
+msgstr "Bjælke"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line"
+msgstr "Linje"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount"
+msgstr "Definer det maksimale antal data, der skal præsenteres på samme tid for et bestemt x-akse-punkt. En højere værdi kan generere sværttilgængelige diagrammer. Noget mellem 3 og 5 er sikkert."
+
+msgid "plugins.generic.usageStats.usageStatsLoaderName"
+msgstr "Brugerstatistik over fil-loader-opgave"
+
+msgid "plugins.generic.usageStats.openFileFailed"
+msgstr "Filen {$file} kunne ikke åbnes og blev afvist."
+
+msgid "plugins.generic.usageStats.invalidLogEntry"
+msgstr "Linjenummeret {$lineNumber} fra filen {$file} er ikke en gyldig log-adgang og filen blev afvist."
+
+msgid "plugins.generic.usageStats.removeUrlError"
+msgstr "Linjenummeret {$lineNumber} fra filen {$file} indeholder en url, som systemet ikke kan fjerne basis-url'en fra."
+
+msgid "plugins.generic.usageStats.loadDataError"
+msgstr "Kunne ikke indlæse data hentet fra fil {$file}. Filen blev flyttet til trinnet igen."
+
+msgid "plugins.generic.usageStats.pluginNotEnabled"
+msgstr "Brugerstatistik-plugin er deaktiveret. Ingen log-filer er blevet færdigbehandlet."
+
+msgid "plugins.generic.usageStats.processingPathNotEmpty"
+msgstr "Mappen {$directory} er ikke tom. Dette kan indikere en tidligere mislykket proces eller en samtidigt kørende proces. Denne fil vil automatisk blive behandlet på ny, hvis du også bruger scheduledTasksAutoStage.xml, ellers skal du manuelt flytte eventuelle forældreløse filer i behandlingsmappen tilbage til trinnets mappe."
+
+msgid "plugins.generic.usageStats.displayName"
+msgstr "Brugerstatistik"
+
+msgid "plugins.generic.usageStats.description"
+msgstr "Viser dataobjekters brugsstatistik. Kan anvende serveradgangs-logfiler til at udtrække statistikker."
+
+msgid "plugins.reports.usageStats.report.displayName"
+msgstr "PKP brugerstatistik-rapport"
+
+msgid "plugins.reports.usageStats.report.description"
+msgstr "PKP Standard brugsstatistiske rapport (COUNTER-klar)"
+
+msgid "plugins.generic.usageStats.optout.displayName"
+msgstr "Brugerstatistiks oplysninger om beskyttelse af personlige oplysninger"
+
+msgid "plugins.generic.usageStats.optout.description"
+msgstr "Brugerstatistiks oplysninger om beskyttelse af personlige oplysninger"
+
+msgid "plugins.generic.usageStats.optout.title"
+msgstr "Brugerstatistiks oplysninger om beskyttelse af personlige oplysninger"
+
+msgid "plugins.generic.usageStats.optout.shortDesc"
+msgstr "Vi registrerer anonym brugsstatistik. Læs venligst <a href=\"{$privacyInfo}\"> oplysninger om personlige oplysninger </a> for yderligere detaljer."
+
+msgid "plugins.generic.usageStats.optout.done"
+msgstr ""
+"\n"
+"\t\t<p>Du har fravalgt, at der indsamles brugsstatistik. Så længe du ser "
+"denne meddelelse, vil der ikke blive indsamlet statistikker fra din brug af "
+"dette websted. Klik på knappen nedenfor for at vende tilbage til din "
+"beslutning.</p>"
+
+msgid "plugins.generic.usageStats.optin"
+msgstr "Tilvælg"
+
+msgid "plugins.generic.usageStats.optout"
+msgstr "Fravælg"
+
+msgid "plugins.generic.usageStats.optout.cookie"
+msgstr ""
+"\n"
+"\t\t<p>Hvis du ønsker det, kan du fravælge dataindsamlingsprocessen. Ved at "
+"klikke på fravælg-knappen nedenfor kan du aktivt beslutte, om du vil deltage "
+"i den statistiske analyse. Når du klikker på fravælg-knappen, oprettes en "
+"<em>cookie</em> på dit system for at gemme din beslutning. Hvis browserens "
+"personlige oplysninger er indstillet til automatisk at slette cookies, "
+"bliver du nødt til at fravælge igen, næste gang du får adgang til denne "
+"hjemmeside. Cookien er kun gyldig for en browser. Hvis du bruger en anden "
+"browser, bliver du nødt til at fravælge på ny. Ingen individuel information "
+"gemmes i denne cookie. Denne cookie-lease er gyldig i et år efter din sidste "
+"adgang.</p>\n"
+"  <p>Vær opmærksom på, at generelle serverlogfiler ikke påvirkes af din "
+"beslutning om at fravælge den detaljerede evalueringsproces. Se venligst "
+"vores generelle <a href=\"{$privacyStatementUrl}\"> "
+"fortrolighedserklæring</a>.</p>"
+
+msgid "plugins.reports.usageStats.metricType"
+msgstr "PKP/COUNTER"
+
+msgid "plugins.reports.usageStats.metricType.full"
+msgstr "Public Knowledge Project statistikker (COUNTER-klar)"
+
+msgid "plugins.generic.usageStats.statsSum"
+msgstr "Samlet antal fil-downloads"
+
+msgid "plugins.generic.usageStats.noStats"
+msgstr "Download-data er endnu ikke tilgængelig."
+
+msgid "plugins.generic.usageStats.monthInitials"
+msgstr "Jan Feb Mar Apr Maj Jun Jul Aug Sep Okt Nov Dec"
+
+msgid "plugins.generic.usageStats.downloads"
+msgstr "Downloads"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2"
+msgstr "Hvert tidsskrift kan tilsidesætte disse indstillinger fra tidsskriftets plug-in-side."
+
+msgid "plugins.generic.usageStats.optout.description.long.ojs2"
+msgstr ""
+"\n"
+"\t\t<h3>Generelle oplysninger om beskyttelse af personlige oplysninger</h3>\n"
+"  <p>Se vores generelle <a href=\"{$privacyStatementUrl}\">behandling af "
+"brugernes personlige oplysninger</a>. </p>\n"
+"  <h3>Brugsstatistik</h3>\n"
+"  <p>For at kunne analysere brugen og udbredelsen af vores tidsskrift og de "
+"publicerede artikler samler og logger vi tilgangen til tidsskriftets "
+"hjemmeside, numre, artikler, publiceringsfiler og supplerende filer. I "
+"processen bliver alle data anonymiseret. Ingen personlige oplysninger bliver "
+"logget. IP-adresser anonymiseres (ved hjælp af <em> SHA 256 </em>) i "
+"kombination med <em>en sikker 64 tegn langt salt</em>, der automatisk <em>på "
+"tilfældig vis genereres og overskrives dagligt</em>. Derfor kan IP-adresser "
+"ikke rekonstrueres.</p>\n"
+"  <p>Følgende oplysninger indsamles ud for de anonyme IP-adresser:</p>\n"
+"  <ul>\n"
+"  <li>Adgangstype (dvs. administrativ)</li>\n"
+"  <li>Søgetid</li>\n"
+"  <li>Rekvireret URL</li>\n"
+"  <li>HTTP-statuskode</li>\n"
+"  <li>Browser</li>\n"
+"  </ul>\n"
+"  <p> De indsamlede data bruges kun til evalueringsformål. Ingen IP-adresser "
+"er kortlagt til bruger-id'er. Det er teknisk umuligt at spore et bestemt sæt "
+"data til en bestemt IP-adresse. </p>"
+
+msgid "plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp"
+msgstr "Hvert forlag kan tilsidesætte disse indstillinger fra forlagets plugin-side."
+
+msgid "plugins.generic.usageStats.optout.description.long.omp"
+msgstr ""
+"\n"
+"\t\t<h3>Generelle oplysninger om persondata</h3>\n"
+"  <p>Se vores generelle<a href=\"{$privacyStatementUrl}\">Erklæring om "
+"beskyttelse af personlige oplysninger</a>. </p>\n"
+"  <h3>Brugsstatistikker</h3>\n"
+"  <p>For at være i stand til at analysere brugen og effekten (impact) af "
+"vores publikationer, indsamler og logger vi tilgangen til hjemmesiden, "
+"kategorier, serier, bøger og filer. I processen anonymiseres alle data. "
+"Ingen personlige oplysninger logges. IP-adresser anonymiseres ved at blive "
+"hashet (ved hjælp af <em>SHA 256</em>) i kombination med en <em>secure 64 "
+"characters long salt</em>, der automatisk <em>tilfældigt genereres og "
+"overskrives dagligt</em>. Derfor kan IP-adresser ikke rekonstrueres. </p>\n"
+"  <p>Følgende information indsamles ved siden af de anonymiserede IP-"
+"adresser: </p>\n"
+"  <ul>\n"
+"  <li>Adgangstype (dvs. administrativ)</li>\n"
+"  <li>Rekvireringstid</li>\n"
+"  <li>Rekvireret URL</li>\n"
+"  <li>HTTP-statuskode</li>\n"
+"  <li>Browser</li>\n"
+"  </ul>\n"
+"  <p> De indsamlede data bruges kun til evalueringsformål. Ingen IP-adresser "
+"er kortlagt til bruger-id'er. Det er teknisk umuligt at spore et specifikt "
+"datasæt til en bestemt IP-adresse. </p>"

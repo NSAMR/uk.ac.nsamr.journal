@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * version.xml
+  *
+  * Copyright (c) 2015-2019 University of Pittsburgh
+  * Copyright (c) 2014-2020 Simon Fraser University
+  * Copyright (c) 2003-2020 John Willinsky
+  * Copyright (c) 2018 University Library Heidelberg
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>orcidProfile</application>
+	<type>plugins.generic</type>
+	<release>1.1.2.5</release>
+	<date>2020-08-16</date>
+	<lazy-load>1</lazy-load>
+	<class>OrcidProfilePlugin</class>
+</version>
+

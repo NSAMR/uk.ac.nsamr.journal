@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:13+00:00\n"
+"PO-Revision-Date: 2020-02-19 11:36+0000\n"
+"Last-Translator: Carla Marques <carla.marques@sdum.uminho.pt>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.pkp.sfu.ca/projects/"
+"plugins/review-report-plugin/pt_PT/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Plugin de Relatórios de Revisão"
+
+msgid "plugins.reports.reviews.description"
+msgstr "Este plugin implementa um relatório no formato CSV (planilha eletrónica) contendo a lista de tarefas de revisão para uma revista."
+
+msgid "plugins.reports.reviews.round"
+msgstr "Ronda"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Revisor"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Pedido"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Notificação"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Confirmação de disponibilidade"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Conclusão"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Lembrete"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Título da Submissão"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID da Submissão"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Recomendação"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Comentários à Submissão"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Dias de Atraso de Resposta de Revisão"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Dias de Atraso de Revisão"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Desconsiderado"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Data de Confirmação"

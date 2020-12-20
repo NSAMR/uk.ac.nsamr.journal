@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:06+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:06+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.googleAnalytics.displayName"
+msgstr "پلاگین آنالیز گوگل"
+
+msgid "plugins.generic.googleAnalytics.description"
+msgstr "ترکیب او جی اس با گوگل آنالیتیک - برنامه آنالیز ترافیک وب سایت. برای این کار لازم است از قبل یک حساب کاربری گوگل آنالیتیک داشته باشید. لطفا به <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">سایت گوگل آنالیتیک</a> برای اطلاعات بیشتر مراجعه کنید."
+
+msgid "plugins.generic.googleAnalytics.manager.settings"
+msgstr "تنظیمات"
+
+msgid "plugins.generic.googleAnalytics.manager.googleAnalyticsSettings"
+msgstr "تنظیمات گوگل آنالیتیک"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.description"
+msgstr "<p>با این پلاگین میتوان از گوگل آنالیتیک برای جمع آوری و آنالیز میزان استفاده از وب سایت و میزان ترافیک آن برای این مجله استفاده کرد. این پلاگین نیاز به این دارد که حساب کاربری گوگل آنالیتیک داشته باشید.  لطفا به <a href=\"http://www.google.com/analytics/\" title=\"Google Analytics site\">سایت گوگل آنالیتیک</a> برای اطلاعات بیشتر مراجعه کنید.</p>"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "شماره حساب کاربری"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions"
+msgstr "در گوگل آنالیتیک بر روی چک وضعیت کلیک کنید تا کد پیگیری برای سایت خود را مشاهده کنید. شماره حساب کاربری در درون کد پیگیری قرار دارد: _uacct = \"###\". بجای ### متن مربوطه را وارد کنید."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired"
+msgstr "لطفا شماره حساب کاربری را وارد کنید."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCode"
+msgstr "کد پیگیری"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired"
+msgstr "لطفا یک کد پیگیری انتخاب کنید"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.urchin"
+msgstr "کد پیگیری سنتی (urchin.js)"
+
+msgid "plugins.generic.googleAnalytics.manager.settings.ga"
+msgstr "کد پیگیری جدید  (ga.js)"
+
+msgid "plugins.generic.googleAnalytics.authorAccount"
+msgstr "شمار حساب کاربری گوگل آنالیتیک"
+
+msgid "plugins.generic.googleAnalytics.authorAccount.description"
+msgstr ""
+"برای دریابی خوانندگی مقاله چاپ شده با استفاده از گوگل آنالیتیک، شماره حساب کاربری را در اینجا وارد کنید مانند\n"
+"UA-xxxxxx-x"
+
+msgid "plugins.generic.googleAnalytics.authorAccountInvalid"
+msgstr "یک یا چند مورد از شماره های حساب کاربری وارد شده برای گوگل آنالیتیک معتبر نیستند."

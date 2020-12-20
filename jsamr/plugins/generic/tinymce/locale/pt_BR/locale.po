@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:27+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:27+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "Plugin TinyMCE"
+
+msgid "plugins.generic.tinymce.description"
+msgstr "Este plugin permite edição WYSIWYG (What You See Is What You Get) em campos de texto através do editor de conteúdo <a href=\"https://www.tiny.cloud\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Configurações"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Selecionar Tag"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Sem tags disponíveis para este campo."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Você pode inserir qualquer uma das seguintes tags:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Nome do Contato Principal (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "Email do Contato Principal (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Nome do Contato de Suporte (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Email do Contato de Suporte (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Telefone do Contato de Suporte (\"{$value}\")"
