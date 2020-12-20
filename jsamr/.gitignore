@@ -1,7 +1,0 @@
-cache/*.php
-cache/*.css
-cache/HTML
-cache/t_compile/*.php
-*.ser
-ojs_uploads/
-config.inc.php

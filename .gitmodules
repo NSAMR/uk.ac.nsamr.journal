@@ -1,0 +1,3 @@
+[submodule "jsamr"]
+	path = jsamr
+	url = git@github.com:NSAMR/ojs.git
